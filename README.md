@@ -1,4 +1,4 @@
-# BIO 2230 Practical SimTools
+# BIO 2230 Practical Prep
 
 Static study tools for BIO 2230 practical preparation.
 
