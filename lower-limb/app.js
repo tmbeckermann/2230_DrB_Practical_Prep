@@ -2262,9 +2262,11 @@ function setMobileNavOpen(open) {
   const sidebar = document.querySelector('.sidebar');
   const toggle = byId('mobileNavToggle');
   if (!sidebar || !toggle) return;
+  const label = toggle.querySelector('.mobile-nav-toggle-label');
   sidebar.classList.toggle('mobile-nav-open', open);
   toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-  toggle.textContent = open ? 'Close' : 'Menu';
+  toggle.setAttribute('aria-label', open ? 'Close study navigation' : 'Open study navigation');
+  if (label) label.textContent = open ? 'Close' : 'Menu';
 }
 
 function closeMobileNavOnSmallScreen() {
@@ -2275,6 +2277,9 @@ function init() {
   byId('mobileNavToggle')?.addEventListener('click', () => {
     const sidebar = document.querySelector('.sidebar');
     setMobileNavOpen(!sidebar?.classList.contains('mobile-nav-open'));
+  });
+  window.addEventListener('resize', () => {
+    if (!isMobileNavLayout()) setMobileNavOpen(false);
   });
   document.querySelectorAll('.nav-item').forEach((item) => {
     item.addEventListener('click', () => {
