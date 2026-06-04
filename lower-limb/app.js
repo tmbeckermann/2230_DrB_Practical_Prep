@@ -456,7 +456,7 @@ function renderBones() {
         <td><strong>${term}</strong></td>
         <td>${refs}</td>
         <td>${externalLinks({ label: 'Image', url: bone.image }, { label: 'Complete Anatomy', url: bone.completeAnatomy }, { label: 'Kenhub', url: bone.kenhub })}</td>
-        <td class="check-cell"><input class="row-check" type="checkbox" ${isChecked('bone', bone.id) ? 'checked' : ''} data-check-kind="bone" data-check-id="${escapeHtml(bone.id)}"></td>
+        <td class="check-cell"><input class="row-check" type="checkbox" ${isChecked('bone', bone.id) ? 'checked' : ''} data-check-kind="bone" data-check-id="${escapeHtml(bone.id)}" aria-label="Mark ${escapeHtml(bone.term)} done"></td>
       </tr>`;
     });
   byId('bonesTable').innerHTML = tableHtml(['Region', 'Structure or marking', 'Muscles using landmark', 'Links', 'Done'], rows, { widths: ['14%', '25%', '34%', '18%', '9%'] });
@@ -473,7 +473,7 @@ function renderModels() {
       ${hasImages ? `<td>${renderModelImage(row)}</td>` : ''}
       <td>${visualLink(row.visualId, data.muscleImageLookup[row.item], escapeHtml(row.item), row.item)}</td>
       <td>${row.note ? renderTextLinks(row.note) : '<span class="muted">-</span>'}</td>
-      <td class="check-cell"><input class="row-check" type="checkbox" ${isChecked('model', row.number) ? 'checked' : ''} data-check-kind="model" data-check-id="${escapeHtml(row.number)}"></td>
+      <td class="check-cell"><input class="row-check" type="checkbox" ${isChecked('model', row.number) ? 'checked' : ''} data-check-kind="model" data-check-id="${escapeHtml(row.number)}" aria-label="Mark muscle ID ${escapeHtml(row.number)} ${escapeHtml(row.item)} done"></td>
     </tr>`);
   const headers = hasImages ? ['Muscle ID #', 'Lab image', 'Structure', 'Study note', 'Done'] : ['Muscle ID #', 'Structure', 'Study note', 'Done'];
   const widths = hasImages ? ['8%', '18%', '30%', '34%', '10%'] : ['10%', '36%', '44%', '10%'];
@@ -632,7 +632,7 @@ function renderMuscles() {
       <td>${renderTextLinks(muscle.insertion)}</td>
       <td>${escapeHtml(muscle.action)}</td>
       <td>${externalLinks({ label: 'Kenhub', url: muscle.kenhub })}</td>
-      <td class="check-cell"><input class="row-check" type="checkbox" ${isChecked('muscle', muscle.muscle) ? 'checked' : ''} data-check-kind="muscle" data-check-id="${escapeHtml(muscle.muscle)}"></td>
+      <td class="check-cell"><input class="row-check" type="checkbox" ${isChecked('muscle', muscle.muscle) ? 'checked' : ''} data-check-kind="muscle" data-check-id="${escapeHtml(muscle.muscle)}" aria-label="Mark ${escapeHtml(muscle.muscle)} OIA done"></td>
     </tr>`);
     const section = document.createElement('section');
     section.className = 'muscle-section';
@@ -973,7 +973,7 @@ const DRILL_MODES = {
     subtitle: 'Practice side recognition on original and mirrored full-bone images.',
     what: 'Full-bone cards shown in their source orientation or mirrored to simulate the opposite side.',
     know: 'Decide whether the image represents a left or right bone. Patella is excluded, and foot images use top or bottom views only.',
-    use: 'Use Quiz me for a scored side-only check. Muscle ID does not use left/right side calls in this guide.'
+    use: 'Use Quiz me for a scored view-and-side check. Muscle ID does not use left/right side calls in this guide.'
   },
   sticker: {
     label: 'Sticker Practical',
@@ -2254,7 +2254,28 @@ function renderCurrentView() {
   if (state.view === 'cram') renderCram();
 }
 
+function isMobileNavLayout() {
+  return window.matchMedia('(max-width: 680px)').matches;
+}
+
+function setMobileNavOpen(open) {
+  const sidebar = document.querySelector('.sidebar');
+  const toggle = byId('mobileNavToggle');
+  if (!sidebar || !toggle) return;
+  sidebar.classList.toggle('mobile-nav-open', open);
+  toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+  toggle.textContent = open ? 'Close' : 'Menu';
+}
+
+function closeMobileNavOnSmallScreen() {
+  if (isMobileNavLayout()) setMobileNavOpen(false);
+}
+
 function init() {
+  byId('mobileNavToggle')?.addEventListener('click', () => {
+    const sidebar = document.querySelector('.sidebar');
+    setMobileNavOpen(!sidebar?.classList.contains('mobile-nav-open'));
+  });
   document.querySelectorAll('.nav-item').forEach((item) => {
     item.addEventListener('click', () => {
       const view = item.dataset.view;
@@ -2263,6 +2284,7 @@ function init() {
       if (drillModeChanged) pushNavigationHistory();
       if (drillMode) setDrillMode(drillMode);
       activateView(view, { skipHistory: drillModeChanged });
+      closeMobileNavOnSmallScreen();
     });
   });
   byId('appBack').addEventListener('click', goBackInSite);

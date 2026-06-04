@@ -9,14 +9,18 @@
 <body>
   <div class="app-shell">
     <aside class="sidebar" aria-label="Study navigation">
-      <div class="brand">
-        <div class="brand-mark" aria-hidden="true">LL</div>
-        <div>
-          <div class="brand-title">BIO 2230</div>
-          <div class="brand-subtitle">Lower Limb</div>
-        </div>
+      <div class="sidebar-header">
+        <a class="brand brand-link" href="../" aria-label="Open BIO 2230 Practical Prep course menu">
+          <div class="brand-mark" aria-hidden="true">LL</div>
+          <div>
+            <div class="brand-title">BIO 2230</div>
+            <div class="brand-subtitle">Lower Limb</div>
+          </div>
+        </a>
       </div>
-      <nav class="nav-list">
+      <a class="course-menu-link" href="../">Course menu</a>
+      <button id="mobileNavToggle" class="mobile-nav-toggle" type="button" aria-controls="studyNav" aria-expanded="false">Menu</button>
+      <nav id="studyNav" class="nav-list">
         <div class="nav-section-title">Content</div>
         <button class="nav-item active" data-view="dashboard">Dashboard</button>
         <button class="nav-item" data-view="bones">Bones and Markings</button>
@@ -24,10 +28,10 @@
         <button class="nav-item" data-view="muscles">Muscle OIAs</button>
         <button class="nav-item" data-view="visuals">Visuals</button>
         <button class="nav-item" data-view="differentiation">Differentiation</button>
-        <button class="nav-item" data-view="cram">Cram</button>
+        <button class="nav-item" data-view="cram">Cram Sheet</button>
         <div class="nav-divider" aria-hidden="true"></div>
         <div class="nav-section-title">Activities</div>
-        <button class="nav-item" data-view="labeling">Labeling with Wordbank</button>
+        <button class="nav-item" data-view="labeling">Labeling with Word Bank</button>
         <button class="nav-item" data-view="practicalLabeling">Practical-Style Labeling</button>
         <button class="nav-item" data-view="practicalMode">Practical Mode</button>
         <button class="nav-item" data-view="drills" data-drill-mode="oiaReverse">OIA Reverse Recall</button>
@@ -244,7 +248,7 @@
           </div>
         </div>
         <div class="page-guide">
-          <div><strong>What this is</strong><span>A scored mixed check that pulls from sticker-style prompts, left/right ID, model muscle ID, and OIA recall.</span></div>
+          <div><strong>What this is</strong><span>A mixed readiness check that pulls from sticker-style prompts, left/right ID, model muscle ID, and OIA recall. Left/right items are scored automatically; other items are self-checked after results appear.</span></div>
           <div><strong>What to know</strong><span>Commit to an answer without seeing the key, then compare after the full run is complete.</span></div>
           <div><strong>How to use it</strong><span>Choose the item types and question count, submit each item, then use the revealed results links to review misses.</span></div>
         </div>

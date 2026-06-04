@@ -62,11 +62,39 @@ a,
   overflow-y: auto;
 }
 
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
 .brand {
   display: flex;
   align-items: center;
   gap: 10px;
   min-height: 48px;
+}
+
+.brand-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.brand-link:hover,
+.brand-link:focus-visible {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mobile-nav-toggle {
+  display: none;
+  min-height: 38px;
+  border: 1px solid rgba(255,255,255,0.18);
+  border-radius: 8px;
+  background: rgba(255,255,255,0.08);
+  color: #fff;
+  padding: 0 12px;
 }
 
 .brand-mark {
@@ -93,6 +121,23 @@ a,
 .nav-list {
   display: grid;
   gap: 6px;
+}
+
+.course-menu-link {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  color: #dce5ec;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.course-menu-link:hover,
+.course-menu-link:focus-visible {
+  background: rgba(255,255,255,0.08);
+  color: #fff;
+  text-decoration: none;
 }
 
 .nav-section-title {
@@ -439,6 +484,7 @@ h3 {
   color: var(--text);
   font-size: 12px;
   line-height: 1.38;
+  overflow-wrap: break-word;
 }
 
 .footnote {
@@ -1541,6 +1587,30 @@ mark {
 }
 
 @media (max-width: 680px) {
+  .sidebar {
+    gap: 10px;
+    padding: 14px;
+  }
+
+  .mobile-nav-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    min-width: 68px;
+    width: 100%;
+  }
+
+  .sidebar:not(.mobile-nav-open) .nav-list,
+  .sidebar:not(.mobile-nav-open) .sidebar-contact,
+  .sidebar:not(.mobile-nav-open) .sidebar-progress {
+    display: none;
+  }
+
+  .sidebar-progress {
+    margin-top: 0;
+  }
+
   .workspace {
     padding: 16px;
   }
@@ -1559,10 +1629,17 @@ mark {
 
   .topbar-tools {
     width: 100%;
+    justify-content: stretch;
   }
 
   .search-box {
     grid-template-columns: 22px minmax(0, 1fr);
+    width: 100%;
+  }
+
+  .topbar-tools .icon-button,
+  .topbar-tools .app-back-button {
+    justify-content: center;
     width: 100%;
   }
 
