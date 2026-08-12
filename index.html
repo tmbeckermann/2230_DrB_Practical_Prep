@@ -100,8 +100,8 @@
     .hero-inner {
       display: grid;
       grid-template-columns: minmax(0, 1.35fr) minmax(300px, 0.75fr);
-      gap: 54px;
-      align-items: end;
+      gap: 72px;
+      align-items: center;
       padding: 76px 0 64px;
     }
     .hero-inner > * { min-width: 0; }
@@ -178,20 +178,17 @@
     .progress-note details { margin-top: 7px; }
     .progress-note summary { width: fit-content; cursor: pointer; color: var(--primary); font-weight: 600; }
     .progress-note details p { margin: 7px 0 0; line-height: 1.55; }
-    .continue-card {
-      width: 100%;
-      min-width: 0;
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      padding: 22px;
-      background: rgba(255, 254, 250, 0.86);
-      box-shadow: var(--shadow);
+    .course-context {
+      max-width: 360px;
+      border-left: 2px solid rgba(49, 95, 105, 0.45);
+      padding: 4px 0 4px 24px;
     }
-    .card-kicker { color: var(--muted); font-size: 0.65rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
-    .continue-card h2 { margin: 13px 0 5px; font-family: Fraunces, Georgia, serif; font-size: 1.5rem; font-weight: 500; }
-    .continue-card p { color: var(--muted); font-size: 0.8rem; }
-    .continue-card .textbook-link { color: var(--primary); text-underline-offset: 3px; }
-    .continue-card .textbook-link:hover, .continue-card .textbook-link:focus-visible { color: var(--primary-dark); outline: none; text-decoration-thickness: 2px; }
+    .context-kicker { margin-bottom: 10px; color: var(--primary); font-size: 0.65rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; }
+    .course-context h2 { margin-bottom: 11px; font-family: Fraunces, Georgia, serif; font-size: 1.3rem; font-weight: 500; }
+    .course-context p { margin-bottom: 12px; color: var(--muted); font-size: 0.8rem; line-height: 1.65; }
+    .course-context .source-note { margin: 18px 0 0; border-top: 1px solid rgba(217, 221, 216, 0.9); padding-top: 14px; font-size: 0.72rem; }
+    .course-context .textbook-link { color: var(--primary); text-underline-offset: 3px; }
+    .course-context .textbook-link:hover, .course-context .textbook-link:focus-visible { color: var(--primary-dark); outline: none; text-decoration-thickness: 2px; }
     .progress-track { height: 7px; overflow: hidden; border-radius: 999px; background: var(--soft); margin: 17px 0; }
     .progress-fill { width: 0%; height: 100%; border-radius: inherit; background: var(--primary); }
     .continue-actions { display: grid; grid-template-columns: 1fr; gap: 5px; }
@@ -282,7 +279,8 @@
     @media (max-width: 820px) {
       .hero-inner { grid-template-columns: 1fr; gap: 30px; padding: 52px 0 46px; }
       .practical-grid, .method-grid { grid-template-columns: 1fr; }
-      .continue-card { max-width: 520px; }
+      .course-context { max-width: none; border-top: 1px solid var(--line); border-left: 0; padding: 24px 0 0; }
+      .course-context .source-note { max-width: 620px; }
     }
     @media (max-width: 560px) {
       .header-inner, .hero-inner, .section-inner, .footer-inner { width: calc(100% - 28px); }
@@ -327,15 +325,12 @@
             </div>
           </div>
         </div>
-        <aside class="continue-card">
-          <div class="card-kicker">Important course note</div>
-          <h2>Before you begin</h2>
-          <p>BIO 2230 is taught by multiple professors, and practical requirements may vary by section. This site supports the lab practicals for Dr. Beckermann's Anatomy &amp; Physiology I sections.</p>
-          <p>Verify all information and requirements against your section's Canvas course and lab instructions.</p>
-          <p>Study content is based on the course textbook, <a class="textbook-link" href="https://www.pearson.com/en-us/subject-catalog/p/fundamentals-of-anatomy-and-physiology/P200000009819/9780137854011" target="_blank" rel="noreferrer"><cite>Fundamentals of Anatomy &amp; Physiology</cite>, 12th Edition</a>, by Martini, Nath, and Bartholomew.</p>
-          <div class="continue-actions">
-            <a class="button primary" href="#study-regions">View available study regions</a>
-          </div>
+        <aside class="course-context" aria-labelledby="course-context-title">
+          <div class="context-kicker">Course context</div>
+          <h2 id="course-context-title">A note for students</h2>
+          <p>BIO 2230 is taught by multiple professors, so practical requirements may vary. This site supports Dr. Beckermann's Anatomy &amp; Physiology I sections.</p>
+          <p>Confirm details with your section's Canvas course and lab instructions.</p>
+          <p class="source-note">Content is based on Martini, Nath, and Bartholomew's <a class="textbook-link" href="https://www.pearson.com/en-us/subject-catalog/p/fundamentals-of-anatomy-and-physiology/P200000009819/9780137854011" target="_blank" rel="noreferrer"><cite>Fundamentals of Anatomy &amp; Physiology</cite>, 12th Edition</a>.</p>
         </aside>
       </div>
     </section>
