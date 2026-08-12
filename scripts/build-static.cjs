@@ -5,7 +5,7 @@ const root = path.resolve(__dirname, '..');
 const dist = path.join(root, 'dist');
 const client = path.join(dist, 'client');
 const server = path.join(dist, 'server');
-const entries = ['index.html', 'activity-links.html', '.nojekyll', 'model-image-banks.js', 'lower-limb', 'upper-limb', 'axial'];
+const entries = ['index.html', 'activity-links.html', '.nojekyll', 'model-image-banks.js', 'assets', 'lower-limb', 'upper-limb', 'axial'];
 
 function copyEntry(source, destination) {
   const stat = fs.statSync(source);

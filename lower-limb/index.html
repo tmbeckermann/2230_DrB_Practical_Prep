@@ -39,6 +39,7 @@
         <button class="nav-item" data-view="referenceHub" data-nav-group="reference">Reference</button>
       </nav>
       <a class="sidebar-contact" href="mailto:tom.beckermann@belmont.edu">For questions and errors, contact Dr. Beckermann</a>
+      <button id="resetProgress" class="sidebar-reset" type="button" title="Clear saved checkmarks, typed answers, drill scores, and quiz progress for this browser">Reset saved work</button>
       <div class="sidebar-progress">
         <div class="metric-label">Ready</div>
         <div class="progress-track"><div id="overallProgress" class="progress-fill"></div></div>
@@ -439,11 +440,6 @@
         <input id="importProgressFile" class="hidden" type="file" accept="application/json,.json">
       </div>
       <p id="progressDialogStatus" class="muted" aria-live="polite"></p>
-      <div class="danger-zone">
-        <strong>Start over</strong>
-        <p>Clears coverage, mastery history, typed answers, and saved drill status from this browser.</p>
-        <button id="resetProgress" class="secondary-button danger-button" type="button">Reset all saved work</button>
-      </div>
     </form>
   </dialog>
 
