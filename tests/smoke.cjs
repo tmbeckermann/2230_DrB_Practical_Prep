@@ -113,6 +113,23 @@ const server = http.createServer((request, response) => {
   const activityLinksPage = await browser.newPage({ viewport: { width: 1280, height: 800 } });
   activityLinksPage.on('pageerror', (error) => errors.push(`activity links: ${error.message}`));
   await activityLinksPage.goto(`http://127.0.0.1:${port}/activity-links.html`, { waitUntil: 'domcontentloaded' });
+  const directoryMeta = await activityLinksPage.evaluate(() => ({
+    heading: document.querySelector('h1')?.textContent.trim() || '',
+    copy: document.body.innerText,
+    guideItems: document.querySelectorAll('.directory-guide .guide-item').length,
+    homeLabels: Array.from(document.querySelectorAll('a[href="./index.html"]')).map((link) => link.textContent.trim())
+  }));
+  if (directoryMeta.heading !== 'Anatomy practical study directory' || directoryMeta.guideItems !== 3) {
+    errors.push('activity links: community-facing directory introduction is incomplete');
+  }
+  if (!directoryMeta.copy.includes('OIA means origin, insertion, and action') ||
+      !directoryMeta.copy.includes('Reference and review pages')) {
+    errors.push('activity links: directory does not explain the linked study tools');
+  }
+  if (directoryMeta.copy.includes('new image banks') || directoryMeta.copy.includes('Dr. Beckermann') ||
+      directoryMeta.homeLabels.some((label) => /course menu/i.test(label))) {
+    errors.push('activity links: internal or instructor-directed wording remains');
+  }
   const activityLinks = await activityLinksPage.locator('.section-card a').evaluateAll((links) => links.map((link) => ({
     href: link.getAttribute('href'),
     label: link.textContent.trim()
@@ -150,6 +167,15 @@ const server = http.createServer((request, response) => {
       if (visibleTitle !== expectedTitle) errors.push(`activity links: ${link.label} opened ${visibleTitle || 'an untitled mode'}`);
     }
   }
+  await activityLinksPage.setViewportSize({ width: 390, height: 844 });
+  await activityLinksPage.goto(`http://127.0.0.1:${port}/activity-links.html?mobile-check=1`, { waitUntil: 'domcontentloaded' });
+  const directoryMobile = await activityLinksPage.evaluate(() => ({
+    overflows: document.documentElement.scrollWidth > document.documentElement.clientWidth + 1,
+    guideColumns: getComputedStyle(document.querySelector('.guide-grid')).gridTemplateColumns.split(' ').length
+  }));
+  if (directoryMobile.overflows || directoryMobile.guideColumns !== 1) {
+    errors.push('activity links: mobile directory layout is not a single-column, overflow-free view');
+  }
   await activityLinksPage.close();
 
   await landingPage.goto(`http://127.0.0.1:${port}/`, { waitUntil: 'domcontentloaded' });
@@ -175,6 +201,9 @@ const server = http.createServer((request, response) => {
     makerImageSrc: document.querySelector('.maker-mark img')?.getAttribute('src') || '',
     makerImageAlt: document.querySelector('.maker-mark img')?.getAttribute('alt') || '',
     makerImageLoaded: Boolean(document.querySelector('.maker-mark img')?.complete && document.querySelector('.maker-mark img')?.naturalWidth),
+    makerIsLast: document.querySelector('.footer-actions')?.lastElementChild === document.querySelector('.maker-mark'),
+    makerAtRightEdge: Math.abs((document.querySelector('.footer-inner')?.getBoundingClientRect().right || 0) - (document.querySelector('.maker-mark')?.getBoundingClientRect().right || 0)) < 2,
+    contactText: document.querySelector('.footer-actions > a:not(.maker-mark)')?.textContent.trim() || '',
     resetGuidance: document.querySelector('.progress-note details p')?.textContent.trim() || ''
   }));
   if (landingMeta.heading !== 'BIO 2230 Practical Prep') {
@@ -218,8 +247,11 @@ const server = http.createServer((request, response) => {
       landingMeta.makerHref !== landingMeta.emailHref ||
       landingMeta.makerImageSrc !== 'assets/built-by-beckermann.png' ||
       landingMeta.makerImageAlt !== 'Built by Beckermann' ||
-      !landingMeta.makerImageLoaded) {
+      !landingMeta.makerImageLoaded || !landingMeta.makerIsLast || !landingMeta.makerAtRightEdge) {
     errors.push('course menu: revised footer branding is incomplete');
+  }
+  if (landingMeta.contactText !== 'Questions or comments? Email Dr. Beckermann.') {
+    errors.push('course menu: footer contact invitation was not changed to comments');
   }
   if (/Practical 0[123]/.test(landingCopy)) {
     errors.push('course menu: study regions are still numbered as a universal sequence');
@@ -234,12 +266,16 @@ const server = http.createServer((request, response) => {
       searchLabel: document.querySelector('#globalSearch')?.getAttribute('aria-label') || '',
       primaryNavItems: document.querySelectorAll('#studyNav > .nav-item').length,
       hasMoreTools: Boolean(document.querySelector('#studyNav > .nav-more')),
-      recommendedSteps: document.querySelectorAll('.recommended-path > div').length
+      recommendedSteps: document.querySelectorAll('.recommended-path > div').length,
+      contactText: document.querySelector('.sidebar-contact')?.textContent.trim() || ''
     }));
     if (!accessibility.searchLabel) errors.push(`${section}: search is missing an accessible label`);
     if (accessibility.primaryNavItems !== 5) errors.push(`${section}: expected five primary navigation choices`);
     if (!accessibility.hasMoreTools) errors.push(`${section}: missing More study tools disclosure`);
     if (accessibility.recommendedSteps !== 4) errors.push(`${section}: recommended study path is incomplete`);
+    if (accessibility.contactText !== 'For questions and comments, contact Dr. Beckermann') {
+      errors.push(`${section}: sidebar contact invitation was not changed to comments`);
+    }
 
     await landingPage.locator('[data-plan-activity-mode="region"]').first().click();
     await landingPage.waitForSelector('#regionDrill.active-view .hug-drill-image-card img');
@@ -294,10 +330,14 @@ const server = http.createServer((request, response) => {
       count: document.querySelectorAll('#resetProgress').length,
       label: document.querySelector('#resetProgress')?.textContent.trim() || '',
       inSidebar: Boolean(document.querySelector('.sidebar #resetProgress')),
-      inDialog: Boolean(document.querySelector('dialog #resetProgress'))
+      inDialog: Boolean(document.querySelector('dialog #resetProgress')),
+      contactText: document.querySelector('.sidebar-contact')?.textContent.trim() || ''
     }));
     if (resetControl.count !== 1 || resetControl.label !== 'Reset saved work' || !resetControl.inSidebar || resetControl.inDialog) {
       errors.push(`${section}: reset control does not match the shared Study Menu pattern`);
+    }
+    if (resetControl.contactText !== 'For questions and comments, contact Dr. Beckermann') {
+      errors.push(`${section}: sidebar contact invitation was not changed to comments`);
     }
     await landingPage.waitForSelector('#models.active-view #modelSourceSummary .model-source-key');
     const modelPage = await landingPage.evaluate(() => ({
