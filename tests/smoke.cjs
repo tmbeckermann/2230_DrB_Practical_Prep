@@ -159,6 +159,9 @@ const server = http.createServer((request, response) => {
   const landingCopy = await landingPage.locator('body').innerText();
   const landingMeta = await landingPage.evaluate(() => ({
     heading: document.querySelector('h1')?.textContent.trim() || '',
+    courseContext: Boolean(document.querySelector('.course-context')),
+    boxedCourseNote: Boolean(document.querySelector('.continue-card')),
+    duplicateRegionButton: Boolean(document.querySelector('.course-context a[href="#study-regions"]')),
     availableTags: Array.from(document.querySelectorAll('.practical-topline')).filter((node) => node.textContent.includes('Available')).length,
     textbookHref: document.querySelector('.textbook-link')?.href || '',
     emailHref: document.querySelector('footer a[href^="mailto:"]')?.getAttribute('href') || '',
@@ -170,11 +173,14 @@ const server = http.createServer((request, response) => {
   if (!landingCopy.includes('BIO 2230 is taught by multiple professors')) {
     errors.push('course menu: missing multi-professor course clarification');
   }
-  if (!landingCopy.includes("This site supports the lab practicals for Dr. Beckermann's Anatomy & Physiology I sections")) {
+  if (!landingCopy.includes("This site supports Dr. Beckermann's Anatomy & Physiology I sections")) {
     errors.push('course menu: missing Dr. Beckermann section scope');
   }
-  if (!landingCopy.includes("Verify all information and requirements against your section's Canvas course and lab instructions")) {
+  if (!landingCopy.includes("Confirm details with your section's Canvas course and lab instructions")) {
     errors.push('course menu: missing course-expectations verification reminder');
+  }
+  if (!landingMeta.courseContext || landingMeta.boxedCourseNote || landingMeta.duplicateRegionButton) {
+    errors.push('course menu: course context did not use the streamlined, non-card treatment');
   }
   if (!landingCopy.includes('Choose your current study region')) {
     errors.push('course menu: missing sequence-neutral region choice');
