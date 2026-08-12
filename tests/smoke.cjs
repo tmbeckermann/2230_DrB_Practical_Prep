@@ -173,8 +173,11 @@ const server = http.createServer((request, response) => {
   if (!landingCopy.includes('BIO 2230 is taught by multiple professors')) {
     errors.push('course menu: missing multi-professor course clarification');
   }
-  if (!landingCopy.includes("This site supports Dr. Beckermann's Anatomy & Physiology I sections")) {
+  if (!landingCopy.includes("This site follows the material and expectations used in Dr. Beckermann's sections")) {
     errors.push('course menu: missing Dr. Beckermann section scope');
+  }
+  if (landingCopy.includes("Dr. Beckermann's Anatomy & Physiology I sections")) {
+    errors.push('course menu: removed section label is still visible');
   }
   if (!landingCopy.includes("Confirm details with your section's Canvas course and lab instructions")) {
     errors.push('course menu: missing course-expectations verification reminder');
