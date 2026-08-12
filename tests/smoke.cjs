@@ -157,14 +157,46 @@ const server = http.createServer((request, response) => {
     errors.push('course menu: Axial still displays Rough draft');
   }
   const landingCopy = await landingPage.locator('body').innerText();
-  if (!landingCopy.includes("For Dr. Beckermann's sections")) {
-    errors.push('course menu: missing Dr. Beckermann section identification');
+  const landingMeta = await landingPage.evaluate(() => ({
+    heading: document.querySelector('h1')?.textContent.trim() || '',
+    availableTags: Array.from(document.querySelectorAll('.practical-topline')).filter((node) => node.textContent.includes('Available')).length,
+    textbookHref: document.querySelector('.textbook-link')?.href || '',
+    emailHref: document.querySelector('footer a[href^="mailto:"]')?.getAttribute('href') || '',
+    makerMark: document.querySelector('.maker-mark')?.getAttribute('aria-label') || ''
+  }));
+  if (landingMeta.heading !== 'BIO 2230 Practical Prep') {
+    errors.push('course menu: landing heading was not simplified');
   }
   if (!landingCopy.includes('BIO 2230 is taught by multiple professors')) {
     errors.push('course menu: missing multi-professor course clarification');
   }
+  if (!landingCopy.includes("This site supports the lab practicals for Dr. Beckermann's Anatomy & Physiology I sections")) {
+    errors.push('course menu: missing Dr. Beckermann section scope');
+  }
+  if (!landingCopy.includes("Verify all information and requirements against your section's Canvas course and lab instructions")) {
+    errors.push('course menu: missing course-expectations verification reminder');
+  }
   if (!landingCopy.includes('Choose your current study region')) {
     errors.push('course menu: missing sequence-neutral region choice');
+  }
+  if (!landingCopy.includes('Progress is saved in this browser') || !landingCopy.includes('How to clear saved progress')) {
+    errors.push('course menu: missing saved-progress and reset guidance');
+  }
+  if (landingCopy.includes('3\nStudy regions') || landingCopy.includes('16\nActivities per region')) {
+    errors.push('course menu: removed landing-page counts are still visible');
+  }
+  if (landingCopy.includes("Follow the sequence assigned in Dr. Beckermann's Canvas course")) {
+    errors.push('course menu: removed Canvas sequence instruction is still visible');
+  }
+  if (landingMeta.availableTags) errors.push('course menu: study-region Available tags are still visible');
+  if (landingMeta.textbookHref !== 'https://www.pearson.com/en-us/subject-catalog/p/fundamentals-of-anatomy-and-physiology/P200000009819/9780137854011') {
+    errors.push('course menu: textbook attribution does not link to the official Pearson edition');
+  }
+  if (landingMeta.emailHref !== 'mailto:tom.beckermann@belmont.edu?subject=BIO%202230%20Study%20Site') {
+    errors.push('course menu: support email is missing the BIO 2230 Study Site subject');
+  }
+  if (!landingCopy.includes("BIO 2230 · Dr. Beckermann's Practical Prep") || landingMeta.makerMark !== 'Built by Beckermann') {
+    errors.push('course menu: revised footer branding is incomplete');
   }
   if (/Practical 0[123]/.test(landingCopy)) {
     errors.push('course menu: study regions are still numbered as a universal sequence');
