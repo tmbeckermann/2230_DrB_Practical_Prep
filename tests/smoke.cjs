@@ -192,8 +192,14 @@ const server = http.createServer((request, response) => {
   const landingMeta = await landingPage.evaluate(() => ({
     heading: document.querySelector('h1')?.textContent.trim() || '',
     courseContext: Boolean(document.querySelector('.course-context')),
+    referenceNote: Boolean(document.querySelector('.reference-note')),
+    referenceText: document.querySelector('.reference-note')?.textContent.replace(/\s+/g, ' ').trim() || '',
+    heroGridColumn: getComputedStyle(document.querySelector('h1')).gridColumn,
+    heroTitleWidth: document.querySelector('h1')?.getBoundingClientRect().width || 0,
+    heroInnerWidth: document.querySelector('.hero-inner')?.getBoundingClientRect().width || 0,
+    referenceAlignmentGap: Math.abs((document.querySelector('.hero-copy')?.getBoundingClientRect().top || 0) - (document.querySelector('.reference-note')?.getBoundingClientRect().top || 0)),
     boxedCourseNote: Boolean(document.querySelector('.continue-card')),
-    duplicateRegionButton: Boolean(document.querySelector('.course-context a[href="#study-regions"]')),
+    duplicateRegionButton: Boolean(document.querySelector('.reference-note a[href="#study-regions"]')),
     availableTags: Array.from(document.querySelectorAll('.practical-topline')).filter((node) => node.textContent.includes('Available')).length,
     textbookHref: document.querySelector('.textbook-link')?.href || '',
     emailHref: document.querySelector('footer a[href^="mailto:"]')?.getAttribute('href') || '',
@@ -209,17 +215,17 @@ const server = http.createServer((request, response) => {
   if (landingMeta.heading !== 'BIO 2230 Practical Prep') {
     errors.push('course menu: landing heading was not simplified');
   }
-  if (!landingCopy.includes('BIO 2230 is taught by multiple professors')) {
-    errors.push('course menu: missing multi-professor course clarification');
+  if (landingMeta.courseContext || !landingMeta.referenceNote || landingMeta.boxedCourseNote || landingMeta.duplicateRegionButton) {
+    errors.push('course menu: old course context remains or the reference note is missing');
   }
-  if (!landingCopy.includes("This site follows the material and expectations used in Dr. Beckermann's sections")) {
-    errors.push('course menu: missing Dr. Beckermann section scope');
+  if (!landingMeta.referenceText.includes('Reference version 202620-TB') ||
+      !landingMeta.referenceText.includes('contact your professor') ||
+      landingCopy.includes('Course context') || landingCopy.includes('A note for students')) {
+    errors.push('course menu: versioned reference and professor guidance are incomplete');
   }
-  if (!landingCopy.includes("Confirm details with your section's Canvas course and lab instructions")) {
-    errors.push('course menu: missing course-expectations verification reminder');
-  }
-  if (!landingMeta.courseContext || landingMeta.boxedCourseNote || landingMeta.duplicateRegionButton) {
-    errors.push('course menu: course context did not use the streamlined, non-card treatment');
+  if (landingMeta.heroTitleWidth < landingMeta.heroInnerWidth - 2 ||
+      landingMeta.referenceAlignmentGap > 2) {
+    errors.push('course menu: title does not span the hero or reference note is misaligned');
   }
   if (!landingCopy.includes('Choose your current study region')) {
     errors.push('course menu: missing sequence-neutral region choice');
