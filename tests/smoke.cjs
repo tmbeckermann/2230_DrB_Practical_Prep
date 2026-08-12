@@ -325,7 +325,22 @@ const server = http.createServer((request, response) => {
   }
 
   for (const section of ['lower-limb', 'upper-limb', 'axial']) {
-    await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html#models`, { waitUntil: 'domcontentloaded' });
+    await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html#cram`, { waitUntil: 'domcontentloaded' });
+    await landingPage.waitForSelector('#cram.active-view #cramTable th');
+    const finalReview = await landingPage.evaluate(() => ({
+      heading: document.querySelector('#cram .view-heading h2')?.textContent.trim() || '',
+      panelHeading: document.querySelector('#cram .panel h3')?.textContent.trim() || '',
+      firstColumn: document.querySelector('#cramTable th')?.textContent.trim() || '',
+      visibleCopy: document.querySelector('#cram')?.innerText || ''
+    }));
+    if (finalReview.heading !== 'Final Review' ||
+        finalReview.panelHeading !== 'One-Page Practical Final Review' ||
+        finalReview.firstColumn !== 'Final-review cue' ||
+        finalReview.visibleCopy.includes('Cram Sheet')) {
+      errors.push(`${section}: final review naming is inconsistent`);
+    }
+
+    await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html?model-source-check=1#models`, { waitUntil: 'domcontentloaded' });
     const resetControl = await landingPage.evaluate(() => ({
       count: document.querySelectorAll('#resetProgress').length,
       label: document.querySelector('#resetProgress')?.textContent.trim() || '',
