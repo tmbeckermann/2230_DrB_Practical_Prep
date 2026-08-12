@@ -1,0 +1,13 @@
+{
+  "name": "bio-2230-practical-prep-v2",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build-static.cjs",
+    "test": "node tests/learning-engine.test.cjs && node tests/model-image-banks.test.cjs && node tests/cloudflare-worker.test.mjs",
+    "test:smoke": "node tests/smoke.cjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.52.0",
+    "wrangler": "^4.120.1"
+  }
+}
