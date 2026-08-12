@@ -225,6 +225,23 @@ a,
   text-decoration: underline;
 }
 
+.sidebar-reset {
+  width: 100%;
+  padding: 9px 12px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 8px;
+  background: transparent;
+  color: #b7c3ce;
+  font-size: 11px;
+  text-align: left;
+}
+
+.sidebar-reset:hover,
+.sidebar-reset:focus-visible {
+  background: rgba(255,255,255,0.08);
+  color: #fff;
+}
+
 .sidebar-progress {
   margin-top: auto;
   padding: 12px;

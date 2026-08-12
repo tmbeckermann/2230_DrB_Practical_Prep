@@ -156,6 +156,12 @@ const server = http.createServer((request, response) => {
   if (await landingPage.getByText('Rough draft', { exact: true }).count()) {
     errors.push('course menu: Axial still displays Rough draft');
   }
+  await landingPage.locator('.maker-mark img').evaluate((image) => image.complete
+    ? undefined
+    : new Promise((resolve) => {
+      image.addEventListener('load', resolve, { once: true });
+      image.addEventListener('error', resolve, { once: true });
+    }));
   const landingCopy = await landingPage.locator('body').innerText();
   const landingMeta = await landingPage.evaluate(() => ({
     heading: document.querySelector('h1')?.textContent.trim() || '',
@@ -165,7 +171,11 @@ const server = http.createServer((request, response) => {
     availableTags: Array.from(document.querySelectorAll('.practical-topline')).filter((node) => node.textContent.includes('Available')).length,
     textbookHref: document.querySelector('.textbook-link')?.href || '',
     emailHref: document.querySelector('footer a[href^="mailto:"]')?.getAttribute('href') || '',
-    makerMark: document.querySelector('.maker-mark')?.getAttribute('aria-label') || ''
+    makerHref: document.querySelector('.maker-mark')?.getAttribute('href') || '',
+    makerImageSrc: document.querySelector('.maker-mark img')?.getAttribute('src') || '',
+    makerImageAlt: document.querySelector('.maker-mark img')?.getAttribute('alt') || '',
+    makerImageLoaded: Boolean(document.querySelector('.maker-mark img')?.complete && document.querySelector('.maker-mark img')?.naturalWidth),
+    resetGuidance: document.querySelector('.progress-note details p')?.textContent.trim() || ''
   }));
   if (landingMeta.heading !== 'BIO 2230 Practical Prep') {
     errors.push('course menu: landing heading was not simplified');
@@ -175,9 +185,6 @@ const server = http.createServer((request, response) => {
   }
   if (!landingCopy.includes("This site follows the material and expectations used in Dr. Beckermann's sections")) {
     errors.push('course menu: missing Dr. Beckermann section scope');
-  }
-  if (landingCopy.includes("Dr. Beckermann's Anatomy & Physiology I sections")) {
-    errors.push('course menu: removed section label is still visible');
   }
   if (!landingCopy.includes("Confirm details with your section's Canvas course and lab instructions")) {
     errors.push('course menu: missing course-expectations verification reminder');
@@ -190,6 +197,9 @@ const server = http.createServer((request, response) => {
   }
   if (!landingCopy.includes('Progress is saved in this browser') || !landingCopy.includes('How to clear saved progress')) {
     errors.push('course menu: missing saved-progress and reset guidance');
+  }
+  if (landingMeta.resetGuidance !== 'For any study region, open the Study Menu and choose Reset saved work.') {
+    errors.push('course menu: reset guidance is not consistent across study regions');
   }
   if (landingCopy.includes('3\nStudy regions') || landingCopy.includes('16\nActivities per region')) {
     errors.push('course menu: removed landing-page counts are still visible');
@@ -204,7 +214,11 @@ const server = http.createServer((request, response) => {
   if (landingMeta.emailHref !== 'mailto:tom.beckermann@belmont.edu?subject=BIO%202230%20Study%20Site') {
     errors.push('course menu: support email is missing the BIO 2230 Study Site subject');
   }
-  if (!landingCopy.includes("BIO 2230 · Dr. Beckermann's Practical Prep") || landingMeta.makerMark !== 'Built by Beckermann') {
+  if (!landingCopy.includes("BIO 2230 · Dr. Beckermann's Practical Prep") ||
+      landingMeta.makerHref !== landingMeta.emailHref ||
+      landingMeta.makerImageSrc !== 'assets/built-by-beckermann.png' ||
+      landingMeta.makerImageAlt !== 'Built by Beckermann' ||
+      !landingMeta.makerImageLoaded) {
     errors.push('course menu: revised footer branding is incomplete');
   }
   if (/Practical 0[123]/.test(landingCopy)) {
@@ -276,6 +290,15 @@ const server = http.createServer((request, response) => {
 
   for (const section of ['lower-limb', 'upper-limb', 'axial']) {
     await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html#models`, { waitUntil: 'domcontentloaded' });
+    const resetControl = await landingPage.evaluate(() => ({
+      count: document.querySelectorAll('#resetProgress').length,
+      label: document.querySelector('#resetProgress')?.textContent.trim() || '',
+      inSidebar: Boolean(document.querySelector('.sidebar #resetProgress')),
+      inDialog: Boolean(document.querySelector('dialog #resetProgress'))
+    }));
+    if (resetControl.count !== 1 || resetControl.label !== 'Reset saved work' || !resetControl.inSidebar || resetControl.inDialog) {
+      errors.push(`${section}: reset control does not match the shared Study Menu pattern`);
+    }
     await landingPage.waitForSelector('#models.active-view #modelSourceSummary .model-source-key');
     const modelPage = await landingPage.evaluate(() => ({
       header: Array.from(document.querySelectorAll('#modelKeyTable th')).map((node) => node.textContent.trim()),

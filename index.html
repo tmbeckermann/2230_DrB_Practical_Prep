@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Practical preparation for students enrolled in Dr. Beckermann's BIO 2230 Anatomy &amp; Physiology I sections at Belmont University.">
+  <meta name="description" content="Practical preparation for BIO 2230 students at Belmont University.">
   <title>Dr. Beckermann's BIO 2230 Practical Prep</title>
   <script>
     if (location.protocol === 'https:' || location.protocol === 'http:') {
@@ -274,8 +274,21 @@
     .footer-inner { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 25px 0; color: var(--muted); font-size: 0.72rem; }
     .footer-actions { display: flex; align-items: center; justify-content: flex-end; gap: 18px; }
     .footer-actions a { color: var(--primary); text-underline-offset: 3px; }
-    .maker-mark { display: inline-flex; align-items: center; gap: 7px; color: var(--ink); font-size: 0.69rem; font-weight: 600; letter-spacing: 0.03em; }
-    .maker-mark-icon { display: grid; width: 23px; height: 23px; place-items: center; border-radius: 50%; color: #fff; background: var(--primary); font-family: Fraunces, Georgia, serif; font-size: 0.78rem; }
+    .maker-mark {
+      display: inline-flex;
+      flex: 0 0 auto;
+      border-radius: 50%;
+      text-decoration: none;
+    }
+    .maker-mark img {
+      display: block;
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      object-fit: contain;
+    }
+    .maker-mark:hover,
+    .maker-mark:focus-visible { outline: 2px solid var(--primary); outline-offset: 3px; }
     @media (max-width: 820px) {
       .hero-inner { grid-template-columns: 1fr; gap: 30px; padding: 52px 0 46px; }
       .practical-grid, .method-grid { grid-template-columns: 1fr; }
@@ -319,7 +332,7 @@
               <span>Your saved work stays on this device and browser; it is not connected to your Belmont account.</span>
               <details>
                 <summary>How to clear saved progress</summary>
-                <p>For Upper Limb or Axial, open the Study Menu and choose <strong>Reset saved work</strong>. For Lower Limb, open <strong>Progress and backup settings</strong> in the top-right corner and choose <strong>Reset all saved work</strong>.</p>
+                <p>For any study region, open the Study Menu and choose <strong>Reset saved work</strong>.</p>
               </details>
             </div>
           </div>
@@ -376,7 +389,9 @@
     <div class="footer-inner">
       <span>BIO 2230 &middot; Dr. Beckermann's Practical Prep</span>
       <div class="footer-actions">
-        <span class="maker-mark" aria-label="Built by Beckermann"><span class="maker-mark-icon" aria-hidden="true">B</span><span>Built by Beckermann</span></span>
+        <a class="maker-mark" href="mailto:tom.beckermann@belmont.edu?subject=BIO%202230%20Study%20Site" aria-label="Email Dr. Beckermann" title="Email Dr. Beckermann">
+          <img src="assets/built-by-beckermann.png" width="58" height="58" decoding="async" alt="Built by Beckermann">
+        </a>
         <a href="mailto:tom.beckermann@belmont.edu?subject=BIO%202230%20Study%20Site">Questions or errors? Email Dr. Beckermann.</a>
       </div>
     </div>
