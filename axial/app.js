@@ -1026,7 +1026,7 @@ function renderDifferentiation() {
 }
 
 function renderCram() {
-  renderSimpleTable('cramTable', ['Cram cue', 'Say from memory', 'Why it matters'], data.cramSheet, ['cue', 'memory', 'why'], ['25%', '43%', '32%']);
+  renderSimpleTable('cramTable', ['Final-review cue', 'Say from memory', 'Why it matters'], data.cramSheet, ['cue', 'memory', 'why'], ['25%', '43%', '32%']);
   renderSimpleTable('outLoudTable', ['Prompt type', 'Say this sequence', 'Pass standard'], data.outLoudPrompts, ['type', 'sequence', 'standard'], ['24%', '45%', '31%']);
   renderSimpleTable('reverseTable', ['Prompt', 'Answer'], data.reversePrompts, ['prompt', 'answer'], ['72%', '28%']);
 }
