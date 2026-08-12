@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BIO 2230 Activity Review Links</title>
+  <meta name="description" content="Direct links to interactive anatomy practical activities, focused drills, and reference pages for lower-limb, upper-limb, and axial study.">
+  <title>Anatomy Practical Study Directory | BIO 2230</title>
   <style>
     :root {
       color-scheme: light;
@@ -40,8 +41,21 @@
       font-weight: 750;
       text-decoration: none;
     }
+    .directory-guide {
+      margin-bottom: 24px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 22px;
+      background: rgba(255, 253, 248, .72);
+    }
+    .directory-guide > p { max-width: 820px; }
+    .guide-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin-top: 18px; }
+    .guide-item { border-left: 3px solid var(--accent); padding: 2px 0 2px 14px; }
+    .guide-item h3 { margin: 0 0 6px; }
+    .guide-item p { font-size: .88rem; line-height: 1.6; }
     .section-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
     .section-card { border: 1px solid var(--line); border-radius: 18px; background: var(--card); padding: 22px; box-shadow: 0 12px 30px rgba(42, 32, 14, .06); }
+    .group-description { margin: -4px 0 12px; font-size: .85rem; line-height: 1.55; }
     ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
     li a {
       display: block;
@@ -61,28 +75,49 @@
     .review-grid ul { gap: 6px; }
     .review-grid li a { background: transparent; padding: 5px 3px; }
     footer { margin-top: 32px; }
-    @media (max-width: 860px) { .section-grid, .review-grid { grid-template-columns: 1fr; } }
+    @media (max-width: 860px) { .guide-grid, .section-grid, .review-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
 <body>
   <main>
     <header>
       <p class="eyebrow">BIO 2230 practical prep</p>
-      <h1>Activity review links</h1>
-      <p>Each link opens the exact activity or drill mode. The muscle model-ID pages are listed separately under Review the content.</p>
+      <h1>Anatomy practical study directory</h1>
+      <p>Choose a body region, then open an interactive activity, focused drill, or reference page. Each link takes you directly to the selected study tool within the site.</p>
       <nav class="jump-links" aria-label="Page shortcuts">
         <a href="#lower-limb">Lower limb</a>
         <a href="#upper-limb">Upper limb</a>
         <a href="#axial">Axial</a>
-        <a href="./index.html">Course menu</a>
+        <a href="./index.html">Study site home</a>
       </nav>
     </header>
+
+    <section class="directory-guide" aria-labelledby="directory-guide-title">
+      <p class="eyebrow">How this directory works</p>
+      <h2 id="directory-guide-title">Choose the type of study support you need</h2>
+      <p>The same core tools are available for the lower limb, upper limb, and axial regions; the anatomical structures change with the region you select.</p>
+      <div class="guide-grid">
+        <div class="guide-item">
+          <h3>Interactive practice</h3>
+          <p>Today&rsquo;s Practice adapts to progress saved in this browser, Quick 10 provides a short mixed set, and Region Sprint narrows practice to one anatomical area. Other links emphasize flashcards, image identification, labeling, commonly confused structures, or practical-style recall.</p>
+        </div>
+        <div class="guide-item">
+          <h3>Focused drills</h3>
+          <p>Use these for targeted repetition in reverse recall, actions, retrieval, left/right orientation, sticker identification, or muscle OIAs. OIA means origin, insertion, and action.</p>
+        </div>
+        <div class="guide-item">
+          <h3>Reference and review</h3>
+          <p>Open structure lists, muscle image banks, bone and marking tables, origin-insertion-action references, visual libraries, comparison guides, and condensed final reviews.</p>
+        </div>
+      </div>
+    </section>
 
     <div class="section-grid">
       <section class="section-card" id="lower-limb">
         <h2>Lower limb</h2>
         <p>16 activities</p>
         <h3>Adaptive and visual practice</h3>
+        <p class="group-description">Mixed, adaptive, image-based, and practical-style activities for lower-limb content.</p>
         <ul>
           <li><a href="./lower-limb/index.html?activity=today#activities">Today&rsquo;s Practice</a></li>
           <li><a href="./lower-limb/index.html?activity=quick#activities">Quick 10</a></li>
@@ -96,6 +131,7 @@
           <li><a href="./lower-limb/index.html#practicalMode">Practical Mode</a></li>
         </ul>
         <h3>Focused drills</h3>
+        <p class="group-description">Target one recall or identification skill for repeated lower-limb practice.</p>
         <ul>
           <li><a href="./lower-limb/index.html?drill=oiaReverse#drills">OIA Reverse Recall</a></li>
           <li><a href="./lower-limb/index.html?drill=actionLookup#drills">Action Lookup</a></li>
@@ -110,6 +146,7 @@
         <h2>Upper limb</h2>
         <p>16 activities</p>
         <h3>Adaptive and visual practice</h3>
+        <p class="group-description">Mixed, adaptive, image-based, and practical-style activities for upper-limb content.</p>
         <ul>
           <li><a href="./upper-limb/index.html?activity=today#simulation">Today&rsquo;s Practice</a></li>
           <li><a href="./upper-limb/index.html?activity=quick#simulation">Quick 10</a></li>
@@ -123,6 +160,7 @@
           <li><a href="./upper-limb/index.html#practicalMode">Practical Mode</a></li>
         </ul>
         <h3>Focused drills</h3>
+        <p class="group-description">Target one recall or identification skill for repeated upper-limb practice.</p>
         <ul>
           <li><a href="./upper-limb/index.html?drill=oiaReverse#drills">OIA Reverse Recall</a></li>
           <li><a href="./upper-limb/index.html?drill=actionLookup#drills">Action Lookup</a></li>
@@ -137,6 +175,7 @@
         <h2>Axial</h2>
         <p>16 activities</p>
         <h3>Adaptive and visual practice</h3>
+        <p class="group-description">Mixed, adaptive, image-based, and practical-style activities for axial content.</p>
         <ul>
           <li><a href="./axial/index.html?activity=today#simulation">Today&rsquo;s Practice</a></li>
           <li><a href="./axial/index.html?activity=quick#simulation">Quick 10</a></li>
@@ -150,6 +189,7 @@
           <li><a href="./axial/index.html#practicalMode">Practical Mode</a></li>
         </ul>
         <h3>Focused drills</h3>
+        <p class="group-description">Target one recall or identification skill for repeated axial practice.</p>
         <ul>
           <li><a href="./axial/index.html?drill=oiaReverse#drills">OIA Reverse Recall</a></li>
           <li><a href="./axial/index.html?drill=actionLookup#drills">Action Lookup</a></li>
@@ -162,46 +202,46 @@
     </div>
 
     <section class="review-pages">
-      <h2>Review the content</h2>
-      <p>These are study and reference pages, not scored activities. Muscles to ID is the quickest way to inspect the new image banks.</p>
+      <h2>Reference and review pages</h2>
+      <p>Use these links to study source material rather than complete an activity. Each region includes structure lists, image references, comparison guidance, and a condensed final review.</p>
       <div class="review-grid">
         <div>
           <h3>Lower limb</h3>
           <ul>
-            <li><a href="./lower-limb/index.html#models">Muscles to ID</a></li>
+            <li><a href="./lower-limb/index.html#models">Muscles to Identify</a></li>
             <li><a href="./lower-limb/index.html#bones">Bones and Markings</a></li>
-            <li><a href="./lower-limb/index.html#muscles">Muscle OIAs</a></li>
-            <li><a href="./lower-limb/index.html#visuals">Visual Library</a></li>
-            <li><a href="./lower-limb/index.html#differentiation">Differentiation</a></li>
+            <li><a href="./lower-limb/index.html#muscles">Muscle Origins, Insertions, and Actions</a></li>
+            <li><a href="./lower-limb/index.html#visuals">Visual Reference Library</a></li>
+            <li><a href="./lower-limb/index.html#differentiation">Differentiation Guide</a></li>
             <li><a href="./lower-limb/index.html#cram">Final Review</a></li>
           </ul>
         </div>
         <div>
           <h3>Upper limb</h3>
           <ul>
-            <li><a href="./upper-limb/index.html#models">Muscles to ID</a></li>
+            <li><a href="./upper-limb/index.html#models">Muscles to Identify</a></li>
             <li><a href="./upper-limb/index.html#bones">Bones and Markings</a></li>
-            <li><a href="./upper-limb/index.html#muscles">Muscle OIAs</a></li>
-            <li><a href="./upper-limb/index.html#visuals">Visual Library</a></li>
-            <li><a href="./upper-limb/index.html#differentiation">Differentiation</a></li>
-            <li><a href="./upper-limb/index.html#cram">Cram Sheet</a></li>
+            <li><a href="./upper-limb/index.html#muscles">Muscle Origins, Insertions, and Actions</a></li>
+            <li><a href="./upper-limb/index.html#visuals">Visual Reference Library</a></li>
+            <li><a href="./upper-limb/index.html#differentiation">Differentiation Guide</a></li>
+            <li><a href="./upper-limb/index.html#cram">Final Review</a></li>
           </ul>
         </div>
         <div>
           <h3>Axial</h3>
           <ul>
-            <li><a href="./axial/index.html#models">Muscles to ID</a></li>
+            <li><a href="./axial/index.html#models">Muscles to Identify</a></li>
             <li><a href="./axial/index.html#bones">Bones and Markings</a></li>
-            <li><a href="./axial/index.html#muscles">Muscle OIAs</a></li>
-            <li><a href="./axial/index.html#visuals">Visual Library</a></li>
-            <li><a href="./axial/index.html#differentiation">Differentiation</a></li>
-            <li><a href="./axial/index.html#cram">Cram Sheet</a></li>
+            <li><a href="./axial/index.html#muscles">Muscle Origins, Insertions, and Actions</a></li>
+            <li><a href="./axial/index.html#visuals">Visual Reference Library</a></li>
+            <li><a href="./axial/index.html#differentiation">Differentiation Guide</a></li>
+            <li><a href="./axial/index.html#cram">Final Review</a></li>
           </ul>
         </div>
       </div>
     </section>
 
-    <footer><a class="back-link" href="./index.html">Back to course menu</a></footer>
+    <footer><a class="back-link" href="./index.html">Back to study site home</a></footer>
   </main>
 </body>
 </html>
