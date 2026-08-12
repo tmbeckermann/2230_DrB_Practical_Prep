@@ -193,6 +193,7 @@ const server = http.createServer((request, response) => {
     heading: document.querySelector('h1')?.textContent.trim() || '',
     courseContext: Boolean(document.querySelector('.course-context')),
     referenceNote: Boolean(document.querySelector('.reference-note')),
+    referenceHeading: document.querySelector('.reference-note h2')?.textContent.trim() || '',
     referenceText: document.querySelector('.reference-note')?.textContent.replace(/\s+/g, ' ').trim() || '',
     heroGridColumn: getComputedStyle(document.querySelector('h1')).gridColumn,
     heroTitleWidth: document.querySelector('h1')?.getBoundingClientRect().width || 0,
@@ -218,8 +219,10 @@ const server = http.createServer((request, response) => {
   if (landingMeta.courseContext || !landingMeta.referenceNote || landingMeta.boxedCourseNote || landingMeta.duplicateRegionButton) {
     errors.push('course menu: old course context remains or the reference note is missing');
   }
-  if (!landingMeta.referenceText.includes('Reference version 202620-TB') ||
-      !landingMeta.referenceText.includes('contact your professor') ||
+  if (landingMeta.referenceHeading !== 'Reference information' ||
+      !landingMeta.referenceText.includes('contact your professor for clarification') ||
+      !landingMeta.referenceText.includes('Version: 202620.DrB') ||
+      !landingMeta.referenceText.includes('Handouts and reference lists aligned with this material') ||
       landingCopy.includes('Course context') || landingCopy.includes('A note for students')) {
     errors.push('course menu: versioned reference and professor guidance are incomplete');
   }
@@ -256,7 +259,7 @@ const server = http.createServer((request, response) => {
       !landingMeta.makerImageLoaded || !landingMeta.makerIsLast || !landingMeta.makerAtRightEdge) {
     errors.push('course menu: revised footer branding is incomplete');
   }
-  if (landingMeta.contactText !== 'Questions or comments? Email Dr. Beckermann.') {
+  if (landingMeta.contactText !== 'Questions or comments? Email Dr. Beckermann') {
     errors.push('course menu: footer contact invitation was not changed to comments');
   }
   if (/Practical 0[123]/.test(landingCopy)) {
