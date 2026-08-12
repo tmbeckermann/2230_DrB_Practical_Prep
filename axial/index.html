@@ -1,0 +1,468 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Axial practical preparation for BIO 2230: skull, thorax, vertebrae, muscles, OIAs, and practical-style drills.">
+  <title>Axial Practical Prep | BIO 2230</title>
+  <link rel="stylesheet" href="styles.css?v=20260811a">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Study navigation">
+      <div class="sidebar-header">
+        <a class="brand brand-link" href="../index.html" aria-label="Open BIO 2230 Practical Prep course menu">
+          <div class="brand-mark" aria-hidden="true">B</div>
+          <div>
+            <div class="brand-title">BIO 2230</div>
+            <div class="brand-subtitle">Practical 03 &middot; Axial</div>
+          </div>
+        </a>
+        <button id="mobileNavToggle" class="mobile-nav-toggle" type="button" aria-controls="studyNav" aria-expanded="false" aria-label="Open study navigation">
+          <span class="hamburger-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="mobile-nav-toggle-label">Menu</span>
+        </button>
+      </div>
+      <a class="course-menu-link" href="../index.html">← All practicals</a>
+      <nav id="studyNav" class="nav-list">
+        <div class="nav-section-title">Recommended path</div>
+        <button class="nav-item active" data-view="dashboard">Home</button>
+        <button class="nav-item" data-view="bones">Learn</button>
+        <button class="nav-item" data-view="practiceLibrary">Practice</button>
+        <button class="nav-item" data-view="practicalMode">Test</button>
+        <button class="nav-item" data-view="visuals">Reference</button>
+        <details class="nav-more">
+          <summary>More study tools</summary>
+          <div class="nav-more-content">
+            <div class="nav-section-title">Muscles and review</div>
+            <button class="nav-item" data-view="flashcards">OIA flashcards</button>
+            <button class="nav-item" data-view="models">Muscles to ID</button>
+            <button class="nav-item" data-view="muscles">Muscle OIAs</button>
+            <button class="nav-item" data-view="differentiation">Differentiation</button>
+            <button class="nav-item" data-view="cram">Cram Sheet</button>
+            <div class="nav-section-title">Additional activities</div>
+            <button class="nav-item" data-view="labeling">Labeling with Word Bank</button>
+            <button class="nav-item" data-view="practicalLabeling">Practical-Style Labeling</button>
+            <button class="nav-item" data-view="practicalMode">Advanced Practical Mode</button>
+            <button class="nav-item" data-view="drills" data-drill-mode="oiaReverse">OIA Reverse Recall</button>
+            <button class="nav-item" data-view="drills" data-drill-mode="actionLookup">Action Lookup</button>
+            <button class="nav-item" data-view="drills" data-drill-mode="retrieval">Retrieval Drills</button>
+            <button class="nav-item" data-view="drills" data-drill-mode="leftRight">Left/Right ID</button>
+            <button class="nav-item" data-view="drills" data-drill-mode="sticker">Sticker Practical</button>
+            <button class="nav-item" data-view="drills" data-drill-mode="oiaBank">OIA Practice</button>
+          </div>
+        </details>
+      </nav>
+      <a class="sidebar-contact" href="mailto:tom.beckermann@belmont.edu">For questions and errors, contact Dr. Beckermann</a>
+      <button id="resetProgress" class="sidebar-reset" type="button" title="Clear saved checkmarks, typed answers, drill scores, and quiz progress for this browser">Reset saved work</button>
+      <div class="sidebar-progress">
+        <div class="metric-label">Completed</div>
+        <div class="progress-track"><div id="overallProgress" class="progress-fill"></div></div>
+        <div id="overallProgressText" class="metric-small">0%</div>
+      </div>
+    </aside>
+    <button id="navScrim" class="nav-scrim" type="button" aria-label="Close study library"></button>
+
+    <main class="workspace">
+      <div class="sticky-frame">
+        <header class="topbar">
+          <div>
+            <h1>Axial Practical Prep</h1>
+            <p>Learn the structures, drill recall, then simulate the practical.</p>
+          </div>
+          <div class="topbar-tools">
+            <button id="libraryNavToggle" class="secondary-button library-nav-toggle" type="button" aria-controls="studyNav" aria-expanded="false">
+              <span class="library-menu-icon" aria-hidden="true"><span></span><span></span><span></span></span>
+              <span>Study library</span>
+            </button>
+            <button id="appBack" class="secondary-button app-back-button hidden" type="button" aria-label="Return to previous site page">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.7 6.3 5 12l5.7 5.7 1.4-1.4L8.8 13H20v-2H8.8l3.3-3.3-1.4-1.4Z"/></svg>
+              <span>Back</span>
+            </button>
+            <label class="search-box">
+              <span class="search-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24"><path d="M10.8 18a7.2 7.2 0 1 1 5.1-2.1l4.1 4.1-1.4 1.4-4.1-4.1A7.17 7.17 0 0 1 10.8 18Zm0-2a5.2 5.2 0 1 0 0-10.4 5.2 5.2 0 0 0 0 10.4Z"/></svg>
+              </span>
+              <input id="globalSearch" type="search" aria-label="Search Axial study content" placeholder="Search foramen, vertebra, masseter...">
+            </label>
+          </div>
+        </header>
+        <div id="searchResults" class="search-results hidden" aria-live="polite"></div>
+      </div>
+
+      <section id="dashboard" class="view active-view">
+        <section class="dashboard-hero">
+          <div class="dashboard-hero-copy">
+            <p id="resumeEyebrow" class="dashboard-eyebrow">Start here</p>
+            <h2 id="resumeTitle">Occipital Bone &mdash; region image drill</h2>
+            <p id="resumeSummary">Identify highlighted structures from real course images, then build toward a mixed practical simulation.</p>
+            <div class="dashboard-hero-actions">
+              <button class="primary-button" type="button" data-plan-activity-mode="today">Start today&rsquo;s practice</button>
+              <button class="secondary-button" type="button" data-plan-activity-mode="quick">Open Quick 10</button>
+            </div>
+              <div class="dashboard-hero-stats" aria-label="Axial study counts">
+              <span><strong>64</strong> bones &amp; markings</span>
+              <span><strong>17</strong> muscles to ID</span>
+              <span><strong>17</strong> muscle OIAs</span>
+            </div>
+          </div>
+          <div class="dashboard-progress-card">
+            <div class="dashboard-progress-heading">
+              <span>Saved progress</span>
+              <span id="progressCounts">0 / 0</span>
+            </div>
+            <div class="dashboard-progress-overview">
+              <div id="dashboardProgressRing" class="dashboard-progress-ring" style="--progress: 0deg;">
+                <div>
+                  <strong id="dashboardProgressPct">0%</strong>
+                  <span>complete</span>
+                </div>
+              </div>
+              <p>Check off learned structures as you study. Your work stays saved in this browser.</p>
+            </div>
+            <div class="metric-grid" id="metricGrid"></div>
+          </div>
+        </section>
+
+        <section class="dashboard-section dashboard-quick-actions">
+          <div class="dashboard-section-heading">
+            <div>
+              <p class="dashboard-eyebrow">Quick actions</p>
+              <h2>Choose a focused study activity</h2>
+            </div>
+            <span>Focused activities first. The full study library remains available from the top bar.</span>
+          </div>
+          <div class="study-mode-grid">
+            <button class="study-mode-card" type="button" data-plan-activity-mode="today">
+              <span class="mode-icon bone" aria-hidden="true">B</span>
+              <strong>Today&rsquo;s Practice</strong>
+              <span>A mixed set that gives missed material first.</span>
+              <em>Start practice &rarr;</em>
+            </button>
+            <button class="study-mode-card" type="button" data-plan-activity-mode="region">
+              <span class="mode-icon muscle" aria-hidden="true">M</span>
+              <strong>Region Sprint</strong>
+              <span>Identify highlighted structures from one axial region.</span>
+              <em>Choose a region &rarr;</em>
+            </button>
+            <button class="study-mode-card featured" type="button" data-plan-view="practicalMode">
+              <span class="mode-icon practical" aria-hidden="true">P</span>
+              <strong>Practical Mode</strong>
+              <span>Run a balanced mixed practical without over-weighting muscle ID.</span>
+              <em>Set up practical &rarr;</em>
+            </button>
+          </div>
+        </section>
+
+        <div class="dashboard-grid dashboard-content-grid">
+          <section class="panel map-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="dashboard-eyebrow">Region progress</p>
+                <h2>Region image drills</h2>
+              </div>
+              <span class="muted">Choose a region</span>
+            </div>
+            <div class="region-map" id="regionMap"></div>
+          </section>
+          <section class="panel focus-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="dashboard-eyebrow">Practical focus</p>
+                <h2>Muscles to ID</h2>
+              </div>
+              <span class="muted" id="focusCount"></span>
+            </div>
+            <div id="focusList" class="tag-list"></div>
+          </section>
+          <section class="panel due-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="dashboard-eyebrow">Personal review</p>
+                <h2>Missed drill cards</h2>
+              </div>
+              <span class="missed-count" id="missedCount">0</span>
+            </div>
+            <div id="missedList" class="compact-list"></div>
+          </section>
+        </div>
+
+        <p class="dashboard-eyebrow recommended-path-label">Recommended study path</p>
+        <div class="page-guide dashboard-guide recommended-path">
+          <div><strong>1. Learn one region</strong><span>Build the visual map with the checklist and reference images.</span></div>
+          <div><strong>2. Practice recall</strong><span>Complete that region’s image drill without relying on recognition alone.</span></div>
+          <div><strong>3. Test yourself</strong><span>Use the mixed practical simulation after several regions feel familiar.</span></div>
+          <div><strong>4. Review misses</strong><span>Return to missed cards and confirm difficult structures on physical models in lab.</span></div>
+        </div>
+      </section>
+
++      <section id="practiceLibrary" class="view">
+        <div class="view-heading">
+          <div><p class="dashboard-eyebrow">Practice library</p><h2>Choose practice with a purpose</h2></div>
+        </div>
+        <div class="page-guide">
+          <div><strong>Start here</strong><span>Today&rsquo;s Practice mixes content and brings missed prompts back first.</span></div>
+          <div><strong>Same activity pattern</strong><span>Axial uses the same activity names and study flow as lower limb.</span></div>
+          <div><strong>Image scope</strong><span>Facial muscles use image identification. Torso references are reserved for items absent from the tested limb models.</span></div>
+        </div>
+        <section class="activity-library-group">
+          <h3>Adaptive and visual practice</h3>
+          <div class="study-mode-grid activity-library-grid">
+            <button class="study-mode-card featured" type="button" data-plan-activity-mode="today"><strong>Today&rsquo;s Practice</strong><span>Ten mixed prompts with missed material first.</span><em>Start &rarr;</em></button>
+            <button class="study-mode-card" type="button" data-plan-activity-mode="quick"><strong>Quick 10</strong><span>Ten random mixed prompts for a short study break.</span><em>Start &rarr;</em></button>
+            <button class="study-mode-card" type="button" data-plan-activity-mode="region"><strong>Region Sprint</strong><span>Work through highlighted structures from one region.</span><em>Choose region &rarr;</em></button>
+            <button class="study-mode-card" type="button" data-plan-activity-mode="flashcards"><strong>OIA Flashcards</strong><span>Flip each muscle card and rate OIA recall.</span><em>Open cards &rarr;</em></button>
+            <button class="study-mode-card" type="button" data-plan-activity-mode="hotspot"><strong>Find the Sticker</strong><span>Answer sticker-code prompts from highlighted images.</span><em>Open drill &rarr;</em></button>
+            <button class="study-mode-card" type="button" data-plan-activity-mode="clickLabel"><strong>Click the Label</strong><span>Choose the correct label for a highlighted target.</span><em>Start &rarr;</em></button>
+            <button class="study-mode-card" type="button" data-plan-activity-mode="confusables"><strong>Confusable Pairs</strong><span>Retrieve the feature that separates close structures.</span><em>Start &rarr;</em></button>
+          </div>
+        </section>
+        <section class="activity-library-group">
+          <h3>Labeling and practical practice</h3>
+          <div class="study-mode-grid activity-library-grid">
+            <button class="study-mode-card" type="button" data-plan-view="labeling"><strong>Labeling with Word Bank</strong><span>Use a term bank before revealing the labeled image.</span><em>Open &rarr;</em></button>
+            <button class="study-mode-card" type="button" data-plan-view="practicalLabeling"><strong>Practical-Style Labeling</strong><span>Label without a word bank, then reveal.</span><em>Open &rarr;</em></button>
+            <button class="study-mode-card featured" type="button" data-plan-view="practicalMode"><strong>Practical Mode</strong><span>Build a balanced mixed practical.</span><em>Set up &rarr;</em></button>
+          </div>
+        </section>
+        <section class="activity-library-group">
+          <h3>Focused drills</h3>
+          <div class="study-mode-grid activity-library-grid">
+            <button class="study-mode-card" type="button" data-plan-view="drills" data-plan-drill-mode="oiaReverse"><strong>OIA Reverse Recall</strong><span>Retrieve the muscle from its OIA clues.</span><em>Open &rarr;</em></button>
+            <button class="study-mode-card" type="button" data-plan-view="drills" data-plan-drill-mode="actionLookup"><strong>Action Lookup</strong><span>Move from an action back to likely muscles.</span><em>Open &rarr;</em></button>
+            <button class="study-mode-card" type="button" data-plan-view="drills" data-plan-drill-mode="retrieval"><strong>Retrieval Drills</strong><span>Mixed image and structure recall.</span><em>Open &rarr;</em></button>
+            <button class="study-mode-card" type="button" data-plan-view="drills" data-plan-drill-mode="leftRight"><strong>Left/Right ID</strong><span>Practice anatomical side and orientation.</span><em>Open &rarr;</em></button>
+            <button class="study-mode-card" type="button" data-plan-view="drills" data-plan-drill-mode="sticker"><strong>Sticker Practical</strong><span>Practice practical-style sticker codes.</span><em>Open &rarr;</em></button>
+            <button class="study-mode-card" type="button" data-plan-view="drills" data-plan-drill-mode="oiaBank"><strong>OIA Practice</strong><span>Select origin, insertion, and action from banks.</span><em>Open &rarr;</em></button>
+          </div>
+        </section>
+      </section>
+
+      <section id="regionDrill" class="view hug-activity-view">
+        <div id="regionDrillRoot"></div>
+      </section>
+
+      <section id="flashcards" class="view hug-activity-view">
+        <div id="flashcardsRoot"></div>
+      </section>
+
+      <section id="simulation" class="view hug-activity-view">
+        <div id="simulationRoot"></div>
+      </section>
+
+      <section id="confusablePractice" class="view hug-activity-view">
+        <div id="confusablePracticeRoot"></div>
+      </section>
+
+      <section id="bones" class="view">
+        <div class="view-heading">
+          <h2>Bones and Markings Checklist</h2>
+          <div id="boneFilters" class="segmented"></div>
+        </div>
+        <div class="page-guide">
+          <div><strong>What this is</strong><span>The course checklist of axial bones and markings students may see labeled on skull, vertebral, and thoracic models.</span></div>
+          <div><strong>What to know</strong><span>Be able to answer a sticker-style prompt such as "What is the marking labeled 2B?" and identify left versus right when relevant.</span></div>
+          <div><strong>How to use it</strong><span>Filter by region, mark items as done, use Visuals to stretch limited lab time, and confirm with physical models in lab.</span></div>
+        </div>
+        <section class="panel compact-panel study-note-panel">
+          <h3>Common traps</h3>
+          <ul class="study-note-list">
+            <li>Pair every skull marking with its correct bone before memorizing its position.</li>
+            <li>Cervical vertebrae have transverse foramina; thoracic vertebrae have costal facets.</li>
+            <li>The dens identifies the axis (C2); the atlas (C1) lacks a typical vertebral body.</li>
+            <li>Distinguish mandibular condylar and coronoid processes before identifying the notch between them.</li>
+            <li>For L/R practice, identify the view first, then decide side.</li>
+          </ul>
+        </section>
+        <div class="table-wrap">
+          <table class="data-table" id="bonesTable"></table>
+        </div>
+      </section>
+
+      <section id="labeling" class="view">
+        <div class="view-heading">
+          <div>
+            <h2>Labeling Practice with Word Bank</h2>
+            <p class="muted">Blank leader-line images for bones, markings, and muscles with a word bank scaffold.</p>
+          </div>
+          <div id="labelingFilters" class="filter-control"></div>
+        </div>
+        <div class="page-guide">
+          <div><strong>What this is</strong><span>Slide-export practice images with a word bank for the selected image set.</span></div>
+          <div><strong>What to know</strong><span>Match each leader line to the correct course term before you reveal the labeled answer.</span></div>
+          <div><strong>How to use it</strong><span>Use this page early in practice, then move the same content to practical-style labeling without the word bank.</span></div>
+        </div>
+        <div id="labelingCards" class="labeling-grid"></div>
+      </section>
+
+      <section id="practicalLabeling" class="view">
+        <div class="view-heading">
+          <div>
+            <h2>Practical-Style Labeling</h2>
+            <p class="muted">Blank leader-line images for practical readiness. There is no word bank on this page.</p>
+          </div>
+          <div id="practicalLabelingFilters" class="filter-control"></div>
+        </div>
+        <div class="page-guide">
+          <div><strong>What this is</strong><span>A no-word-bank check using the same kind of blank labeling images students see during practical prep.</span></div>
+          <div><strong>What to know</strong><span>Recall the structure names from memory and confirm only after you have committed to an answer.</span></div>
+          <div><strong>How to use it</strong><span>Choose an image set, say or write every label first, then reveal the labeled answer and review misses in Visuals or the word-bank page.</span></div>
+        </div>
+        <div id="practicalLabelingCards" class="labeling-grid"></div>
+      </section>
+
+      <section id="models" class="view">
+        <div class="view-heading">
+          <h2>Muscles to ID</h2>
+          <span class="muted">Match practical model IDs to muscles with clearly labeled image sources.</span>
+        </div>
+        <div class="page-guide">
+          <div><strong>What this is</strong><span>Image identification for facial muscles plus limited torso-reference practice for other axial muscles.</span></div>
+          <div><strong>What to know</strong><span>Facial and mastication muscles are tested from an image, not a physical face model.</span></div>
+          <div><strong>How to use it</strong><span>Use face images for facial muscles. Use torso-focused PAL references only for items that are absent from the tested single-leg and arm models.</span></div>
+        </div>
+        <div id="modelSourceSummary" class="model-source-summary" aria-live="polite"></div>
+        <p class="footnote">The facial course image and PAL atlas substitutes are not claimed as Belmont lab-model photographs.</p>
+        <div class="table-wrap">
+          <table class="data-table" id="modelKeyTable"></table>
+        </div>
+      </section>
+
+      <section id="muscles" class="view">
+        <div class="view-heading">
+          <h2>Muscle OIAs</h2>
+          <div id="muscleFilters" class="filter-control"></div>
+        </div>
+        <div class="page-guide">
+          <div><strong>What this is</strong><span>The course origin, insertion, and action table for axial muscles.</span></div>
+          <div><strong>What to know</strong><span>Be able to answer prompts such as "Identify the origin, insertion, and action of the masseter" using a bank of OIA choices.</span></div>
+          <div><strong>How to use it</strong><span>Use the muscle-group dropdown, study the landmark links, then test recall with OIA Reverse Recall and Action Lookup.</span></div>
+        </div>
+        <div id="muscleTables" class="stack"></div>
+      </section>
+
+      <section id="visuals" class="view">
+        <div class="view-heading">
+          <div>
+            <h2>Visual Library</h2>
+            <p class="muted">Verified highlighted views and labeled references.</p>
+          </div>
+          <div id="visualFilters" class="segmented"></div>
+        </div>
+        <div class="page-guide">
+          <div><strong>What this is</strong><span>A verified image library of highlighted structures and labeled reference views.</span></div>
+          <div><strong>What to know</strong><span>Recognize the highlighted bone, marking, or muscle from more than one view when multiple images are shown.</span></div>
+          <div><strong>How to use it</strong><span>Use quick links for nearby cards, open full-size images when needed, and shuffle to avoid memorizing the order.</span></div>
+        </div>
+        <div id="visualGallery" class="visual-gallery"></div>
+      </section>
+
+      <section id="practicalMode" class="view">
+        <div class="view-heading">
+          <div>
+            <h2>Practical Mode</h2>
+            <p class="muted">Mixed practical readiness check with no word bank and no review list during the run.</p>
+          </div>
+        </div>
+        <div class="page-guide">
+          <div><strong>What this is</strong><span>A mixed readiness check that pulls from sticker-style prompts, left/right ID, model muscle ID, and OIA recall. Left/right items are scored automatically; other items are self-checked after results appear.</span></div>
+          <div><strong>What to know</strong><span>Commit to an answer without seeing the key, then compare after the full run is complete.</span></div>
+          <div><strong>How to use it</strong><span>Choose the item types and question count, submit each item, then use the revealed results links to review misses.</span></div>
+        </div>
+        <div id="practicalModeRoot" class="practical-mode-root"></div>
+      </section>
+
+      <section id="drills" class="view">
+        <div class="view-heading">
+          <div>
+            <h2 id="drillModeTitle">Retrieval Drills</h2>
+            <p id="drillModeSubtitle" class="muted">Practice recall before revealing the answer.</p>
+          </div>
+          <div class="drill-controls">
+            <div id="drillModeControls" class="mode-buttons" aria-label="Drill type"></div>
+            <select id="deckSelect" aria-label="Deck"></select>
+          </div>
+        </div>
+        <div id="drillGuide" class="page-guide"></div>
+        <div id="leftRightQuizPanel" class="quiz-panel hidden"></div>
+        <div class="drill-layout" id="drillLayout">
+          <article class="drill-card">
+            <div class="drill-topbar">
+              <div>
+                <div id="deckMeta" class="muted"></div>
+                <h3 id="drillPrompt"></h3>
+              </div>
+              <div class="drill-control-stack">
+                <div class="drill-actions" id="cardNavActions">
+                  <button id="previousCard" class="secondary-button mini-button" type="button">Previous card</button>
+                  <button id="shuffleDeck" class="secondary-button mini-button" type="button">Shuffle</button>
+                  <button id="nextCard" class="primary-button mini-button" type="button">Next card</button>
+                </div>
+                <div class="drill-actions" id="revealActions">
+                  <button id="revealAnswer" class="primary-button" type="button">Reveal</button>
+                  <button id="hideAnswer" class="secondary-button" type="button">Hide</button>
+                  <button id="markMissed" class="secondary-button" type="button">Missed</button>
+                  <button id="markCorrect" class="secondary-button" type="button">Correct</button>
+                  <button id="toggleDeckStatus" class="secondary-button" type="button">Show Review List</button>
+                </div>
+              </div>
+            </div>
+            <div id="drillBank" class="drill-bank"></div>
+            <div id="drillResponse" class="drill-response"></div>
+            <div id="drillVisual" class="drill-visual"></div>
+            <div id="drillAnswer" class="drill-answer hidden"></div>
+          </article>
+          <aside class="panel drill-history hidden" id="deckStatusPanel">
+            <div class="panel-heading">
+              <h2>Review List</h2>
+              <span id="deckStatus" class="muted"></span>
+            </div>
+            <div id="deckList" class="compact-list"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="differentiation" class="view">
+        <div class="view-heading">
+          <h2>Differentiation</h2>
+        </div>
+        <div class="page-guide">
+          <div><strong>What this is</strong><span>Side-by-side comparisons for structures, actions, and landmarks that students commonly mix up.</span></div>
+          <div><strong>What to know</strong><span>Know the fast separator that distinguishes each confusing pair or action pattern.</span></div>
+          <div><strong>How to use it</strong><span>Use this after first-pass memorization, especially when two answers feel interchangeable.</span></div>
+        </div>
+        <div class="two-column">
+          <section class="panel"><h3>Confusables</h3><div class="table-wrap"><table class="data-table" id="confusablesTable"></table></div></section>
+          <section class="panel"><h3>Action Lookup</h3><div class="table-wrap"><table class="data-table" id="actionLookupTable"></table></div></section>
+          <section class="panel"><h3>Anchor Maps</h3><div class="table-wrap"><table class="data-table" id="anchorMapTable"></table></div></section>
+        </div>
+      </section>
+
+      <section id="cram" class="view">
+        <div class="view-heading">
+          <h2>Cram Sheet</h2>
+        </div>
+        <div class="page-guide">
+          <div><strong>What this is</strong><span>A compressed review sheet for the final pass before a quiz or practical.</span></div>
+          <div><strong>What to know</strong><span>Be able to say the listed cues, sequences, and reverse-recall answers without reading the table.</span></div>
+          <div><strong>How to use it</strong><span>Cover the answer column, speak the answer out loud, then check and move misses into drills.</span></div>
+        </div>
+        <div class="two-column cram-layout">
+          <section class="panel"><h3>One-Page Practical Cram Sheet</h3><div class="table-wrap"><table class="data-table" id="cramTable"></table></div></section>
+          <section class="panel"><h3>What To Say Out Loud</h3><div class="table-wrap"><table class="data-table" id="outLoudTable"></table></div></section>
+          <section class="panel wide"><h3>Reverse Recall</h3><div class="table-wrap"><table class="data-table" id="reverseTable"></table></div></section>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="data.js?v=20260730m"></script>
+  <script src="visual-data.js?v=20260730m"></script>
+  <script src="muscle-visual-data.js?v=20260730m"></script>
+  <script src="../model-image-banks.js?v=20260811a"></script>
+  <script src="app.js?v=20260811a"></script>
+  <!-- Cloudflare Web Analytics -->
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "7b2e81331ffd44c4bfcd564ad7e3afef"}'></script>
+  <!-- End Cloudflare Web Analytics -->
+</body>
+</html>

@@ -9403,3 +9403,15 @@ window.STUDY_DATA = {
     "Short head of biceps femoris": "muscle-muscle-07-m3040-pal4-m3040-01-biceps-femoris"
   }
 };
+
+window.STUDY_DATA.modelAssessmentProfile = {
+  primaryContext: 'single-leg-model',
+  label: 'Single-leg model',
+  summary: 'Muscle identification is based on the single-leg teaching model. Existing course model views are reference-only, and highlighted PAL images remain clearly labeled substitutes.'
+};
+window.STUDY_DATA.modelKey = window.STUDY_DATA.modelKey.map((row) => ({
+  ...row,
+  assessmentContext: 'single-leg-model',
+  assessmentContextLabel: 'Single-leg model',
+  note: row.note || 'Identify on the single-leg teaching model.'
+}));

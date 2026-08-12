@@ -1,2 +1,6 @@
 .DS_Store
 Thumbs.db
+node_modules/
+output/
+dist/
+worker-configuration.d.ts

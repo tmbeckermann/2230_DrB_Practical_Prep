@@ -4,17 +4,25 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BIO 2230 Lower Limb Study Site</title>
-  <link rel="stylesheet" href="styles.css">
+  <script>
+    if (location.protocol === 'https:' || location.protocol === 'http:') {
+      const fonts = document.createElement('link');
+      fonts.rel = 'stylesheet';
+      fonts.href = 'https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap';
+      document.head.append(fonts);
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css?v=20260811a">
 </head>
 <body>
   <div class="app-shell">
     <aside class="sidebar" aria-label="Study navigation">
       <div class="sidebar-header">
-        <a class="brand brand-link" href="../" aria-label="Open BIO 2230 Practical Prep course menu">
-          <div class="brand-mark" aria-hidden="true">LL</div>
+        <a class="brand brand-link" href="../index.html" aria-label="Open BIO 2230 Practical Prep course menu">
+          <div class="brand-mark" aria-hidden="true">B</div>
           <div>
             <div class="brand-title">BIO 2230</div>
-            <div class="brand-subtitle">Lower Limb</div>
+            <div class="brand-subtitle">Practical Prep</div>
           </div>
         </a>
         <button id="mobileNavToggle" class="mobile-nav-toggle" type="button" aria-controls="studyNav" aria-expanded="false" aria-label="Open study navigation">
@@ -22,31 +30,17 @@
           <span class="mobile-nav-toggle-label">Menu</span>
         </button>
       </div>
-      <a class="course-menu-link" href="../">Course menu</a>
+      <a class="course-menu-link" href="../index.html">← All practicals</a>
       <nav id="studyNav" class="nav-list">
-        <div class="nav-section-title">Content</div>
-        <button class="nav-item active" data-view="dashboard">Dashboard</button>
-        <button class="nav-item" data-view="bones">Bones and Markings</button>
-        <button class="nav-item" data-view="models">Muscles to ID</button>
-        <button class="nav-item" data-view="muscles">Muscle OIAs</button>
-        <button class="nav-item" data-view="visuals">Visuals</button>
-        <button class="nav-item" data-view="differentiation">Differentiation</button>
-        <button class="nav-item" data-view="cram">Cram Sheet</button>
-        <div class="nav-divider" aria-hidden="true"></div>
-        <div class="nav-section-title">Activities</div>
-        <button class="nav-item" data-view="labeling">Labeling with Word Bank</button>
-        <button class="nav-item" data-view="practicalLabeling">Practical-Style Labeling</button>
-        <button class="nav-item" data-view="practicalMode">Practical Mode</button>
-        <button class="nav-item" data-view="drills" data-drill-mode="oiaReverse">OIA Reverse Recall</button>
-        <button class="nav-item" data-view="drills" data-drill-mode="actionLookup">Action Lookup</button>
-        <button class="nav-item" data-view="drills" data-drill-mode="retrieval">Retrieval Drills</button>
-        <button class="nav-item" data-view="drills" data-drill-mode="leftRight">Left/Right ID</button>
-        <button class="nav-item" data-view="drills" data-drill-mode="sticker">Sticker Practical</button>
-        <button class="nav-item" data-view="drills" data-drill-mode="oiaBank">OIA Practice</button>
+        <button class="nav-item active" data-view="dashboard" data-nav-group="home">Home</button>
+        <button class="nav-item" data-view="learnHub" data-nav-group="learn">Learn</button>
+        <button class="nav-item" data-view="practiceLibrary" data-nav-group="practice">Practice</button>
+        <button class="nav-item practical-nav-item" data-view="practicalMode" data-nav-group="test">Test</button>
+        <button class="nav-item" data-view="referenceHub" data-nav-group="reference">Reference</button>
       </nav>
       <a class="sidebar-contact" href="mailto:tom.beckermann@belmont.edu">For questions and errors, contact Dr. Beckermann</a>
       <div class="sidebar-progress">
-        <div class="metric-label">Completed</div>
+        <div class="metric-label">Ready</div>
         <div class="progress-track"><div id="overallProgress" class="progress-fill"></div></div>
         <div id="overallProgressText" class="metric-small">0%</div>
       </div>
@@ -56,8 +50,9 @@
       <div class="sticky-frame">
         <header class="topbar">
           <div>
-            <h1>Lower Limb Study Site</h1>
-            <p>Bones, markings, muscles, images, and practical drills</p>
+            <p class="topbar-eyebrow">Practical 01</p>
+            <h1>Lower Limb</h1>
+            <p>Learn the structures. Drill the recall. Test your readiness.</p>
           </div>
           <div class="topbar-tools">
             <button id="appBack" class="secondary-button app-back-button hidden" type="button" aria-label="Return to previous site page">
@@ -68,11 +63,11 @@
               <span class="search-icon" aria-hidden="true">
                 <svg viewBox="0 0 24 24"><path d="M10.8 18a7.2 7.2 0 1 1 5.1-2.1l4.1 4.1-1.4 1.4-4.1-4.1A7.17 7.17 0 0 1 10.8 18Zm0-2a5.2 5.2 0 1 0 0-10.4 5.2 5.2 0 0 0 0 10.4Z"/></svg>
               </span>
-              <input id="globalSearch" type="search" placeholder="Search ASIS, gluteus, femur...">
+              <input id="globalSearch" type="search" aria-label="Search Lower Limb study content" placeholder="Search ASIS, gluteus, femur...">
             </label>
-            <button id="resetProgress" class="icon-button" type="button" title="Clear saved checkmarks, typed answers, drill scores, and quiz progress for this browser" aria-label="Clear saved site work for this browser">
+            <button id="progressTools" class="icon-button" type="button" title="Open progress, backup, and practical-date settings" aria-label="Open progress and backup settings">
               <svg viewBox="0 0 24 24"><path d="M12 5a7 7 0 1 1-6.3 4H3.5A9 9 0 1 0 12 3v2Zm-7.5.5V11H10L7.8 8.8A6.97 6.97 0 0 1 12 5V3a8.96 8.96 0 0 0-5.6 2L4.5 3.1v2.4Z"/></svg>
-              <span>Reset saved work</span>
+              <span>Progress &amp; backup</span>
             </button>
           </div>
         </header>
@@ -80,64 +75,131 @@
       </div>
 
       <section id="dashboard" class="view active-view">
-        <div class="page-guide">
-          <div><strong>What this is</strong><span>Your lower-limb study hub for course bones, markings, muscles, model images, and OIA drills.</span></div>
-          <div><strong>What to know</strong><span>Identify stickered structures on physical models, including left/right when relevant, and recall muscle OIAs.</span></div>
-          <div><strong>How to use it</strong><span>Use the site to extend limited lab time, then confirm with physical models whenever you can.</span></div>
-        </div>
-        <div class="dashboard-grid">
-          <section class="panel progress-panel">
-            <div class="panel-heading">
-              <h2>Progress</h2>
-              <span id="progressCounts" class="muted"></span>
+        <section class="coach-hero">
+          <div>
+            <p class="eyebrow">Your next best step</p>
+            <h2 id="coachPrimary">Build today's recall</h2>
+            <p id="coachPrimaryNote">A short adaptive session will mix due reviews, recent misses, and a few new structures.</p>
+            <div class="dashboard-hero-actions">
+              <button class="primary-button" type="button" data-plan-view="activities" data-plan-activity-mode="today">Start today's practice</button>
+              <button class="quiet-link" type="button" data-plan-view="practiceLibrary">Browse all study modes <span aria-hidden="true">→</span></button>
             </div>
-            <div class="metric-grid" id="metricGrid"></div>
-          </section>
-          <section class="panel plan-panel">
-            <div class="panel-heading">
-              <h2>Start Here</h2>
-              <span class="muted">Choose a study task</span>
-            </div>
-            <div class="plan-list">
-              <button class="plan-step" type="button" data-plan-view="bones">
-                <strong>Study bones and markings</strong>
-                <span>Work region by region, then check markings from images and models.</span>
-              </button>
-              <button class="plan-step" type="button" data-plan-view="models">
-                <strong>Study muscle ID</strong>
-                <span>Start with the practical muscle list, then click into OIAs from there.</span>
-              </button>
-              <button class="plan-step" type="button" data-plan-view="drills" data-plan-drill-mode="oiaBank">
-                <strong>Practice OIAs</strong>
-                <span>Use dropdown-bank practice before switching to recall-only drills.</span>
-              </button>
-              <button class="plan-step" type="button" data-plan-view="practicalMode">
-                <strong>Simulate practical</strong>
-                <span>Run a mixed practical check and review missed or unsure items.</span>
-              </button>
-            </div>
-          </section>
+          </div>
+          <div class="due-orbit" aria-label="Items due today">
+            <strong id="dueTodayCount">0</strong>
+            <span>due today</span>
+          </div>
+        </section>
+        <section class="coach-summary" aria-label="Study progress">
+          <div class="summary-metric">
+            <span>Coverage</span>
+            <strong id="coverageMetric">0%</strong>
+            <small id="coverageCounts">0 studied</small>
+          </div>
+          <div class="summary-metric readiness">
+            <span>Readiness</span>
+            <strong id="readinessMetric">0%</strong>
+            <small id="readinessCounts">0 ready</small>
+          </div>
+          <div class="summary-metric">
+            <span>Practical date</span>
+            <strong id="examDateStatus">Not set</strong>
+            <button class="link-button" type="button" data-open-progress-tools>Set or change date</button>
+          </div>
+          <div class="summary-metric">
+            <span>Course material</span>
+            <strong id="dashboardCounts">0 prompts</strong>
+            <small id="dashboardCountsNote">Counts update from course data</small>
+          </div>
+        </section>
+        <div class="coach-grid">
           <section class="panel map-panel">
             <div class="panel-heading">
-              <h2>Bones and Markings</h2>
-              <span class="muted">Region focus</span>
+              <h2>Readiness by region</h2>
+              <span class="muted">Retrieve, do not just review</span>
             </div>
             <div class="region-map" id="regionMap"></div>
           </section>
-          <section class="panel focus-panel">
+          <section class="panel">
             <div class="panel-heading">
-              <h2>Muscles to ID</h2>
-              <span class="muted" id="focusCount"></span>
+              <h2>Needs attention</h2>
+              <span class="muted">Weakest recall prompts</span>
             </div>
-            <div id="focusList" class="tag-list"></div>
+            <div id="weakList" class="compact-list"></div>
           </section>
-          <section class="panel due-panel">
+          <section class="panel">
             <div class="panel-heading">
-              <h2>Missed Drill Cards</h2>
-              <span class="muted" id="missedCount"></span>
+              <h2>Upcoming reviews</h2>
+              <span class="muted">Spacing protects recall</span>
             </div>
-            <div id="missedList" class="compact-list"></div>
+            <div id="upcomingList" class="upcoming-list"></div>
           </section>
+        </div>
+      </section>
+
+      <section id="learnHub" class="view">
+        <div class="view-heading">
+          <div><p class="topbar-eyebrow">Learn</p><h2>Build the visual map</h2><p class="muted">Use these pages for first-pass learning and targeted repair.</p></div>
+        </div>
+        <div class="hub-grid">
+          <button class="hub-card" type="button" data-plan-view="bones"><span>Bones &amp; markings</span><strong>Learn structures by region</strong><small>Course checklist, landmarks, and common traps.</small></button>
+          <button class="hub-card" type="button" data-plan-view="models"><span>Muscle ID</span><strong>Match model tags to muscles</strong><small>Images and practical model identification list.</small></button>
+          <button class="hub-card" type="button" data-plan-view="muscles"><span>Muscle OIAs</span><strong>Study origin, insertion, and action</strong><small>Course OIA tables with landmark links.</small></button>
+          <button class="hub-card" type="button" data-plan-view="labeling"><span>Scaffolded labeling</span><strong>Practice with a word bank</strong><small>Use support before moving to recall-only practice.</small></button>
+        </div>
+      </section>
+
+      <section id="practiceLibrary" class="view">
+        <div class="view-heading">
+          <div><p class="topbar-eyebrow">Practice library</p><h2>Choose practice with a purpose</h2><p class="muted">Today's Practice is recommended. Use the library when you know what needs work.</p></div>
+        </div>
+        <div class="practice-library">
+          <section class="featured-tools"><div class="library-label"><div><span>Recommended</span><h3>Start here</h3></div><p>Two good choices when you do not need a specific drill.</p></div><div class="hub-grid">
+            <button class="hub-card recommended" type="button" data-plan-view="activities" data-plan-activity-mode="today"><span>Adaptive</span><strong>Today's Practice</strong><small>Due reviews, recent misses, weak concepts, and a few new items.</small></button>
+            <button class="hub-card" type="button" data-plan-view="activities" data-plan-activity-mode="quick"><span>About 5 minutes</span><strong>Quick 10</strong><small>Ten mixed retrieval questions.</small></button>
+          </div></section>
+          <div class="library-label library-label-secondary"><div><span>Browse by goal</span><h3>Choose only when you need something specific</h3></div><p>Open a category to reveal its tools.</p></div>
+          <div class="tool-groups">
+            <details class="tool-group">
+              <summary><span><strong>Visual identification</strong><small>Labels, stickers, and practical-style image recall</small></span><span class="tool-count">4 tools</span></summary>
+              <div class="hub-grid">
+                <button class="hub-card" type="button" data-plan-view="activities" data-plan-activity-mode="clickLabel"><strong>Click the Label</strong><small>Choose the correct marker from visible targets.</small></button>
+                <button class="hub-card" type="button" data-plan-view="activities" data-plan-activity-mode="hotspot"><strong>Find the Sticker</strong><small>Place a sticker on book-matched locations.</small></button>
+                <button class="hub-card" type="button" data-plan-view="practicalLabeling"><strong>Practical-Style Labeling</strong><small>Recall labels without a word bank.</small></button>
+                <button class="hub-card" type="button" data-plan-view="drills" data-plan-drill-mode="sticker"><strong>Sticker Practical</strong><small>Identify structures from sticker-style prompts.</small></button>
+              </div>
+            </details>
+            <details class="tool-group">
+              <summary><span><strong>OIA and recall</strong><small>Flashcards, selector banks, reverse recall, and action lookup</small></span><span class="tool-count">4 tools</span></summary>
+              <div class="hub-grid">
+                <button class="hub-card" type="button" data-plan-view="activities" data-plan-activity-mode="flashcards"><strong>OIA Flashcards</strong><small>Retrieve complete muscle OIAs.</small></button>
+                <button class="hub-card" type="button" data-plan-view="drills" data-plan-drill-mode="oiaBank"><strong>OIA Practice</strong><small>Use objective OIA selector banks.</small></button>
+                <button class="hub-card" type="button" data-plan-view="drills" data-plan-drill-mode="oiaReverse"><strong>OIA Reverse Recall</strong><small>Work backward from OIA clues.</small></button>
+                <button class="hub-card" type="button" data-plan-view="drills" data-plan-drill-mode="actionLookup"><strong>Action Lookup</strong><small>Retrieve muscles from movement language.</small></button>
+              </div>
+            </details>
+            <details class="tool-group">
+              <summary><span><strong>Focused practice</strong><small>Region work, orientation, mixed retrieval, and confusables</small></span><span class="tool-count">4 tools</span></summary>
+              <div class="hub-grid">
+                <button class="hub-card" type="button" data-plan-view="activities" data-plan-activity-mode="region"><strong>Region Sprint</strong><small>Focus tightly on one region.</small></button>
+                <button class="hub-card" type="button" data-plan-view="drills" data-plan-drill-mode="leftRight"><strong>Left/Right ID</strong><small>Practice orientation and side calls.</small></button>
+                <button class="hub-card" type="button" data-plan-view="drills" data-plan-drill-mode="retrieval"><strong>Retrieval Drills</strong><small>Mixed image and model identification.</small></button>
+                <button class="hub-card" type="button" data-plan-view="activities" data-plan-activity-mode="confusables"><strong>Confusable Pairs</strong><small>Interleave commonly mixed-up structures.</small></button>
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section id="referenceHub" class="view">
+        <div class="view-heading">
+          <div><p class="topbar-eyebrow">Reference</p><h2>Repair a specific gap</h2><p class="muted">Reference pages support retrieval practice; they do not increase readiness on their own.</p></div>
+        </div>
+        <div class="hub-grid">
+          <button class="hub-card" type="button" data-plan-view="visuals"><strong>Visual Library</strong><small>Verified highlighted views and labeled references.</small></button>
+          <button class="hub-card" type="button" data-plan-view="differentiation"><strong>Differentiation</strong><small>Fast separators for commonly confused structures.</small></button>
+          <button class="hub-card" type="button" data-plan-view="cram"><strong>Final Review</strong><small>A compressed last pass after retrieval practice.</small></button>
+          <button class="hub-card" type="button" data-plan-view="labeling"><strong>Word-Bank Labeling</strong><small>Return to scaffolded practice when recall breaks down.</small></button>
         </div>
       </section>
 
@@ -201,14 +263,15 @@
       <section id="models" class="view">
         <div class="view-heading">
           <h2>Muscles to ID</h2>
-          <span class="muted">Use this to match model tags to muscle names.</span>
+          <span class="muted">Match practical model IDs to muscles with clearly labeled image sources.</span>
         </div>
         <div class="page-guide">
-          <div><strong>What this is</strong><span>The lower-limb muscle identification list tied to practical model tags and images when available.</span></div>
-          <div><strong>What to know</strong><span>Identify the tagged muscle on a physical model, including side or view when that changes the answer.</span></div>
-          <div><strong>How to use it</strong><span>Practice from the tag number first, then use linked Visuals or lab images before checking the model in lab.</span></div>
+          <div><strong>What this is</strong><span>The muscle-ID list for the single-leg teaching model.</span></div>
+          <div><strong>What to know</strong><span>Identify each tested muscle on that single-leg model.</span></div>
+          <div><strong>How to use it</strong><span>Start with the existing course model views, then use highlighted PAL substitutes for single-target recall.</span></div>
         </div>
-        <p class="footnote">Students are expected to identify these muscles on physical lab models; this page is a guide for practice when lab time is limited.</p>
+        <div id="modelSourceSummary" class="model-source-summary" aria-live="polite"></div>
+        <p class="footnote">Course model views are existing multi-label reference material. PAL atlas substitutes are not photographs of Belmont lab models.</p>
         <div class="table-wrap">
           <table class="data-table" id="modelKeyTable"></table>
         </div>
@@ -241,6 +304,18 @@
           <div><strong>How to use it</strong><span>Use quick links for nearby cards, open full-size images when needed, and shuffle to avoid memorizing the order.</span></div>
         </div>
         <div id="visualGallery" class="visual-gallery"></div>
+      </section>
+
+      <section id="activities" class="view">
+        <div class="view-heading activity-view-heading">
+          <div>
+            <p class="topbar-eyebrow">Focused activities</p>
+            <h2 id="activityTitle">Today's Practice</h2>
+            <p id="activitySubtitle" class="muted">An adaptive session built from due reviews, weak concepts, and up to three new items.</p>
+          </div>
+          <div id="activityModeControls" class="mode-buttons" aria-label="Activity type"></div>
+        </div>
+        <div id="activityRoot" class="activity-root"></div>
       </section>
 
       <section id="practicalMode" class="view">
@@ -287,8 +362,9 @@
                 <div class="drill-actions" id="revealActions">
                   <button id="revealAnswer" class="primary-button" type="button">Reveal</button>
                   <button id="hideAnswer" class="secondary-button" type="button">Hide</button>
-                  <button id="markMissed" class="secondary-button" type="button">Missed</button>
-                  <button id="markCorrect" class="secondary-button" type="button">Correct</button>
+                  <button id="markMissed" class="secondary-button" type="button">Again</button>
+                  <button id="markHard" class="secondary-button" type="button">Hard</button>
+                  <button id="markCorrect" class="secondary-button" type="button">Good</button>
                   <button id="toggleDeckStatus" class="secondary-button" type="button">Show Review List</button>
                 </div>
               </div>
@@ -326,7 +402,7 @@
 
       <section id="cram" class="view">
         <div class="view-heading">
-          <h2>Cram Sheet</h2>
+          <h2>Final Review</h2>
         </div>
         <div class="page-guide">
           <div><strong>What this is</strong><span>A compressed review sheet for the final pass before a quiz or practical.</span></div>
@@ -334,18 +410,55 @@
           <div><strong>How to use it</strong><span>Cover the answer column, speak the answer out loud, then check and move misses into drills.</span></div>
         </div>
         <div class="two-column cram-layout">
-          <section class="panel"><h3>One-Page Practical Cram Sheet</h3><div class="table-wrap"><table class="data-table" id="cramTable"></table></div></section>
+          <section class="panel"><h3>One-Page Practical Final Review</h3><div class="table-wrap"><table class="data-table" id="cramTable"></table></div></section>
           <section class="panel"><h3>What To Say Out Loud</h3><div class="table-wrap"><table class="data-table" id="outLoudTable"></table></div></section>
           <section class="panel wide"><h3>Reverse Recall</h3><div class="table-wrap"><table class="data-table" id="reverseTable"></table></div></section>
         </div>
       </section>
     </main>
+    <nav class="mobile-primary-nav" aria-label="Primary mobile navigation">
+      <button class="nav-item active" data-view="dashboard" data-nav-group="home">Home</button>
+      <button class="nav-item" data-view="learnHub" data-nav-group="learn">Learn</button>
+      <button class="nav-item" data-view="practiceLibrary" data-nav-group="practice">Practice</button>
+      <button class="nav-item" data-view="practicalMode" data-nav-group="test">Test</button>
+    </nav>
   </div>
 
+  <dialog id="progressDialog" class="progress-dialog">
+    <form method="dialog" class="progress-dialog-card">
+      <div class="panel-heading">
+        <div><p class="topbar-eyebrow">Progress &amp; backup</p><h2>Your study data</h2></div>
+        <button class="secondary-button mini-button" type="submit">Close</button>
+      </div>
+      <p>Your readiness history stays in this browser. Export a backup if you study on more than one device or want a safety copy.</p>
+      <label class="dialog-field"><span>Practical date</span><input id="examDateInput" type="date"></label>
+      <div class="dialog-actions">
+        <button id="saveExamDate" class="primary-button" type="button">Save practical date</button>
+        <button id="exportProgress" class="secondary-button" type="button">Export progress</button>
+        <button id="importProgress" class="secondary-button" type="button">Import progress</button>
+        <input id="importProgressFile" class="hidden" type="file" accept="application/json,.json">
+      </div>
+      <p id="progressDialogStatus" class="muted" aria-live="polite"></p>
+      <div class="danger-zone">
+        <strong>Start over</strong>
+        <p>Clears coverage, mastery history, typed answers, and saved drill status from this browser.</p>
+        <button id="resetProgress" class="secondary-button danger-button" type="button">Reset all saved work</button>
+      </div>
+    </form>
+  </dialog>
+
   <script src="data.js"></script>
-  <script src="app.js"></script>
-  <!-- Cloudflare Web Analytics -->
-  <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "7b2e81331ffd44c4bfcd564ad7e3afef"}'></script>
-  <!-- End Cloudflare Web Analytics -->
+  <script src="../model-image-banks.js?v=20260811a"></script>
+  <script src="learning-engine.js"></script>
+  <script src="app.js?v=20260811a"></script>
+  <script>
+    if (location.protocol === 'https:' || location.protocol === 'http:') {
+      const analytics = document.createElement('script');
+      analytics.defer = true;
+      analytics.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+      analytics.dataset.cfBeacon = '{"token":"7b2e81331ffd44c4bfcd564ad7e3afef"}';
+      document.body.append(analytics);
+    }
+  </script>
 </body>
 </html>
