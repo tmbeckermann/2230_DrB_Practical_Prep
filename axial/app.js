@@ -663,12 +663,12 @@ function renderModelSourceSummary() {
     <p class="model-assessment-summary">${escapeHtml(data.modelAssessmentProfile?.summary || '')}</p>
     <div class="assessment-context-list">${contextSummary}</div>
     <div class="model-source-key">
-      <span class="image-source-badge" data-source-kind="pal-atlas-substitute">PAL atlas substitute</span><span>Highlighted atlas art, not a Belmont lab-model photo (${counts['pal-atlas-substitute'] || 0}).</span>
+      <span class="image-source-badge" data-source-kind="pal-atlas-substitute">PAL atlas substitute</span><span>Highlighted atlas art, not a course lab-model photo (${counts['pal-atlas-substitute'] || 0}).</span>
       ${counts['course-model-reference'] ? `<span class="image-source-badge" data-source-kind="course-model-reference">Course model reference</span><span>Existing multi-label course model views, kept reference-only (${counts['course-model-reference']}).</span>` : ''}
       <span class="image-source-badge" data-source-kind="course-practical-image">Course practical image</span><span>Existing course material, labeled separately (${counts['course-practical-image'] || 0}).</span>
       <span class="image-source-badge" data-source-kind="lab-model-photo">Lab model photo</span><span>Actual physical-model photographs only (${modelPhotos}).</span>
     </div>
-    ${modelPhotos ? '' : '<p>No Belmont lab-model photos are currently claimed in this image bank.</p>'}`;
+    ${modelPhotos ? '' : '<p>No course lab-model photos are currently claimed in this image bank.</p>'}`;
 }
 
 function isMuscleLabelingCard(card) {
@@ -902,16 +902,16 @@ function muscleReferenceProvenance(row) {
   const source = data.modelImageSourceLegend?.['pal-atlas-substitute'] || {};
   const referenceOnly = !modelRow;
   const contextDescription = modelRow?.assessmentContext === 'face-image'
-    ? 'PAL atlas image used as a supplemental facial-muscle reference. It is not a Belmont lab-model photo. Students identify these muscles from an image, not a physical face model.'
+    ? 'PAL atlas image used as a supplemental facial-muscle reference. It is not a course lab-model photo. Students identify these muscles from an image, not a physical face model.'
     : modelRow?.assessmentContext === 'torso-fallback'
-      ? 'Torso-focused PAL atlas image used because this structure is not present on the tested single-leg or arm models. It is not a Belmont lab-model photo.'
+      ? 'Torso-focused PAL atlas image used because this structure is not present on the tested single-leg or arm models. It is not a course lab-model photo.'
       : '';
   return {
     sourceKind: 'pal-atlas-substitute',
     sourceTypeLabel: source.label || 'PAL atlas substitute',
     sourceDescription: referenceOnly
-      ? 'PAL atlas image for anatomy review. It is not a Belmont lab-model photo and is not part of the tested image-identification list.'
-      : contextDescription || source.description || 'PAL atlas art used as a substitute for model-ID practice. This is not a Belmont lab-model photo.',
+      ? 'PAL atlas image for anatomy review. It is not a course lab-model photo and is not part of the tested image-identification list.'
+      : contextDescription || source.description || 'PAL atlas art used as a substitute for model-ID practice. This is not a course lab-model photo.',
     assessmentContext: modelRow?.assessmentContext || 'reference-only',
     assessmentContextLabel: modelRow?.assessmentContextLabel || 'Reference only'
   };

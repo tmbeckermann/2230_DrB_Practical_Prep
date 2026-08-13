@@ -726,12 +726,12 @@ function renderModelSourceSummary() {
     <p class="model-assessment-summary">${escapeHtml(data.modelAssessmentProfile?.summary || '')}</p>
     <div class="assessment-context-list">${contextSummary}</div>
     <div class="model-source-key">
-      <span class="image-source-badge" data-source-kind="pal-atlas-substitute">PAL atlas substitute</span><span>Highlighted atlas art, not a Belmont lab-model photo (${counts['pal-atlas-substitute'] || 0}).</span>
+      <span class="image-source-badge" data-source-kind="pal-atlas-substitute">PAL atlas substitute</span><span>Highlighted atlas art, not a course lab-model photo (${counts['pal-atlas-substitute'] || 0}).</span>
       ${counts['course-model-reference'] ? `<span class="image-source-badge" data-source-kind="course-model-reference">Course model reference</span><span>Existing multi-label course model views, kept reference-only (${counts['course-model-reference']}).</span>` : ''}
       <span class="image-source-badge" data-source-kind="course-practical-image">Course practical image</span><span>Existing course material, labeled separately (${counts['course-practical-image'] || 0}).</span>
       <span class="image-source-badge" data-source-kind="lab-model-photo">Lab model photo</span><span>Actual physical-model photographs only (${modelPhotos}).</span>
     </div>
-    ${modelPhotos ? '' : '<p>No Belmont lab-model photos are currently claimed in this image bank.</p>'}`;
+    ${modelPhotos ? '' : '<p>No course lab-model photos are currently claimed in this image bank.</p>'}`;
 }
 
 function isMuscleLabelingCard(card) {

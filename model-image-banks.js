@@ -17,7 +17,7 @@
     },
     'pal-atlas-substitute': {
       label: 'PAL atlas substitute',
-      description: 'Highlighted PAL atlas art used as a substitute for model-ID practice. This is not a Belmont lab-model photo.'
+      description: 'Highlighted PAL atlas art used as a substitute for model-ID practice. This is not a course lab-model photo.'
     },
     'repository-reference-image': {
       label: 'Repository reference image',

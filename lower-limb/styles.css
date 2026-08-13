@@ -306,6 +306,63 @@ a,
   padding: 22px 28px 40px;
 }
 
+.site-credit {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 34px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.site-credit .maker-mark {
+  display: inline-flex;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  position: relative;
+  text-decoration: none;
+}
+
+.site-credit .maker-mark img {
+  display: block;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.site-credit .maker-mark:hover,
+.site-credit .maker-mark:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+
+.site-credit .maker-mark::after {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 10px);
+  z-index: 3;
+  width: max-content;
+  max-width: 180px;
+  border-radius: 8px;
+  background: var(--text);
+  color: #fff;
+  content: attr(data-tooltip);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+  opacity: 0;
+  padding: 7px 9px;
+  pointer-events: none;
+  transform: translateY(4px);
+  transition: opacity 140ms ease, transform 140ms ease;
+}
+
+.site-credit .maker-mark:hover::after,
+.site-credit .maker-mark:focus-visible::after {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .sticky-frame {
   position: sticky;
   top: 0;

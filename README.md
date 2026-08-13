@@ -22,7 +22,7 @@ The Lower Limb site is generated from the course workspace with `build_student_s
 
 Muscle model-ID image banks use explicit source metadata:
 
-- `pal-atlas-substitute` means highlighted PAL atlas art used for model-ID practice. It is not a Belmont lab-model photo.
+- `pal-atlas-substitute` means highlighted PAL atlas art used for model-ID practice. It is not a course lab-model photo.
 - `course-practical-image` means an existing course image. Multi-label reference images are excluded from single-answer simulations.
 - `course-model-reference` means an existing multi-label course view of the single-leg model. It remains reference-only.
 - `lab-model-photo` is reserved for an explicitly verified photograph of a physical lab model.
