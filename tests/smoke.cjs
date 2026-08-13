@@ -480,13 +480,21 @@ const server = http.createServer((request, response) => {
     await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html?model-source-check=1#models`, { waitUntil: 'domcontentloaded' });
     const resetControl = await landingPage.evaluate(() => ({
       count: document.querySelectorAll('#resetProgress').length,
-      label: document.querySelector('#resetProgress')?.textContent.trim() || '',
+      label: document.querySelector('#resetProgress')?.getAttribute('aria-label') || '',
       inSidebar: Boolean(document.querySelector('.sidebar #resetProgress')),
       inDialog: Boolean(document.querySelector('dialog #resetProgress')),
+      dialogCount: document.querySelectorAll('#resetConfirmDialog').length,
+      hasDialogRelationship: document.querySelector('#resetProgress')?.getAttribute('aria-controls') === 'resetConfirmDialog',
+      buttonWidth: document.querySelector('#resetProgress')?.getBoundingClientRect().width || 0,
+      sidebarWidth: document.querySelector('.sidebar')?.getBoundingClientRect().width || 0,
       contactText: document.querySelector('.sidebar-contact')?.textContent.trim() || ''
     }));
-    if (resetControl.count !== 1 || resetControl.label !== 'Reset saved work' || !resetControl.inSidebar || resetControl.inDialog) {
+    if (resetControl.count !== 1 || resetControl.label !== 'Reset saved work' || !resetControl.inSidebar || resetControl.inDialog ||
+        resetControl.dialogCount !== 1 || !resetControl.hasDialogRelationship) {
       errors.push(`${section}: reset control does not match the shared Study Menu pattern`);
+    }
+    if (resetControl.buttonWidth >= resetControl.sidebarWidth * 0.8) {
+      errors.push(`${section}: Reset saved work control is still visually oversized`);
     }
     if (section === 'upper-limb' || section === 'axial') {
       await landingPage.locator('#libraryNavToggle').click();
@@ -512,6 +520,41 @@ const server = http.createServer((request, response) => {
     });
     if (resetHoverContrast < 4.5) {
       errors.push(`${section}: Reset saved work hover text does not meet contrast requirements (${resetHoverContrast.toFixed(2)}:1)`);
+    }
+    await landingPage.evaluate(() => {
+      state.checked.__resetConfirmationTest = true;
+    });
+    await landingPage.locator('#resetProgress').click();
+    await landingPage.waitForSelector('#resetConfirmDialog[open]');
+    const resetConfirmation = await landingPage.evaluate(() => ({
+      heading: document.querySelector('#resetConfirmTitle')?.textContent.trim() || '',
+      copy: document.querySelector('#resetConfirmDialog')?.textContent || '',
+      focusedAction: document.activeElement?.textContent.trim() || '',
+      eraseActionCount: document.querySelectorAll('#confirmResetProgress').length
+    }));
+    const expectedRegionName = {
+      'lower-limb': 'Lower Limb',
+      'upper-limb': 'Upper Limb',
+      axial: 'Axial'
+    }[section];
+    if (resetConfirmation.heading !== `Erase all ${expectedRegionName} progress?` ||
+        !resetConfirmation.copy.includes('permanently erases all saved progress') ||
+        !resetConfirmation.copy.includes('This cannot be undone.') ||
+        resetConfirmation.focusedAction !== 'Keep my progress' || resetConfirmation.eraseActionCount !== 1) {
+      errors.push(`${section}: reset confirmation does not clearly explain the permanent progress deletion or default to the safe choice`);
+    }
+    await landingPage.getByRole('button', { name: 'Keep my progress', exact: true }).click();
+    if (await landingPage.locator('#resetConfirmDialog').getAttribute('open') !== null) {
+      errors.push(`${section}: Keep my progress does not close the reset confirmation`);
+    }
+    if (!(await landingPage.evaluate(() => Boolean(state.checked.__resetConfirmationTest)))) {
+      errors.push(`${section}: opening or cancelling the reset confirmation erased progress`);
+    }
+    await landingPage.locator('#resetProgress').click();
+    await landingPage.getByRole('button', { name: 'Erase all progress', exact: true }).click();
+    if (await landingPage.evaluate(() => Boolean(state.checked.__resetConfirmationTest)) ||
+        await landingPage.locator('#resetConfirmDialog').getAttribute('open') !== null) {
+      errors.push(`${section}: confirmed reset did not erase progress and close the confirmation`);
     }
     if (resetControl.contactText !== 'For questions and comments, contact Dr. Beckermann') {
       errors.push(`${section}: sidebar contact invitation was not changed to comments`);

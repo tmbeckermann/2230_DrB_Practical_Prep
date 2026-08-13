@@ -3326,8 +3326,11 @@ function init() {
     renderSearchResults();
     renderCurrentView();
   });
+  const resetDialog = byId('resetConfirmDialog');
   byId('resetProgress').addEventListener('click', () => {
-    if (!confirm('Clear saved checkmarks, typed answers, drill scores, and quiz progress for this browser?')) return;
+    resetDialog?.showModal();
+  });
+  byId('confirmResetProgress').addEventListener('click', () => {
     state.checked = {};
     state.drill = {};
     state.drillAnswers = {};
@@ -3337,6 +3340,7 @@ function init() {
   saveJson('ul_drill', state.drill);
   saveJson('ul_drill_answers', state.drillAnswers);
   saveJson('ul_oia_selections', state.oiaSelections);
+    resetDialog?.close('confirmed');
     renderCurrentView();
   });
   document.querySelectorAll('[data-plan-view], [data-plan-activity-mode]').forEach((button) => {
