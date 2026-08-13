@@ -347,6 +347,57 @@ const server = http.createServer((request, response) => {
     await landingPage.setViewportSize({ width: 1280, height: 800 });
   }
 
+  const expectedMuscleFocusTitles = {
+    'lower-limb': ['Muscle Labeling with Word Bank', 'Muscle Practical Labeling', 'Muscle Sticker ID', 'Muscle Image ID'],
+    'upper-limb': ['Muscle Sticker Placement', 'Muscle Labeling with Word Bank', 'Muscle Practical Labeling', 'Muscle Image ID', 'Muscle Sticker Recall'],
+    axial: ['Muscle Sticker Placement', 'Muscle Labeling with Word Bank', 'Muscle Practical Labeling', 'Muscle Image ID', 'Muscle Sticker Recall']
+  };
+  const expectedOiaFocusTitles = ['OIA Flashcards', 'OIA Reverse Recall', 'Action Lookup', 'OIA Practice'];
+
+  for (const section of ['lower-limb', 'upper-limb', 'axial']) {
+    await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html?focus-check=1#practiceLibrary`, { waitUntil: 'domcontentloaded' });
+    await landingPage.waitForSelector('#practiceLibrary.active-view');
+    if (!(await landingPage.getByLabel('All', { exact: true }).isChecked())) {
+      errors.push(`${section}: All is not the default practice focus`);
+    }
+    await landingPage.getByLabel('Muscle ID', { exact: true }).check({ force: true });
+    const muscleTitles = await landingPage.locator('#practiceLibrary [data-practice-focus]:visible strong').allTextContents();
+    if (JSON.stringify(muscleTitles) !== JSON.stringify(expectedMuscleFocusTitles[section])) {
+      errors.push(`${section}: muscle focus shows the wrong activities (${muscleTitles.join(', ')})`);
+    }
+    await landingPage.getByRole('button', { name: /Muscle Image ID/i }).click();
+    await landingPage.waitForSelector('#drills.active-view #deckSelect');
+    if (await landingPage.locator('#deckSelect').inputValue() !== 'Image ID: Muscles') {
+      errors.push(`${section}: Muscle Image ID does not open the muscle image deck`);
+    }
+
+    await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html?label-focus-check=1#practiceLibrary`, { waitUntil: 'domcontentloaded' });
+    await landingPage.getByLabel('Muscle ID', { exact: true }).check({ force: true });
+    await landingPage.getByRole('button', { name: /Muscle Labeling with Word Bank/i }).click();
+    await landingPage.waitForSelector('#labeling.active-view');
+    if (await landingPage.getByRole('combobox', { name: 'Image set' }).inputValue() !== 'Muscles') {
+      errors.push(`${section}: muscle labeling does not open with the muscle image sets selected`);
+    }
+
+    await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html?oia-focus-check=1#practiceLibrary`, { waitUntil: 'domcontentloaded' });
+    await landingPage.getByLabel('OIAs', { exact: true }).check({ force: true });
+    const oiaTitles = await landingPage.locator('#practiceLibrary [data-practice-focus]:visible strong').allTextContents();
+    if (JSON.stringify(oiaTitles.slice().sort()) !== JSON.stringify(expectedOiaFocusTitles.slice().sort())) {
+      errors.push(`${section}: OIA focus shows the wrong activities (${oiaTitles.join(', ')})`);
+    }
+
+    await landingPage.setViewportSize({ width: 390, height: 844 });
+    await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html?focus-mobile-check=1#practiceLibrary`, { waitUntil: 'domcontentloaded' });
+    const focusMobileLayout = await landingPage.evaluate(() => ({
+      pageOverflows: document.documentElement.scrollWidth > document.documentElement.clientWidth + 1,
+      rows: new Set(Array.from(document.querySelectorAll('.practice-focus-options span')).map((node) => Math.round(node.getBoundingClientRect().top))).size
+    }));
+    if (focusMobileLayout.pageOverflows || focusMobileLayout.rows !== 2) {
+      errors.push(`${section}: practice focus controls do not form a clean two-row phone layout`);
+    }
+    await landingPage.setViewportSize({ width: 1280, height: 800 });
+  }
+
   for (const section of ['lower-limb', 'upper-limb', 'axial']) {
     await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html#cram`, { waitUntil: 'domcontentloaded' });
     await landingPage.waitForSelector('#cram.active-view #cramTable th');

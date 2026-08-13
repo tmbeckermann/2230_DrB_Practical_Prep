@@ -154,38 +154,49 @@
         <div class="view-heading">
           <div><p class="topbar-eyebrow">Practice library</p><h2>Choose practice with a purpose</h2><p class="muted">Today's Practice is recommended. Use the library when you know what needs work.</p></div>
         </div>
+        <fieldset class="practice-focus-control">
+          <legend>Study focus</legend>
+          <div class="practice-focus-options" role="radiogroup" aria-label="Filter lower-limb activities by study focus">
+            <label><input type="radio" name="lower-practice-focus" value="all" checked><span>All</span></label>
+            <label><input type="radio" name="lower-practice-focus" value="bone"><span>Bone ID</span></label>
+            <label><input type="radio" name="lower-practice-focus" value="muscle"><span>Muscle ID</span></label>
+            <label><input type="radio" name="lower-practice-focus" value="oia"><span>OIAs</span></label>
+          </div>
+          <p class="practice-focus-status" aria-live="polite">Showing the complete lower-limb practice library.</p>
+        </fieldset>
         <div class="practice-library">
           <section class="featured-tools"><div class="library-label"><div><span>Recommended</span><h3>Start here</h3></div><p>Two good choices when you do not need a specific drill.</p></div><div class="hub-grid">
-            <button class="hub-card recommended" type="button" data-plan-view="activities" data-plan-activity-mode="today"><span>Adaptive</span><strong>Today's Practice</strong><small>Due reviews, recent misses, weak concepts, and a few new items.</small></button>
-            <button class="hub-card" type="button" data-plan-view="activities" data-plan-activity-mode="quick"><span>About 5 minutes</span><strong>Quick 10</strong><small>Ten mixed retrieval questions.</small></button>
+            <button class="hub-card recommended" type="button" data-practice-focus="mixed" data-plan-view="activities" data-plan-activity-mode="today"><span>Adaptive</span><strong>Today's Practice</strong><small>Due reviews, recent misses, weak concepts, and a few new items.</small></button>
+            <button class="hub-card" type="button" data-practice-focus="mixed" data-plan-view="activities" data-plan-activity-mode="quick"><span>About 5 minutes</span><strong>Quick 10</strong><small>Ten mixed retrieval questions.</small></button>
           </div></section>
           <div class="library-label library-label-secondary"><div><span>Browse by goal</span><h3>Choose only when you need something specific</h3></div><p>Open a category to reveal its tools.</p></div>
           <div class="tool-groups">
             <details class="tool-group">
-              <summary><span><strong>Visual identification</strong><small>Labels, stickers, and practical-style image recall</small></span><span class="tool-count">4 tools</span></summary>
+              <summary><span><strong>Visual identification</strong><small>Labels, stickers, and practical-style image recall</small></span><span class="tool-count">5 tools</span></summary>
               <div class="hub-grid">
-                <button class="hub-card" type="button" data-plan-view="activities" data-plan-activity-mode="clickLabel"><strong>Click the Label</strong><small>Choose the correct marker from visible targets.</small></button>
-                <button class="hub-card" type="button" data-plan-view="activities" data-plan-activity-mode="hotspot"><strong>Find the Sticker</strong><small>Place a sticker on book-matched locations.</small></button>
-                <button class="hub-card" type="button" data-plan-view="practicalLabeling"><strong>Practical-Style Labeling</strong><small>Recall labels without a word bank.</small></button>
-                <button class="hub-card" type="button" data-plan-view="drills" data-plan-drill-mode="sticker"><strong>Sticker Practical</strong><small>Identify structures from sticker-style prompts.</small></button>
+                <button class="hub-card" type="button" data-practice-focus="bone" data-plan-view="activities" data-plan-activity-mode="clickLabel"><strong>Click the Label</strong><small>Choose the correct bone or marking from visible targets.</small></button>
+                <button class="hub-card" type="button" data-practice-focus="bone" data-plan-view="activities" data-plan-activity-mode="hotspot"><strong>Find the Sticker</strong><small>Place a sticker on book-matched bone locations.</small></button>
+                <button class="hub-card" type="button" data-practice-focus="bone muscle" data-plan-view="labeling" data-bone-title="Bone Labeling with Word Bank" data-muscle-title="Muscle Labeling with Word Bank" data-bone-description="Label bones and markings with a term-bank scaffold." data-muscle-description="Label lower-limb muscles with a term-bank scaffold." data-bone-labeling-filter="Bones and markings" data-muscle-labeling-filter="Muscles"><strong>Labeling with Word Bank</strong><small>Label structures with a term-bank scaffold.</small></button>
+                <button class="hub-card" type="button" data-practice-focus="bone muscle" data-plan-view="practicalLabeling" data-bone-title="Bone Practical Labeling" data-muscle-title="Muscle Practical Labeling" data-bone-description="Recall bone and marking labels without a word bank." data-muscle-description="Recall lower-limb muscle labels without a word bank." data-bone-labeling-filter="Bones and markings" data-muscle-labeling-filter="Muscles"><strong>Practical-Style Labeling</strong><small>Recall labels without a word bank.</small></button>
+                <button class="hub-card" type="button" data-practice-focus="bone muscle" data-plan-view="drills" data-plan-drill-mode="sticker" data-bone-title="Bone Sticker ID" data-muscle-title="Muscle Sticker ID" data-bone-description="Identify bones and markings from sticker-style prompts." data-muscle-description="Identify muscles from sticker-style image prompts." data-bone-deck="Sticker Practical: Bones and Markings" data-muscle-deck="Sticker Practical: Muscles"><strong>Sticker Practical</strong><small>Identify structures from sticker-style prompts.</small></button>
               </div>
             </details>
             <details class="tool-group">
               <summary><span><strong>OIA and recall</strong><small>Flashcards, selector banks, reverse recall, and action lookup</small></span><span class="tool-count">4 tools</span></summary>
               <div class="hub-grid">
-                <button class="hub-card" type="button" data-plan-view="activities" data-plan-activity-mode="flashcards"><strong>OIA Flashcards</strong><small>Retrieve complete muscle OIAs.</small></button>
-                <button class="hub-card" type="button" data-plan-view="drills" data-plan-drill-mode="oiaBank"><strong>OIA Practice</strong><small>Use objective OIA selector banks.</small></button>
-                <button class="hub-card" type="button" data-plan-view="drills" data-plan-drill-mode="oiaReverse"><strong>OIA Reverse Recall</strong><small>Work backward from OIA clues.</small></button>
-                <button class="hub-card" type="button" data-plan-view="drills" data-plan-drill-mode="actionLookup"><strong>Action Lookup</strong><small>Retrieve muscles from movement language.</small></button>
+                <button class="hub-card" type="button" data-practice-focus="oia" data-plan-view="activities" data-plan-activity-mode="flashcards"><strong>OIA Flashcards</strong><small>Retrieve complete muscle OIAs.</small></button>
+                <button class="hub-card" type="button" data-practice-focus="oia" data-plan-view="drills" data-plan-drill-mode="oiaBank"><strong>OIA Practice</strong><small>Use objective OIA selector banks.</small></button>
+                <button class="hub-card" type="button" data-practice-focus="oia" data-plan-view="drills" data-plan-drill-mode="oiaReverse"><strong>OIA Reverse Recall</strong><small>Work backward from OIA clues.</small></button>
+                <button class="hub-card" type="button" data-practice-focus="oia" data-plan-view="drills" data-plan-drill-mode="actionLookup"><strong>Action Lookup</strong><small>Retrieve muscles from movement language.</small></button>
               </div>
             </details>
             <details class="tool-group">
               <summary><span><strong>Focused practice</strong><small>Region work, orientation, mixed retrieval, and confusables</small></span><span class="tool-count">4 tools</span></summary>
               <div class="hub-grid">
-                <button class="hub-card" type="button" data-plan-view="activities" data-plan-activity-mode="region"><strong>Region Sprint</strong><small>Focus tightly on one region.</small></button>
-                <button class="hub-card" type="button" data-plan-view="drills" data-plan-drill-mode="leftRight"><strong>Left/Right ID</strong><small>Practice orientation and side calls.</small></button>
-                <button class="hub-card" type="button" data-plan-view="drills" data-plan-drill-mode="retrieval"><strong>Retrieval Drills</strong><small>Mixed image and model identification.</small></button>
-                <button class="hub-card" type="button" data-plan-view="activities" data-plan-activity-mode="confusables"><strong>Confusable Pairs</strong><small>Interleave commonly mixed-up structures.</small></button>
+                <button class="hub-card" type="button" data-practice-focus="mixed" data-plan-view="activities" data-plan-activity-mode="region"><strong>Region Sprint</strong><small>Focus tightly on one region.</small></button>
+                <button class="hub-card" type="button" data-practice-focus="bone" data-plan-view="drills" data-plan-drill-mode="leftRight"><strong>Left/Right ID</strong><small>Practice bone orientation and side calls.</small></button>
+                <button class="hub-card" type="button" data-practice-focus="bone muscle" data-plan-view="drills" data-plan-drill-mode="retrieval" data-bone-title="Bone Image ID" data-muscle-title="Muscle Image ID" data-bone-description="Identify lower-limb bones and markings from images." data-muscle-description="Identify tested lower-limb muscles from model and PAL substitute images." data-bone-deck="Image ID: Bones" data-muscle-deck="Image ID: Muscles"><strong>Retrieval Drills</strong><small>Mixed image and model identification.</small></button>
+                <button class="hub-card" type="button" data-practice-focus="mixed" data-plan-view="activities" data-plan-activity-mode="confusables"><strong>Confusable Pairs</strong><small>Interleave commonly mixed-up structures.</small></button>
               </div>
             </details>
           </div>
