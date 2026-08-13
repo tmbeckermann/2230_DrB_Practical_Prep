@@ -257,12 +257,12 @@
       "category": "Muscle ID",
       "answer": "Risorius",
       "sourceTitle": "Muscles Of The Head, Right Lateral View",
-      "reviewImage": "assets/pal/muscle-atlas/focus/head-neck-0088-risorius-cut.webp",
+      "reviewImage": "assets/pal/muscle-atlas/focus/head-neck-0086-risorius-cut.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-09-m2122-pal4.webp",
       "sourceLabel": "Risorius (cut)",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0088-risorius-cut.webp",
+          "image": "assets/pal/muscle-atlas/focus/head-neck-0086-risorius-cut.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-09-m2122-pal4.webp",
           "sourceTitle": "Muscles Of The Head, Right Lateral View — focused crop",
           "sourceLabel": "Risorius (cut)"
@@ -405,7 +405,7 @@
           "sourceLabel": "Masseter"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0086-masseter.webp",
+          "image": "assets/pal/muscle-atlas/focus/head-neck-0088-masseter.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-09-m2122-pal4.webp",
           "sourceTitle": "Muscles Of The Head, Right Lateral View — focused crop",
           "sourceLabel": "Masseter"
@@ -598,12 +598,12 @@
       "category": "Muscle ID",
       "answer": "Semispinalis capitis",
       "sourceTitle": "Superficial muscles of head and neck, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/head-neck-0085-semispinalis-capitis.webp",
+      "reviewImage": "assets/pal/muscle-atlas/focus/head-neck-0084-semispinalis-capitis.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-08-m3022.webp",
       "sourceLabel": "Semispinalis capitis",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0085-semispinalis-capitis.webp",
+          "image": "assets/pal/muscle-atlas/focus/head-neck-0084-semispinalis-capitis.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-08-m3022.webp",
           "sourceTitle": "Superficial muscles of head and neck, posterior view — focused crop",
           "sourceLabel": "Semispinalis capitis"
@@ -775,12 +775,12 @@
     "Zygomaticus major": "assets/pal/muscle-atlas/focus/head-neck-0040-zygomaticus-major.webp",
     "Zygomaticus minor": "assets/pal/muscle-atlas/focus/head-neck-0041-zygomaticus-minor.webp",
     "Buccinator": "assets/pal/muscle-atlas/focus/head-neck-0087-buccinator.webp",
-    "Risorius": "assets/pal/muscle-atlas/focus/head-neck-0088-risorius-cut.webp",
+    "Risorius": "assets/pal/muscle-atlas/focus/head-neck-0086-risorius-cut.webp",
     "Orbicularis oculi": "assets/pal/muscle-atlas/focus/head-neck-0042-orbicularis-oculi.webp",
     "Masseter": "assets/pal/muscle-atlas/focus/head-neck-0038-masseter.webp",
     "Temporalis": "assets/pal/muscle-atlas/focus/head-neck-0091-temporalis.webp",
     "Sternocleidomastoid": "assets/pal/muscle-atlas/focus/head-neck-0001-sternocleidomastoid.webp",
-    "Semispinalis capitis": "assets/pal/muscle-atlas/focus/head-neck-0085-semispinalis-capitis.webp",
+    "Semispinalis capitis": "assets/pal/muscle-atlas/focus/head-neck-0084-semispinalis-capitis.webp",
     "External intercostals": "assets/pal/muscle-atlas/focus/trunk-0034-external-intercostals.webp",
     "Internal intercostals": "assets/pal/muscle-atlas/focus/trunk-0005-internal-intercostals.webp",
     "Rectus abdominis": "assets/pal/muscle-atlas/focus/trunk-0050-rectus-abdominis.webp"

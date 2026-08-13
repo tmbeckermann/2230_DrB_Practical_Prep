@@ -88,7 +88,7 @@
           "sourceLabel": "Levator scapulae"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0084-levator-scapulae.webp",
+          "image": "assets/pal/muscle-atlas/focus/head-neck-0085-levator-scapulae.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-08-m3022.webp",
           "sourceTitle": "Superficial muscles of head and neck, posterior view — focused crop",
           "sourceLabel": "Levator scapulae"
