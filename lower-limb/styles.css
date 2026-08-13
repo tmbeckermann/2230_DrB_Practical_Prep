@@ -202,6 +202,16 @@ a,
   padding: 10px 12px;
 }
 
+.course-home-nav {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.mobile-primary-nav .course-home-nav {
+  justify-content: center;
+}
+
 .nav-item:hover,
 .nav-item.active {
   background: #243647;

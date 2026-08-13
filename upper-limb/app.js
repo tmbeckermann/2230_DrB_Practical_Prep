@@ -3120,7 +3120,7 @@ function activateView(view, options = {}) {
 function updateNavActive() {
   const practiceViews = ['practiceLibrary', 'regionDrill', 'flashcards', 'simulation', 'confusablePractice', 'labeling', 'practicalLabeling', 'drills'];
   document.body.dataset.navGroup = practiceViews.includes(state.view) ? 'practice' : state.view === 'practicalMode' ? 'test' : state.view;
-  document.querySelectorAll('.nav-item').forEach((item) => {
+  document.querySelectorAll('.nav-item[data-view]').forEach((item) => {
     const itemView = item.dataset.view;
     const itemDrillMode = item.dataset.drillMode;
     let isActive = state.view === 'drills' && itemView === 'drills'
@@ -3192,7 +3192,7 @@ function init() {
     if (!isMobileNavLayout()) setMobileNavOpen(false);
   });
   setMobileNavOpen(false);
-  document.querySelectorAll('.nav-item').forEach((item) => {
+  document.querySelectorAll('.nav-item[data-view]').forEach((item) => {
     item.addEventListener('click', () => {
       const view = item.dataset.view;
       const drillMode = item.dataset.drillMode;

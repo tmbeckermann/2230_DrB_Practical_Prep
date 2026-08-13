@@ -211,6 +211,12 @@ a,
   padding: 10px 12px;
 }
 
+.course-home-nav {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
 .nav-item:hover,
 .nav-item.active {
   background: #243647;
