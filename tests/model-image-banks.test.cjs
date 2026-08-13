@@ -76,7 +76,7 @@ for (const [section, expectation] of Object.entries(expected)) {
       assert.ok(item.assessmentContextLabel, `${section}: ${row.item} image needs a student-facing context label`);
       assert.ok(fs.existsSync(path.join(root, section, item.image)), `${section}: missing asset ${item.image}`);
       if (item.sourceKind === 'pal-atlas-substitute') {
-        assert.match(item.sourceDescription, /not a Belmont lab-model photo/i, `${section}: PAL substitute disclaimer`);
+        assert.match(item.sourceDescription, /not a course lab-model photo/i, `${section}: PAL substitute disclaimer`);
       }
       if (item.sourceKind === 'course-practical-image') {
         assert.equal(item.questionReady, false, `${section}: multi-label course reference must not become a single-answer prompt`);

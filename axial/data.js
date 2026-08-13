@@ -122,7 +122,7 @@ window.STUDY_DATA = {
       sourceTitle: 'Facial and anterior neck muscles - Canvas practical image',
       sourceKind: 'course-practical-image',
       sourceTypeLabel: 'Course practical image',
-      sourceDescription: 'Course image with multiple lettered structures. It is a reference image, not a Belmont lab-model photo or a single-answer highlighted prompt.',
+      sourceDescription: 'Course image with multiple lettered structures. It is a reference image, not a course lab-model photo or a single-answer highlighted prompt.',
       questionReady: false
     }])),
   muscleImageLookup: { 'Orbicularis oris': facialImage, 'Orbicularis oculi': facialImage, 'Zygomaticus major': facialImage, 'Zygomaticus minor': facialImage, 'Buccinator': facialImage, 'Platysma': facialImage, 'Risorius': facialImage, 'Corrugator supercilii': facialImage, 'Masseter': facialImage, 'Temporalis': facialImage, 'Sternocleidomastoid': facialImage },

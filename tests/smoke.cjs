@@ -52,9 +52,10 @@ const server = http.createServer((request, response) => {
     await page.waitForSelector('#dashboard.active-view');
     const lowerHeader = await page.evaluate(() => ({
       heading: document.querySelector('.topbar h1')?.textContent.trim() || '',
-      eyebrow: document.querySelector('.topbar .topbar-eyebrow')?.textContent.trim() || ''
+      eyebrow: document.querySelector('.topbar .topbar-eyebrow')?.textContent.trim() || '',
+      regionsLabel: document.querySelector('.course-menu-link')?.textContent.trim() || ''
     }));
-    if (lowerHeader.heading !== 'Lower Limb Practical' || lowerHeader.eyebrow) {
+    if (lowerHeader.heading !== 'Lower Limb Practical' || lowerHeader.eyebrow || lowerHeader.regionsLabel !== '← All study regions') {
       errors.push(`${viewport.width}px: lower-limb header still uses the numbered practical label`);
     }
     const lowerHomeLinks = await page.locator('.course-home-nav').evaluateAll((links) => links.map((link) => link.href));
@@ -130,7 +131,12 @@ const server = http.createServer((request, response) => {
     guideItems: document.querySelectorAll('.directory-guide .guide-item').length,
     homeLinks: Array.from(document.querySelectorAll('.jump-links a, .back-link'))
       .filter((link) => /home/i.test(link.textContent))
-      .map((link) => ({ label: link.textContent.trim(), href: link.href }))
+      .map((link) => ({ label: link.textContent.trim(), href: link.href })),
+    makerHref: document.querySelector('footer .maker-mark')?.getAttribute('href') || '',
+    makerImage: document.querySelector('footer .maker-mark img')?.getAttribute('src') || '',
+    makerLabel: document.querySelector('footer .maker-mark')?.getAttribute('aria-label') || '',
+    makerTooltip: document.querySelector('footer .maker-mark')?.getAttribute('data-tooltip') || '',
+    makerImageLoaded: Boolean(document.querySelector('footer .maker-mark img')?.complete && document.querySelector('footer .maker-mark img')?.naturalWidth)
   }));
   if (directoryMeta.heading !== 'Anatomy practical study directory' || directoryMeta.guideItems !== 3) {
     errors.push('activity links: community-facing directory introduction is incomplete');
@@ -145,6 +151,12 @@ const server = http.createServer((request, response) => {
   }
   if (directoryMeta.homeLinks.length !== 2 || directoryMeta.homeLinks.some((link) => link.href !== 'https://tmbeckermann.github.io/2230_DrB_Practical_Prep/')) {
     errors.push('activity links: Home links do not open the public BIO 2230 landing page');
+  }
+  if (directoryMeta.makerHref !== 'mailto:tom.beckermann@belmont.edu?subject=BIO%202230%20Study%20Site' ||
+      directoryMeta.makerImage !== 'assets/built-by-beckermann.png?v=2' ||
+      directoryMeta.makerLabel !== 'Email Dr. Beckermann' || directoryMeta.makerTooltip !== 'Email Dr. Beckermann' ||
+      !directoryMeta.makerImageLoaded) {
+    errors.push('activity links: Built by Beckermann footer email mark is missing or broken');
   }
   const activityLinks = await activityLinksPage.locator('.section-card a').evaluateAll((links) => links.map((link) => ({
     href: link.getAttribute('href'),
@@ -198,39 +210,39 @@ const server = http.createServer((request, response) => {
   if (await landingPage.getByText('Rough draft', { exact: true }).count()) {
     errors.push('course menu: Axial still displays Rough draft');
   }
-  await landingPage.locator('.maker-mark img').evaluate((image) => image.complete
-    ? undefined
-    : new Promise((resolve) => {
-      image.addEventListener('load', resolve, { once: true });
-      image.addEventListener('error', resolve, { once: true });
-    }));
   const landingCopy = await landingPage.locator('body').innerText();
   const landingMeta = await landingPage.evaluate(() => ({
+    title: document.title,
     heading: document.querySelector('h1')?.textContent.trim() || '',
+    brandTitle: document.querySelector('.brand-title')?.textContent.trim() || '',
     courseContext: Boolean(document.querySelector('.course-context')),
     referenceNote: Boolean(document.querySelector('.reference-note')),
     referenceHeading: document.querySelector('.reference-note h2')?.textContent.trim() || '',
     referenceText: document.querySelector('.reference-note')?.textContent.replace(/\s+/g, ' ').trim() || '',
-    heroGridColumn: getComputedStyle(document.querySelector('h1')).gridColumn,
-    heroTitleWidth: document.querySelector('h1')?.getBoundingClientRect().width || 0,
-    heroInnerWidth: document.querySelector('.hero-inner')?.getBoundingClientRect().width || 0,
-    referenceAlignmentGap: Math.abs((document.querySelector('.hero-copy')?.getBoundingClientRect().top || 0) - (document.querySelector('.reference-note')?.getBoundingClientRect().top || 0)),
+    referenceAfterRegions: Boolean(document.querySelector('.practical-grid + .reference-note')),
+    referenceTop: document.querySelector('.reference-note')?.getBoundingClientRect().top || 0,
+    regionGridTop: document.querySelector('.practical-grid')?.getBoundingClientRect().top || 0,
     boxedCourseNote: Boolean(document.querySelector('.continue-card')),
     duplicateRegionButton: Boolean(document.querySelector('.reference-note a[href="#study-regions"]')),
     availableTags: Array.from(document.querySelectorAll('.practical-topline')).filter((node) => node.textContent.includes('Available')).length,
     textbookHref: document.querySelector('.textbook-link')?.href || '',
     emailHref: document.querySelector('footer a[href^="mailto:"]')?.getAttribute('href') || '',
     makerHref: document.querySelector('.maker-mark')?.getAttribute('href') || '',
-    makerImageSrc: document.querySelector('.maker-mark img')?.getAttribute('src') || '',
-    makerImageAlt: document.querySelector('.maker-mark img')?.getAttribute('alt') || '',
+    makerImage: document.querySelector('.maker-mark img')?.getAttribute('src') || '',
+    makerLabel: document.querySelector('.maker-mark')?.getAttribute('aria-label') || '',
+    makerTooltip: document.querySelector('.maker-mark')?.getAttribute('data-tooltip') || '',
     makerImageLoaded: Boolean(document.querySelector('.maker-mark img')?.complete && document.querySelector('.maker-mark img')?.naturalWidth),
-    makerIsLast: document.querySelector('.footer-actions')?.lastElementChild === document.querySelector('.maker-mark'),
-    makerAtRightEdge: Math.abs((document.querySelector('.footer-inner')?.getBoundingClientRect().right || 0) - (document.querySelector('.maker-mark')?.getBoundingClientRect().right || 0)) < 2,
-    contactText: document.querySelector('.footer-actions > a:not(.maker-mark)')?.textContent.trim() || '',
+    footerText: document.querySelector('.footer-inner > span')?.textContent.trim() || '',
+    contactText: document.querySelector('.footer-actions > a')?.textContent.trim() || '',
     resetGuidance: document.querySelector('.progress-note details p')?.textContent.trim() || ''
   }));
   if (landingMeta.heading !== 'BIO 2230 Practical Prep') {
     errors.push('course menu: landing heading was not simplified');
+  }
+  if (landingMeta.title !== 'BIO 2230 Practical Prep' ||
+      landingMeta.brandTitle !== 'BIO 2230 Practical Prep' ||
+      landingCopy.includes('Dr. Beckermann') || landingCopy.includes('Belmont University')) {
+    errors.push('course menu: instructor- or institution-specific lineage remains in the landing copy');
   }
   if (landingMeta.courseContext || !landingMeta.referenceNote || landingMeta.boxedCourseNote || landingMeta.duplicateRegionButton) {
     errors.push('course menu: old course context remains or the reference note is missing');
@@ -242,9 +254,8 @@ const server = http.createServer((request, response) => {
       landingCopy.includes('Course context') || landingCopy.includes('A note for students')) {
     errors.push('course menu: versioned reference and professor guidance are incomplete');
   }
-  if (landingMeta.heroTitleWidth < landingMeta.heroInnerWidth - 2 ||
-      landingMeta.referenceAlignmentGap > 2) {
-    errors.push('course menu: title does not span the hero or reference note is misaligned');
+  if (!landingMeta.referenceAfterRegions || landingMeta.referenceTop <= landingMeta.regionGridTop) {
+    errors.push('course menu: reference information appears before the study-region choices');
   }
   if (!landingCopy.includes('Choose your current study region')) {
     errors.push('course menu: missing sequence-neutral region choice');
@@ -268,15 +279,15 @@ const server = http.createServer((request, response) => {
   if (landingMeta.emailHref !== 'mailto:tom.beckermann@belmont.edu?subject=BIO%202230%20Study%20Site') {
     errors.push('course menu: support email is missing the BIO 2230 Study Site subject');
   }
-  if (!landingCopy.includes("BIO 2230 · Dr. Beckermann's Practical Prep") ||
-      landingMeta.makerHref !== landingMeta.emailHref ||
-      landingMeta.makerImageSrc !== 'assets/built-by-beckermann.png' ||
-      landingMeta.makerImageAlt !== 'Built by Beckermann' ||
-      !landingMeta.makerImageLoaded || !landingMeta.makerIsLast || !landingMeta.makerAtRightEdge) {
-    errors.push('course menu: revised footer branding is incomplete');
+  if (landingMeta.footerText !== 'BIO 2230 Practical Prep' ||
+      landingMeta.makerHref !== 'mailto:tom.beckermann@belmont.edu?subject=BIO%202230%20Study%20Site' ||
+      landingMeta.makerImage !== 'assets/built-by-beckermann.png?v=2' ||
+      landingMeta.makerLabel !== 'Email Dr. Beckermann' || landingMeta.makerTooltip !== 'Email Dr. Beckermann' ||
+      !landingMeta.makerImageLoaded) {
+    errors.push('course menu: neutral footer or Built by Beckermann email mark is incomplete');
   }
-  if (landingMeta.contactText !== 'Questions or comments? Email Dr. Beckermann') {
-    errors.push('course menu: footer contact invitation was not changed to comments');
+  if (landingMeta.contactText !== 'Site questions or comments?') {
+    errors.push('course menu: neutral support wording is missing');
   }
   if (/Practical 0[123]/.test(landingCopy)) {
     errors.push('course menu: study regions are still numbered as a universal sequence');
@@ -289,6 +300,8 @@ const server = http.createServer((request, response) => {
     await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html`, { waitUntil: 'domcontentloaded' });
     await landingPage.waitForSelector('#dashboard.active-view');
     const accessibility = await landingPage.evaluate(() => ({
+      brandSubtitle: document.querySelector('.brand-subtitle')?.textContent.trim() || '',
+      regionsLabel: document.querySelector('.course-menu-link')?.textContent.trim() || '',
       searchLabel: document.querySelector('#globalSearch')?.getAttribute('aria-label') || '',
       primaryNavItems: document.querySelectorAll('#studyNav > .nav-item').length,
       homeHref: document.querySelector('#studyNav > .course-home-nav')?.href || '',
@@ -298,6 +311,10 @@ const server = http.createServer((request, response) => {
       contactText: document.querySelector('.sidebar-contact')?.textContent.trim() || ''
     }));
     if (!accessibility.searchLabel) errors.push(`${section}: search is missing an accessible label`);
+    const expectedSubtitle = section === 'upper-limb' ? 'Upper Limb Practical' : 'Axial Practical';
+    if (accessibility.brandSubtitle !== expectedSubtitle || accessibility.regionsLabel !== '← All study regions') {
+      errors.push(`${section}: numbered practical or old All practicals wording remains`);
+    }
     if (accessibility.primaryNavItems !== 5) errors.push(`${section}: expected five primary navigation choices`);
     if (accessibility.homeTag !== 'A' || accessibility.homeHref !== 'https://tmbeckermann.github.io/2230_DrB_Practical_Prep/') {
       errors.push(`${section}: Home does not open the public BIO 2230 landing page`);
@@ -487,7 +504,12 @@ const server = http.createServer((request, response) => {
       hasDialogRelationship: document.querySelector('#resetProgress')?.getAttribute('aria-controls') === 'resetConfirmDialog',
       buttonWidth: document.querySelector('#resetProgress')?.getBoundingClientRect().width || 0,
       sidebarWidth: document.querySelector('.sidebar')?.getBoundingClientRect().width || 0,
-      contactText: document.querySelector('.sidebar-contact')?.textContent.trim() || ''
+      contactText: document.querySelector('.sidebar-contact')?.textContent.trim() || '',
+      makerHref: document.querySelector('.site-credit .maker-mark')?.getAttribute('href') || '',
+      makerImage: document.querySelector('.site-credit .maker-mark img')?.getAttribute('src') || '',
+      makerLabel: document.querySelector('.site-credit .maker-mark')?.getAttribute('aria-label') || '',
+      makerTooltip: document.querySelector('.site-credit .maker-mark')?.getAttribute('data-tooltip') || '',
+      makerImageLoaded: Boolean(document.querySelector('.site-credit .maker-mark img')?.complete && document.querySelector('.site-credit .maker-mark img')?.naturalWidth)
     }));
     if (resetControl.count !== 1 || resetControl.label !== 'Reset saved work' || !resetControl.inSidebar || resetControl.inDialog ||
         resetControl.dialogCount !== 1 || !resetControl.hasDialogRelationship) {
@@ -495,6 +517,12 @@ const server = http.createServer((request, response) => {
     }
     if (resetControl.buttonWidth >= resetControl.sidebarWidth * 0.8) {
       errors.push(`${section}: Reset saved work control is still visually oversized`);
+    }
+    if (resetControl.makerHref !== 'mailto:tom.beckermann@belmont.edu?subject=BIO%202230%20Study%20Site' ||
+        resetControl.makerImage !== '../assets/built-by-beckermann.png?v=2' ||
+        resetControl.makerLabel !== 'Email Dr. Beckermann' || resetControl.makerTooltip !== 'Email Dr. Beckermann' ||
+        !resetControl.makerImageLoaded) {
+      errors.push(`${section}: Built by Beckermann footer email mark is missing or broken`);
     }
     if (section === 'upper-limb' || section === 'axial') {
       await landingPage.locator('#libraryNavToggle').click();
@@ -569,7 +597,7 @@ const server = http.createServer((request, response) => {
       stringBankEntries: window.STUDY_DATA.modelKey.flatMap((row) => row.images).filter((item) => typeof item === 'string').length
     }));
     if (!modelPage.header.includes('Practice image bank')) errors.push(`${section}: model table still labels repository images as lab images`);
-    if (!modelPage.summary.includes('PAL atlas substitute') || !modelPage.summary.includes('No Belmont lab-model photos are currently claimed')) {
+    if (!modelPage.summary.includes('PAL atlas substitute') || !modelPage.summary.includes('No course lab-model photos are currently claimed')) {
       errors.push(`${section}: model image provenance summary is incomplete`);
     }
     if (modelPage.stats.sourceCounts['lab-model-photo'] !== 0) errors.push(`${section}: fabricated lab-model source count`);
@@ -607,7 +635,7 @@ const server = http.createServer((request, response) => {
         practicePaths: Array.from(document.querySelectorAll('#visualGallery .visual-compare-panel:first-child img'))
           .map((image) => image.getAttribute('src') || '')
       }));
-      if (visualReference.sourceBadge !== 'PAL atlas substitute' || !visualReference.text.includes('not a Belmont lab-model photo')) {
+      if (visualReference.sourceBadge !== 'PAL atlas substitute' || !visualReference.text.includes('not a course lab-model photo')) {
         errors.push(`${section}: visual muscle reference does not clearly disclose its PAL atlas source`);
       }
       if (!visualReference.completePairs || !visualReference.pairCount || visualReference.text.includes('focused crop')) {
@@ -664,7 +692,7 @@ const server = http.createServer((request, response) => {
     if (new Set(practicalCheck.modelSamplingKeys).size !== practicalCheck.modelSamplingKeys.length) {
       errors.push(`${section}: mixed practical repeated a muscle before using distinct model-ID structures`);
     }
-    if (practicalCheck.modelSources.some((source) => source.sourceKind !== 'pal-atlas-substitute' || source.sourceTypeLabel !== 'PAL atlas substitute' || !source.sourceDescription.includes('not a Belmont lab-model photo'))) {
+    if (practicalCheck.modelSources.some((source) => source.sourceKind !== 'pal-atlas-substitute' || source.sourceTypeLabel !== 'PAL atlas substitute' || !source.sourceDescription.includes('not a course lab-model photo'))) {
       errors.push(`${section}: muscle-ID practical question hides or misstates image provenance`);
     }
     if (!practicalCheck.setupText.includes('Extra image views do not give muscle ID extra weight')) {

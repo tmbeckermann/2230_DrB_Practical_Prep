@@ -74,7 +74,12 @@
     .review-grid h3 { margin: 0 0 10px; }
     .review-grid ul { gap: 6px; }
     .review-grid li a { background: transparent; padding: 5px 3px; }
-    footer { margin-top: 32px; }
+    footer { display: flex; align-items: center; justify-content: space-between; gap: 18px; margin-top: 32px; padding-top: 20px; border-top: 1px solid var(--line); }
+    .maker-mark { display: inline-flex; flex: 0 0 auto; border-radius: 50%; position: relative; text-decoration: none; }
+    .maker-mark img { display: block; width: 58px; height: 58px; border-radius: 50%; object-fit: contain; }
+    .maker-mark:hover, .maker-mark:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    .maker-mark::after { position: absolute; right: 0; bottom: calc(100% + 10px); z-index: 3; width: max-content; max-width: 180px; border-radius: 8px; background: var(--ink); color: #fff; content: attr(data-tooltip); font-size: .72rem; font-weight: 700; line-height: 1.2; opacity: 0; padding: 7px 9px; pointer-events: none; transform: translateY(4px); transition: opacity 140ms ease, transform 140ms ease; }
+    .maker-mark:hover::after, .maker-mark:focus-visible::after { opacity: 1; transform: translateY(0); }
     @media (max-width: 860px) { .guide-grid, .section-grid, .review-grid { grid-template-columns: 1fr; } }
   </style>
 </head>
@@ -241,7 +246,12 @@
       </div>
     </section>
 
-    <footer><a class="back-link" href="https://tmbeckermann.github.io/2230_DrB_Practical_Prep/">Back to study site home</a></footer>
+    <footer>
+      <a class="back-link" href="https://tmbeckermann.github.io/2230_DrB_Practical_Prep/">Back to study site home</a>
+      <a class="maker-mark" href="mailto:tom.beckermann@belmont.edu?subject=BIO%202230%20Study%20Site" aria-label="Email Dr. Beckermann" data-tooltip="Email Dr. Beckermann">
+        <img src="assets/built-by-beckermann.png?v=2" alt="Built by Beckermann">
+      </a>
+    </footer>
   </main>
 </body>
 </html>
