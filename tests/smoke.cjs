@@ -276,8 +276,9 @@ const server = http.createServer((request, response) => {
   }
   for (const section of ['upper-limb', 'axial']) {
     await landingPage.goto(`http://127.0.0.1:${port}/`, { waitUntil: 'domcontentloaded' });
-    const linkCount = await landingPage.locator(`a[href="${section}/index.html"]`).count();
-    if (!linkCount) errors.push(`course menu: missing ${section} link`);
+    const expectedLearnHref = `${section}/index.html?focus=all#learnHub`;
+    const linkCount = await landingPage.locator(`a[href="${expectedLearnHref}"]`).count();
+    if (!linkCount) errors.push(`course menu: ${section} does not open Learn with All selected`);
     await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html`, { waitUntil: 'domcontentloaded' });
     await landingPage.waitForSelector('#dashboard.active-view');
     const accessibility = await landingPage.evaluate(() => ({
@@ -346,6 +347,10 @@ const server = http.createServer((request, response) => {
     }
     await landingPage.setViewportSize({ width: 1280, height: 800 });
   }
+
+  await landingPage.goto(`http://127.0.0.1:${port}/`, { waitUntil: 'domcontentloaded' });
+  const lowerLearnLinkCount = await landingPage.locator('a[href="lower-limb/index.html?focus=all#learnHub"]').count();
+  if (!lowerLearnLinkCount) errors.push('course menu: lower-limb does not open Learn with All selected');
 
   const expectedMuscleFocusTitles = {
     'lower-limb': ['Muscle Labeling with Word Bank', 'Muscle Practical Labeling', 'Muscle Sticker ID', 'Muscle Image ID'],
