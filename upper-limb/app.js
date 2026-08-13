@@ -9,6 +9,7 @@ const state = {
   muscleGroup: 'All',
   visualCategory: 'All',
   practiceFocus: 'all',
+  learnFocus: 'all',
   labelingOrder: [],
   labelingIndex: 0,
   labelingKey: '',
@@ -134,6 +135,49 @@ function initPracticeFocusControls() {
     });
   });
   applyPracticeFocus(new URLSearchParams(window.location.search).get('focus') || 'all');
+}
+
+const LEARN_FOCUS_STATUS = {
+  all: 'Showing every upper-limb learning resource.',
+  bone: 'Showing bone and marking learning resources only.',
+  muscle: 'Showing arm-model identification and muscle-labeling resources only.',
+  oia: 'Showing origin, insertion, and action learning resources only.'
+};
+
+function applyLearnFocus(requestedFocus = 'all') {
+  const root = byId('learnHub');
+  if (!root) return;
+  const focus = Object.hasOwn(LEARN_FOCUS_STATUS, requestedFocus) ? requestedFocus : 'all';
+  state.learnFocus = focus;
+  root.querySelectorAll('[data-learn-focus]').forEach((card) => {
+    const cardFocus = String(card.dataset.learnFocus || '').split(/\s+/);
+    card.hidden = focus !== 'all' && !cardFocus.includes(focus);
+    const title = card.querySelector('strong');
+    const description = card.querySelector('small') || card.querySelector('span:not(.mode-icon)');
+    if (title && !card.dataset.allTitle) card.dataset.allTitle = title.textContent;
+    if (description && !card.dataset.allDescription) card.dataset.allDescription = description.textContent;
+    if (title) title.textContent = focus === 'all' ? card.dataset.allTitle : (card.dataset[`${focus}Title`] || card.dataset.allTitle);
+    if (description) description.textContent = focus === 'all' ? card.dataset.allDescription : (card.dataset[`${focus}Description`] || card.dataset.allDescription);
+    const requestedLabelingFilter = focus === 'all' ? '' : card.dataset[`${focus}LabelingFilter`];
+    if (requestedLabelingFilter) card.dataset.planLabelingFilter = requestedLabelingFilter;
+    else delete card.dataset.planLabelingFilter;
+  });
+  root.querySelectorAll('.learn-focus-options input').forEach((input) => {
+    input.checked = input.value === focus;
+  });
+  const status = root.querySelector('.learn-focus-status');
+  if (status) status.textContent = LEARN_FOCUS_STATUS[focus];
+}
+
+function initLearnFocusControls() {
+  const root = byId('learnHub');
+  if (!root) return;
+  root.querySelectorAll('.learn-focus-options input').forEach((input) => {
+    input.addEventListener('change', () => {
+      if (input.checked) applyLearnFocus(input.value);
+    });
+  });
+  applyLearnFocus(new URLSearchParams(window.location.search).get('focus') || 'all');
 }
 
 function escapeHtml(value) {
@@ -3186,8 +3230,9 @@ function activateView(view, options = {}) {
 }
 
 function updateNavActive() {
-  const practiceViews = ['practiceLibrary', 'regionDrill', 'flashcards', 'simulation', 'confusablePractice', 'labeling', 'practicalLabeling', 'drills'];
-  document.body.dataset.navGroup = practiceViews.includes(state.view) ? 'practice' : state.view === 'practicalMode' ? 'test' : state.view;
+  const learnViews = ['learnHub', 'bones', 'models', 'muscles', 'labeling'];
+  const practiceViews = ['practiceLibrary', 'regionDrill', 'flashcards', 'simulation', 'confusablePractice', 'practicalLabeling', 'drills'];
+  document.body.dataset.navGroup = learnViews.includes(state.view) ? 'learn' : practiceViews.includes(state.view) ? 'practice' : state.view === 'practicalMode' ? 'test' : state.view;
   document.querySelectorAll('.nav-item[data-view]').forEach((item) => {
     const itemView = item.dataset.view;
     const itemDrillMode = item.dataset.drillMode;
@@ -3195,6 +3240,7 @@ function updateNavActive() {
       ? itemDrillMode === state.drillMode
       : itemView === state.view && !itemDrillMode;
     if (itemView === 'practiceLibrary' && practiceViews.includes(state.view)) isActive = true;
+    if (itemView === 'learnHub' && learnViews.includes(state.view)) isActive = true;
     item.classList.toggle('active', isActive);
   });
   const moreTools = document.querySelector('.nav-more');
@@ -3248,6 +3294,7 @@ function closeMobileNavOnSmallScreen() {
 
 function init() {
   initPracticeFocusControls();
+  initLearnFocusControls();
   byId('mobileNavToggle')?.addEventListener('click', () => {
     const sidebar = document.querySelector('.sidebar');
     setMobileNavOpen(!sidebar?.classList.contains('mobile-nav-open'));

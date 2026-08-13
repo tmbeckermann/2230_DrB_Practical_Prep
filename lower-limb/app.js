@@ -11,6 +11,7 @@ const state = {
   muscleGroup: 'All',
   visualCategory: 'All',
   practiceFocus: 'all',
+  learnFocus: 'all',
   labelingOrder: [],
   labelingIndex: 0,
   labelingKey: '',
@@ -135,6 +136,49 @@ function initPracticeFocusControls() {
     });
   });
   applyPracticeFocus(new URLSearchParams(window.location.search).get('focus') || 'all');
+}
+
+const LEARN_FOCUS_STATUS = {
+  all: 'Showing every lower-limb learning resource.',
+  bone: 'Showing bone and marking learning resources only.',
+  muscle: 'Showing muscle identification and muscle-labeling resources only.',
+  oia: 'Showing origin, insertion, and action learning resources only.'
+};
+
+function applyLearnFocus(requestedFocus = 'all') {
+  const root = byId('learnHub');
+  if (!root) return;
+  const focus = Object.hasOwn(LEARN_FOCUS_STATUS, requestedFocus) ? requestedFocus : 'all';
+  state.learnFocus = focus;
+  root.querySelectorAll('[data-learn-focus]').forEach((card) => {
+    const cardFocus = String(card.dataset.learnFocus || '').split(/\s+/);
+    card.hidden = focus !== 'all' && !cardFocus.includes(focus);
+    const title = card.querySelector('strong');
+    const description = card.querySelector('small') || card.querySelector('span:not(.mode-icon)');
+    if (title && !card.dataset.allTitle) card.dataset.allTitle = title.textContent;
+    if (description && !card.dataset.allDescription) card.dataset.allDescription = description.textContent;
+    if (title) title.textContent = focus === 'all' ? card.dataset.allTitle : (card.dataset[`${focus}Title`] || card.dataset.allTitle);
+    if (description) description.textContent = focus === 'all' ? card.dataset.allDescription : (card.dataset[`${focus}Description`] || card.dataset.allDescription);
+    const requestedLabelingFilter = focus === 'all' ? '' : card.dataset[`${focus}LabelingFilter`];
+    if (requestedLabelingFilter) card.dataset.planLabelingFilter = requestedLabelingFilter;
+    else delete card.dataset.planLabelingFilter;
+  });
+  root.querySelectorAll('.learn-focus-options input').forEach((input) => {
+    input.checked = input.value === focus;
+  });
+  const status = root.querySelector('.learn-focus-status');
+  if (status) status.textContent = LEARN_FOCUS_STATUS[focus];
+}
+
+function initLearnFocusControls() {
+  const root = byId('learnHub');
+  if (!root) return;
+  root.querySelectorAll('.learn-focus-options input').forEach((input) => {
+    input.addEventListener('change', () => {
+      if (input.checked) applyLearnFocus(input.value);
+    });
+  });
+  applyLearnFocus(new URLSearchParams(window.location.search).get('focus') || 'all');
 }
 
 function escapeHtml(value) {
@@ -3781,6 +3825,7 @@ function bindProgressTools() {
 
 function init() {
   initPracticeFocusControls();
+  initLearnFocusControls();
   learningVariants = allLearningVariants();
   learningCoach = window.LearningEngine.create({ storage: localStorage, variants: learningVariants });
   learningCoach.loadAndMigrate();

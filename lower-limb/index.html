@@ -142,11 +142,21 @@
         <div class="view-heading">
           <div><p class="topbar-eyebrow">Learn</p><h2>Build the visual map</h2><p class="muted">Use these pages for first-pass learning and targeted repair.</p></div>
         </div>
+        <section class="practice-focus-control" role="group" aria-labelledby="lower-learn-focus-heading">
+          <h3 id="lower-learn-focus-heading">Study focus</h3>
+          <div class="learn-focus-options practice-focus-options" role="radiogroup" aria-label="Filter lower-limb learning resources by study focus">
+            <label><input type="radio" name="lower-learn-focus" value="all" checked><span>All</span></label>
+            <label><input type="radio" name="lower-learn-focus" value="bone"><span>Bone ID</span></label>
+            <label><input type="radio" name="lower-learn-focus" value="muscle"><span>Muscle ID</span></label>
+            <label><input type="radio" name="lower-learn-focus" value="oia"><span>OIAs</span></label>
+          </div>
+          <p class="learn-focus-status practice-focus-status" aria-live="polite">Showing every lower-limb learning resource.</p>
+        </section>
         <div class="hub-grid">
-          <button class="hub-card" type="button" data-plan-view="bones"><span>Bones &amp; markings</span><strong>Learn structures by region</strong><small>Course checklist, landmarks, and common traps.</small></button>
-          <button class="hub-card" type="button" data-plan-view="models"><span>Muscle ID</span><strong>Match model tags to muscles</strong><small>Images and practical model identification list.</small></button>
-          <button class="hub-card" type="button" data-plan-view="muscles"><span>Muscle OIAs</span><strong>Study origin, insertion, and action</strong><small>Course OIA tables with landmark links.</small></button>
-          <button class="hub-card" type="button" data-plan-view="labeling"><span>Scaffolded labeling</span><strong>Practice with a word bank</strong><small>Use support before moving to recall-only practice.</small></button>
+          <button class="hub-card" type="button" data-learn-focus="bone" data-plan-view="bones"><span>Bones &amp; markings</span><strong>Learn structures by region</strong><small>Course checklist, landmarks, and common traps.</small></button>
+          <button class="hub-card" type="button" data-learn-focus="muscle" data-plan-view="models"><span>Muscle ID</span><strong>Match model tags to muscles</strong><small>Images and practical model identification list.</small></button>
+          <button class="hub-card" type="button" data-learn-focus="oia" data-plan-view="muscles"><span>Muscle OIAs</span><strong>Study origin, insertion, and action</strong><small>Course OIA tables with landmark links.</small></button>
+          <button class="hub-card" type="button" data-learn-focus="bone muscle" data-plan-view="labeling" data-bone-title="Learn bone labeling" data-muscle-title="Learn muscle labeling" data-bone-description="Use a bone and marking word bank before moving to recall-only practice." data-muscle-description="Use a lower-limb muscle word bank before moving to recall-only practice." data-bone-labeling-filter="Bones and markings" data-muscle-labeling-filter="Muscles"><span>Scaffolded labeling</span><strong>Practice with a word bank</strong><small>Use support before moving to recall-only practice.</small></button>
         </div>
       </section>
 
@@ -154,8 +164,8 @@
         <div class="view-heading">
           <div><p class="topbar-eyebrow">Practice library</p><h2>Choose practice with a purpose</h2><p class="muted">Today's Practice is recommended. Use the library when you know what needs work.</p></div>
         </div>
-        <fieldset class="practice-focus-control">
-          <legend>Study focus</legend>
+        <section class="practice-focus-control" role="group" aria-labelledby="lower-practice-focus-heading">
+          <h3 id="lower-practice-focus-heading">Study focus</h3>
           <div class="practice-focus-options" role="radiogroup" aria-label="Filter lower-limb activities by study focus">
             <label><input type="radio" name="lower-practice-focus" value="all" checked><span>All</span></label>
             <label><input type="radio" name="lower-practice-focus" value="bone"><span>Bone ID</span></label>
@@ -163,7 +173,7 @@
             <label><input type="radio" name="lower-practice-focus" value="oia"><span>OIAs</span></label>
           </div>
           <p class="practice-focus-status" aria-live="polite">Showing the complete lower-limb practice library.</p>
-        </fieldset>
+        </section>
         <div class="practice-library">
           <section class="featured-tools"><div class="library-label"><div><span>Recommended</span><h3>Start here</h3></div><p>Two good choices when you do not need a specific drill.</p></div><div class="hub-grid">
             <button class="hub-card recommended" type="button" data-practice-focus="mixed" data-plan-view="activities" data-plan-activity-mode="today"><span>Adaptive</span><strong>Today's Practice</strong><small>Due reviews, recent misses, weak concepts, and a few new items.</small></button>
