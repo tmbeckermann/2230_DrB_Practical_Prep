@@ -50,6 +50,13 @@ const server = http.createServer((request, response) => {
     page.on('pageerror', (error) => errors.push(`${viewport.width}px: ${error.message}`));
     await page.goto(`http://127.0.0.1:${port}/lower-limb/index.html`, { waitUntil: 'domcontentloaded' });
     await page.waitForSelector('#dashboard.active-view');
+    const lowerHeader = await page.evaluate(() => ({
+      heading: document.querySelector('.topbar h1')?.textContent.trim() || '',
+      eyebrow: document.querySelector('.topbar .topbar-eyebrow')?.textContent.trim() || ''
+    }));
+    if (lowerHeader.heading !== 'Lower Limb Practical' || lowerHeader.eyebrow) {
+      errors.push(`${viewport.width}px: lower-limb header still uses the numbered practical label`);
+    }
     const lowerHomeLinks = await page.locator('.course-home-nav').evaluateAll((links) => links.map((link) => link.href));
     if (lowerHomeLinks.length !== 2 || lowerHomeLinks.some((href) => href !== 'https://tmbeckermann.github.io/2230_DrB_Practical_Prep/')) {
       errors.push(`${viewport.width}px: lower-limb Home links do not open the public BIO 2230 landing page`);
