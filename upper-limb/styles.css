@@ -1181,10 +1181,56 @@ button.status-pill:focus-visible {
   gap: 12px;
 }
 
+.visual-view-pairs {
+  display: grid;
+  gap: 18px;
+}
+
+.visual-view-pair + .visual-view-pair {
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+
+.visual-pair-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 0 0 9px;
+  color: var(--text);
+  font-size: 13px;
+}
+
+.visual-pair-heading span {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  background: var(--surface-alt);
+  padding: 3px 8px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.visual-card .image-source-note {
+  margin: 10px 0 12px;
+}
+
 .visual-compare-panel h4 {
   color: var(--text);
   font-size: 14px;
   margin: 0 0 8px;
+}
+
+@media (max-width: 700px) {
+  .visual-compare-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .visual-pair-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
 
 .visual-image-block {
