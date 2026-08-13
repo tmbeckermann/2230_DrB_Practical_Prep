@@ -3800,8 +3800,8 @@ button.status-pill:focus-visible {
   box-shadow: var(--shadow);
 }
 
-.practice-focus-control legend {
-  padding: 0 6px;
+.practice-focus-control > h3 {
+  margin: 0 0 14px;
   color: var(--blue-strong);
   font-family: Fraunces, Georgia, serif;
   font-size: 18px;
@@ -3857,7 +3857,8 @@ button.status-pill:focus-visible {
   font-size: 12px;
 }
 
-#practiceLibrary [hidden] {
+#practiceLibrary [hidden],
+#learnHub [hidden] {
   display: none !important;
 }
 

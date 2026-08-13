@@ -27,7 +27,7 @@
       <nav id="studyNav" class="nav-list">
         <div class="nav-section-title">Recommended path</div>
         <a class="nav-item course-home-nav" href="https://tmbeckermann.github.io/2230_DrB_Practical_Prep/">Home</a>
-        <button class="nav-item" data-view="bones">Learn</button>
+        <button class="nav-item" data-view="learnHub">Learn</button>
         <button class="nav-item" data-view="practiceLibrary">Practice</button>
         <button class="nav-item" data-view="practicalMode">Test</button>
         <button class="nav-item" data-view="visuals">Reference</button>
@@ -196,6 +196,28 @@
         </div>
       </section>
 
+      <section id="learnHub" class="view">
+        <div class="view-heading">
+          <div><p class="dashboard-eyebrow">Learn</p><h2>Build the visual map</h2><p class="muted">Use these pages for first-pass learning and targeted repair.</p></div>
+        </div>
+        <section class="practice-focus-control" role="group" aria-labelledby="axial-learn-focus-heading">
+          <h3 id="axial-learn-focus-heading">Study focus</h3>
+          <div class="learn-focus-options practice-focus-options" role="radiogroup" aria-label="Filter axial learning resources by study focus">
+            <label><input type="radio" name="axial-learn-focus" value="all" checked><span>All</span></label>
+            <label><input type="radio" name="axial-learn-focus" value="bone"><span>Bone ID</span></label>
+            <label><input type="radio" name="axial-learn-focus" value="muscle"><span>Muscle ID</span></label>
+            <label><input type="radio" name="axial-learn-focus" value="oia"><span>OIAs</span></label>
+          </div>
+          <p class="learn-focus-status practice-focus-status" aria-live="polite">Showing every axial learning resource.</p>
+        </section>
+        <div class="study-mode-grid activity-library-grid">
+          <button class="study-mode-card" type="button" data-learn-focus="bone" data-plan-view="bones"><strong>Learn bones and markings</strong><span>Use the course checklist, landmarks, and common traps.</span><em>Open checklist &rarr;</em></button>
+          <button class="study-mode-card" type="button" data-learn-focus="muscle" data-plan-view="models"><strong>Learn tested muscles</strong><span>Review face-image targets and documented torso fallbacks with clearly labeled sources.</span><em>Open muscle ID &rarr;</em></button>
+          <button class="study-mode-card" type="button" data-learn-focus="oia" data-plan-view="muscles"><strong>Study muscle OIAs</strong><span>Review course origin, insertion, and action tables.</span><em>Open OIA tables &rarr;</em></button>
+          <button class="study-mode-card" type="button" data-learn-focus="bone muscle" data-plan-view="labeling" data-bone-title="Learn bone labeling" data-muscle-title="Learn muscle labeling" data-bone-description="Use an axial bone and marking word bank before recall-only practice." data-muscle-description="Use an axial muscle word bank before recall-only practice." data-bone-labeling-filter="Bones and markings" data-muscle-labeling-filter="Muscles"><strong>Learn with a word bank</strong><span>Use support before moving to recall-only practice.</span><em>Open labeling &rarr;</em></button>
+        </div>
+      </section>
+
       <section id="practiceLibrary" class="view">
         <div class="view-heading">
           <div><p class="dashboard-eyebrow">Practice library</p><h2>Choose practice with a purpose</h2></div>
@@ -205,8 +227,8 @@
           <div><strong>Same activity pattern</strong><span>Axial uses the same activity names and study flow as lower limb.</span></div>
           <div><strong>Image scope</strong><span>Facial muscles use image identification. Torso references are reserved for items absent from the tested limb models.</span></div>
         </div>
-        <fieldset class="practice-focus-control">
-          <legend>Study focus</legend>
+        <section class="practice-focus-control" role="group" aria-labelledby="axial-practice-focus-heading">
+          <h3 id="axial-practice-focus-heading">Study focus</h3>
           <div class="practice-focus-options" role="radiogroup" aria-label="Filter axial activities by study focus">
             <label><input type="radio" name="axial-practice-focus" value="all" checked><span>All</span></label>
             <label><input type="radio" name="axial-practice-focus" value="bone"><span>Bone ID</span></label>
@@ -214,7 +236,7 @@
             <label><input type="radio" name="axial-practice-focus" value="oia"><span>OIAs</span></label>
           </div>
           <p class="practice-focus-status" aria-live="polite">Showing the complete axial practice library.</p>
-        </fieldset>
+        </section>
         <section class="activity-library-group">
           <h3>Adaptive and visual practice</h3>
           <div class="study-mode-grid activity-library-grid">

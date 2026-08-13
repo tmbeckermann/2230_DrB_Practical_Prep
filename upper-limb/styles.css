@@ -2453,12 +2453,16 @@ h3 {
   box-shadow: var(--shadow);
 }
 
-.practice-focus-control legend {
-  padding: 0 6px;
+.practice-focus-control > h3 {
+  margin: 0 0 14px;
   color: var(--blue-strong);
   font-family: Georgia, "Times New Roman", serif;
   font-size: 18px;
   font-weight: 600;
+}
+
+#learnHub .practice-focus-control {
+  margin-bottom: 22px;
 }
 
 .practice-focus-options {
@@ -2510,7 +2514,8 @@ h3 {
   font-size: 12px;
 }
 
-#practiceLibrary [hidden] {
+#practiceLibrary [hidden],
+#learnHub [hidden] {
   display: none !important;
 }
 

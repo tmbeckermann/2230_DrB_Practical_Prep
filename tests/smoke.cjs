@@ -353,14 +353,20 @@ const server = http.createServer((request, response) => {
     axial: ['Muscle Sticker Placement', 'Muscle Labeling with Word Bank', 'Muscle Practical Labeling', 'Muscle Image ID', 'Muscle Sticker Recall']
   };
   const expectedOiaFocusTitles = ['OIA Flashcards', 'OIA Reverse Recall', 'Action Lookup', 'OIA Practice'];
+  const expectedLearnMuscleTitles = {
+    'lower-limb': ['Match model tags to muscles', 'Learn muscle labeling'],
+    'upper-limb': ['Learn arm-model muscles', 'Learn muscle labeling'],
+    axial: ['Learn tested muscles', 'Learn muscle labeling']
+  };
 
   for (const section of ['lower-limb', 'upper-limb', 'axial']) {
     await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html?focus-check=1#practiceLibrary`, { waitUntil: 'domcontentloaded' });
     await landingPage.waitForSelector('#practiceLibrary.active-view');
-    if (!(await landingPage.getByLabel('All', { exact: true }).isChecked())) {
+    const practiceLibrary = landingPage.locator('#practiceLibrary');
+    if (!(await practiceLibrary.getByLabel('All', { exact: true }).isChecked())) {
       errors.push(`${section}: All is not the default practice focus`);
     }
-    await landingPage.getByLabel('Muscle ID', { exact: true }).check({ force: true });
+    await practiceLibrary.getByLabel('Muscle ID', { exact: true }).check({ force: true });
     const muscleTitles = await landingPage.locator('#practiceLibrary [data-practice-focus]:visible strong').allTextContents();
     if (JSON.stringify(muscleTitles) !== JSON.stringify(expectedMuscleFocusTitles[section])) {
       errors.push(`${section}: muscle focus shows the wrong activities (${muscleTitles.join(', ')})`);
@@ -372,7 +378,7 @@ const server = http.createServer((request, response) => {
     }
 
     await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html?label-focus-check=1#practiceLibrary`, { waitUntil: 'domcontentloaded' });
-    await landingPage.getByLabel('Muscle ID', { exact: true }).check({ force: true });
+    await landingPage.locator('#practiceLibrary').getByLabel('Muscle ID', { exact: true }).check({ force: true });
     await landingPage.getByRole('button', { name: /Muscle Labeling with Word Bank/i }).click();
     await landingPage.waitForSelector('#labeling.active-view');
     if (await landingPage.getByRole('combobox', { name: 'Image set' }).inputValue() !== 'Muscles') {
@@ -380,7 +386,7 @@ const server = http.createServer((request, response) => {
     }
 
     await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html?oia-focus-check=1#practiceLibrary`, { waitUntil: 'domcontentloaded' });
-    await landingPage.getByLabel('OIAs', { exact: true }).check({ force: true });
+    await landingPage.locator('#practiceLibrary').getByLabel('OIAs', { exact: true }).check({ force: true });
     const oiaTitles = await landingPage.locator('#practiceLibrary [data-practice-focus]:visible strong').allTextContents();
     if (JSON.stringify(oiaTitles.slice().sort()) !== JSON.stringify(expectedOiaFocusTitles.slice().sort())) {
       errors.push(`${section}: OIA focus shows the wrong activities (${oiaTitles.join(', ')})`);
@@ -390,10 +396,55 @@ const server = http.createServer((request, response) => {
     await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html?focus-mobile-check=1#practiceLibrary`, { waitUntil: 'domcontentloaded' });
     const focusMobileLayout = await landingPage.evaluate(() => ({
       pageOverflows: document.documentElement.scrollWidth > document.documentElement.clientWidth + 1,
-      rows: new Set(Array.from(document.querySelectorAll('.practice-focus-options span')).map((node) => Math.round(node.getBoundingClientRect().top))).size
+      rows: new Set(Array.from(document.querySelectorAll('#practiceLibrary .practice-focus-options span')).map((node) => Math.round(node.getBoundingClientRect().top))).size
     }));
     if (focusMobileLayout.pageOverflows || focusMobileLayout.rows !== 2) {
       errors.push(`${section}: practice focus controls do not form a clean two-row phone layout`);
+    }
+    await landingPage.setViewportSize({ width: 1280, height: 800 });
+
+    await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html?learn-focus-check=1#learnHub`, { waitUntil: 'domcontentloaded' });
+    await landingPage.waitForSelector('#learnHub.active-view');
+    const learnHub = landingPage.locator('#learnHub');
+    if (!(await learnHub.getByLabel('All', { exact: true }).isChecked())) {
+      errors.push(`${section}: All is not the default Learn focus`);
+    }
+    const learnHeadingLayout = await learnHub.evaluate((root) => {
+      const control = root.querySelector('.practice-focus-control');
+      const heading = control?.querySelector(':scope > h3');
+      const controlBox = control?.getBoundingClientRect();
+      const headingBox = heading?.getBoundingClientRect();
+      return {
+        hasLegend: Boolean(control?.querySelector('legend')),
+        headingInside: Boolean(controlBox && headingBox && headingBox.top >= controlBox.top + 10)
+      };
+    });
+    if (learnHeadingLayout.hasLegend || !learnHeadingLayout.headingInside) {
+      errors.push(`${section}: Study focus heading still sits on the control border`);
+    }
+    await learnHub.getByLabel('Muscle ID', { exact: true }).check({ force: true });
+    const learnMuscleTitles = await landingPage.locator('#learnHub [data-learn-focus]:visible strong').allTextContents();
+    if (JSON.stringify(learnMuscleTitles) !== JSON.stringify(expectedLearnMuscleTitles[section])) {
+      errors.push(`${section}: Learn muscle focus shows the wrong resources (${learnMuscleTitles.join(', ')})`);
+    }
+    await landingPage.getByRole('button', { name: /Learn muscle labeling/i }).click();
+    await landingPage.waitForSelector('#labeling.active-view');
+    if (await landingPage.getByRole('combobox', { name: 'Image set' }).inputValue() !== 'Muscles') {
+      errors.push(`${section}: Learn muscle labeling does not open with muscle image sets selected`);
+    }
+    const learnNav = landingPage.locator('.nav-item[data-view="learnHub"]').filter({ visible: true }).first();
+    if (!(await learnNav.getAttribute('class'))?.includes('active')) {
+      errors.push(`${section}: Learn navigation is not active on a focused Learn child page`);
+    }
+
+    await landingPage.setViewportSize({ width: 390, height: 844 });
+    await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html?learn-focus-mobile-check=1#learnHub`, { waitUntil: 'domcontentloaded' });
+    const learnFocusMobileLayout = await landingPage.evaluate(() => ({
+      pageOverflows: document.documentElement.scrollWidth > document.documentElement.clientWidth + 1,
+      rows: new Set(Array.from(document.querySelectorAll('#learnHub .learn-focus-options span')).map((node) => Math.round(node.getBoundingClientRect().top))).size
+    }));
+    if (learnFocusMobileLayout.pageOverflows || learnFocusMobileLayout.rows !== 2) {
+      errors.push(`${section}: Learn focus controls do not form a clean two-row phone layout`);
     }
     await landingPage.setViewportSize({ width: 1280, height: 800 });
   }
