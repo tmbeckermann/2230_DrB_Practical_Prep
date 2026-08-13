@@ -8,6 +8,7 @@ const state = {
   practicalLabelingRegion: 'All',
   muscleGroup: 'All',
   visualCategory: 'All',
+  practiceFocus: 'all',
   labelingOrder: [],
   labelingIndex: 0,
   labelingKey: '',
@@ -83,6 +84,56 @@ function loadJson(key, fallback) {
 
 function saveJson(key, value) {
   localStorage.setItem(key, JSON.stringify(value));
+}
+
+const PRACTICE_FOCUS_STATUS = {
+  all: 'Showing every activity in the upper-limb practice library.',
+  bone: 'Showing bone and marking identification activities only.',
+  muscle: 'Showing muscle labeling, image, and arm-model identification activities only.',
+  oia: 'Showing origin, insertion, and action activities only.'
+};
+
+function applyPracticeFocus(requestedFocus = 'all') {
+  const root = byId('practiceLibrary');
+  if (!root) return;
+  const focus = Object.hasOwn(PRACTICE_FOCUS_STATUS, requestedFocus) ? requestedFocus : 'all';
+  state.practiceFocus = focus;
+  root.querySelectorAll('[data-practice-focus]').forEach((card) => {
+    const cardFocus = String(card.dataset.practiceFocus || '').split(/\s+/);
+    card.hidden = focus !== 'all' && !cardFocus.includes(focus);
+    const title = card.querySelector('strong');
+    const description = card.querySelector('span');
+    if (title && !card.dataset.allTitle) card.dataset.allTitle = title.textContent;
+    if (description && !card.dataset.allDescription) card.dataset.allDescription = description.textContent;
+    if (title) title.textContent = focus === 'all' ? card.dataset.allTitle : (card.dataset[`${focus}Title`] || card.dataset.allTitle);
+    if (description) description.textContent = focus === 'all' ? card.dataset.allDescription : (card.dataset[`${focus}Description`] || card.dataset.allDescription);
+    const requestedDeck = focus === 'all' ? '' : card.dataset[`${focus}Deck`];
+    const requestedLabelingFilter = focus === 'all' ? '' : card.dataset[`${focus}LabelingFilter`];
+    if (requestedDeck) card.dataset.planDeck = requestedDeck;
+    else delete card.dataset.planDeck;
+    if (requestedLabelingFilter) card.dataset.planLabelingFilter = requestedLabelingFilter;
+    else delete card.dataset.planLabelingFilter;
+  });
+  root.querySelectorAll('.activity-library-group').forEach((group) => {
+    const visibleCards = [...group.querySelectorAll('[data-practice-focus]')].filter((card) => !card.hidden);
+    group.hidden = focus !== 'all' && visibleCards.length === 0;
+  });
+  root.querySelectorAll('.practice-focus-options input').forEach((input) => {
+    input.checked = input.value === focus;
+  });
+  const status = root.querySelector('.practice-focus-status');
+  if (status) status.textContent = PRACTICE_FOCUS_STATUS[focus];
+}
+
+function initPracticeFocusControls() {
+  const root = byId('practiceLibrary');
+  if (!root) return;
+  root.querySelectorAll('.practice-focus-options input').forEach((input) => {
+    input.addEventListener('change', () => {
+      if (input.checked) applyPracticeFocus(input.value);
+    });
+  });
+  applyPracticeFocus(new URLSearchParams(window.location.search).get('focus') || 'all');
 }
 
 function escapeHtml(value) {
@@ -576,9 +627,26 @@ function renderModelSourceSummary() {
     ${modelPhotos ? '' : '<p>No Belmont lab-model photos are currently claimed in this image bank.</p>'}`;
 }
 
+function isMuscleLabelingCard(card) {
+  return String(card.id || '').startsWith('practice-muscle-atlas-') || /^muscles?\s*:/i.test(String(card.region || ''));
+}
+
+function labelingRegions(cards) {
+  const focusRegions = ['Bones and markings'];
+  if (cards.some(isMuscleLabelingCard)) focusRegions.push('Muscles');
+  return ['All', ...focusRegions, ...unique(cards.map((card) => card.region).filter(Boolean))];
+}
+
+function matchesLabelingRegion(card, selectedRegion) {
+  if (selectedRegion === 'All') return true;
+  if (selectedRegion === 'Muscles') return isMuscleLabelingCard(card);
+  if (selectedRegion === 'Bones and markings') return !isMuscleLabelingCard(card);
+  return card.region === selectedRegion;
+}
+
 function renderLabeling() {
   const cards = data.practicalLabelingCards || [];
-  const regions = ['All', ...unique(cards.map((card) => card.region).filter(Boolean))];
+  const regions = labelingRegions(cards);
   if (!regions.includes(state.labelingRegion)) state.labelingRegion = 'All';
   renderSelectFilter(byId('labelingFilters'), regions, state.labelingRegion, (region) => {
     state.labelingRegion = region;
@@ -586,7 +654,7 @@ function renderLabeling() {
     renderLabeling();
   }, 'Image set');
   const filtered = cards
-    .filter((card) => state.labelingRegion === 'All' || card.region === state.labelingRegion)
+    .filter((card) => matchesLabelingRegion(card, state.labelingRegion))
     .filter((card) => includesSearch(card.label, card.region, card.sourceTitle, ...(card.terms || [])));
   const key = `${state.labelingRegion}|${state.search}|${filtered.map((card) => card.id).join(',')}`;
   ensureCardOrder('labeling', filtered, key);
@@ -640,7 +708,7 @@ function renderLabeling() {
 
 function renderPracticalLabeling() {
   const cards = data.practicalLabelingCards || [];
-  const regions = ['All', ...unique(cards.map((card) => card.region).filter(Boolean))];
+  const regions = labelingRegions(cards);
   if (!regions.includes(state.practicalLabelingRegion)) state.practicalLabelingRegion = 'All';
   renderSelectFilter(byId('practicalLabelingFilters'), regions, state.practicalLabelingRegion, (region) => {
     state.practicalLabelingRegion = region;
@@ -648,7 +716,7 @@ function renderPracticalLabeling() {
     renderPracticalLabeling();
   }, 'Image set');
   const filtered = cards
-    .filter((card) => state.practicalLabelingRegion === 'All' || card.region === state.practicalLabelingRegion)
+    .filter((card) => matchesLabelingRegion(card, state.practicalLabelingRegion))
     .filter((card) => includesSearch(card.label, card.region, card.sourceTitle));
   const key = `${state.practicalLabelingRegion}|${state.search}|${filtered.map((card) => card.id).join(',')}`;
   ensureCardOrder('practicalLabeling', filtered, key);
@@ -3179,6 +3247,7 @@ function closeMobileNavOnSmallScreen() {
 }
 
 function init() {
+  initPracticeFocusControls();
   byId('mobileNavToggle')?.addEventListener('click', () => {
     const sidebar = document.querySelector('.sidebar');
     setMobileNavOpen(!sidebar?.classList.contains('mobile-nav-open'));
@@ -3226,6 +3295,13 @@ function init() {
   document.querySelectorAll('[data-plan-view], [data-plan-activity-mode]').forEach((button) => {
     button.addEventListener('click', () => {
       const activityMode = button.dataset.planActivityMode;
+      const requestedDeck = button.dataset.planDeck;
+      const labelingFilter = button.dataset.planLabelingFilter;
+      if (requestedDeck && drillDecks()[requestedDeck]) {
+        state.deckName = requestedDeck;
+        state.deckOrder = [];
+        state.deckIndex = 0;
+      }
       if (activityMode) {
         startCohesiveActivity(activityMode);
         return;
@@ -3234,8 +3310,21 @@ function init() {
       const drillMode = button.dataset.planDrillMode;
       const drillModeChanged = view === 'drills' && drillMode && state.view === 'drills' && state.drillMode !== drillMode;
       if (drillModeChanged) pushNavigationHistory();
+      if (view === 'labeling' && labelingFilter) {
+        state.labelingRegion = labelingFilter;
+        state.labelingOrder = [];
+      }
+      if (view === 'practicalLabeling' && labelingFilter) {
+        state.practicalLabelingRegion = labelingFilter;
+        state.practicalLabelingOrder = [];
+      }
       if (drillMode) state.activityDrillAlias = '';
       if (drillMode) setDrillMode(drillMode);
+      if (requestedDeck && drillDecks()[requestedDeck]) {
+        state.deckName = requestedDeck;
+        state.deckOrder = [];
+        state.deckIndex = 0;
+      }
       activateView(view, { skipHistory: drillModeChanged });
     });
   });
