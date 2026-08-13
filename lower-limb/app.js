@@ -3566,7 +3566,7 @@ function currentNavGroup(view = state.view) {
 }
 
 function updateNavActive() {
-  document.querySelectorAll('.nav-item').forEach((item) => {
+  document.querySelectorAll('.nav-item[data-view]').forEach((item) => {
     const itemView = item.dataset.view;
     const itemDrillMode = item.dataset.drillMode;
     const itemActivityMode = item.dataset.activityMode;
@@ -3722,7 +3722,7 @@ function init() {
   window.addEventListener('resize', () => {
     if (!isMobileNavLayout()) setMobileNavOpen(false);
   });
-  document.querySelectorAll('.nav-item').forEach((item) => {
+  document.querySelectorAll('.nav-item[data-view]').forEach((item) => {
     item.addEventListener('click', () => {
       const view = item.dataset.view;
       const drillMode = item.dataset.drillMode;

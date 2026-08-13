@@ -50,6 +50,10 @@ const server = http.createServer((request, response) => {
     page.on('pageerror', (error) => errors.push(`${viewport.width}px: ${error.message}`));
     await page.goto(`http://127.0.0.1:${port}/lower-limb/index.html`, { waitUntil: 'domcontentloaded' });
     await page.waitForSelector('#dashboard.active-view');
+    const lowerHomeLinks = await page.locator('.course-home-nav').evaluateAll((links) => links.map((link) => link.href));
+    if (lowerHomeLinks.length !== 2 || lowerHomeLinks.some((href) => href !== 'https://tmbeckermann.github.io/2230_DrB_Practical_Prep/')) {
+      errors.push(`${viewport.width}px: lower-limb Home links do not open the public BIO 2230 landing page`);
+    }
     for (const view of ['learnHub', 'practiceLibrary', 'practicalMode', 'referenceHub', 'bones', 'models', 'muscles', 'labeling', 'practicalLabeling', 'visuals', 'drills', 'differentiation', 'cram']) {
       if (!(await page.locator(`#${view}`).count())) errors.push(`${viewport.width}px: missing ${view} view`);
     }
@@ -117,7 +121,9 @@ const server = http.createServer((request, response) => {
     heading: document.querySelector('h1')?.textContent.trim() || '',
     copy: document.body.innerText,
     guideItems: document.querySelectorAll('.directory-guide .guide-item').length,
-    homeLabels: Array.from(document.querySelectorAll('a[href="./index.html"]')).map((link) => link.textContent.trim())
+    homeLinks: Array.from(document.querySelectorAll('.jump-links a, .back-link'))
+      .filter((link) => /home/i.test(link.textContent))
+      .map((link) => ({ label: link.textContent.trim(), href: link.href }))
   }));
   if (directoryMeta.heading !== 'Anatomy practical study directory' || directoryMeta.guideItems !== 3) {
     errors.push('activity links: community-facing directory introduction is incomplete');
@@ -127,8 +133,11 @@ const server = http.createServer((request, response) => {
     errors.push('activity links: directory does not explain the linked study tools');
   }
   if (directoryMeta.copy.includes('new image banks') || directoryMeta.copy.includes('Dr. Beckermann') ||
-      directoryMeta.homeLabels.some((label) => /course menu/i.test(label))) {
+      directoryMeta.homeLinks.some((link) => /course menu/i.test(link.label))) {
     errors.push('activity links: internal or instructor-directed wording remains');
+  }
+  if (directoryMeta.homeLinks.length !== 2 || directoryMeta.homeLinks.some((link) => link.href !== 'https://tmbeckermann.github.io/2230_DrB_Practical_Prep/')) {
+    errors.push('activity links: Home links do not open the public BIO 2230 landing page');
   }
   const activityLinks = await activityLinksPage.locator('.section-card a').evaluateAll((links) => links.map((link) => ({
     href: link.getAttribute('href'),
@@ -274,12 +283,17 @@ const server = http.createServer((request, response) => {
     const accessibility = await landingPage.evaluate(() => ({
       searchLabel: document.querySelector('#globalSearch')?.getAttribute('aria-label') || '',
       primaryNavItems: document.querySelectorAll('#studyNav > .nav-item').length,
+      homeHref: document.querySelector('#studyNav > .course-home-nav')?.href || '',
+      homeTag: document.querySelector('#studyNav > .course-home-nav')?.tagName || '',
       hasMoreTools: Boolean(document.querySelector('#studyNav > .nav-more')),
       recommendedSteps: document.querySelectorAll('.recommended-path > div').length,
       contactText: document.querySelector('.sidebar-contact')?.textContent.trim() || ''
     }));
     if (!accessibility.searchLabel) errors.push(`${section}: search is missing an accessible label`);
     if (accessibility.primaryNavItems !== 5) errors.push(`${section}: expected five primary navigation choices`);
+    if (accessibility.homeTag !== 'A' || accessibility.homeHref !== 'https://tmbeckermann.github.io/2230_DrB_Practical_Prep/') {
+      errors.push(`${section}: Home does not open the public BIO 2230 landing page`);
+    }
     if (!accessibility.hasMoreTools) errors.push(`${section}: missing More study tools disclosure`);
     if (accessibility.recommendedSteps !== 4) errors.push(`${section}: recommended study path is incomplete`);
     if (accessibility.contactText !== 'For questions and comments, contact Dr. Beckermann') {
