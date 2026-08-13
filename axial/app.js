@@ -728,6 +728,83 @@ function renderMuscles() {
   bindJumps();
 }
 
+function muscleReferenceModelRow(row) {
+  const requested = normalize(row.label || row.answer);
+  return (data.modelKey || []).find((item) => normalize(item.item) === requested) || null;
+}
+
+function muscleReferenceViewType(item) {
+  const text = normalize(`${item?.image || ''} ${item?.sourceTitle || ''}`);
+  if (/upper-limb-|scapula and arm|forearm/.test(text)) return 'arm';
+  if (/trunk-|muscles of the trunk/.test(text)) return 'torso';
+  if (/head-neck-|head and neck|muscles of head/.test(text)) return 'face';
+  return 'other';
+}
+
+function preferredMuscleReferenceItems(row) {
+  const items = imageItems(row.reviewImages, row.reviewImage);
+  if (!items.length) return [];
+  const modelRow = muscleReferenceModelRow(row);
+  const context = modelRow?.assessmentContext || '';
+  const matching = context === 'face-image'
+    ? items.filter((item) => muscleReferenceViewType(item) === 'face')
+    : context === 'torso-fallback'
+      ? items.filter((item) => muscleReferenceViewType(item) === 'torso')
+      : [];
+  if (matching.length) {
+    if (context === 'face-image') {
+      const clearerFaceViews = matching.filter((item) => !normalize(item.sourceTitle).includes('deep muscles'));
+      return clearerFaceViews.length ? clearerFaceViews : matching;
+    }
+    return matching;
+  }
+
+  const faceItems = items.filter((item) => muscleReferenceViewType(item) === 'face');
+  if (faceItems.length) return faceItems;
+  const torsoItems = items.filter((item) => muscleReferenceViewType(item) === 'torso');
+  if (torsoItems.length) return torsoItems;
+  return items.slice(0, 1);
+}
+
+function alignedMuscleReferenceCard(row) {
+  const reviewImages = preferredMuscleReferenceItems(row);
+  const labeledImages = reviewImages
+    .map((item) => item.labeledImage ? {
+      image: item.labeledImage,
+      sourceTitle: String(item.sourceTitle || '').replace(/\s+[\u2014-]\s+focused crop$/i, ''),
+      sourceLabel: item.sourceLabel || row.sourceLabel || row.label
+    } : null)
+    .filter(Boolean);
+  return {
+    ...row,
+    reviewImages,
+    reviewImage: reviewImages[0]?.image || '',
+    labeledImages,
+    labeledImage: labeledImages[0]?.image || '',
+    imageCount: reviewImages.length
+  };
+}
+
+function muscleReferenceProvenance(row) {
+  const modelRow = muscleReferenceModelRow(row);
+  const source = data.modelImageSourceLegend?.['pal-atlas-substitute'] || {};
+  const referenceOnly = !modelRow;
+  const contextDescription = modelRow?.assessmentContext === 'face-image'
+    ? 'PAL atlas image used as a supplemental facial-muscle reference. It is not a Belmont lab-model photo. Students identify these muscles from an image, not a physical face model.'
+    : modelRow?.assessmentContext === 'torso-fallback'
+      ? 'Torso-focused PAL atlas image used because this structure is not present on the tested single-leg or arm models. It is not a Belmont lab-model photo.'
+      : '';
+  return {
+    sourceKind: 'pal-atlas-substitute',
+    sourceTypeLabel: source.label || 'PAL atlas substitute',
+    sourceDescription: referenceOnly
+      ? 'PAL atlas image for anatomy review. It is not a Belmont lab-model photo and is not part of the tested image-identification list.'
+      : contextDescription || source.description || 'PAL atlas art used as a substitute for model-ID practice. This is not a Belmont lab-model photo.',
+    assessmentContext: modelRow?.assessmentContext || 'reference-only',
+    assessmentContextLabel: modelRow?.assessmentContextLabel || 'Reference only'
+  };
+}
+
 function visualItems() {
   const boneLeaderItems = (data.boneLeaderCards || []).map((row) => ({
     id: row.id,
@@ -742,19 +819,23 @@ function visualItems() {
     labeledImages: row.labeledImages || [],
     answer: row.answer || 'Use the labeled answer image to check yourself.'
   }));
-  const structureItems = (data.muscleImageCards || []).map((row) => ({
-    id: row.id,
-    kind: 'structure',
-    category: row.category || 'Image ID',
-    title: row.label || row.answer,
-    subtitle: row.imageCount ? `${row.imageCount} views` : (row.sourceTitle || ''),
-    code: '',
-    reviewImage: row.reviewImage,
-    reviewImages: row.reviewImages || [],
-    labeledImage: row.labeledImage,
-    labeledImages: row.labeledImages || [],
-    answer: row.answer || row.label
-  }));
+  const structureItems = (data.muscleImageCards || []).map((sourceRow) => {
+    const row = alignedMuscleReferenceCard(sourceRow);
+    return {
+      id: row.id,
+      kind: 'structure',
+      category: 'Muscle image reference',
+      title: row.label || row.answer,
+      subtitle: row.imageCount === 1 ? '1 view' : `${row.imageCount} views`,
+      code: '',
+      reviewImage: row.reviewImage,
+      reviewImages: row.reviewImages || [],
+      labeledImage: row.labeledImage,
+      labeledImages: row.labeledImages || [],
+      answer: row.answer || row.label,
+      ...muscleReferenceProvenance(row)
+    };
+  });
   return [...boneLeaderItems, ...structureItems].filter((item) => item.reviewImage || item.labeledImage);
 }
 
@@ -770,7 +851,8 @@ function renderVisualImage(label, image, title) {
 }
 
 function visualImageCaption(label, item, index) {
-  return item.sourceTitle || item.sourceLabel || `${label} ${index + 1}`;
+  return String(item.sourceTitle || item.sourceLabel || `${label} ${index + 1}`)
+    .replace(/\s+[\u2014-]\s+focused crop$/i, '');
 }
 
 function renderVisualImageBlock(label, item, title, index = 0) {
@@ -792,25 +874,28 @@ function renderVisualImages(label, images, title) {
 function renderVisualMedia(item) {
   const reviewItems = imageItems(item.reviewImages, item.reviewImage);
   const labeledItems = imageItems(item.labeledImages, item.labeledImage);
-  if (reviewItems.length === 1 && labeledItems.length) {
-    return `<div class="visual-compare-grid">
-      <section class="visual-compare-panel">
-        <h4>Highlighted view</h4>
-        ${renderVisualImageBlock('Highlighted view', reviewItems[0], item.title)}
-      </section>
-      <section class="visual-compare-panel">
-        <h4>Labeled reference</h4>
-        ${labeledItems.length === 1 ? renderVisualImageBlock('Labeled reference', labeledItems[0], item.title) : renderVisualImages('Labeled reference', labeledItems, item.title)}
-      </section>
-    </div>`;
-  }
-  return `
-    ${renderVisualImages('Highlighted view', reviewItems, item.title)}
-    ${labeledItems.length ? `<div class="visual-reference">
-      <h4>Labeled reference</h4>
-      ${renderVisualImages('Labeled reference', labeledItems, item.title)}
-    </div>` : ''}
-  `;
+  if (!reviewItems.length) return renderVisualImages('Labeled reference', labeledItems, item.title);
+  return `<div class="visual-view-pairs">
+    ${reviewItems.map((reviewItem, index) => {
+      const labeledItem = reviewItem.labeledImage
+        ? { image: reviewItem.labeledImage, sourceTitle: visualImageCaption('View', reviewItem, index) }
+        : labeledItems[index];
+      const viewTitle = visualImageCaption('View', reviewItem, index);
+      return `<article class="visual-view-pair">
+        <div class="visual-pair-heading"><span>View ${index + 1}</span><strong>${escapeHtml(viewTitle)}</strong></div>
+        <div class="visual-compare-grid">
+          <section class="visual-compare-panel">
+            <h4>Practice view</h4>
+            ${renderVisualImageBlock('Practice view', reviewItem, item.title, index)}
+          </section>
+          ${labeledItem ? `<section class="visual-compare-panel">
+            <h4>Labeled reference</h4>
+            ${renderVisualImageBlock('Labeled reference', labeledItem, item.title, index)}
+          </section>` : ''}
+        </div>
+      </article>`;
+    }).join('')}
+  </div>`;
 }
 
 function renderVisualQuickLinks(items, currentItem) {
@@ -967,6 +1052,7 @@ function renderVisuals() {
         </div>
         <h3>${escapeHtml(item.title)}</h3>
         <div class="visual-card-meta">${escapeHtml(item.category)}${item.subtitle ? ` | ${escapeHtml(item.subtitle)}` : ''}</div>
+        ${renderImageSourceNotice(item)}
         ${imageItems(item.reviewImages, item.reviewImage).length > 1 ? '<p class="visual-note">All highlighted images on this card point to the same structure, marking, or muscle.</p>' : ''}
         ${renderVisualMedia(item)}
       </article>
@@ -1226,6 +1312,7 @@ function drillDecks() {
     statusLinkTarget: row.id
   }));
   const muscleImageCards = (data.muscleImageCards || [])
+    .map(alignedMuscleReferenceCard)
     .filter((row) => row.reviewImage)
     .map((row) => ({
       id: `muscle-image-${row.id}`,
@@ -1313,6 +1400,7 @@ function drillDecks() {
       };
     });
   const stickerMuscleCards = (data.muscleImageCards || [])
+    .map(alignedMuscleReferenceCard)
     .filter((row) => row.reviewImage)
     .map((row, index) => {
       const code = stickerCode(index + stickerBoneCards.length);

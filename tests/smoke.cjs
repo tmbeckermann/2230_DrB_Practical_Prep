@@ -390,6 +390,55 @@ const server = http.createServer((request, response) => {
       errors.push(`${section}: model assessment context counts are incorrect`);
     }
 
+    if (section === 'upper-limb' || section === 'axial') {
+      const visualId = section === 'upper-limb'
+        ? 'muscle-atlas-levator-scapulae'
+        : 'muscle-atlas-orbicularis-oris';
+      await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html?visual-source-check=1#visuals`, { waitUntil: 'domcontentloaded' });
+      await landingPage.waitForSelector('#visuals.active-view');
+      await landingPage.evaluate((targetId) => jumpToVisual(targetId), visualId);
+      await landingPage.waitForSelector('#visualGallery .visual-view-pair');
+      const visualReference = await landingPage.evaluate(() => ({
+        title: document.querySelector('#visualGallery .visual-card h3')?.textContent.trim() || '',
+        text: document.querySelector('#visualGallery .visual-card')?.textContent || '',
+        sourceBadge: document.querySelector('#visualGallery .image-source-badge')?.textContent.trim() || '',
+        contextBadge: document.querySelector('#visualGallery .assessment-context-badge')?.textContent.trim() || '',
+        pairCount: document.querySelectorAll('#visualGallery .visual-view-pair').length,
+        completePairs: Array.from(document.querySelectorAll('#visualGallery .visual-view-pair')).every((pair) => (
+          pair.querySelectorAll('.visual-compare-panel').length === 2 &&
+          pair.querySelectorAll('.visual-compare-panel img').length === 2
+        )),
+        practicePaths: Array.from(document.querySelectorAll('#visualGallery .visual-compare-panel:first-child img'))
+          .map((image) => image.getAttribute('src') || '')
+      }));
+      if (visualReference.sourceBadge !== 'PAL atlas substitute' || !visualReference.text.includes('not a Belmont lab-model photo')) {
+        errors.push(`${section}: visual muscle reference does not clearly disclose its PAL atlas source`);
+      }
+      if (!visualReference.completePairs || !visualReference.pairCount || visualReference.text.includes('focused crop')) {
+        errors.push(`${section}: visual practice views are not paired cleanly with their labeled references`);
+      }
+      if (section === 'upper-limb') {
+        if (visualReference.title !== 'Levator scapulae' || visualReference.contextBadge !== 'Reference only' || visualReference.pairCount !== 1) {
+          errors.push('upper-limb: Levator scapulae is not presented as a single reference-only atlas view');
+        }
+        if (visualReference.practicePaths.some((source) => /head-neck/i.test(source))) {
+          errors.push('upper-limb: Levator scapulae still leads with a head-and-neck plate instead of the available trunk view');
+        }
+      } else if (visualReference.contextBadge !== 'Face image' || !visualReference.text.includes('not a physical face model')) {
+        errors.push('axial: facial-muscle reference does not explain the image-only assessment context');
+      }
+
+      await landingPage.setViewportSize({ width: 390, height: 844 });
+      const mobileVisual = await landingPage.evaluate(() => ({
+        pageOverflows: document.documentElement.scrollWidth > document.documentElement.clientWidth + 1,
+        pairColumns: getComputedStyle(document.querySelector('#visualGallery .visual-compare-grid')).gridTemplateColumns.split(' ').length
+      }));
+      if (mobileVisual.pageOverflows || mobileVisual.pairColumns !== 1) {
+        errors.push(`${section}: visual practice/reference pair does not stack cleanly on a phone`);
+      }
+      await landingPage.setViewportSize({ width: 1280, height: 800 });
+    }
+
     await landingPage.goto(`http://127.0.0.1:${port}/${section}/index.html?model-practical-check=1#practicalMode`, { waitUntil: 'domcontentloaded' });
     await landingPage.waitForSelector('#practicalMode.active-view #startPracticalMode');
     const practicalCheck = await landingPage.evaluate(() => {
