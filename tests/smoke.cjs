@@ -488,6 +488,31 @@ const server = http.createServer((request, response) => {
     if (resetControl.count !== 1 || resetControl.label !== 'Reset saved work' || !resetControl.inSidebar || resetControl.inDialog) {
       errors.push(`${section}: reset control does not match the shared Study Menu pattern`);
     }
+    if (section === 'upper-limb' || section === 'axial') {
+      await landingPage.locator('#libraryNavToggle').click();
+    }
+    await landingPage.locator('#resetProgress').hover();
+    await landingPage.waitForTimeout(250);
+    const resetHoverContrast = await landingPage.evaluate(() => {
+      const button = document.querySelector('#resetProgress');
+      const style = getComputedStyle(button);
+      const parseRgb = (value) => (value.match(/[\d.]+/g) || []).slice(0, 3).map(Number);
+      const luminance = (value) => {
+        const channels = parseRgb(value).map((channel) => {
+          const normalized = channel / 255;
+          return normalized <= 0.04045
+            ? normalized / 12.92
+            : ((normalized + 0.055) / 1.055) ** 2.4;
+        });
+        return 0.2126 * channels[0] + 0.7152 * channels[1] + 0.0722 * channels[2];
+      };
+      const foreground = luminance(style.color);
+      const background = luminance(style.backgroundColor);
+      return (Math.max(foreground, background) + 0.05) / (Math.min(foreground, background) + 0.05);
+    });
+    if (resetHoverContrast < 4.5) {
+      errors.push(`${section}: Reset saved work hover text does not meet contrast requirements (${resetHoverContrast.toFixed(2)}:1)`);
+    }
     if (resetControl.contactText !== 'For questions and comments, contact Dr. Beckermann') {
       errors.push(`${section}: sidebar contact invitation was not changed to comments`);
     }

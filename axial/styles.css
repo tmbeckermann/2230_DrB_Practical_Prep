@@ -295,8 +295,14 @@ a,
 
 .sidebar-reset:hover,
 .sidebar-reset:focus-visible {
-  background: rgba(255,255,255,0.08);
+  border-color: #344b5f;
+  background: #344b5f;
   color: #fff;
+}
+
+.sidebar-reset:focus-visible {
+  outline: 2px solid #d9b56f;
+  outline-offset: 2px;
 }
 
 .sidebar-progress {
