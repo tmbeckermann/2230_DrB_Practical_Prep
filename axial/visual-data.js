@@ -14,7 +14,7 @@
       "code": "A3242",
       "title": "Skull, anterior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/01-a3242.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/01-a3242.webp"
+      "reviewImage": "assets/questions/q-1b7d453680dd.webp"
     },
     {
       "id": "axial-A3243",
@@ -24,7 +24,7 @@
       "code": "A3243",
       "title": "Skull, anterior landmarks",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/02-a3243.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/02-a3243.webp"
+      "reviewImage": "assets/questions/q-68445d7be641.webp"
     },
     {
       "id": "axial-A3244",
@@ -44,7 +44,7 @@
       "code": "A3245",
       "title": "Skull, lateral landmarks",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/04-a3245.webp"
+      "reviewImage": "assets/questions/q-2f17e87cf6ee.webp"
     },
     {
       "id": "axial-A3246",
@@ -54,7 +54,7 @@
       "code": "A3246",
       "title": "Skull, posterior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/05-a3246.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/05-a3246.webp"
+      "reviewImage": "assets/questions/q-62ae450e3cd3.webp"
     },
     {
       "id": "axial-A3247",
@@ -64,7 +64,7 @@
       "code": "A3247",
       "title": "Skull, superior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/06-a3247.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/06-a3247.webp"
+      "reviewImage": "assets/questions/q-3a66889c3900.webp"
     },
     {
       "id": "axial-A2043a",
@@ -74,7 +74,7 @@
       "code": "A2043a",
       "title": "Cranial cavity bones, posterosuperior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/07-a2043a.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/07-a2043a.webp"
+      "reviewImage": "assets/questions/q-973a60b7bbf1.webp"
     },
     {
       "id": "axial-A2043b",
@@ -84,7 +84,7 @@
       "code": "A2043b",
       "title": "Cranial cavity foramina, posterosuperior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/08-a2043b.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/08-a2043b.webp"
+      "reviewImage": "assets/questions/q-cc77f2de3104.webp"
     },
     {
       "id": "axial-A2031a",
@@ -94,7 +94,7 @@
       "code": "A2031a",
       "title": "Cranial cavity bones, superior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/09-a2031a.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/09-a2031a.webp"
+      "reviewImage": "assets/questions/q-16f67f944a80.webp"
     },
     {
       "id": "axial-A2031b",
@@ -104,7 +104,7 @@
       "code": "A2031b",
       "title": "Cranial cavity foramina, superior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/10-a2031b.webp"
+      "reviewImage": "assets/questions/q-0b03f7043c43.webp"
     },
     {
       "id": "axial-A3248",
@@ -114,7 +114,7 @@
       "code": "A3248",
       "title": "Skull, inferior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/11-a3248.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/11-a3248.webp"
+      "reviewImage": "assets/questions/q-4f306363bb4c.webp"
     },
     {
       "id": "axial-A3249",
@@ -124,7 +124,7 @@
       "code": "A3249",
       "title": "Skull base foramina, inferior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/12-a3249.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/12-a3249.webp"
+      "reviewImage": "assets/questions/q-1e9e267fcb70.webp"
     },
     {
       "id": "axial-A3250",
@@ -134,7 +134,7 @@
       "code": "A3250",
       "title": "Fetal skull, anterior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/13-a3250.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/13-a3250.webp"
+      "reviewImage": "assets/questions/q-0e7ec946658e.webp"
     },
     {
       "id": "axial-A3251",
@@ -154,7 +154,7 @@
       "code": "A3252",
       "title": "Fetal skull, superior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/15-a3252.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/15-a3252.webp"
+      "reviewImage": "assets/questions/q-3694c2e07497.webp"
     },
     {
       "id": "axial-A3253",
@@ -164,7 +164,7 @@
       "code": "A3253",
       "title": "Parietal bones, posterior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/16-a3253.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/16-a3253.webp"
+      "reviewImage": "assets/questions/q-19e09a62ec51.webp"
     },
     {
       "id": "axial-A3254",
@@ -174,7 +174,7 @@
       "code": "A3254",
       "title": "Frontal bone, anterior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/17-a3254.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/17-a3254.webp"
+      "reviewImage": "assets/questions/q-cc5c58186343.webp"
     },
     {
       "id": "axial-A3255",
@@ -184,7 +184,7 @@
       "code": "A3255",
       "title": "Occipital bone, inferior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/18-a3255.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/18-a3255.webp"
+      "reviewImage": "assets/questions/q-99ad5628b458.webp"
     },
     {
       "id": "axial-A3256",
@@ -194,7 +194,7 @@
       "code": "A3256",
       "title": "Temporal bone, lateral view, left side",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/19-a3256.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/19-a3256.webp"
+      "reviewImage": "assets/questions/q-3fa2d01b12bc.webp"
     },
     {
       "id": "axial-A3257",
@@ -204,7 +204,7 @@
       "code": "A3257",
       "title": "Temporal bone, medial view, left side",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/20-a3257.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/20-a3257.webp"
+      "reviewImage": "assets/questions/q-50367c1f4cd4.webp"
     },
     {
       "id": "axial-A3258",
@@ -214,7 +214,7 @@
       "code": "A3258",
       "title": "Sphenoid, anterior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/21-a3258.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/21-a3258.webp"
+      "reviewImage": "assets/questions/q-17d0adc528d3.webp"
     },
     {
       "id": "axial-A3259",
@@ -234,7 +234,7 @@
       "code": "A3260",
       "title": "Sphenoid, superior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/23-a3260.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/23-a3260.webp"
+      "reviewImage": "assets/questions/q-8d6a9a948ab5.webp"
     },
     {
       "id": "axial-A3261",
@@ -244,7 +244,7 @@
       "code": "A3261",
       "title": "Ethmoid, anterior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/24-a3261.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/24-a3261.webp"
+      "reviewImage": "assets/questions/q-a188d2b5ae51.webp"
     },
     {
       "id": "axial-A3262",
@@ -254,7 +254,7 @@
       "code": "A3262",
       "title": "Ethmoid, lateral view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/25-a3262.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/25-a3262.webp"
+      "reviewImage": "assets/questions/q-97c122b41216.webp"
     },
     {
       "id": "axial-A3263",
@@ -264,7 +264,7 @@
       "code": "A3263",
       "title": "Ethmoid, posterior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/26-a3263.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/26-a3263.webp"
+      "reviewImage": "assets/questions/q-63c7c14e414f.webp"
     },
     {
       "id": "axial-A3264",
@@ -274,7 +274,7 @@
       "code": "A3264",
       "title": "Mandible, anterior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/27-a3264.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/27-a3264.webp"
+      "reviewImage": "assets/questions/q-522da6029cd5.webp"
     },
     {
       "id": "axial-A3265",
@@ -284,7 +284,7 @@
       "code": "A3265",
       "title": "Mandible, lateral view, right side",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/28-a3265.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/28-a3265.webp"
+      "reviewImage": "assets/questions/q-e93b43c92729.webp"
     },
     {
       "id": "axial-A3266",
@@ -294,7 +294,7 @@
       "code": "A3266",
       "title": "Mandible, posterior view",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/29-a3266.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/29-a3266.webp"
+      "reviewImage": "assets/questions/q-7724c0a5e0a5.webp"
     },
     {
       "id": "axial-A3267",
@@ -304,7 +304,7 @@
       "code": "A3267",
       "title": "Maxilla, lateral view, right side",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/30-a3267.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/30-a3267.webp"
+      "reviewImage": "assets/questions/q-0bcb5056930c.webp"
     },
     {
       "id": "axial-A3268",
@@ -314,7 +314,7 @@
       "code": "A3268",
       "title": "Maxilla, medial view, right side",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/31-a3268.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/31-a3268.webp"
+      "reviewImage": "assets/questions/q-c2c15bfee765.webp"
     },
     {
       "id": "axial-A3270",
@@ -334,7 +334,7 @@
       "code": "A3271",
       "title": "Bisected skull",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/33-a3271.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/33-a3271.webp"
+      "reviewImage": "assets/questions/q-94d5495216d2.webp"
     },
     {
       "id": "axial-A3272",
@@ -344,7 +344,7 @@
       "code": "A3272",
       "title": "Bones forming the orbit",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/34-a3272.webp",
-      "reviewImage": "assets/pal/atlas/1-skull/review/34-a3272.webp"
+      "reviewImage": "assets/questions/q-026f8f90cecf.webp"
     },
     {
       "id": "axial-A2057",
@@ -374,7 +374,7 @@
       "code": "A3342",
       "title": "Vertebral column, posterior view",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/02-a3342.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/02-a3342.webp"
+      "reviewImage": "assets/questions/q-c460cc29c1db.webp"
     },
     {
       "id": "axial-A2058",
@@ -384,7 +384,7 @@
       "code": "A2058",
       "title": "Atlas, superior view",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/03-a2058.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/03-a2058.webp"
+      "reviewImage": "assets/questions/q-505e950ae316.webp"
     },
     {
       "id": "axial-A2059",
@@ -394,7 +394,7 @@
       "code": "A2059",
       "title": "Atlas, inferior view",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/04-a2059.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/04-a2059.webp"
+      "reviewImage": "assets/questions/q-41829f0a7164.webp"
     },
     {
       "id": "axial-A2060",
@@ -404,7 +404,7 @@
       "code": "A2060",
       "title": "Axis, superior view",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/05-a2060.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/05-a2060.webp"
+      "reviewImage": "assets/questions/q-22137aab6a00.webp"
     },
     {
       "id": "axial-A2061",
@@ -414,7 +414,7 @@
       "code": "A2061",
       "title": "Axis, inferior view",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/06-a2061.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/06-a2061.webp"
+      "reviewImage": "assets/questions/q-312d2f7e9e88.webp"
     },
     {
       "id": "axial-A2062",
@@ -424,7 +424,7 @@
       "code": "A2062",
       "title": "Cervical vertebra, superior view",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/07-a2062.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/07-a2062.webp"
+      "reviewImage": "assets/questions/q-391abfb2f0fb.webp"
     },
     {
       "id": "axial-A2063",
@@ -434,7 +434,7 @@
       "code": "A2063",
       "title": "Cervical vertebra, lateral view, right side",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/08-a2063.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/08-a2063.webp"
+      "reviewImage": "assets/questions/q-d5a1ebed8d57.webp"
     },
     {
       "id": "axial-A2064",
@@ -444,7 +444,7 @@
       "code": "A2064",
       "title": "Cervical vertebra, posterior view",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/09-a2064.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/09-a2064.webp"
+      "reviewImage": "assets/questions/q-b74591511a05.webp"
     },
     {
       "id": "axial-A2065",
@@ -454,7 +454,7 @@
       "code": "A2065",
       "title": "Thoracic vertebra, superior view",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/10-a2065.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/10-a2065.webp"
+      "reviewImage": "assets/questions/q-3a4d55e4838f.webp"
     },
     {
       "id": "axial-A2066",
@@ -464,7 +464,7 @@
       "code": "A2066",
       "title": "Thoracic vertebra, lateral view, right side",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/11-a2066.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/11-a2066.webp"
+      "reviewImage": "assets/questions/q-b1086ab31f79.webp"
     },
     {
       "id": "axial-A2067",
@@ -474,7 +474,7 @@
       "code": "A2067",
       "title": "Thoracic vertebra, posterior view",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/12-a2067.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/12-a2067.webp"
+      "reviewImage": "assets/questions/q-1be7c12296f4.webp"
     },
     {
       "id": "axial-A2068",
@@ -484,7 +484,7 @@
       "code": "A2068",
       "title": "Lumbar vertebra, superior view",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/13-a2068.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/13-a2068.webp"
+      "reviewImage": "assets/questions/q-ef1c4caf7be6.webp"
     },
     {
       "id": "axial-A2069",
@@ -494,7 +494,7 @@
       "code": "A2069",
       "title": "Lumbar vertebra, lateral view, right side",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/14-a2069.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/14-a2069.webp"
+      "reviewImage": "assets/questions/q-b8c02929d238.webp"
     },
     {
       "id": "axial-A2070",
@@ -504,7 +504,7 @@
       "code": "A2070",
       "title": "Lumbar vertebra, posterior view",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/15-a2070.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/15-a2070.webp"
+      "reviewImage": "assets/questions/q-da013b79c192.webp"
     },
     {
       "id": "axial-A3343",
@@ -574,7 +574,7 @@
       "code": "A3349",
       "title": "Sacrum and coccyx, anterior view",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/22-a3349.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/22-a3349.webp"
+      "reviewImage": "assets/questions/q-dc58e09cb2fc.webp"
     },
     {
       "id": "axial-A3350",
@@ -584,7 +584,7 @@
       "code": "A3350",
       "title": "Sacrum and coccyx, lateral view",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/23-a3350.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/23-a3350.webp"
+      "reviewImage": "assets/questions/q-7a11aa7740e6.webp"
     },
     {
       "id": "axial-A3351",
@@ -594,7 +594,7 @@
       "code": "A3351",
       "title": "Sacrum and coccyx, posterior view",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/24-a3351.webp",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/24-a3351.webp"
+      "reviewImage": "assets/questions/q-83f33f1d9ebc.webp"
     },
     {
       "id": "axial-A3317",
@@ -624,7 +624,7 @@
       "code": "A3352a",
       "title": "Sternum, anterior view",
       "labeledImage": "assets/pal/atlas/3-thoracic-cage/labeled/03-a3352a.webp",
-      "reviewImage": "assets/pal/atlas/3-thoracic-cage/review/03-a3352a.webp"
+      "reviewImage": "assets/questions/q-683be1ea78f9.webp"
     },
     {
       "id": "axial-A2073",
@@ -655,7 +655,7 @@
       "number": "19",
       "code": "A3256",
       "title": "Temporal bone, lateral view, left side",
-      "reviewImage": "assets/pal/atlas/1-skull/review/19-a3256.webp",
+      "reviewImage": "assets/questions/q-3fa2d01b12bc.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/19-a3256.webp",
       "sourceSide": "Left",
       "hideSideCues": true
@@ -667,7 +667,7 @@
       "number": "20",
       "code": "A3257",
       "title": "Temporal bone, medial view, left side",
-      "reviewImage": "assets/pal/atlas/1-skull/review/20-a3257.webp",
+      "reviewImage": "assets/questions/q-50367c1f4cd4.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/20-a3257.webp",
       "sourceSide": "Left",
       "hideSideCues": true
@@ -679,7 +679,7 @@
       "number": "30",
       "code": "A3267",
       "title": "Maxilla, lateral view, right side",
-      "reviewImage": "assets/pal/atlas/1-skull/review/30-a3267.webp",
+      "reviewImage": "assets/questions/q-0bcb5056930c.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/30-a3267.webp",
       "sourceSide": "Right",
       "hideSideCues": true
@@ -691,7 +691,7 @@
       "number": "31",
       "code": "A3268",
       "title": "Maxilla, medial view, right side",
-      "reviewImage": "assets/pal/atlas/1-skull/review/31-a3268.webp",
+      "reviewImage": "assets/questions/q-c2c15bfee765.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/31-a3268.webp",
       "sourceSide": "Right",
       "hideSideCues": true
@@ -707,26 +707,26 @@
       "sourceTitle": "Skull, inferior view",
       "sourceLabel": "Occipital condyle",
       "answer": "Occipital condyles",
-      "reviewImage": "assets/pal/structures/bones/axial-a3248-occipital-condyle.webp",
+      "reviewImage": "assets/questions/q-0be69ff1e3c3.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/11-a3248.webp",
       "terms": [
         "Occipital condyles"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3248-occipital-condyle.webp",
+          "image": "assets/questions/q-0be69ff1e3c3.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/11-a3248.webp",
           "sourceTitle": "Skull, inferior view",
           "sourceLabel": "Occipital condyle"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3255-occipital-condyle.webp",
+          "image": "assets/questions/q-35fb83f684e3.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/18-a3255.webp",
           "sourceTitle": "Occipital bone, inferior view",
           "sourceLabel": "Occipital condyle"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3271-occipital-condyle.webp",
+          "image": "assets/questions/q-f10ca8bd3dd0.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/33-a3271.webp",
           "sourceTitle": "Bisected skull",
           "sourceLabel": "Occipital condyle"
@@ -768,32 +768,32 @@
       "sourceTitle": "Cranial cavity foramina, superior view",
       "sourceLabel": "Foramen magnum",
       "answer": "Foramen magnum",
-      "reviewImage": "assets/pal/structures/bones/axial-a2031b-foramen-magnum.webp",
+      "reviewImage": "assets/questions/q-f07c53756ca5.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
       "terms": [
         "Foramen magnum"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2031b-foramen-magnum.webp",
+          "image": "assets/questions/q-f07c53756ca5.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
           "sourceTitle": "Cranial cavity foramina, superior view",
           "sourceLabel": "Foramen magnum"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2043b-foramen-magnum.webp",
+          "image": "assets/questions/q-beb2211ca8f0.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/08-a2043b.webp",
           "sourceTitle": "Cranial cavity foramina, posterosuperior view",
           "sourceLabel": "Foramen magnum"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3249-foramen-magnum.webp",
+          "image": "assets/questions/q-cb6af607c7d1.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/12-a3249.webp",
           "sourceTitle": "Skull base foramina, inferior view",
           "sourceLabel": "Foramen magnum"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3255-foramen-magnum.webp",
+          "image": "assets/questions/q-1dc436bbcbd7.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/18-a3255.webp",
           "sourceTitle": "Occipital bone, inferior view",
           "sourceLabel": "Foramen magnum"
@@ -841,20 +841,20 @@
       "sourceTitle": "Skull, posterior view",
       "sourceLabel": "Superior nuchal line",
       "answer": "Superior nuchal line",
-      "reviewImage": "assets/pal/structures/bones/axial-a3246-superior-nuchal-line.webp",
+      "reviewImage": "assets/questions/q-c631f3cd5af7.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/05-a3246.webp",
       "terms": [
         "Superior nuchal line"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3246-superior-nuchal-line.webp",
+          "image": "assets/questions/q-c631f3cd5af7.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/05-a3246.webp",
           "sourceTitle": "Skull, posterior view",
           "sourceLabel": "Superior nuchal line"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3255-superior-nuchal-line.webp",
+          "image": "assets/questions/q-bc50b841e190.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/18-a3255.webp",
           "sourceTitle": "Occipital bone, inferior view",
           "sourceLabel": "Superior nuchal line"
@@ -890,14 +890,14 @@
       "sourceTitle": "Occipital bone, inferior view",
       "sourceLabel": "Inferior nuchal line",
       "answer": "Inferior nuchal line",
-      "reviewImage": "assets/pal/structures/bones/axial-a3255-inferior-nuchal-line.webp",
+      "reviewImage": "assets/questions/q-ba7c6453e56d.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/18-a3255.webp",
       "terms": [
         "Inferior nuchal line"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3255-inferior-nuchal-line.webp",
+          "image": "assets/questions/q-ba7c6453e56d.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/18-a3255.webp",
           "sourceTitle": "Occipital bone, inferior view",
           "sourceLabel": "Inferior nuchal line"
@@ -927,26 +927,26 @@
       "sourceTitle": "Skull, lateral landmarks",
       "sourceLabel": "External occipital protuberance",
       "answer": "External occipital protuberance",
-      "reviewImage": "assets/pal/structures/bones/axial-a3245-external-occipital-protuberance.webp",
+      "reviewImage": "assets/questions/q-82a76335b991.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
       "terms": [
         "External occipital protuberance"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3245-external-occipital-protuberance.webp",
+          "image": "assets/questions/q-82a76335b991.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
           "sourceTitle": "Skull, lateral landmarks",
           "sourceLabel": "External occipital protuberance"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3246-external-occipital-protuberance.webp",
+          "image": "assets/questions/q-9751c0848f7b.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/05-a3246.webp",
           "sourceTitle": "Skull, posterior view",
           "sourceLabel": "External occipital protuberance"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3255-external-occipital-protuberance.webp",
+          "image": "assets/questions/q-8ddc94add351.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/18-a3255.webp",
           "sourceTitle": "Occipital bone, inferior view",
           "sourceLabel": "External occipital protuberance"
@@ -988,14 +988,14 @@
       "sourceTitle": "Parietal bones, posterior view",
       "sourceLabel": "Parietal bones",
       "answer": "Paired left and right parietal bones",
-      "reviewImage": "assets/pal/structures/bones/axial-a3253-parietal-bones.webp",
+      "reviewImage": "assets/questions/q-0adc13eac958.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/16-a3253.webp",
       "terms": [
         "Paired left and right parietal bones"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3253-parietal-bones.webp",
+          "image": "assets/questions/q-0adc13eac958.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/16-a3253.webp",
           "sourceTitle": "Parietal bones, posterior view",
           "sourceLabel": "Parietal bones"
@@ -1025,14 +1025,14 @@
       "sourceTitle": "Skull, lateral landmarks",
       "sourceLabel": "Zygomatic process",
       "answer": "Zygomatic process",
-      "reviewImage": "assets/pal/structures/bones/axial-a3245-zygomatic-process.webp",
+      "reviewImage": "assets/questions/q-13babd67e7ca.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
       "terms": [
         "Zygomatic process"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3245-zygomatic-process.webp",
+          "image": "assets/questions/q-13babd67e7ca.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
           "sourceTitle": "Skull, lateral landmarks",
           "sourceLabel": "Zygomatic process"
@@ -1062,14 +1062,14 @@
       "sourceTitle": "Skull base foramina, inferior view",
       "sourceLabel": "Mandibular fossa",
       "answer": "Mandibular fossa",
-      "reviewImage": "assets/pal/structures/bones/axial-a3249-mandibular-fossa.webp",
+      "reviewImage": "assets/questions/q-1f5060bdb0e8.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/12-a3249.webp",
       "terms": [
         "Mandibular fossa"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3249-mandibular-fossa.webp",
+          "image": "assets/questions/q-1f5060bdb0e8.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/12-a3249.webp",
           "sourceTitle": "Skull base foramina, inferior view",
           "sourceLabel": "Mandibular fossa"
@@ -1099,20 +1099,20 @@
       "sourceTitle": "Skull, lateral landmarks",
       "sourceLabel": "Mastoid process",
       "answer": "Mastoid process",
-      "reviewImage": "assets/pal/structures/bones/axial-a3245-mastoid-process.webp",
+      "reviewImage": "assets/questions/q-783b40f0829c.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
       "terms": [
         "Mastoid process"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3245-mastoid-process.webp",
+          "image": "assets/questions/q-783b40f0829c.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
           "sourceTitle": "Skull, lateral landmarks",
           "sourceLabel": "Mastoid process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3248-mastoid-process.webp",
+          "image": "assets/questions/q-f720d49005cc.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/11-a3248.webp",
           "sourceTitle": "Skull, inferior view",
           "sourceLabel": "Mastoid process"
@@ -1148,20 +1148,20 @@
       "sourceTitle": "Skull, lateral landmarks",
       "sourceLabel": "Styloid process",
       "answer": "Styloid process",
-      "reviewImage": "assets/pal/structures/bones/axial-a3245-styloid-process.webp",
+      "reviewImage": "assets/questions/q-9901c3b090e5.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
       "terms": [
         "Styloid process"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3245-styloid-process.webp",
+          "image": "assets/questions/q-9901c3b090e5.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
           "sourceTitle": "Skull, lateral landmarks",
           "sourceLabel": "Styloid process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3248-styloid-process.webp",
+          "image": "assets/questions/q-7795f3facf36.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/11-a3248.webp",
           "sourceTitle": "Skull, inferior view",
           "sourceLabel": "Styloid process"
@@ -1197,20 +1197,20 @@
       "sourceTitle": "Cranial cavity foramina, superior view",
       "sourceLabel": "Carotid canal",
       "answer": "Carotid canal",
-      "reviewImage": "assets/pal/structures/bones/axial-a2031b-carotid-canal.webp",
+      "reviewImage": "assets/questions/q-8c720fb36bf1.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
       "terms": [
         "Carotid canal"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2031b-carotid-canal.webp",
+          "image": "assets/questions/q-8c720fb36bf1.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
           "sourceTitle": "Cranial cavity foramina, superior view",
           "sourceLabel": "Carotid canal"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3249-carotid-canal.webp",
+          "image": "assets/questions/q-2e4c6d1186c1.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/12-a3249.webp",
           "sourceTitle": "Skull base foramina, inferior view",
           "sourceLabel": "Carotid canal"
@@ -1246,20 +1246,20 @@
       "sourceTitle": "Cranial cavity foramina, superior view",
       "sourceLabel": "Foramen lacerum",
       "answer": "Foramen lacerum",
-      "reviewImage": "assets/pal/structures/bones/axial-a2031b-foramen-lacerum.webp",
+      "reviewImage": "assets/questions/q-e9b32220d3be.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
       "terms": [
         "Foramen lacerum"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2031b-foramen-lacerum.webp",
+          "image": "assets/questions/q-e9b32220d3be.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
           "sourceTitle": "Cranial cavity foramina, superior view",
           "sourceLabel": "Foramen lacerum"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3249-foramen-lacerum.webp",
+          "image": "assets/questions/q-00743d9b7645.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/12-a3249.webp",
           "sourceTitle": "Skull base foramina, inferior view",
           "sourceLabel": "Foramen lacerum"
@@ -1295,20 +1295,20 @@
       "sourceTitle": "Skull, lateral landmarks",
       "sourceLabel": "External acoustic meatus",
       "answer": "External acoustic canal",
-      "reviewImage": "assets/pal/structures/bones/axial-a3245-external-acoustic-meatus.webp",
+      "reviewImage": "assets/questions/q-5c65d9e6e7de.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
       "terms": [
         "External acoustic canal"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3245-external-acoustic-meatus.webp",
+          "image": "assets/questions/q-5c65d9e6e7de.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
           "sourceTitle": "Skull, lateral landmarks",
           "sourceLabel": "External acoustic meatus"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3256-external-acoustic-meatus.webp",
+          "image": "assets/questions/q-b156597f64c4.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/19-a3256.webp",
           "sourceTitle": "Temporal bone, lateral view, left side",
           "sourceLabel": "External acoustic meatus"
@@ -1344,20 +1344,20 @@
       "sourceTitle": "Cranial cavity foramina, posterosuperior view",
       "sourceLabel": "Internal acoustic meatus",
       "answer": "Internal acoustic canal",
-      "reviewImage": "assets/pal/structures/bones/axial-a2043b-internal-acoustic-meatus.webp",
+      "reviewImage": "assets/questions/q-7b63d247054c.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/08-a2043b.webp",
       "terms": [
         "Internal acoustic canal"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2043b-internal-acoustic-meatus.webp",
+          "image": "assets/questions/q-7b63d247054c.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/08-a2043b.webp",
           "sourceTitle": "Cranial cavity foramina, posterosuperior view",
           "sourceLabel": "Internal acoustic meatus"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3257-internal-acoustic-meatus.webp",
+          "image": "assets/questions/q-e364eff7074c.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/20-a3257.webp",
           "sourceTitle": "Temporal bone, medial view, left side",
           "sourceLabel": "Internal acoustic meatus"
@@ -1393,26 +1393,26 @@
       "sourceTitle": "Cranial cavity foramina, superior view",
       "sourceLabel": "Jugular foramen",
       "answer": "Jugular foramen",
-      "reviewImage": "assets/pal/structures/bones/axial-a2031b-jugular-foramen.webp",
+      "reviewImage": "assets/questions/q-9abcc3a2cec5.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
       "terms": [
         "Jugular foramen"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2031b-jugular-foramen.webp",
+          "image": "assets/questions/q-9abcc3a2cec5.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
           "sourceTitle": "Cranial cavity foramina, superior view",
           "sourceLabel": "Jugular foramen"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2043b-jugular-foramen.webp",
+          "image": "assets/questions/q-d8f4bb5390de.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/08-a2043b.webp",
           "sourceTitle": "Cranial cavity foramina, posterosuperior view",
           "sourceLabel": "Jugular foramen"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3249-jugular-foramen.webp",
+          "image": "assets/questions/q-e07767598ec8.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/12-a3249.webp",
           "sourceTitle": "Skull base foramina, inferior view",
           "sourceLabel": "Jugular foramen"
@@ -1454,20 +1454,20 @@
       "sourceTitle": "Skull, anterior landmarks",
       "sourceLabel": "Supraorbital notch",
       "answer": "Supraorbital foramen/notch",
-      "reviewImage": "assets/pal/structures/bones/axial-a3243-supraorbital-notch.webp",
+      "reviewImage": "assets/questions/q-71004a22ec9e.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/02-a3243.webp",
       "terms": [
         "Supraorbital foramen/notch"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3243-supraorbital-notch.webp",
+          "image": "assets/questions/q-71004a22ec9e.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/02-a3243.webp",
           "sourceTitle": "Skull, anterior landmarks",
           "sourceLabel": "Supraorbital notch"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3254-supraorbital-notch.webp",
+          "image": "assets/questions/q-609e423a4fc6.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/17-a3254.webp",
           "sourceTitle": "Frontal bone, anterior view",
           "sourceLabel": "Supraorbital notch"
@@ -1503,26 +1503,26 @@
       "sourceTitle": "Cranial cavity bones, posterosuperior view",
       "sourceLabel": "Sella turcica",
       "answer": "Sella turcica",
-      "reviewImage": "assets/pal/structures/bones/axial-a2043a-sella-turcica.webp",
+      "reviewImage": "assets/questions/q-2317ac5c5e1c.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/07-a2043a.webp",
       "terms": [
         "Sella turcica"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2043a-sella-turcica.webp",
+          "image": "assets/questions/q-2317ac5c5e1c.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/07-a2043a.webp",
           "sourceTitle": "Cranial cavity bones, posterosuperior view",
           "sourceLabel": "Sella turcica"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3260-sella-turcica.webp",
+          "image": "assets/questions/q-49a631384c91.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/23-a3260.webp",
           "sourceTitle": "Sphenoid, superior view",
           "sourceLabel": "Sella turcica"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3271-sella-turcica.webp",
+          "image": "assets/questions/q-34f3640dbefe.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/33-a3271.webp",
           "sourceTitle": "Bisected skull",
           "sourceLabel": "Sella turcica"
@@ -1564,26 +1564,26 @@
       "sourceTitle": "Cranial cavity foramina, superior view",
       "sourceLabel": "Optic canal",
       "answer": "Optic canals",
-      "reviewImage": "assets/pal/structures/bones/axial-a2031b-optic-canal.webp",
+      "reviewImage": "assets/questions/q-c1e540c8f093.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
       "terms": [
         "Optic canals"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2031b-optic-canal.webp",
+          "image": "assets/questions/q-c1e540c8f093.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
           "sourceTitle": "Cranial cavity foramina, superior view",
           "sourceLabel": "Optic canal"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2043b-optic-canal.webp",
+          "image": "assets/questions/q-be25ba747fba.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/08-a2043b.webp",
           "sourceTitle": "Cranial cavity foramina, posterosuperior view",
           "sourceLabel": "Optic canal"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3260-optic-canal.webp",
+          "image": "assets/questions/q-e5ca8b41c188.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/23-a3260.webp",
           "sourceTitle": "Sphenoid, superior view",
           "sourceLabel": "Optic canal"
@@ -1625,26 +1625,26 @@
       "sourceTitle": "Cranial cavity foramina, posterosuperior view",
       "sourceLabel": "Foramen rotundum",
       "answer": "Foramen rotundum",
-      "reviewImage": "assets/pal/structures/bones/axial-a2043b-foramen-rotundum.webp",
+      "reviewImage": "assets/questions/q-029e9d8155f7.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/08-a2043b.webp",
       "terms": [
         "Foramen rotundum"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2043b-foramen-rotundum.webp",
+          "image": "assets/questions/q-029e9d8155f7.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/08-a2043b.webp",
           "sourceTitle": "Cranial cavity foramina, posterosuperior view",
           "sourceLabel": "Foramen rotundum"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3258-foramen-rotundum.webp",
+          "image": "assets/questions/q-16db8f14ae70.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/21-a3258.webp",
           "sourceTitle": "Sphenoid, anterior view",
           "sourceLabel": "Foramen rotundum"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3260-foramen-rotundum.webp",
+          "image": "assets/questions/q-b04244c86885.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/23-a3260.webp",
           "sourceTitle": "Sphenoid, superior view",
           "sourceLabel": "Foramen rotundum"
@@ -1686,32 +1686,32 @@
       "sourceTitle": "Cranial cavity foramina, superior view",
       "sourceLabel": "Foramen ovale",
       "answer": "Foramen ovale",
-      "reviewImage": "assets/pal/structures/bones/axial-a2031b-foramen-ovale.webp",
+      "reviewImage": "assets/questions/q-0e1378a94d69.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
       "terms": [
         "Foramen ovale"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2031b-foramen-ovale.webp",
+          "image": "assets/questions/q-0e1378a94d69.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
           "sourceTitle": "Cranial cavity foramina, superior view",
           "sourceLabel": "Foramen ovale"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3249-foramen-ovale.webp",
+          "image": "assets/questions/q-ebb41260581c.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/12-a3249.webp",
           "sourceTitle": "Skull base foramina, inferior view",
           "sourceLabel": "Foramen ovale"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3258-foramen-ovale.webp",
+          "image": "assets/questions/q-68ce4dff0d3a.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/21-a3258.webp",
           "sourceTitle": "Sphenoid, anterior view",
           "sourceLabel": "Foramen ovale"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3260-foramen-ovale.webp",
+          "image": "assets/questions/q-9c60b4d262a3.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/23-a3260.webp",
           "sourceTitle": "Sphenoid, superior view",
           "sourceLabel": "Foramen ovale"
@@ -1759,26 +1759,26 @@
       "sourceTitle": "Cranial cavity foramina, superior view",
       "sourceLabel": "Foramen spinosum",
       "answer": "Foramen spinosum",
-      "reviewImage": "assets/pal/structures/bones/axial-a2031b-foramen-spinosum.webp",
+      "reviewImage": "assets/questions/q-6fb53a0cbb4e.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
       "terms": [
         "Foramen spinosum"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2031b-foramen-spinosum.webp",
+          "image": "assets/questions/q-6fb53a0cbb4e.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
           "sourceTitle": "Cranial cavity foramina, superior view",
           "sourceLabel": "Foramen spinosum"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3249-foramen-spinosum.webp",
+          "image": "assets/questions/q-2666b787dc59.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/12-a3249.webp",
           "sourceTitle": "Skull base foramina, inferior view",
           "sourceLabel": "Foramen spinosum"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3260-foramen-spinosum.webp",
+          "image": "assets/questions/q-fde57c476029.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/23-a3260.webp",
           "sourceTitle": "Sphenoid, superior view",
           "sourceLabel": "Foramen spinosum"
@@ -1820,26 +1820,26 @@
       "sourceTitle": "Cranial cavity bones, superior view",
       "sourceLabel": "Cribriform plate",
       "answer": "Cribriform plate",
-      "reviewImage": "assets/pal/structures/bones/axial-a2031a-cribriform-plate.webp",
+      "reviewImage": "assets/questions/q-07563e7134f0.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/09-a2031a.webp",
       "terms": [
         "Cribriform plate"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2031a-cribriform-plate.webp",
+          "image": "assets/questions/q-07563e7134f0.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/09-a2031a.webp",
           "sourceTitle": "Cranial cavity bones, superior view",
           "sourceLabel": "Cribriform plate"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2043a-cribriform-plate.webp",
+          "image": "assets/questions/q-75ff4cf71bec.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/07-a2043a.webp",
           "sourceTitle": "Cranial cavity bones, posterosuperior view",
           "sourceLabel": "Cribriform plate"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2043b-cribriform-plate.webp",
+          "image": "assets/questions/q-73e2d343595f.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/08-a2043b.webp",
           "sourceTitle": "Cranial cavity foramina, posterosuperior view",
           "sourceLabel": "Cribriform plate"
@@ -1881,38 +1881,38 @@
       "sourceTitle": "Cranial cavity bones, superior view",
       "sourceLabel": "Crista galli",
       "answer": "Crista galli",
-      "reviewImage": "assets/pal/structures/bones/axial-a2031a-crista-galli.webp",
+      "reviewImage": "assets/questions/q-ac98ffd364cb.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/09-a2031a.webp",
       "terms": [
         "Crista galli"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2031a-crista-galli.webp",
+          "image": "assets/questions/q-ac98ffd364cb.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/09-a2031a.webp",
           "sourceTitle": "Cranial cavity bones, superior view",
           "sourceLabel": "Crista galli"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2043a-crista-galli.webp",
+          "image": "assets/questions/q-8867a7e06ddb.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/07-a2043a.webp",
           "sourceTitle": "Cranial cavity bones, posterosuperior view",
           "sourceLabel": "Crista galli"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3261-crista-galli.webp",
+          "image": "assets/questions/q-2d8c69663479.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/24-a3261.webp",
           "sourceTitle": "Ethmoid, anterior view",
           "sourceLabel": "Crista galli"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3262-crista-galli.webp",
+          "image": "assets/questions/q-4832be029498.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/25-a3262.webp",
           "sourceTitle": "Ethmoid, lateral view",
           "sourceLabel": "Crista galli"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3263-crista-galli.webp",
+          "image": "assets/questions/q-bec1b95f80bf.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/26-a3263.webp",
           "sourceTitle": "Ethmoid, posterior view",
           "sourceLabel": "Crista galli"
@@ -1966,32 +1966,32 @@
       "sourceTitle": "Skull, anterior landmarks",
       "sourceLabel": "Perpendicular plate",
       "answer": "Perpendicular plate",
-      "reviewImage": "assets/pal/structures/bones/axial-a3243-perpendicular-plate.webp",
+      "reviewImage": "assets/questions/q-f4ea69850b82.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/02-a3243.webp",
       "terms": [
         "Perpendicular plate"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3243-perpendicular-plate.webp",
+          "image": "assets/questions/q-f4ea69850b82.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/02-a3243.webp",
           "sourceTitle": "Skull, anterior landmarks",
           "sourceLabel": "Perpendicular plate"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3261-perpendicular-plate.webp",
+          "image": "assets/questions/q-30ba10120154.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/24-a3261.webp",
           "sourceTitle": "Ethmoid, anterior view",
           "sourceLabel": "Perpendicular plate"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3262-perpendicular-plate.webp",
+          "image": "assets/questions/q-3b1507857544.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/25-a3262.webp",
           "sourceTitle": "Ethmoid, lateral view",
           "sourceLabel": "Perpendicular plate"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3263-perpendicular-plate.webp",
+          "image": "assets/questions/q-4504345eaad7.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/26-a3263.webp",
           "sourceTitle": "Ethmoid, posterior view",
           "sourceLabel": "Perpendicular plate"
@@ -2039,14 +2039,14 @@
       "sourceTitle": "Skull, lateral landmarks",
       "sourceLabel": "Temporal process",
       "answer": "Temporal process",
-      "reviewImage": "assets/pal/structures/bones/axial-a3245-temporal-process.webp",
+      "reviewImage": "assets/questions/q-0f3270745c41.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
       "terms": [
         "Temporal process"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3245-temporal-process.webp",
+          "image": "assets/questions/q-0f3270745c41.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
           "sourceTitle": "Skull, lateral landmarks",
           "sourceLabel": "Temporal process"
@@ -2076,20 +2076,20 @@
       "sourceTitle": "Maxilla, lateral view, right side",
       "sourceLabel": "Alveolar margin",
       "answer": "Alveolar processes",
-      "reviewImage": "assets/pal/structures/bones/axial-a3267-alveolar-margin.webp",
+      "reviewImage": "assets/questions/q-32132afd085f.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/30-a3267.webp",
       "terms": [
         "Alveolar processes"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3267-alveolar-margin.webp",
+          "image": "assets/questions/q-32132afd085f.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/30-a3267.webp",
           "sourceTitle": "Maxilla, lateral view, right side",
           "sourceLabel": "Alveolar margin"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3268-alveolar-margin.webp",
+          "image": "assets/questions/q-604e770e70a3.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/31-a3268.webp",
           "sourceTitle": "Maxilla, medial view, right side",
           "sourceLabel": "Alveolar margin"
@@ -2125,20 +2125,20 @@
       "sourceTitle": "Skull, anterior landmarks",
       "sourceLabel": "Infraorbital foramen",
       "answer": "Infraorbital foramen",
-      "reviewImage": "assets/pal/structures/bones/axial-a3243-infraorbital-foramen.webp",
+      "reviewImage": "assets/questions/q-1a022fa7c28e.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/02-a3243.webp",
       "terms": [
         "Infraorbital foramen"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3243-infraorbital-foramen.webp",
+          "image": "assets/questions/q-1a022fa7c28e.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/02-a3243.webp",
           "sourceTitle": "Skull, anterior landmarks",
           "sourceLabel": "Infraorbital foramen"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3267-infraorbital-foramen.webp",
+          "image": "assets/questions/q-38b0e7359b17.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/30-a3267.webp",
           "sourceTitle": "Maxilla, lateral view, right side",
           "sourceLabel": "Infraorbital foramen"
@@ -2174,20 +2174,20 @@
       "sourceTitle": "Skull, inferior view",
       "sourceLabel": "Palatine bone",
       "answer": "Palatine bone",
-      "reviewImage": "assets/pal/structures/bones/axial-a3248-palatine-bone.webp",
+      "reviewImage": "assets/questions/q-62128a8e970c.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/11-a3248.webp",
       "terms": [
         "Palatine bone"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3248-palatine-bone.webp",
+          "image": "assets/questions/q-62128a8e970c.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/11-a3248.webp",
           "sourceTitle": "Skull, inferior view",
           "sourceLabel": "Palatine bone"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3272-palatine-bone.webp",
+          "image": "assets/questions/q-36a1e940b592.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/34-a3272.webp",
           "sourceTitle": "Bones forming the orbit",
           "sourceLabel": "Palatine bone"
@@ -2223,26 +2223,26 @@
       "sourceTitle": "Skull, anterior view",
       "sourceLabel": "Vomer bone",
       "answer": "Vomer",
-      "reviewImage": "assets/pal/structures/bones/axial-a3242-vomer-bone.webp",
+      "reviewImage": "assets/questions/q-d2b9c644cfa7.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/01-a3242.webp",
       "terms": [
         "Vomer"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3242-vomer-bone.webp",
+          "image": "assets/questions/q-d2b9c644cfa7.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/01-a3242.webp",
           "sourceTitle": "Skull, anterior view",
           "sourceLabel": "Vomer bone"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3248-vomer.webp",
+          "image": "assets/questions/q-58493c2e2d78.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/11-a3248.webp",
           "sourceTitle": "Skull, inferior view",
           "sourceLabel": "Vomer"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3271-vomer.webp",
+          "image": "assets/questions/q-034612abf887.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/33-a3271.webp",
           "sourceTitle": "Bisected skull",
           "sourceLabel": "Vomer"
@@ -2285,26 +2285,26 @@
       "sourceTitle": "Mandible, anterior view",
       "sourceLabel": "Alveolar margin",
       "answer": "Alveolar processes",
-      "reviewImage": "assets/pal/structures/bones/axial-a3264-alveolar-margin.webp",
+      "reviewImage": "assets/questions/q-e37e3658da2c.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/27-a3264.webp",
       "terms": [
         "Alveolar processes"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3264-alveolar-margin.webp",
+          "image": "assets/questions/q-e37e3658da2c.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/27-a3264.webp",
           "sourceTitle": "Mandible, anterior view",
           "sourceLabel": "Alveolar margin"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3265-alveolar-margin.webp",
+          "image": "assets/questions/q-3e1607f9f43c.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/28-a3265.webp",
           "sourceTitle": "Mandible, lateral view, right side",
           "sourceLabel": "Alveolar margin"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3266-alveolar-margin.webp",
+          "image": "assets/questions/q-bb7342e812b9.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/29-a3266.webp",
           "sourceTitle": "Mandible, posterior view",
           "sourceLabel": "Alveolar margin"
@@ -2346,26 +2346,26 @@
       "sourceTitle": "Mandible, anterior view",
       "sourceLabel": "Ramus",
       "answer": "Mandibular ramus",
-      "reviewImage": "assets/pal/structures/bones/axial-a3264-ramus.webp",
+      "reviewImage": "assets/questions/q-5eb4bed6e93d.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/27-a3264.webp",
       "terms": [
         "Mandibular ramus"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3264-ramus.webp",
+          "image": "assets/questions/q-5eb4bed6e93d.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/27-a3264.webp",
           "sourceTitle": "Mandible, anterior view",
           "sourceLabel": "Ramus"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3265-ramus.webp",
+          "image": "assets/questions/q-85497c693791.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/28-a3265.webp",
           "sourceTitle": "Mandible, lateral view, right side",
           "sourceLabel": "Ramus"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3266-ramus.webp",
+          "image": "assets/questions/q-ab09d59eec16.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/29-a3266.webp",
           "sourceTitle": "Mandible, posterior view",
           "sourceLabel": "Ramus"
@@ -2407,14 +2407,14 @@
       "sourceTitle": "Mandible, lateral view, right side",
       "sourceLabel": "Mandibular notch",
       "answer": "Mandibular notch",
-      "reviewImage": "assets/pal/structures/bones/axial-a3265-mandibular-notch.webp",
+      "reviewImage": "assets/questions/q-f24ef02026f1.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/28-a3265.webp",
       "terms": [
         "Mandibular notch"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3265-mandibular-notch.webp",
+          "image": "assets/questions/q-f24ef02026f1.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/28-a3265.webp",
           "sourceTitle": "Mandible, lateral view, right side",
           "sourceLabel": "Mandibular notch"
@@ -2444,26 +2444,26 @@
       "sourceTitle": "Mandible, anterior view",
       "sourceLabel": "Mandibular condyle",
       "answer": "Condylar process",
-      "reviewImage": "assets/pal/structures/bones/axial-a3264-mandibular-condyle.webp",
+      "reviewImage": "assets/questions/q-8f7cad0868ec.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/27-a3264.webp",
       "terms": [
         "Condylar process"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3264-mandibular-condyle.webp",
+          "image": "assets/questions/q-8f7cad0868ec.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/27-a3264.webp",
           "sourceTitle": "Mandible, anterior view",
           "sourceLabel": "Mandibular condyle"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3265-mandibular-condyle.webp",
+          "image": "assets/questions/q-09423eabf640.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/28-a3265.webp",
           "sourceTitle": "Mandible, lateral view, right side",
           "sourceLabel": "Mandibular condyle"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3266-mandibular-condyle.webp",
+          "image": "assets/questions/q-bc181b983aa8.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/29-a3266.webp",
           "sourceTitle": "Mandible, posterior view",
           "sourceLabel": "Mandibular condyle"
@@ -2505,26 +2505,26 @@
       "sourceTitle": "Mandible, anterior view",
       "sourceLabel": "Coronoid process",
       "answer": "Coronoid process",
-      "reviewImage": "assets/pal/structures/bones/axial-a3264-coronoid-process.webp",
+      "reviewImage": "assets/questions/q-6411a7e325f4.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/27-a3264.webp",
       "terms": [
         "Coronoid process"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3264-coronoid-process.webp",
+          "image": "assets/questions/q-6411a7e325f4.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/27-a3264.webp",
           "sourceTitle": "Mandible, anterior view",
           "sourceLabel": "Coronoid process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3265-coronoid-process.webp",
+          "image": "assets/questions/q-85000eddecd7.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/28-a3265.webp",
           "sourceTitle": "Mandible, lateral view, right side",
           "sourceLabel": "Coronoid process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3266-coronoid-process.webp",
+          "image": "assets/questions/q-d15c1529fe63.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/29-a3266.webp",
           "sourceTitle": "Mandible, posterior view",
           "sourceLabel": "Coronoid process"
@@ -2566,20 +2566,20 @@
       "sourceTitle": "Mandible, lateral view, right side",
       "sourceLabel": "Mandibular foramen",
       "answer": "Mandibular foramen",
-      "reviewImage": "assets/pal/structures/bones/axial-a3265-mandibular-foramen.webp",
+      "reviewImage": "assets/questions/q-bd809a08e001.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/28-a3265.webp",
       "terms": [
         "Mandibular foramen"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3265-mandibular-foramen.webp",
+          "image": "assets/questions/q-bd809a08e001.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/28-a3265.webp",
           "sourceTitle": "Mandible, lateral view, right side",
           "sourceLabel": "Mandibular foramen"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3266-mandibular-foramen.webp",
+          "image": "assets/questions/q-4346089de721.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/29-a3266.webp",
           "sourceTitle": "Mandible, posterior view",
           "sourceLabel": "Mandibular foramen"
@@ -2615,26 +2615,26 @@
       "sourceTitle": "Skull, anterior landmarks",
       "sourceLabel": "Mental foramen",
       "answer": "Mental foramen",
-      "reviewImage": "assets/pal/structures/bones/axial-a3243-mental-foramen.webp",
+      "reviewImage": "assets/questions/q-c7189c23f01a.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/02-a3243.webp",
       "terms": [
         "Mental foramen"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3243-mental-foramen.webp",
+          "image": "assets/questions/q-c7189c23f01a.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/02-a3243.webp",
           "sourceTitle": "Skull, anterior landmarks",
           "sourceLabel": "Mental foramen"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3264-mental-foramen.webp",
+          "image": "assets/questions/q-0ad40bb7bcb6.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/27-a3264.webp",
           "sourceTitle": "Mandible, anterior view",
           "sourceLabel": "Mental foramen"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3265-mental-foramen.webp",
+          "image": "assets/questions/q-bf6ec4b46a85.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/28-a3265.webp",
           "sourceTitle": "Mandible, lateral view, right side",
           "sourceLabel": "Mental foramen"
@@ -2676,26 +2676,26 @@
       "sourceTitle": "Skull, lateral landmarks",
       "sourceLabel": "Lambdoid suture",
       "answer": "Lambdoid suture",
-      "reviewImage": "assets/pal/structures/bones/axial-a3245-lambdoid-suture.webp",
+      "reviewImage": "assets/questions/q-2355f4e42ef0.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
       "terms": [
         "Lambdoid suture"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3245-lambdoid-suture.webp",
+          "image": "assets/questions/q-2355f4e42ef0.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
           "sourceTitle": "Skull, lateral landmarks",
           "sourceLabel": "Lambdoid suture"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3246-lambdoid-suture.webp",
+          "image": "assets/questions/q-c34880068ad5.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/05-a3246.webp",
           "sourceTitle": "Skull, posterior view",
           "sourceLabel": "Lambdoid suture"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3247-lambdoid-suture.webp",
+          "image": "assets/questions/q-16e03221d38a.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/06-a3247.webp",
           "sourceTitle": "Skull, superior view",
           "sourceLabel": "Lambdoid suture"
@@ -2737,32 +2737,32 @@
       "sourceTitle": "Skull, posterior view",
       "sourceLabel": "Sagittal suture",
       "answer": "Sagittal suture",
-      "reviewImage": "assets/pal/structures/bones/axial-a3246-sagittal-suture.webp",
+      "reviewImage": "assets/questions/q-119ed0783457.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/05-a3246.webp",
       "terms": [
         "Sagittal suture"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3246-sagittal-suture.webp",
+          "image": "assets/questions/q-119ed0783457.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/05-a3246.webp",
           "sourceTitle": "Skull, posterior view",
           "sourceLabel": "Sagittal suture"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3247-sagittal-suture.webp",
+          "image": "assets/questions/q-f6a9e9b9e4a7.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/06-a3247.webp",
           "sourceTitle": "Skull, superior view",
           "sourceLabel": "Sagittal suture"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3252-sagittal-suture.webp",
+          "image": "assets/questions/q-4ec4a55a2173.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/15-a3252.webp",
           "sourceTitle": "Fetal skull, superior view",
           "sourceLabel": "Sagittal suture"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3253-sagittal-suture.webp",
+          "image": "assets/questions/q-c01a8b402d8b.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/16-a3253.webp",
           "sourceTitle": "Parietal bones, posterior view",
           "sourceLabel": "Sagittal suture"
@@ -2810,32 +2810,32 @@
       "sourceTitle": "Skull, lateral landmarks",
       "sourceLabel": "Coronal suture",
       "answer": "Coronal suture",
-      "reviewImage": "assets/pal/structures/bones/axial-a3245-coronal-suture.webp",
+      "reviewImage": "assets/questions/q-e99d924f0354.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
       "terms": [
         "Coronal suture"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3245-coronal-suture.webp",
+          "image": "assets/questions/q-e99d924f0354.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
           "sourceTitle": "Skull, lateral landmarks",
           "sourceLabel": "Coronal suture"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3247-coronal-suture.webp",
+          "image": "assets/questions/q-56ed9f7b77e6.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/06-a3247.webp",
           "sourceTitle": "Skull, superior view",
           "sourceLabel": "Coronal suture"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3250-coronal-suture.webp",
+          "image": "assets/questions/q-fc25e199d434.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/13-a3250.webp",
           "sourceTitle": "Fetal skull, anterior view",
           "sourceLabel": "Coronal suture"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3252-coronal-suture.webp",
+          "image": "assets/questions/q-e51bdb64c767.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/15-a3252.webp",
           "sourceTitle": "Fetal skull, superior view",
           "sourceLabel": "Coronal suture"
@@ -2883,14 +2883,14 @@
       "sourceTitle": "Skull, lateral landmarks",
       "sourceLabel": "Squamous suture",
       "answer": "Squamous suture",
-      "reviewImage": "assets/pal/structures/bones/axial-a3245-squamous-suture.webp",
+      "reviewImage": "assets/questions/q-7ecd8a31dfd6.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
       "terms": [
         "Squamous suture"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3245-squamous-suture.webp",
+          "image": "assets/questions/q-7ecd8a31dfd6.webp",
           "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
           "sourceTitle": "Skull, lateral landmarks",
           "sourceLabel": "Squamous suture"
@@ -2920,14 +2920,14 @@
       "sourceTitle": "Sternum, anterior view",
       "sourceLabel": "Manubrium",
       "answer": "Manubrium",
-      "reviewImage": "assets/pal/structures/bones/axial-a3352a-manubrium.webp",
+      "reviewImage": "assets/questions/q-2c870fbd1100.webp",
       "labeledImage": "assets/pal/atlas/3-thoracic-cage/labeled/03-a3352a.webp",
       "terms": [
         "Manubrium"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3352a-manubrium.webp",
+          "image": "assets/questions/q-2c870fbd1100.webp",
           "labeledImage": "assets/pal/atlas/3-thoracic-cage/labeled/03-a3352a.webp",
           "sourceTitle": "Sternum, anterior view",
           "sourceLabel": "Manubrium"
@@ -2957,14 +2957,14 @@
       "sourceTitle": "Sternum, anterior view",
       "sourceLabel": "Body",
       "answer": "Body",
-      "reviewImage": "assets/pal/structures/bones/axial-a3352a-body.webp",
+      "reviewImage": "assets/questions/q-bbe6876a150d.webp",
       "labeledImage": "assets/pal/atlas/3-thoracic-cage/labeled/03-a3352a.webp",
       "terms": [
         "Body"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3352a-body.webp",
+          "image": "assets/questions/q-bbe6876a150d.webp",
           "labeledImage": "assets/pal/atlas/3-thoracic-cage/labeled/03-a3352a.webp",
           "sourceTitle": "Sternum, anterior view",
           "sourceLabel": "Body"
@@ -2994,14 +2994,14 @@
       "sourceTitle": "Sternum, anterior view",
       "sourceLabel": "Xiphoid process",
       "answer": "Xiphoid process",
-      "reviewImage": "assets/pal/structures/bones/axial-a3352a-xiphoid-process.webp",
+      "reviewImage": "assets/questions/q-ca92c19905e1.webp",
       "labeledImage": "assets/pal/atlas/3-thoracic-cage/labeled/03-a3352a.webp",
       "terms": [
         "Xiphoid process"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a3352a-xiphoid-process.webp",
+          "image": "assets/questions/q-ca92c19905e1.webp",
           "labeledImage": "assets/pal/atlas/3-thoracic-cage/labeled/03-a3352a.webp",
           "sourceTitle": "Sternum, anterior view",
           "sourceLabel": "Xiphoid process"
@@ -3031,32 +3031,32 @@
       "sourceTitle": "Cervical vertebra, superior view",
       "sourceLabel": "Cervical vertebra",
       "answer": "Cervical vertebra",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/07-a2062.webp",
+      "reviewImage": "assets/questions/q-391abfb2f0fb.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/07-a2062.webp",
       "terms": [
         "Cervical vertebra"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/atlas/2-vertebral-column/review/07-a2062.webp",
+          "image": "assets/questions/q-391abfb2f0fb.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/07-a2062.webp",
           "sourceTitle": "Cervical vertebra, superior view",
           "sourceLabel": "Cervical vertebra"
         },
         {
-          "image": "assets/pal/atlas/2-vertebral-column/review/08-a2063.webp",
+          "image": "assets/questions/q-d5a1ebed8d57.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/08-a2063.webp",
           "sourceTitle": "Cervical vertebra, lateral view, right side",
           "sourceLabel": "Cervical vertebra"
         },
         {
-          "image": "assets/pal/atlas/2-vertebral-column/review/09-a2064.webp",
+          "image": "assets/questions/q-b74591511a05.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/09-a2064.webp",
           "sourceTitle": "Cervical vertebra, posterior view",
           "sourceLabel": "Cervical vertebra"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3342-cervical-vertebrae.webp",
+          "image": "assets/questions/q-96015532c465.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/02-a3342.webp",
           "sourceTitle": "Vertebral column, posterior view",
           "sourceLabel": "Cervical vertebrae"
@@ -3105,20 +3105,20 @@
       "sourceTitle": "Atlas, superior view",
       "sourceLabel": "Atlas (C1)",
       "answer": "Atlas (C1)",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/03-a2058.webp",
+      "reviewImage": "assets/questions/q-505e950ae316.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/03-a2058.webp",
       "terms": [
         "Atlas (C1)"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/atlas/2-vertebral-column/review/03-a2058.webp",
+          "image": "assets/questions/q-505e950ae316.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/03-a2058.webp",
           "sourceTitle": "Atlas, superior view",
           "sourceLabel": "Atlas (C1)"
         },
         {
-          "image": "assets/pal/atlas/2-vertebral-column/review/04-a2059.webp",
+          "image": "assets/questions/q-41829f0a7164.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/04-a2059.webp",
           "sourceTitle": "Atlas, inferior view",
           "sourceLabel": "Atlas (C1)"
@@ -3154,20 +3154,20 @@
       "sourceTitle": "Axis, superior view",
       "sourceLabel": "Axis (C2)",
       "answer": "Axis (C2)",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/05-a2060.webp",
+      "reviewImage": "assets/questions/q-22137aab6a00.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/05-a2060.webp",
       "terms": [
         "Axis (C2)"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/atlas/2-vertebral-column/review/05-a2060.webp",
+          "image": "assets/questions/q-22137aab6a00.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/05-a2060.webp",
           "sourceTitle": "Axis, superior view",
           "sourceLabel": "Axis (C2)"
         },
         {
-          "image": "assets/pal/atlas/2-vertebral-column/review/06-a2061.webp",
+          "image": "assets/questions/q-312d2f7e9e88.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/06-a2061.webp",
           "sourceTitle": "Axis, inferior view",
           "sourceLabel": "Axis (C2)"
@@ -3203,32 +3203,32 @@
       "sourceTitle": "Thoracic vertebra, superior view",
       "sourceLabel": "Thoracic vertebra",
       "answer": "Thoracic vertebra",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/10-a2065.webp",
+      "reviewImage": "assets/questions/q-3a4d55e4838f.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/10-a2065.webp",
       "terms": [
         "Thoracic vertebra"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/atlas/2-vertebral-column/review/10-a2065.webp",
+          "image": "assets/questions/q-3a4d55e4838f.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/10-a2065.webp",
           "sourceTitle": "Thoracic vertebra, superior view",
           "sourceLabel": "Thoracic vertebra"
         },
         {
-          "image": "assets/pal/atlas/2-vertebral-column/review/11-a2066.webp",
+          "image": "assets/questions/q-b1086ab31f79.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/11-a2066.webp",
           "sourceTitle": "Thoracic vertebra, lateral view, right side",
           "sourceLabel": "Thoracic vertebra"
         },
         {
-          "image": "assets/pal/atlas/2-vertebral-column/review/12-a2067.webp",
+          "image": "assets/questions/q-1be7c12296f4.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/12-a2067.webp",
           "sourceTitle": "Thoracic vertebra, posterior view",
           "sourceLabel": "Thoracic vertebra"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3342-thoracic-vertebrae.webp",
+          "image": "assets/questions/q-706d6d009b47.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/02-a3342.webp",
           "sourceTitle": "Vertebral column, posterior view",
           "sourceLabel": "Thoracic vertebrae"
@@ -3277,32 +3277,32 @@
       "sourceTitle": "Lumbar vertebra, superior view",
       "sourceLabel": "Lumbar vertebra",
       "answer": "Lumbar vertebra",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/13-a2068.webp",
+      "reviewImage": "assets/questions/q-ef1c4caf7be6.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/13-a2068.webp",
       "terms": [
         "Lumbar vertebra"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/atlas/2-vertebral-column/review/13-a2068.webp",
+          "image": "assets/questions/q-ef1c4caf7be6.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/13-a2068.webp",
           "sourceTitle": "Lumbar vertebra, superior view",
           "sourceLabel": "Lumbar vertebra"
         },
         {
-          "image": "assets/pal/atlas/2-vertebral-column/review/14-a2069.webp",
+          "image": "assets/questions/q-b8c02929d238.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/14-a2069.webp",
           "sourceTitle": "Lumbar vertebra, lateral view, right side",
           "sourceLabel": "Lumbar vertebra"
         },
         {
-          "image": "assets/pal/atlas/2-vertebral-column/review/15-a2070.webp",
+          "image": "assets/questions/q-da013b79c192.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/15-a2070.webp",
           "sourceTitle": "Lumbar vertebra, posterior view",
           "sourceLabel": "Lumbar vertebra"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a3342-lumbar-vertebrae.webp",
+          "image": "assets/questions/q-f962e0ffadfb.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/02-a3342.webp",
           "sourceTitle": "Vertebral column, posterior view",
           "sourceLabel": "Lumbar vertebrae"
@@ -3412,56 +3412,56 @@
       "sourceTitle": "Axis, inferior view",
       "sourceLabel": "Body",
       "answer": "Vertebral body",
-      "reviewImage": "assets/pal/structures/bones/axial-a2061-body.webp",
+      "reviewImage": "assets/questions/q-3274fec4440a.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/06-a2061.webp",
       "terms": [
         "Vertebral body"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2061-body.webp",
+          "image": "assets/questions/q-3274fec4440a.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/06-a2061.webp",
           "sourceTitle": "Axis, inferior view",
           "sourceLabel": "Body"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2062-body.webp",
+          "image": "assets/questions/q-ab435927f9c6.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/07-a2062.webp",
           "sourceTitle": "Cervical vertebra, superior view",
           "sourceLabel": "Body"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2063-body.webp",
+          "image": "assets/questions/q-dafc64c7a4f0.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/08-a2063.webp",
           "sourceTitle": "Cervical vertebra, lateral view, right side",
           "sourceLabel": "Body"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2065-body.webp",
+          "image": "assets/questions/q-05a80652b0b4.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/10-a2065.webp",
           "sourceTitle": "Thoracic vertebra, superior view",
           "sourceLabel": "Body"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2066-body.webp",
+          "image": "assets/questions/q-198af515e135.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/11-a2066.webp",
           "sourceTitle": "Thoracic vertebra, lateral view, right side",
           "sourceLabel": "Body"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2068-body.webp",
+          "image": "assets/questions/q-7e8f50dbd0c7.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/13-a2068.webp",
           "sourceTitle": "Lumbar vertebra, superior view",
           "sourceLabel": "Body"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2069-body.webp",
+          "image": "assets/questions/q-e5e87a9c8367.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/14-a2069.webp",
           "sourceTitle": "Lumbar vertebra, lateral view, right side",
           "sourceLabel": "Body"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2070-body.webp",
+          "image": "assets/questions/q-7d969be3e1af.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/15-a2070.webp",
           "sourceTitle": "Lumbar vertebra, posterior view",
           "sourceLabel": "Body"
@@ -3533,38 +3533,38 @@
       "sourceTitle": "Axis, superior view",
       "sourceLabel": "Vertebral foramen",
       "answer": "Vertebral foramen",
-      "reviewImage": "assets/pal/structures/bones/axial-a2060-vertebral-foramen.webp",
+      "reviewImage": "assets/questions/q-8c333ee2905d.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/05-a2060.webp",
       "terms": [
         "Vertebral foramen"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2060-vertebral-foramen.webp",
+          "image": "assets/questions/q-8c333ee2905d.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/05-a2060.webp",
           "sourceTitle": "Axis, superior view",
           "sourceLabel": "Vertebral foramen"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2061-vertebral-foramen.webp",
+          "image": "assets/questions/q-1057c2e61e8c.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/06-a2061.webp",
           "sourceTitle": "Axis, inferior view",
           "sourceLabel": "Vertebral foramen"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2062-vertebral-foramen.webp",
+          "image": "assets/questions/q-0ab8b0cd9591.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/07-a2062.webp",
           "sourceTitle": "Cervical vertebra, superior view",
           "sourceLabel": "Vertebral foramen"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2065-vertebral-foramen.webp",
+          "image": "assets/questions/q-2d1e368df476.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/10-a2065.webp",
           "sourceTitle": "Thoracic vertebra, superior view",
           "sourceLabel": "Vertebral foramen"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2068-vertebral-foramen.webp",
+          "image": "assets/questions/q-3a5d114a752b.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/13-a2068.webp",
           "sourceTitle": "Lumbar vertebra, superior view",
           "sourceLabel": "Vertebral foramen"
@@ -3618,74 +3618,74 @@
       "sourceTitle": "Axis, superior view",
       "sourceLabel": "Spinous process",
       "answer": "Spinous process",
-      "reviewImage": "assets/pal/structures/bones/axial-a2060-spinous-process.webp",
+      "reviewImage": "assets/questions/q-52ef37fef585.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/05-a2060.webp",
       "terms": [
         "Spinous process"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2060-spinous-process.webp",
+          "image": "assets/questions/q-52ef37fef585.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/05-a2060.webp",
           "sourceTitle": "Axis, superior view",
           "sourceLabel": "Spinous process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2061-spinous-process.webp",
+          "image": "assets/questions/q-10981a69fa71.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/06-a2061.webp",
           "sourceTitle": "Axis, inferior view",
           "sourceLabel": "Spinous process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2062-spinous-process.webp",
+          "image": "assets/questions/q-17cba597afe2.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/07-a2062.webp",
           "sourceTitle": "Cervical vertebra, superior view",
           "sourceLabel": "Spinous process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2063-spinous-process.webp",
+          "image": "assets/questions/q-34d70fdcae90.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/08-a2063.webp",
           "sourceTitle": "Cervical vertebra, lateral view, right side",
           "sourceLabel": "Spinous process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2064-spinous-process.webp",
+          "image": "assets/questions/q-38f15a6f4f5e.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/09-a2064.webp",
           "sourceTitle": "Cervical vertebra, posterior view",
           "sourceLabel": "Spinous process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2065-spinous-process.webp",
+          "image": "assets/questions/q-2b24ea3e859e.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/10-a2065.webp",
           "sourceTitle": "Thoracic vertebra, superior view",
           "sourceLabel": "Spinous process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2066-spinous-process.webp",
+          "image": "assets/questions/q-a5ff2ddc70fa.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/11-a2066.webp",
           "sourceTitle": "Thoracic vertebra, lateral view, right side",
           "sourceLabel": "Spinous process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2067-spinous-process.webp",
+          "image": "assets/questions/q-3c375b3c3453.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/12-a2067.webp",
           "sourceTitle": "Thoracic vertebra, posterior view",
           "sourceLabel": "Spinous process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2068-spinous-process.webp",
+          "image": "assets/questions/q-4f4f9edc3667.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/13-a2068.webp",
           "sourceTitle": "Lumbar vertebra, superior view",
           "sourceLabel": "Spinous process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2069-spinous-process.webp",
+          "image": "assets/questions/q-8e6df1cab575.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/14-a2069.webp",
           "sourceTitle": "Lumbar vertebra, lateral view, right side",
           "sourceLabel": "Spinous process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2070-spinous-process.webp",
+          "image": "assets/questions/q-e104fc7860b4.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/15-a2070.webp",
           "sourceTitle": "Lumbar vertebra, posterior view",
           "sourceLabel": "Spinous process"
@@ -3775,86 +3775,86 @@
       "sourceTitle": "Atlas, superior view",
       "sourceLabel": "Transverse process",
       "answer": "Transverse process",
-      "reviewImage": "assets/pal/structures/bones/axial-a2058-transverse-process.webp",
+      "reviewImage": "assets/questions/q-22ba2a0308dc.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/03-a2058.webp",
       "terms": [
         "Transverse process"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2058-transverse-process.webp",
+          "image": "assets/questions/q-22ba2a0308dc.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/03-a2058.webp",
           "sourceTitle": "Atlas, superior view",
           "sourceLabel": "Transverse process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2059-transverse-process.webp",
+          "image": "assets/questions/q-109a1d895206.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/04-a2059.webp",
           "sourceTitle": "Atlas, inferior view",
           "sourceLabel": "Transverse process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2060-transverse-process.webp",
+          "image": "assets/questions/q-c896769f000f.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/05-a2060.webp",
           "sourceTitle": "Axis, superior view",
           "sourceLabel": "Transverse process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2061-transverse-process.webp",
+          "image": "assets/questions/q-9911de3b103b.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/06-a2061.webp",
           "sourceTitle": "Axis, inferior view",
           "sourceLabel": "Transverse process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2062-transverse-process.webp",
+          "image": "assets/questions/q-8027e5943c86.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/07-a2062.webp",
           "sourceTitle": "Cervical vertebra, superior view",
           "sourceLabel": "Transverse process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2063-transverse-process.webp",
+          "image": "assets/questions/q-6b8067a70117.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/08-a2063.webp",
           "sourceTitle": "Cervical vertebra, lateral view, right side",
           "sourceLabel": "Transverse process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2064-transverse-process.webp",
+          "image": "assets/questions/q-313f13398ffd.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/09-a2064.webp",
           "sourceTitle": "Cervical vertebra, posterior view",
           "sourceLabel": "Transverse process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2065-transverse-process.webp",
+          "image": "assets/questions/q-248908aae2cf.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/10-a2065.webp",
           "sourceTitle": "Thoracic vertebra, superior view",
           "sourceLabel": "Transverse process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2066-transverse-process.webp",
+          "image": "assets/questions/q-7b0525275022.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/11-a2066.webp",
           "sourceTitle": "Thoracic vertebra, lateral view, right side",
           "sourceLabel": "Transverse process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2067-transverse-process.webp",
+          "image": "assets/questions/q-265440f6cbfe.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/12-a2067.webp",
           "sourceTitle": "Thoracic vertebra, posterior view",
           "sourceLabel": "Transverse process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2068-transverse-process.webp",
+          "image": "assets/questions/q-24349fc07c33.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/13-a2068.webp",
           "sourceTitle": "Lumbar vertebra, superior view",
           "sourceLabel": "Transverse process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2069-transverse-process.webp",
+          "image": "assets/questions/q-b60872d428ee.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/14-a2069.webp",
           "sourceTitle": "Lumbar vertebra, lateral view, right side",
           "sourceLabel": "Transverse process"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2070-transverse-process.webp",
+          "image": "assets/questions/q-fd9d6e46740a.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/15-a2070.webp",
           "sourceTitle": "Lumbar vertebra, posterior view",
           "sourceLabel": "Transverse process"
@@ -3956,62 +3956,62 @@
       "sourceTitle": "Atlas, superior view",
       "sourceLabel": "Superior articular facet",
       "answer": "Superior articular facets",
-      "reviewImage": "assets/pal/structures/bones/axial-a2058-superior-articular-facet.webp",
+      "reviewImage": "assets/questions/q-f0613ca7759f.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/03-a2058.webp",
       "terms": [
         "Superior articular facets"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2058-superior-articular-facet.webp",
+          "image": "assets/questions/q-f0613ca7759f.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/03-a2058.webp",
           "sourceTitle": "Atlas, superior view",
           "sourceLabel": "Superior articular facet"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2060-superior-articular-facet.webp",
+          "image": "assets/questions/q-2c8993292401.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/05-a2060.webp",
           "sourceTitle": "Axis, superior view",
           "sourceLabel": "Superior articular facet"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2062-superior-articular-facet.webp",
+          "image": "assets/questions/q-6cd81dde1d49.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/07-a2062.webp",
           "sourceTitle": "Cervical vertebra, superior view",
           "sourceLabel": "Superior articular facet"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2064-superior-articular-facet.webp",
+          "image": "assets/questions/q-8b08e7963577.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/09-a2064.webp",
           "sourceTitle": "Cervical vertebra, posterior view",
           "sourceLabel": "Superior articular facet"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2065-superior-articular-facet.webp",
+          "image": "assets/questions/q-d9539f086532.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/10-a2065.webp",
           "sourceTitle": "Thoracic vertebra, superior view",
           "sourceLabel": "Superior articular facet"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2066-superior-articular-process-and-facet.webp",
+          "image": "assets/questions/q-633cc7696c65.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/11-a2066.webp",
           "sourceTitle": "Thoracic vertebra, lateral view, right side",
           "sourceLabel": "Superior articular process and facet"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2067-superior-articular-process-and-facet.webp",
+          "image": "assets/questions/q-d70848aee247.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/12-a2067.webp",
           "sourceTitle": "Thoracic vertebra, posterior view",
           "sourceLabel": "Superior articular process and facet"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2068-superior-articular-facet.webp",
+          "image": "assets/questions/q-362fdee14731.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/13-a2068.webp",
           "sourceTitle": "Lumbar vertebra, superior view",
           "sourceLabel": "Superior articular facet"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2070-superior-articular-process-and-facet.webp",
+          "image": "assets/questions/q-737088eec170.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/15-a2070.webp",
           "sourceTitle": "Lumbar vertebra, posterior view",
           "sourceLabel": "Superior articular process and facet"
@@ -4090,38 +4090,38 @@
       "sourceTitle": "Atlas, inferior view",
       "sourceLabel": "Inferior articular facet",
       "answer": "Inferior articular facets",
-      "reviewImage": "assets/pal/structures/bones/axial-a2059-inferior-articular-facet.webp",
+      "reviewImage": "assets/questions/q-4bc59d09a020.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/04-a2059.webp",
       "terms": [
         "Inferior articular facets"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2059-inferior-articular-facet.webp",
+          "image": "assets/questions/q-4bc59d09a020.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/04-a2059.webp",
           "sourceTitle": "Atlas, inferior view",
           "sourceLabel": "Inferior articular facet"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2060-inferior-articular-facet.webp",
+          "image": "assets/questions/q-b1f82ff47fd1.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/05-a2060.webp",
           "sourceTitle": "Axis, superior view",
           "sourceLabel": "Inferior articular facet"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2061-inferior-articular-facet.webp",
+          "image": "assets/questions/q-21a78de409fd.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/06-a2061.webp",
           "sourceTitle": "Axis, inferior view",
           "sourceLabel": "Inferior articular facet"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2062-inferior-articular-facet.webp",
+          "image": "assets/questions/q-dd390c3a6e96.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/07-a2062.webp",
           "sourceTitle": "Cervical vertebra, superior view",
           "sourceLabel": "Inferior articular facet"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2069-inferior-articular-process-and-facet.webp",
+          "image": "assets/questions/q-af426cea955d.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/14-a2069.webp",
           "sourceTitle": "Lumbar vertebra, lateral view, right side",
           "sourceLabel": "Inferior articular process and facet"
@@ -4176,14 +4176,14 @@
       "sourceTitle": "Thoracic vertebra, lateral view, right side",
       "sourceLabel": "Transverse costal facet",
       "answer": "Transverse costal facets",
-      "reviewImage": "assets/pal/structures/bones/axial-a2066-transverse-costal-facet.webp",
+      "reviewImage": "assets/questions/q-1c5be22d96c4.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/11-a2066.webp",
       "terms": [
         "Transverse costal facets"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2066-transverse-costal-facet.webp",
+          "image": "assets/questions/q-1c5be22d96c4.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/11-a2066.webp",
           "sourceTitle": "Thoracic vertebra, lateral view, right side",
           "sourceLabel": "Transverse costal facet"
@@ -4213,38 +4213,38 @@
       "sourceTitle": "Atlas, superior view",
       "sourceLabel": "Transverse foramen",
       "answer": "Transverse foramen",
-      "reviewImage": "assets/pal/structures/bones/axial-a2058-transverse-foramen.webp",
+      "reviewImage": "assets/questions/q-1074bb01c623.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/03-a2058.webp",
       "terms": [
         "Transverse foramen"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2058-transverse-foramen.webp",
+          "image": "assets/questions/q-1074bb01c623.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/03-a2058.webp",
           "sourceTitle": "Atlas, superior view",
           "sourceLabel": "Transverse foramen"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2059-transverse-foramen.webp",
+          "image": "assets/questions/q-d78df164abcf.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/04-a2059.webp",
           "sourceTitle": "Atlas, inferior view",
           "sourceLabel": "Transverse foramen"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2061-transverse-foramen.webp",
+          "image": "assets/questions/q-080c175c83f7.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/06-a2061.webp",
           "sourceTitle": "Axis, inferior view",
           "sourceLabel": "Transverse foramen"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2062-transverse-foramen.webp",
+          "image": "assets/questions/q-568e46eb6758.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/07-a2062.webp",
           "sourceTitle": "Cervical vertebra, superior view",
           "sourceLabel": "Transverse foramen"
         },
         {
-          "image": "assets/pal/structures/bones/axial-a2063-transverse-foramen.webp",
+          "image": "assets/questions/q-602e91e03c62.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/08-a2063.webp",
           "sourceTitle": "Cervical vertebra, lateral view, right side",
           "sourceLabel": "Transverse foramen"
@@ -4298,14 +4298,14 @@
       "sourceTitle": "Axis, superior view",
       "sourceLabel": "Dens (odontoid process)",
       "answer": "Dens",
-      "reviewImage": "assets/pal/structures/bones/axial-a2060-dens-odontoid-process.webp",
+      "reviewImage": "assets/questions/q-44a47937f8e8.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/05-a2060.webp",
       "terms": [
         "Dens"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/axial-a2060-dens-odontoid-process.webp",
+          "image": "assets/questions/q-44a47937f8e8.webp",
           "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/05-a2060.webp",
           "sourceTitle": "Axis, superior view",
           "sourceLabel": "Dens (odontoid process)"
@@ -4334,7 +4334,7 @@
       "category": "Bone ID",
       "region": "Skull",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Vomer",
-      "reviewImage": "assets/pal/atlas/1-skull/review/01-a3242.webp",
+      "reviewImage": "assets/questions/q-1b7d453680dd.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/01-a3242.webp",
       "terms": [
         "Vomer"
@@ -4346,7 +4346,7 @@
       "category": "Bone ID",
       "region": "Skull",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Supraorbital foramen/notch; Perpendicular plate; Infraorbital foramen; Mental foramen",
-      "reviewImage": "assets/pal/atlas/1-skull/review/02-a3243.webp",
+      "reviewImage": "assets/questions/q-68445d7be641.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/02-a3243.webp",
       "terms": [
         "Supraorbital foramen/notch",
@@ -4361,7 +4361,7 @@
       "category": "Bone ID",
       "region": "Skull",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: External occipital protuberance; Zygomatic process; Mastoid process; Styloid process; External acoustic canal; Temporal process; Lambdoid suture; Coronal suture; Squamous suture",
-      "reviewImage": "assets/pal/atlas/1-skull/review/04-a3245.webp",
+      "reviewImage": "assets/questions/q-2f17e87cf6ee.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
       "terms": [
         "External occipital protuberance",
@@ -4381,7 +4381,7 @@
       "category": "Bone ID",
       "region": "Skull",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Superior nuchal line; External occipital protuberance; Lambdoid suture; Sagittal suture",
-      "reviewImage": "assets/pal/atlas/1-skull/review/05-a3246.webp",
+      "reviewImage": "assets/questions/q-62ae450e3cd3.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/05-a3246.webp",
       "terms": [
         "Superior nuchal line",
@@ -4396,7 +4396,7 @@
       "category": "Bone ID",
       "region": "Skull",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Lambdoid suture; Sagittal suture; Coronal suture",
-      "reviewImage": "assets/pal/atlas/1-skull/review/06-a3247.webp",
+      "reviewImage": "assets/questions/q-3a66889c3900.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/06-a3247.webp",
       "terms": [
         "Lambdoid suture",
@@ -4410,7 +4410,7 @@
       "category": "Bone ID",
       "region": "Skull",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Sella turcica; Cribriform plate; Crista galli",
-      "reviewImage": "assets/pal/atlas/1-skull/review/07-a2043a.webp",
+      "reviewImage": "assets/questions/q-973a60b7bbf1.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/07-a2043a.webp",
       "terms": [
         "Sella turcica",
@@ -4424,7 +4424,7 @@
       "category": "Bone ID",
       "region": "Skull",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Foramen magnum; Internal acoustic canal; Jugular foramen; Optic canals; Foramen rotundum; Cribriform plate",
-      "reviewImage": "assets/pal/atlas/1-skull/review/08-a2043b.webp",
+      "reviewImage": "assets/questions/q-cc77f2de3104.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/08-a2043b.webp",
       "terms": [
         "Foramen magnum",
@@ -4441,7 +4441,7 @@
       "category": "Bone ID",
       "region": "Skull",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Cribriform plate; Crista galli",
-      "reviewImage": "assets/pal/atlas/1-skull/review/09-a2031a.webp",
+      "reviewImage": "assets/questions/q-16f67f944a80.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/09-a2031a.webp",
       "terms": [
         "Cribriform plate",
@@ -4454,7 +4454,7 @@
       "category": "Bone ID",
       "region": "Skull",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Foramen magnum; Carotid canal; Foramen lacerum; Jugular foramen; Optic canals; Foramen ovale; Foramen spinosum",
-      "reviewImage": "assets/pal/atlas/1-skull/review/10-a2031b.webp",
+      "reviewImage": "assets/questions/q-0b03f7043c43.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
       "terms": [
         "Foramen magnum",
@@ -4472,7 +4472,7 @@
       "category": "Bone ID",
       "region": "Skull",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Occipital condyles; Mastoid process; Styloid process; Palatine bone; Vomer",
-      "reviewImage": "assets/pal/atlas/1-skull/review/11-a3248.webp",
+      "reviewImage": "assets/questions/q-4f306363bb4c.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/11-a3248.webp",
       "terms": [
         "Occipital condyles",
@@ -4488,7 +4488,7 @@
       "category": "Bone ID",
       "region": "Skull",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Foramen magnum; Mandibular fossa; Carotid canal; Foramen lacerum; Jugular foramen; Foramen ovale; Foramen spinosum",
-      "reviewImage": "assets/pal/atlas/1-skull/review/12-a3249.webp",
+      "reviewImage": "assets/questions/q-1e9e267fcb70.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/12-a3249.webp",
       "terms": [
         "Foramen magnum",
@@ -4506,7 +4506,7 @@
       "category": "Bone ID",
       "region": "Skull",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Coronal suture",
-      "reviewImage": "assets/pal/atlas/1-skull/review/13-a3250.webp",
+      "reviewImage": "assets/questions/q-0e7ec946658e.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/13-a3250.webp",
       "terms": [
         "Coronal suture"
@@ -4518,7 +4518,7 @@
       "category": "Bone ID",
       "region": "Skull",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Sagittal suture; Coronal suture",
-      "reviewImage": "assets/pal/atlas/1-skull/review/15-a3252.webp",
+      "reviewImage": "assets/questions/q-3694c2e07497.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/15-a3252.webp",
       "terms": [
         "Sagittal suture",
@@ -4531,7 +4531,7 @@
       "category": "Bone ID",
       "region": "Parietal Bones",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Paired left and right parietal bones; Sagittal suture",
-      "reviewImage": "assets/pal/atlas/1-skull/review/16-a3253.webp",
+      "reviewImage": "assets/questions/q-19e09a62ec51.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/16-a3253.webp",
       "terms": [
         "Paired left and right parietal bones",
@@ -4544,7 +4544,7 @@
       "category": "Bone ID",
       "region": "Frontal Bone",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Supraorbital foramen/notch",
-      "reviewImage": "assets/pal/atlas/1-skull/review/17-a3254.webp",
+      "reviewImage": "assets/questions/q-cc5c58186343.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/17-a3254.webp",
       "terms": [
         "Supraorbital foramen/notch"
@@ -4556,7 +4556,7 @@
       "category": "Bone ID",
       "region": "Occipital Bone",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Occipital condyles; Foramen magnum; Superior nuchal line; Inferior nuchal line; External occipital protuberance",
-      "reviewImage": "assets/pal/atlas/1-skull/review/18-a3255.webp",
+      "reviewImage": "assets/questions/q-99ad5628b458.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/18-a3255.webp",
       "terms": [
         "Occipital condyles",
@@ -4572,7 +4572,7 @@
       "category": "Bone ID",
       "region": "Temporal Bones",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: External acoustic canal",
-      "reviewImage": "assets/pal/atlas/1-skull/review/19-a3256.webp",
+      "reviewImage": "assets/questions/q-3fa2d01b12bc.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/19-a3256.webp",
       "terms": [
         "External acoustic canal"
@@ -4584,7 +4584,7 @@
       "category": "Bone ID",
       "region": "Temporal Bones",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Internal acoustic canal",
-      "reviewImage": "assets/pal/atlas/1-skull/review/20-a3257.webp",
+      "reviewImage": "assets/questions/q-50367c1f4cd4.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/20-a3257.webp",
       "terms": [
         "Internal acoustic canal"
@@ -4596,7 +4596,7 @@
       "category": "Bone ID",
       "region": "Sphenoid Bone",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Foramen rotundum; Foramen ovale",
-      "reviewImage": "assets/pal/atlas/1-skull/review/21-a3258.webp",
+      "reviewImage": "assets/questions/q-17d0adc528d3.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/21-a3258.webp",
       "terms": [
         "Foramen rotundum",
@@ -4609,7 +4609,7 @@
       "category": "Bone ID",
       "region": "Sphenoid Bone",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Sella turcica; Optic canals; Foramen rotundum; Foramen ovale; Foramen spinosum",
-      "reviewImage": "assets/pal/atlas/1-skull/review/23-a3260.webp",
+      "reviewImage": "assets/questions/q-8d6a9a948ab5.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/23-a3260.webp",
       "terms": [
         "Sella turcica",
@@ -4625,7 +4625,7 @@
       "category": "Bone ID",
       "region": "Ethmoid Bone",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Crista galli; Perpendicular plate",
-      "reviewImage": "assets/pal/atlas/1-skull/review/24-a3261.webp",
+      "reviewImage": "assets/questions/q-a188d2b5ae51.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/24-a3261.webp",
       "terms": [
         "Crista galli",
@@ -4638,7 +4638,7 @@
       "category": "Bone ID",
       "region": "Ethmoid Bone",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Crista galli; Perpendicular plate",
-      "reviewImage": "assets/pal/atlas/1-skull/review/25-a3262.webp",
+      "reviewImage": "assets/questions/q-97c122b41216.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/25-a3262.webp",
       "terms": [
         "Crista galli",
@@ -4651,7 +4651,7 @@
       "category": "Bone ID",
       "region": "Ethmoid Bone",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Crista galli; Perpendicular plate",
-      "reviewImage": "assets/pal/atlas/1-skull/review/26-a3263.webp",
+      "reviewImage": "assets/questions/q-63c7c14e414f.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/26-a3263.webp",
       "terms": [
         "Crista galli",
@@ -4664,7 +4664,7 @@
       "category": "Bone ID",
       "region": "Mandible",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Alveolar processes; Mandibular ramus; Condylar process; Coronoid process; Mental foramen",
-      "reviewImage": "assets/pal/atlas/1-skull/review/27-a3264.webp",
+      "reviewImage": "assets/questions/q-522da6029cd5.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/27-a3264.webp",
       "terms": [
         "Alveolar processes",
@@ -4680,7 +4680,7 @@
       "category": "Bone ID",
       "region": "Mandible",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Alveolar processes; Mandibular ramus; Mandibular notch; Condylar process; Coronoid process; Mandibular foramen; Mental foramen",
-      "reviewImage": "assets/pal/atlas/1-skull/review/28-a3265.webp",
+      "reviewImage": "assets/questions/q-e93b43c92729.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/28-a3265.webp",
       "terms": [
         "Alveolar processes",
@@ -4698,7 +4698,7 @@
       "category": "Bone ID",
       "region": "Mandible",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Alveolar processes; Mandibular ramus; Condylar process; Coronoid process; Mandibular foramen",
-      "reviewImage": "assets/pal/atlas/1-skull/review/29-a3266.webp",
+      "reviewImage": "assets/questions/q-7724c0a5e0a5.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/29-a3266.webp",
       "terms": [
         "Alveolar processes",
@@ -4714,7 +4714,7 @@
       "category": "Bone ID",
       "region": "Maxillary Bones",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Alveolar processes; Infraorbital foramen",
-      "reviewImage": "assets/pal/atlas/1-skull/review/30-a3267.webp",
+      "reviewImage": "assets/questions/q-0bcb5056930c.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/30-a3267.webp",
       "terms": [
         "Alveolar processes",
@@ -4727,7 +4727,7 @@
       "category": "Bone ID",
       "region": "Maxillary Bones",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Alveolar processes",
-      "reviewImage": "assets/pal/atlas/1-skull/review/31-a3268.webp",
+      "reviewImage": "assets/questions/q-c2c15bfee765.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/31-a3268.webp",
       "terms": [
         "Alveolar processes"
@@ -4739,7 +4739,7 @@
       "category": "Bone ID",
       "region": "Skull",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Occipital condyles; Sella turcica; Vomer",
-      "reviewImage": "assets/pal/atlas/1-skull/review/33-a3271.webp",
+      "reviewImage": "assets/questions/q-94d5495216d2.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/33-a3271.webp",
       "terms": [
         "Occipital condyles",
@@ -4753,7 +4753,7 @@
       "category": "Bone ID",
       "region": "Skull",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Palatine bone",
-      "reviewImage": "assets/pal/atlas/1-skull/review/34-a3272.webp",
+      "reviewImage": "assets/questions/q-026f8f90cecf.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/34-a3272.webp",
       "terms": [
         "Palatine bone"
@@ -4765,7 +4765,7 @@
       "category": "Bone ID",
       "region": "Vertebral Types",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Cervical vertebra; Thoracic vertebra; Lumbar vertebra",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/02-a3342.webp",
+      "reviewImage": "assets/questions/q-c460cc29c1db.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/02-a3342.webp",
       "terms": [
         "Cervical vertebra",
@@ -4779,7 +4779,7 @@
       "category": "Bone ID",
       "region": "Vertebral Markings",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Atlas (C1); Transverse process; Superior articular facets; Transverse foramen",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/03-a2058.webp",
+      "reviewImage": "assets/questions/q-505e950ae316.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/03-a2058.webp",
       "terms": [
         "Atlas (C1)",
@@ -4794,7 +4794,7 @@
       "category": "Bone ID",
       "region": "Vertebral Markings",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Atlas (C1); Transverse process; Inferior articular facets; Transverse foramen",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/04-a2059.webp",
+      "reviewImage": "assets/questions/q-41829f0a7164.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/04-a2059.webp",
       "terms": [
         "Atlas (C1)",
@@ -4809,7 +4809,7 @@
       "category": "Bone ID",
       "region": "Vertebral Markings",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Axis (C2); Vertebral foramen; Spinous process; Transverse process; Superior articular facets; Inferior articular facets; Dens",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/05-a2060.webp",
+      "reviewImage": "assets/questions/q-22137aab6a00.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/05-a2060.webp",
       "terms": [
         "Axis (C2)",
@@ -4827,7 +4827,7 @@
       "category": "Bone ID",
       "region": "Vertebral Markings",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Axis (C2); Vertebral body; Vertebral foramen; Spinous process; Transverse process; Inferior articular facets; Transverse foramen",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/06-a2061.webp",
+      "reviewImage": "assets/questions/q-312d2f7e9e88.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/06-a2061.webp",
       "terms": [
         "Axis (C2)",
@@ -4845,7 +4845,7 @@
       "category": "Bone ID",
       "region": "Vertebral Markings",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Cervical vertebra; Vertebral body; Vertebral foramen; Spinous process; Transverse process; Superior articular facets; Inferior articular facets; Transverse foramen",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/07-a2062.webp",
+      "reviewImage": "assets/questions/q-391abfb2f0fb.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/07-a2062.webp",
       "terms": [
         "Cervical vertebra",
@@ -4864,7 +4864,7 @@
       "category": "Bone ID",
       "region": "Vertebral Markings",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Cervical vertebra; Vertebral body; Spinous process; Transverse process; Transverse foramen",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/08-a2063.webp",
+      "reviewImage": "assets/questions/q-d5a1ebed8d57.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/08-a2063.webp",
       "terms": [
         "Cervical vertebra",
@@ -4880,7 +4880,7 @@
       "category": "Bone ID",
       "region": "Vertebral Markings",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Cervical vertebra; Spinous process; Transverse process; Superior articular facets",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/09-a2064.webp",
+      "reviewImage": "assets/questions/q-b74591511a05.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/09-a2064.webp",
       "terms": [
         "Cervical vertebra",
@@ -4895,7 +4895,7 @@
       "category": "Bone ID",
       "region": "Vertebral Markings",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Thoracic vertebra; Vertebral body; Vertebral foramen; Spinous process; Transverse process; Superior articular facets",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/10-a2065.webp",
+      "reviewImage": "assets/questions/q-3a4d55e4838f.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/10-a2065.webp",
       "terms": [
         "Thoracic vertebra",
@@ -4912,7 +4912,7 @@
       "category": "Bone ID",
       "region": "Vertebral Markings",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Thoracic vertebra; Vertebral body; Spinous process; Transverse process; Superior articular facets; Transverse costal facets",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/11-a2066.webp",
+      "reviewImage": "assets/questions/q-b1086ab31f79.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/11-a2066.webp",
       "terms": [
         "Thoracic vertebra",
@@ -4929,7 +4929,7 @@
       "category": "Bone ID",
       "region": "Vertebral Markings",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Thoracic vertebra; Spinous process; Transverse process; Superior articular facets",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/12-a2067.webp",
+      "reviewImage": "assets/questions/q-1be7c12296f4.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/12-a2067.webp",
       "terms": [
         "Thoracic vertebra",
@@ -4944,7 +4944,7 @@
       "category": "Bone ID",
       "region": "Vertebral Markings",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Lumbar vertebra; Vertebral body; Vertebral foramen; Spinous process; Transverse process; Superior articular facets",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/13-a2068.webp",
+      "reviewImage": "assets/questions/q-ef1c4caf7be6.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/13-a2068.webp",
       "terms": [
         "Lumbar vertebra",
@@ -4961,7 +4961,7 @@
       "category": "Bone ID",
       "region": "Vertebral Markings",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Lumbar vertebra; Vertebral body; Spinous process; Transverse process; Inferior articular facets",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/14-a2069.webp",
+      "reviewImage": "assets/questions/q-b8c02929d238.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/14-a2069.webp",
       "terms": [
         "Lumbar vertebra",
@@ -4977,7 +4977,7 @@
       "category": "Bone ID",
       "region": "Vertebral Markings",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Lumbar vertebra; Vertebral body; Spinous process; Transverse process; Superior articular facets",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/15-a2070.webp",
+      "reviewImage": "assets/questions/q-da013b79c192.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/15-a2070.webp",
       "terms": [
         "Lumbar vertebra",
@@ -4993,7 +4993,7 @@
       "category": "Bone ID",
       "region": "Sacrum and Coccyx",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Coccygeal vertebra",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/22-a3349.webp",
+      "reviewImage": "assets/questions/q-dc58e09cb2fc.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/22-a3349.webp",
       "terms": [
         "Coccygeal vertebra"
@@ -5005,7 +5005,7 @@
       "category": "Bone ID",
       "region": "Sacrum and Coccyx",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Coccygeal vertebra",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/23-a3350.webp",
+      "reviewImage": "assets/questions/q-7a11aa7740e6.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/23-a3350.webp",
       "terms": [
         "Coccygeal vertebra"
@@ -5017,7 +5017,7 @@
       "category": "Bone ID",
       "region": "Sacrum and Coccyx",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Coccygeal vertebra",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/24-a3351.webp",
+      "reviewImage": "assets/questions/q-83f33f1d9ebc.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/24-a3351.webp",
       "terms": [
         "Coccygeal vertebra"
@@ -5029,7 +5029,7 @@
       "category": "Bone ID",
       "region": "Sternum",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Manubrium; Body; Xiphoid process",
-      "reviewImage": "assets/pal/atlas/3-thoracic-cage/review/03-a3352a.webp",
+      "reviewImage": "assets/questions/q-683be1ea78f9.webp",
       "labeledImage": "assets/pal/atlas/3-thoracic-cage/labeled/03-a3352a.webp",
       "terms": [
         "Manubrium",
@@ -5043,7 +5043,7 @@
       "id": "practice-axial-01-A3242",
       "label": "Skull, anterior view practice",
       "region": "Skull",
-      "reviewImage": "assets/pal/atlas/1-skull/review/01-a3242.webp",
+      "reviewImage": "assets/questions/q-1b7d453680dd.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/01-a3242.webp",
       "sourceTitle": "Skull, anterior view",
       "terms": [
@@ -5054,7 +5054,7 @@
       "id": "practice-axial-02-A3243",
       "label": "Skull, anterior landmarks practice",
       "region": "Skull",
-      "reviewImage": "assets/pal/atlas/1-skull/review/02-a3243.webp",
+      "reviewImage": "assets/questions/q-68445d7be641.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/02-a3243.webp",
       "sourceTitle": "Skull, anterior landmarks",
       "terms": [
@@ -5068,7 +5068,7 @@
       "id": "practice-axial-04-A3245",
       "label": "Skull, lateral landmarks practice",
       "region": "Skull",
-      "reviewImage": "assets/pal/atlas/1-skull/review/04-a3245.webp",
+      "reviewImage": "assets/questions/q-2f17e87cf6ee.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/04-a3245.webp",
       "sourceTitle": "Skull, lateral landmarks",
       "terms": [
@@ -5087,7 +5087,7 @@
       "id": "practice-axial-05-A3246",
       "label": "Skull, posterior view practice",
       "region": "Skull",
-      "reviewImage": "assets/pal/atlas/1-skull/review/05-a3246.webp",
+      "reviewImage": "assets/questions/q-62ae450e3cd3.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/05-a3246.webp",
       "sourceTitle": "Skull, posterior view",
       "terms": [
@@ -5101,7 +5101,7 @@
       "id": "practice-axial-06-A3247",
       "label": "Skull, superior view practice",
       "region": "Skull",
-      "reviewImage": "assets/pal/atlas/1-skull/review/06-a3247.webp",
+      "reviewImage": "assets/questions/q-3a66889c3900.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/06-a3247.webp",
       "sourceTitle": "Skull, superior view",
       "terms": [
@@ -5114,7 +5114,7 @@
       "id": "practice-axial-07-A2043a",
       "label": "Cranial cavity bones, posterosuperior view practice",
       "region": "Skull",
-      "reviewImage": "assets/pal/atlas/1-skull/review/07-a2043a.webp",
+      "reviewImage": "assets/questions/q-973a60b7bbf1.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/07-a2043a.webp",
       "sourceTitle": "Cranial cavity bones, posterosuperior view",
       "terms": [
@@ -5127,7 +5127,7 @@
       "id": "practice-axial-08-A2043b",
       "label": "Cranial cavity foramina, posterosuperior view practice",
       "region": "Skull",
-      "reviewImage": "assets/pal/atlas/1-skull/review/08-a2043b.webp",
+      "reviewImage": "assets/questions/q-cc77f2de3104.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/08-a2043b.webp",
       "sourceTitle": "Cranial cavity foramina, posterosuperior view",
       "terms": [
@@ -5143,7 +5143,7 @@
       "id": "practice-axial-09-A2031a",
       "label": "Cranial cavity bones, superior view practice",
       "region": "Skull",
-      "reviewImage": "assets/pal/atlas/1-skull/review/09-a2031a.webp",
+      "reviewImage": "assets/questions/q-16f67f944a80.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/09-a2031a.webp",
       "sourceTitle": "Cranial cavity bones, superior view",
       "terms": [
@@ -5155,7 +5155,7 @@
       "id": "practice-axial-10-A2031b",
       "label": "Cranial cavity foramina, superior view practice",
       "region": "Skull",
-      "reviewImage": "assets/pal/atlas/1-skull/review/10-a2031b.webp",
+      "reviewImage": "assets/questions/q-0b03f7043c43.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/10-a2031b.webp",
       "sourceTitle": "Cranial cavity foramina, superior view",
       "terms": [
@@ -5172,7 +5172,7 @@
       "id": "practice-axial-11-A3248",
       "label": "Skull, inferior view practice",
       "region": "Skull",
-      "reviewImage": "assets/pal/atlas/1-skull/review/11-a3248.webp",
+      "reviewImage": "assets/questions/q-4f306363bb4c.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/11-a3248.webp",
       "sourceTitle": "Skull, inferior view",
       "terms": [
@@ -5187,7 +5187,7 @@
       "id": "practice-axial-12-A3249",
       "label": "Skull base foramina, inferior view practice",
       "region": "Skull",
-      "reviewImage": "assets/pal/atlas/1-skull/review/12-a3249.webp",
+      "reviewImage": "assets/questions/q-1e9e267fcb70.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/12-a3249.webp",
       "sourceTitle": "Skull base foramina, inferior view",
       "terms": [
@@ -5204,7 +5204,7 @@
       "id": "practice-axial-13-A3250",
       "label": "Fetal skull, anterior view practice",
       "region": "Skull",
-      "reviewImage": "assets/pal/atlas/1-skull/review/13-a3250.webp",
+      "reviewImage": "assets/questions/q-0e7ec946658e.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/13-a3250.webp",
       "sourceTitle": "Fetal skull, anterior view",
       "terms": [
@@ -5215,7 +5215,7 @@
       "id": "practice-axial-15-A3252",
       "label": "Fetal skull, superior view practice",
       "region": "Skull",
-      "reviewImage": "assets/pal/atlas/1-skull/review/15-a3252.webp",
+      "reviewImage": "assets/questions/q-3694c2e07497.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/15-a3252.webp",
       "sourceTitle": "Fetal skull, superior view",
       "terms": [
@@ -5227,7 +5227,7 @@
       "id": "practice-axial-16-A3253",
       "label": "Parietal bones, posterior view practice",
       "region": "Parietal Bones",
-      "reviewImage": "assets/pal/atlas/1-skull/review/16-a3253.webp",
+      "reviewImage": "assets/questions/q-19e09a62ec51.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/16-a3253.webp",
       "sourceTitle": "Parietal bones, posterior view",
       "terms": [
@@ -5239,7 +5239,7 @@
       "id": "practice-axial-17-A3254",
       "label": "Frontal bone, anterior view practice",
       "region": "Frontal Bone",
-      "reviewImage": "assets/pal/atlas/1-skull/review/17-a3254.webp",
+      "reviewImage": "assets/questions/q-cc5c58186343.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/17-a3254.webp",
       "sourceTitle": "Frontal bone, anterior view",
       "terms": [
@@ -5250,7 +5250,7 @@
       "id": "practice-axial-18-A3255",
       "label": "Occipital bone, inferior view practice",
       "region": "Occipital Bone",
-      "reviewImage": "assets/pal/atlas/1-skull/review/18-a3255.webp",
+      "reviewImage": "assets/questions/q-99ad5628b458.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/18-a3255.webp",
       "sourceTitle": "Occipital bone, inferior view",
       "terms": [
@@ -5265,7 +5265,7 @@
       "id": "practice-axial-19-A3256",
       "label": "Temporal bone, lateral view, left side practice",
       "region": "Temporal Bones",
-      "reviewImage": "assets/pal/atlas/1-skull/review/19-a3256.webp",
+      "reviewImage": "assets/questions/q-3fa2d01b12bc.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/19-a3256.webp",
       "sourceTitle": "Temporal bone, lateral view, left side",
       "terms": [
@@ -5276,7 +5276,7 @@
       "id": "practice-axial-20-A3257",
       "label": "Temporal bone, medial view, left side practice",
       "region": "Temporal Bones",
-      "reviewImage": "assets/pal/atlas/1-skull/review/20-a3257.webp",
+      "reviewImage": "assets/questions/q-50367c1f4cd4.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/20-a3257.webp",
       "sourceTitle": "Temporal bone, medial view, left side",
       "terms": [
@@ -5287,7 +5287,7 @@
       "id": "practice-axial-21-A3258",
       "label": "Sphenoid, anterior view practice",
       "region": "Sphenoid Bone",
-      "reviewImage": "assets/pal/atlas/1-skull/review/21-a3258.webp",
+      "reviewImage": "assets/questions/q-17d0adc528d3.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/21-a3258.webp",
       "sourceTitle": "Sphenoid, anterior view",
       "terms": [
@@ -5299,7 +5299,7 @@
       "id": "practice-axial-23-A3260",
       "label": "Sphenoid, superior view practice",
       "region": "Sphenoid Bone",
-      "reviewImage": "assets/pal/atlas/1-skull/review/23-a3260.webp",
+      "reviewImage": "assets/questions/q-8d6a9a948ab5.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/23-a3260.webp",
       "sourceTitle": "Sphenoid, superior view",
       "terms": [
@@ -5314,7 +5314,7 @@
       "id": "practice-axial-24-A3261",
       "label": "Ethmoid, anterior view practice",
       "region": "Ethmoid Bone",
-      "reviewImage": "assets/pal/atlas/1-skull/review/24-a3261.webp",
+      "reviewImage": "assets/questions/q-a188d2b5ae51.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/24-a3261.webp",
       "sourceTitle": "Ethmoid, anterior view",
       "terms": [
@@ -5326,7 +5326,7 @@
       "id": "practice-axial-25-A3262",
       "label": "Ethmoid, lateral view practice",
       "region": "Ethmoid Bone",
-      "reviewImage": "assets/pal/atlas/1-skull/review/25-a3262.webp",
+      "reviewImage": "assets/questions/q-97c122b41216.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/25-a3262.webp",
       "sourceTitle": "Ethmoid, lateral view",
       "terms": [
@@ -5338,7 +5338,7 @@
       "id": "practice-axial-26-A3263",
       "label": "Ethmoid, posterior view practice",
       "region": "Ethmoid Bone",
-      "reviewImage": "assets/pal/atlas/1-skull/review/26-a3263.webp",
+      "reviewImage": "assets/questions/q-63c7c14e414f.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/26-a3263.webp",
       "sourceTitle": "Ethmoid, posterior view",
       "terms": [
@@ -5350,7 +5350,7 @@
       "id": "practice-axial-27-A3264",
       "label": "Mandible, anterior view practice",
       "region": "Mandible",
-      "reviewImage": "assets/pal/atlas/1-skull/review/27-a3264.webp",
+      "reviewImage": "assets/questions/q-522da6029cd5.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/27-a3264.webp",
       "sourceTitle": "Mandible, anterior view",
       "terms": [
@@ -5365,7 +5365,7 @@
       "id": "practice-axial-28-A3265",
       "label": "Mandible, lateral view, right side practice",
       "region": "Mandible",
-      "reviewImage": "assets/pal/atlas/1-skull/review/28-a3265.webp",
+      "reviewImage": "assets/questions/q-e93b43c92729.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/28-a3265.webp",
       "sourceTitle": "Mandible, lateral view, right side",
       "terms": [
@@ -5382,7 +5382,7 @@
       "id": "practice-axial-29-A3266",
       "label": "Mandible, posterior view practice",
       "region": "Mandible",
-      "reviewImage": "assets/pal/atlas/1-skull/review/29-a3266.webp",
+      "reviewImage": "assets/questions/q-7724c0a5e0a5.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/29-a3266.webp",
       "sourceTitle": "Mandible, posterior view",
       "terms": [
@@ -5397,7 +5397,7 @@
       "id": "practice-axial-30-A3267",
       "label": "Maxilla, lateral view, right side practice",
       "region": "Maxillary Bones",
-      "reviewImage": "assets/pal/atlas/1-skull/review/30-a3267.webp",
+      "reviewImage": "assets/questions/q-0bcb5056930c.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/30-a3267.webp",
       "sourceTitle": "Maxilla, lateral view, right side",
       "terms": [
@@ -5409,7 +5409,7 @@
       "id": "practice-axial-31-A3268",
       "label": "Maxilla, medial view, right side practice",
       "region": "Maxillary Bones",
-      "reviewImage": "assets/pal/atlas/1-skull/review/31-a3268.webp",
+      "reviewImage": "assets/questions/q-c2c15bfee765.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/31-a3268.webp",
       "sourceTitle": "Maxilla, medial view, right side",
       "terms": [
@@ -5420,7 +5420,7 @@
       "id": "practice-axial-33-A3271",
       "label": "Bisected skull practice",
       "region": "Skull",
-      "reviewImage": "assets/pal/atlas/1-skull/review/33-a3271.webp",
+      "reviewImage": "assets/questions/q-94d5495216d2.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/33-a3271.webp",
       "sourceTitle": "Bisected skull",
       "terms": [
@@ -5433,7 +5433,7 @@
       "id": "practice-axial-34-A3272",
       "label": "Bones forming the orbit practice",
       "region": "Skull",
-      "reviewImage": "assets/pal/atlas/1-skull/review/34-a3272.webp",
+      "reviewImage": "assets/questions/q-026f8f90cecf.webp",
       "labeledImage": "assets/pal/atlas/1-skull/labeled/34-a3272.webp",
       "sourceTitle": "Bones forming the orbit",
       "terms": [
@@ -5444,7 +5444,7 @@
       "id": "practice-axial-02-A3342",
       "label": "Vertebral column, posterior view practice",
       "region": "Vertebral Types",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/02-a3342.webp",
+      "reviewImage": "assets/questions/q-c460cc29c1db.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/02-a3342.webp",
       "sourceTitle": "Vertebral column, posterior view",
       "terms": [
@@ -5457,7 +5457,7 @@
       "id": "practice-axial-03-A2058",
       "label": "Atlas, superior view practice",
       "region": "Vertebral Markings",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/03-a2058.webp",
+      "reviewImage": "assets/questions/q-505e950ae316.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/03-a2058.webp",
       "sourceTitle": "Atlas, superior view",
       "terms": [
@@ -5471,7 +5471,7 @@
       "id": "practice-axial-04-A2059",
       "label": "Atlas, inferior view practice",
       "region": "Vertebral Markings",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/04-a2059.webp",
+      "reviewImage": "assets/questions/q-41829f0a7164.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/04-a2059.webp",
       "sourceTitle": "Atlas, inferior view",
       "terms": [
@@ -5485,7 +5485,7 @@
       "id": "practice-axial-05-A2060",
       "label": "Axis, superior view practice",
       "region": "Vertebral Markings",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/05-a2060.webp",
+      "reviewImage": "assets/questions/q-22137aab6a00.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/05-a2060.webp",
       "sourceTitle": "Axis, superior view",
       "terms": [
@@ -5502,7 +5502,7 @@
       "id": "practice-axial-06-A2061",
       "label": "Axis, inferior view practice",
       "region": "Vertebral Markings",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/06-a2061.webp",
+      "reviewImage": "assets/questions/q-312d2f7e9e88.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/06-a2061.webp",
       "sourceTitle": "Axis, inferior view",
       "terms": [
@@ -5519,7 +5519,7 @@
       "id": "practice-axial-07-A2062",
       "label": "Cervical vertebra, superior view practice",
       "region": "Vertebral Markings",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/07-a2062.webp",
+      "reviewImage": "assets/questions/q-391abfb2f0fb.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/07-a2062.webp",
       "sourceTitle": "Cervical vertebra, superior view",
       "terms": [
@@ -5537,7 +5537,7 @@
       "id": "practice-axial-08-A2063",
       "label": "Cervical vertebra, lateral view, right side practice",
       "region": "Vertebral Markings",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/08-a2063.webp",
+      "reviewImage": "assets/questions/q-d5a1ebed8d57.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/08-a2063.webp",
       "sourceTitle": "Cervical vertebra, lateral view, right side",
       "terms": [
@@ -5552,7 +5552,7 @@
       "id": "practice-axial-09-A2064",
       "label": "Cervical vertebra, posterior view practice",
       "region": "Vertebral Markings",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/09-a2064.webp",
+      "reviewImage": "assets/questions/q-b74591511a05.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/09-a2064.webp",
       "sourceTitle": "Cervical vertebra, posterior view",
       "terms": [
@@ -5566,7 +5566,7 @@
       "id": "practice-axial-10-A2065",
       "label": "Thoracic vertebra, superior view practice",
       "region": "Vertebral Markings",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/10-a2065.webp",
+      "reviewImage": "assets/questions/q-3a4d55e4838f.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/10-a2065.webp",
       "sourceTitle": "Thoracic vertebra, superior view",
       "terms": [
@@ -5582,7 +5582,7 @@
       "id": "practice-axial-11-A2066",
       "label": "Thoracic vertebra, lateral view, right side practice",
       "region": "Vertebral Markings",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/11-a2066.webp",
+      "reviewImage": "assets/questions/q-b1086ab31f79.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/11-a2066.webp",
       "sourceTitle": "Thoracic vertebra, lateral view, right side",
       "terms": [
@@ -5598,7 +5598,7 @@
       "id": "practice-axial-12-A2067",
       "label": "Thoracic vertebra, posterior view practice",
       "region": "Vertebral Markings",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/12-a2067.webp",
+      "reviewImage": "assets/questions/q-1be7c12296f4.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/12-a2067.webp",
       "sourceTitle": "Thoracic vertebra, posterior view",
       "terms": [
@@ -5612,7 +5612,7 @@
       "id": "practice-axial-13-A2068",
       "label": "Lumbar vertebra, superior view practice",
       "region": "Vertebral Markings",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/13-a2068.webp",
+      "reviewImage": "assets/questions/q-ef1c4caf7be6.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/13-a2068.webp",
       "sourceTitle": "Lumbar vertebra, superior view",
       "terms": [
@@ -5628,7 +5628,7 @@
       "id": "practice-axial-14-A2069",
       "label": "Lumbar vertebra, lateral view, right side practice",
       "region": "Vertebral Markings",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/14-a2069.webp",
+      "reviewImage": "assets/questions/q-b8c02929d238.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/14-a2069.webp",
       "sourceTitle": "Lumbar vertebra, lateral view, right side",
       "terms": [
@@ -5643,7 +5643,7 @@
       "id": "practice-axial-15-A2070",
       "label": "Lumbar vertebra, posterior view practice",
       "region": "Vertebral Markings",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/15-a2070.webp",
+      "reviewImage": "assets/questions/q-da013b79c192.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/15-a2070.webp",
       "sourceTitle": "Lumbar vertebra, posterior view",
       "terms": [
@@ -5658,7 +5658,7 @@
       "id": "practice-axial-22-A3349",
       "label": "Sacrum and coccyx, anterior view practice",
       "region": "Sacrum and Coccyx",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/22-a3349.webp",
+      "reviewImage": "assets/questions/q-dc58e09cb2fc.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/22-a3349.webp",
       "sourceTitle": "Sacrum and coccyx, anterior view",
       "terms": [
@@ -5669,7 +5669,7 @@
       "id": "practice-axial-23-A3350",
       "label": "Sacrum and coccyx, lateral view practice",
       "region": "Sacrum and Coccyx",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/23-a3350.webp",
+      "reviewImage": "assets/questions/q-7a11aa7740e6.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/23-a3350.webp",
       "sourceTitle": "Sacrum and coccyx, lateral view",
       "terms": [
@@ -5680,7 +5680,7 @@
       "id": "practice-axial-24-A3351",
       "label": "Sacrum and coccyx, posterior view practice",
       "region": "Sacrum and Coccyx",
-      "reviewImage": "assets/pal/atlas/2-vertebral-column/review/24-a3351.webp",
+      "reviewImage": "assets/questions/q-83f33f1d9ebc.webp",
       "labeledImage": "assets/pal/atlas/2-vertebral-column/labeled/24-a3351.webp",
       "sourceTitle": "Sacrum and coccyx, posterior view",
       "terms": [
@@ -5691,7 +5691,7 @@
       "id": "practice-axial-03-A3352a",
       "label": "Sternum, anterior view practice",
       "region": "Sternum",
-      "reviewImage": "assets/pal/atlas/3-thoracic-cage/review/03-a3352a.webp",
+      "reviewImage": "assets/questions/q-683be1ea78f9.webp",
       "labeledImage": "assets/pal/atlas/3-thoracic-cage/labeled/03-a3352a.webp",
       "sourceTitle": "Sternum, anterior view",
       "terms": [
@@ -5711,7 +5711,11 @@
 };
   data.palVisuals = [...(data.palVisuals || []), ...visuals.palVisuals];
   data.leftRightImages = visuals.leftRightImages;
-  data.boneLeaderCards = visuals.boneLeaderCards;
+  const unsupportedBonePromptIds = new Set([
+    'bone-leader-vertebral-types-coccygeal-vertebra'
+  ]);
+  data.boneLeaderCards = visuals.boneLeaderCards
+    .filter((card) => !unsupportedBonePromptIds.has(card.id));
   data.boneImageCards = visuals.boneImageCards;
   data.practicalLabelingCards = visuals.practicalLabelingCards;
   data.visualBuildStats = visuals.stats;

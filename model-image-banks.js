@@ -48,6 +48,17 @@
     'long head of biceps femoris': 'Biceps femoris',
     'short head of biceps femoris': 'Biceps femoris'
   };
+  const referenceOnlyHeadTerms = new Set([
+    'biceps brachii - long head',
+    'biceps brachii - short head',
+    'long head of biceps femoris',
+    'short head of biceps femoris'
+  ]);
+  const coursePracticalPaths = new Set(
+    Object.values(data.courseMuscleImages || {}).flatMap((value) => Array.isArray(value) ? value : [value])
+      .map((value) => typeof value === 'string' ? value : value?.image)
+      .filter(Boolean)
+  );
 
   function normalizeName(value) {
     return String(value || '').trim().toLowerCase();
@@ -55,6 +66,8 @@
 
   function inferSourceKind(image) {
     const path = String(image || '').toLowerCase();
+    if (coursePracticalPaths.has(image)) return 'course-practical-image';
+    if (path.includes('/assets/questions/') || path.startsWith('assets/questions/')) return 'pal-atlas-substitute';
     if (path.includes('/assets/pal/') || path.startsWith('assets/pal/')) return 'pal-atlas-substitute';
     if (path.includes('/assets/canvas-practical/') || path.startsWith('assets/canvas-practical/')) return 'course-practical-image';
     return 'repository-reference-image';
@@ -96,17 +109,20 @@
 
   function contextualPalValues(values, row) {
     const context = row.assessmentContext;
-    const pathIncludes = (value, token) => String(typeof value === 'string' ? value : value?.image || '').toLowerCase().includes(token);
+    const viewText = (value) => {
+      if (typeof value === 'string') return value.toLowerCase();
+      return `${value?.image || ''} ${value?.sourceTitle || ''}`.toLowerCase();
+    };
     if (context === 'arm-model') {
-      const armViews = values.filter((value) => pathIncludes(value, 'upper-limb-'));
+      const armViews = values.filter((value) => /upper-limb-|scapula and arm|forearm/.test(viewText(value)));
       return armViews.length ? armViews : values;
     }
     if (context === 'torso-fallback') {
-      const torsoViews = values.filter((value) => pathIncludes(value, 'trunk-'));
+      const torsoViews = values.filter((value) => /trunk-|muscles of the trunk/.test(viewText(value)));
       return torsoViews.length ? torsoViews : values;
     }
     if (context === 'face-image') {
-      const faceViews = values.filter((value) => pathIncludes(value, 'head-neck-'));
+      const faceViews = values.filter((value) => /head-neck-|head and neck|muscles of the head/.test(viewText(value)));
       return faceViews.length ? faceViews : values;
     }
     return values;
@@ -213,7 +229,13 @@
       ...courseImages(row.item, row),
       ...courseModelReferenceImages(row.item, row),
       ...fallbackLookupImage(row.item, row)
-    ]).sort((a, b) => {
+    ]).map((item) => referenceOnlyHeadTerms.has(normalizeName(row.item))
+      ? {
+          ...item,
+          questionReady: false,
+          sourceDescription: `${item.sourceDescription} This view is reference-only because it does not isolate the named muscle head.`
+        }
+      : item).sort((a, b) => {
       const displayDifference = contextDisplayPriority(a, row) - contextDisplayPriority(b, row);
       if (displayDifference) return displayDifference;
       return sourcePriority(a) - sourcePriority(b);

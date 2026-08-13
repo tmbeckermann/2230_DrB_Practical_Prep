@@ -9,30 +9,30 @@
       "category": "Muscle ID",
       "answer": "Orbicularis oris",
       "sourceTitle": "Muscles Of The Head, Right Lateral View",
-      "reviewImage": "assets/pal/muscle-atlas/focus/head-neck-0095-orbicularis-oris.webp",
+      "reviewImage": "assets/questions/q-baf264a21484.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-09-m2122-pal4.webp",
       "sourceLabel": "Orbicularis oris",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0095-orbicularis-oris.webp",
+          "image": "assets/questions/q-baf264a21484.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-09-m2122-pal4.webp",
           "sourceTitle": "Muscles Of The Head, Right Lateral View — focused crop",
           "sourceLabel": "Orbicularis oris"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0044-orbicularis-oris.webp",
+          "image": "assets/questions/q-65d57c26c5fe.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-03-m3019-pal4.webp",
           "sourceTitle": "Superficial muscles of the head, anterior view — focused crop",
           "sourceLabel": "Orbicularis oris"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0019-orbicularis-oris.webp",
+          "image": "assets/questions/q-35a9133c05d1.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-01-m0002.webp",
           "sourceTitle": "Superficial muscles of the head and neck, anterolateral view — focused crop",
           "sourceLabel": "Orbicularis oris"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0062-orbicularis-oris.webp",
+          "image": "assets/questions/q-58ebbd2c51f9.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-06-m3021b.webp",
           "sourceTitle": "Deep muscles of the head and neck, left lateral view — focused crop",
           "sourceLabel": "Orbicularis oris"
@@ -77,24 +77,24 @@
       "category": "Muscle ID",
       "answer": "Zygomaticus major",
       "sourceTitle": "Superficial muscles of the head, anterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/head-neck-0040-zygomaticus-major.webp",
+      "reviewImage": "assets/questions/q-4f726dbbda0d.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-03-m3019-pal4.webp",
       "sourceLabel": "Zygomaticus major",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0040-zygomaticus-major.webp",
+          "image": "assets/questions/q-4f726dbbda0d.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-03-m3019-pal4.webp",
           "sourceTitle": "Superficial muscles of the head, anterior view — focused crop",
           "sourceLabel": "Zygomaticus major"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0017-zygomaticus-major.webp",
+          "image": "assets/questions/q-7da5850c7976.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-01-m0002.webp",
           "sourceTitle": "Superficial muscles of the head and neck, anterolateral view — focused crop",
           "sourceLabel": "Zygomaticus major"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0058-zygomaticus-major.webp",
+          "image": "assets/questions/q-2ba72ec6cfeb.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-05-m3021a.webp",
           "sourceTitle": "Superficial muscles of the head and neck, lateral view — focused crop",
           "sourceLabel": "Zygomaticus major"
@@ -133,24 +133,24 @@
       "category": "Muscle ID",
       "answer": "Zygomaticus minor",
       "sourceTitle": "Superficial muscles of the head, anterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/head-neck-0041-zygomaticus-minor.webp",
+      "reviewImage": "assets/questions/q-d4560bea1919.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-03-m3019-pal4.webp",
       "sourceLabel": "Zygomaticus minor",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0041-zygomaticus-minor.webp",
+          "image": "assets/questions/q-d4560bea1919.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-03-m3019-pal4.webp",
           "sourceTitle": "Superficial muscles of the head, anterior view — focused crop",
           "sourceLabel": "Zygomaticus minor"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0018-zygomaticus-minor.webp",
+          "image": "assets/questions/q-f64271b375c4.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-01-m0002.webp",
           "sourceTitle": "Superficial muscles of the head and neck, anterolateral view — focused crop",
           "sourceLabel": "Zygomaticus minor"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0055-zygomaticus-minor.webp",
+          "image": "assets/questions/q-7f7e88cd6b0d.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-05-m3021a.webp",
           "sourceTitle": "Superficial muscles of the head and neck, lateral view — focused crop",
           "sourceLabel": "Zygomaticus minor"
@@ -189,30 +189,30 @@
       "category": "Muscle ID",
       "answer": "Buccinator",
       "sourceTitle": "Muscles Of The Head, Right Lateral View",
-      "reviewImage": "assets/pal/muscle-atlas/focus/head-neck-0087-buccinator.webp",
+      "reviewImage": "assets/questions/q-52eeaa2878ed.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-09-m2122-pal4.webp",
       "sourceLabel": "Buccinator",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0087-buccinator.webp",
+          "image": "assets/questions/q-52eeaa2878ed.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-09-m2122-pal4.webp",
           "sourceTitle": "Muscles Of The Head, Right Lateral View — focused crop",
           "sourceLabel": "Buccinator"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0014-buccinator.webp",
+          "image": "assets/questions/q-42f2fbed7809.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-01-m0002.webp",
           "sourceTitle": "Superficial muscles of the head and neck, anterolateral view — focused crop",
           "sourceLabel": "Buccinator"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0061-buccinator.webp",
+          "image": "assets/questions/q-35f75b265b11.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-06-m3021b.webp",
           "sourceTitle": "Deep muscles of the head and neck, left lateral view — focused crop",
           "sourceLabel": "Buccinator"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0029-buccinator.webp",
+          "image": "assets/questions/q-73644798bb73.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-02-m0001.webp",
           "sourceTitle": "Deep muscles of the head and neck, anterolateral view — focused crop",
           "sourceLabel": "Buccinator"
@@ -257,30 +257,30 @@
       "category": "Muscle ID",
       "answer": "Risorius",
       "sourceTitle": "Muscles Of The Head, Right Lateral View",
-      "reviewImage": "assets/pal/muscle-atlas/focus/head-neck-0086-risorius-cut.webp",
+      "reviewImage": "assets/questions/q-45c3b6a8acb9.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-09-m2122-pal4.webp",
       "sourceLabel": "Risorius (cut)",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0086-risorius-cut.webp",
+          "image": "assets/questions/q-45c3b6a8acb9.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-09-m2122-pal4.webp",
           "sourceTitle": "Muscles Of The Head, Right Lateral View — focused crop",
           "sourceLabel": "Risorius (cut)"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0039-risorius.webp",
+          "image": "assets/questions/q-fdc844499ef8.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-03-m3019-pal4.webp",
           "sourceTitle": "Superficial muscles of the head, anterior view — focused crop",
           "sourceLabel": "Risorius"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0015-risorius.webp",
+          "image": "assets/questions/q-b2149d4f2c36.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-01-m0002.webp",
           "sourceTitle": "Superficial muscles of the head and neck, anterolateral view — focused crop",
           "sourceLabel": "Risorius"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0073-risorius.webp",
+          "image": "assets/questions/q-99bbb0b89d3e.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-07-m3021c.webp",
           "sourceTitle": "Superficial muscles of the head and neck, right anterolateral view — focused crop",
           "sourceLabel": "Risorius"
@@ -326,30 +326,30 @@
       "category": "Muscle ID",
       "answer": "Orbicularis oculi",
       "sourceTitle": "Superficial muscles of the head, anterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/head-neck-0042-orbicularis-oculi.webp",
+      "reviewImage": "assets/questions/q-34af2597d51b.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-03-m3019-pal4.webp",
       "sourceLabel": "Orbicularis oculi",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0042-orbicularis-oculi.webp",
+          "image": "assets/questions/q-34af2597d51b.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-03-m3019-pal4.webp",
           "sourceTitle": "Superficial muscles of the head, anterior view — focused crop",
           "sourceLabel": "Orbicularis oculi"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0093-orbicularis-oculi.webp",
+          "image": "assets/questions/q-e40c56d1b282.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-09-m2122-pal4.webp",
           "sourceTitle": "Muscles Of The Head, Right Lateral View — focused crop",
           "sourceLabel": "Orbicularis oculi"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0070-orbicularis-oculi.webp",
+          "image": "assets/questions/q-6720ce2a6efa.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-07-m3021c.webp",
           "sourceTitle": "Superficial muscles of the head and neck, right anterolateral view — focused crop",
           "sourceLabel": "Orbicularis oculi"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0022-orbicularis-oculi.webp",
+          "image": "assets/questions/q-91ced3811a61.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-02-m0001.webp",
           "sourceTitle": "Deep muscles of the head and neck, anterolateral view — focused crop",
           "sourceLabel": "Orbicularis oculi"
@@ -394,30 +394,30 @@
       "category": "Muscle ID",
       "answer": "Masseter",
       "sourceTitle": "Superficial muscles of the head, anterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/head-neck-0038-masseter.webp",
+      "reviewImage": "assets/questions/q-b95e16326c82.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-03-m3019-pal4.webp",
       "sourceLabel": "Masseter",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0038-masseter.webp",
+          "image": "assets/questions/q-b95e16326c82.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-03-m3019-pal4.webp",
           "sourceTitle": "Superficial muscles of the head, anterior view — focused crop",
           "sourceLabel": "Masseter"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0088-masseter.webp",
+          "image": "assets/questions/q-f36606579b85.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-09-m2122-pal4.webp",
           "sourceTitle": "Muscles Of The Head, Right Lateral View — focused crop",
           "sourceLabel": "Masseter"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0016-masseter.webp",
+          "image": "assets/questions/q-e429c81b60d9.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-01-m0002.webp",
           "sourceTitle": "Superficial muscles of the head and neck, anterolateral view — focused crop",
           "sourceLabel": "Masseter"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0072-masseter.webp",
+          "image": "assets/questions/q-b73b23493198.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-07-m3021c.webp",
           "sourceTitle": "Superficial muscles of the head and neck, right anterolateral view — focused crop",
           "sourceLabel": "Masseter"
@@ -462,30 +462,30 @@
       "category": "Muscle ID",
       "answer": "Temporalis",
       "sourceTitle": "Muscles Of The Head, Right Lateral View",
-      "reviewImage": "assets/pal/muscle-atlas/focus/head-neck-0091-temporalis.webp",
+      "reviewImage": "assets/questions/q-f1d0382a5484.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-09-m2122-pal4.webp",
       "sourceLabel": "Temporalis",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0091-temporalis.webp",
+          "image": "assets/questions/q-f1d0382a5484.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-09-m2122-pal4.webp",
           "sourceTitle": "Muscles Of The Head, Right Lateral View — focused crop",
           "sourceLabel": "Temporalis"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0060-temporalis.webp",
+          "image": "assets/questions/q-3a0979781fb9.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-06-m3021b.webp",
           "sourceTitle": "Deep muscles of the head and neck, left lateral view — focused crop",
           "sourceLabel": "Temporalis"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0031-temporalis.webp",
+          "image": "assets/questions/q-1e6f2d5f4bdc.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-02-m0001.webp",
           "sourceTitle": "Deep muscles of the head and neck, anterolateral view — focused crop",
           "sourceLabel": "Temporalis"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0083-temporalis.webp",
+          "image": "assets/questions/q-b6d509f7b87e.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-08-m3025b.webp",
           "sourceTitle": "Muscles of the trunk, right lateral view — focused crop",
           "sourceLabel": "Temporalis"
@@ -530,30 +530,30 @@
       "category": "Muscle ID",
       "answer": "Sternocleidomastoid",
       "sourceTitle": "Superficial muscles of the head and neck, anterolateral view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/head-neck-0001-sternocleidomastoid.webp",
+      "reviewImage": "assets/questions/q-7a3c92156401.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-01-m0002.webp",
       "sourceLabel": "Sternocleidomastoid",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0001-sternocleidomastoid.webp",
+          "image": "assets/questions/q-7a3c92156401.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-01-m0002.webp",
           "sourceTitle": "Superficial muscles of the head and neck, anterolateral view — focused crop",
           "sourceLabel": "Sternocleidomastoid"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0048-sternocleidomastoid.webp",
+          "image": "assets/questions/q-c35e162e3cd8.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-05-m3023.webp",
           "sourceTitle": "Muscles of the trunk, lateral view — focused crop",
           "sourceLabel": "Sternocleidomastoid"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0077-sternocleidomastoid.webp",
+          "image": "assets/questions/q-98b259aac0e0.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-07-m3021c.webp",
           "sourceTitle": "Superficial muscles of the head and neck, right anterolateral view — focused crop",
           "sourceLabel": "Sternocleidomastoid"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0010-sternocleidomastoid.webp",
+          "image": "assets/questions/q-1b99347d6836.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Sternocleidomastoid"
@@ -598,12 +598,12 @@
       "category": "Muscle ID",
       "answer": "Semispinalis capitis",
       "sourceTitle": "Superficial muscles of head and neck, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/head-neck-0084-semispinalis-capitis.webp",
+      "reviewImage": "assets/questions/q-8d46a99e2fb8.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-08-m3022.webp",
       "sourceLabel": "Semispinalis capitis",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0084-semispinalis-capitis.webp",
+          "image": "assets/questions/q-8d46a99e2fb8.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-08-m3022.webp",
           "sourceTitle": "Superficial muscles of head and neck, posterior view — focused crop",
           "sourceLabel": "Semispinalis capitis"
@@ -630,24 +630,24 @@
       "category": "Muscle ID",
       "answer": "External intercostals",
       "sourceTitle": "Muscles of the trunk, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0034-external-intercostals.webp",
+      "reviewImage": "assets/questions/q-c9e300693adf.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-04-m0004b.webp",
       "sourceLabel": "External intercostals",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0034-external-intercostals.webp",
+          "image": "assets/questions/q-c9e300693adf.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-04-m0004b.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "External intercostals"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0004-external-intercostals.webp",
+          "image": "assets/questions/q-d2e13bd9bbd6.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "External intercostals"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0084-external-intercostal.webp",
+          "image": "assets/questions/q-2378448dcc89.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-08-m3025b.webp",
           "sourceTitle": "Muscles of the trunk, right lateral view — focused crop",
           "sourceLabel": "External intercostal"
@@ -687,12 +687,12 @@
       "category": "Muscle ID",
       "answer": "Internal intercostals",
       "sourceTitle": "Muscles of the trunk, anterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0005-internal-intercostals.webp",
+      "reviewImage": "assets/questions/q-2b806f8b3d4e.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
       "sourceLabel": "Internal intercostals",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0005-internal-intercostals.webp",
+          "image": "assets/questions/q-2b806f8b3d4e.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Internal intercostals"
@@ -719,24 +719,24 @@
       "category": "Muscle ID",
       "answer": "Rectus abdominis",
       "sourceTitle": "Muscles of the trunk, lateral view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0050-rectus-abdominis.webp",
+      "reviewImage": "assets/questions/q-192561215ea9.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-05-m3023.webp",
       "sourceLabel": "Rectus abdominis",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0050-rectus-abdominis.webp",
+          "image": "assets/questions/q-192561215ea9.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-05-m3023.webp",
           "sourceTitle": "Muscles of the trunk, lateral view — focused crop",
           "sourceLabel": "Rectus abdominis"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0012-rectus-abdominis.webp",
+          "image": "assets/questions/q-de5850e33189.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-02-m0003b.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Rectus abdominis"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0055-rectus-abdominis.webp",
+          "image": "assets/questions/q-8fcc67e6a0ce.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-06-m3024.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Rectus abdominis"
@@ -771,19 +771,19 @@
     }
   ],
   "muscleImageLookup": {
-    "Orbicularis oris": "assets/pal/muscle-atlas/focus/head-neck-0095-orbicularis-oris.webp",
-    "Zygomaticus major": "assets/pal/muscle-atlas/focus/head-neck-0040-zygomaticus-major.webp",
-    "Zygomaticus minor": "assets/pal/muscle-atlas/focus/head-neck-0041-zygomaticus-minor.webp",
-    "Buccinator": "assets/pal/muscle-atlas/focus/head-neck-0087-buccinator.webp",
-    "Risorius": "assets/pal/muscle-atlas/focus/head-neck-0086-risorius-cut.webp",
-    "Orbicularis oculi": "assets/pal/muscle-atlas/focus/head-neck-0042-orbicularis-oculi.webp",
-    "Masseter": "assets/pal/muscle-atlas/focus/head-neck-0038-masseter.webp",
-    "Temporalis": "assets/pal/muscle-atlas/focus/head-neck-0091-temporalis.webp",
-    "Sternocleidomastoid": "assets/pal/muscle-atlas/focus/head-neck-0001-sternocleidomastoid.webp",
-    "Semispinalis capitis": "assets/pal/muscle-atlas/focus/head-neck-0084-semispinalis-capitis.webp",
-    "External intercostals": "assets/pal/muscle-atlas/focus/trunk-0034-external-intercostals.webp",
-    "Internal intercostals": "assets/pal/muscle-atlas/focus/trunk-0005-internal-intercostals.webp",
-    "Rectus abdominis": "assets/pal/muscle-atlas/focus/trunk-0050-rectus-abdominis.webp"
+    "Orbicularis oris": "assets/questions/q-baf264a21484.webp",
+    "Zygomaticus major": "assets/questions/q-4f726dbbda0d.webp",
+    "Zygomaticus minor": "assets/questions/q-d4560bea1919.webp",
+    "Buccinator": "assets/questions/q-52eeaa2878ed.webp",
+    "Risorius": "assets/questions/q-45c3b6a8acb9.webp",
+    "Orbicularis oculi": "assets/questions/q-34af2597d51b.webp",
+    "Masseter": "assets/questions/q-b95e16326c82.webp",
+    "Temporalis": "assets/questions/q-f1d0382a5484.webp",
+    "Sternocleidomastoid": "assets/questions/q-7a3c92156401.webp",
+    "Semispinalis capitis": "assets/questions/q-8d46a99e2fb8.webp",
+    "External intercostals": "assets/questions/q-c9e300693adf.webp",
+    "Internal intercostals": "assets/questions/q-2b806f8b3d4e.webp",
+    "Rectus abdominis": "assets/questions/q-192561215ea9.webp"
   },
   "muscleVisualLookup": {
     "Orbicularis oris": "muscle-atlas-orbicularis-oris",
@@ -805,7 +805,7 @@
       "id": "practice-muscle-atlas-head-neck-01-m0002-labeled",
       "label": "Superficial muscles of the head and neck, anterolateral view practice",
       "region": "Muscles: Head Neck",
-      "reviewImage": "assets/pal/muscle-atlas/review/head-neck-01-m0002.webp",
+      "reviewImage": "assets/questions/q-d47a14655302.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-01-m0002.webp",
       "sourceTitle": "Superficial muscles of the head and neck, anterolateral view",
       "terms": [
@@ -822,7 +822,7 @@
       "id": "practice-muscle-atlas-head-neck-02-m0001-labeled",
       "label": "Deep muscles of the head and neck, anterolateral view practice",
       "region": "Muscles: Head Neck",
-      "reviewImage": "assets/pal/muscle-atlas/review/head-neck-02-m0001.webp",
+      "reviewImage": "assets/questions/q-a47af5c00227.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-02-m0001.webp",
       "sourceTitle": "Deep muscles of the head and neck, anterolateral view",
       "terms": [
@@ -837,7 +837,7 @@
       "id": "practice-muscle-atlas-head-neck-03-m3019-pal4-labeled",
       "label": "Superficial muscles of the head, anterior view practice",
       "region": "Muscles: Head Neck",
-      "reviewImage": "assets/pal/muscle-atlas/review/head-neck-03-m3019-pal4.webp",
+      "reviewImage": "assets/questions/q-0b3ff8a91484.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-03-m3019-pal4.webp",
       "sourceTitle": "Superficial muscles of the head, anterior view",
       "terms": [
@@ -853,7 +853,7 @@
       "id": "practice-muscle-atlas-head-neck-05-m3021a-labeled",
       "label": "Superficial muscles of the head and neck, lateral view practice",
       "region": "Muscles: Head Neck",
-      "reviewImage": "assets/pal/muscle-atlas/review/head-neck-05-m3021a.webp",
+      "reviewImage": "assets/questions/q-ab5d5764cece.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-05-m3021a.webp",
       "sourceTitle": "Superficial muscles of the head and neck, lateral view",
       "terms": [
@@ -870,7 +870,7 @@
       "id": "practice-muscle-atlas-head-neck-06-m3021b-labeled",
       "label": "Deep muscles of the head and neck, left lateral view practice",
       "region": "Muscles: Head Neck",
-      "reviewImage": "assets/pal/muscle-atlas/review/head-neck-06-m3021b.webp",
+      "reviewImage": "assets/questions/q-a04add308f85.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-06-m3021b.webp",
       "sourceTitle": "Deep muscles of the head and neck, left lateral view",
       "terms": [
@@ -883,7 +883,7 @@
       "id": "practice-muscle-atlas-head-neck-07-m3021c-labeled",
       "label": "Superficial muscles of the head and neck, right anterolateral view practice",
       "region": "Muscles: Head Neck",
-      "reviewImage": "assets/pal/muscle-atlas/review/head-neck-07-m3021c.webp",
+      "reviewImage": "assets/questions/q-f11ec8e36c2a.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-07-m3021c.webp",
       "sourceTitle": "Superficial muscles of the head and neck, right anterolateral view",
       "terms": [
@@ -897,7 +897,7 @@
       "id": "practice-muscle-atlas-head-neck-09-m2122-pal4-labeled",
       "label": "Muscles Of The Head, Right Lateral View practice",
       "region": "Muscles: Head Neck",
-      "reviewImage": "assets/pal/muscle-atlas/review/head-neck-09-m2122-pal4.webp",
+      "reviewImage": "assets/questions/q-0ac5d0bd3389.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-09-m2122-pal4.webp",
       "sourceTitle": "Muscles Of The Head, Right Lateral View",
       "terms": [
@@ -913,7 +913,7 @@
       "id": "practice-muscle-atlas-trunk-01-m0003a-labeled",
       "label": "Muscles of the trunk, anterior view practice",
       "region": "Muscles: Trunk",
-      "reviewImage": "assets/pal/muscle-atlas/review/trunk-01-m0003a.webp",
+      "reviewImage": "assets/questions/q-385ca5938506.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
       "sourceTitle": "Muscles of the trunk, anterior view",
       "terms": [
@@ -926,7 +926,7 @@
       "id": "practice-muscle-atlas-trunk-05-m3023-labeled",
       "label": "Muscles of the trunk, lateral view practice",
       "region": "Muscles: Trunk",
-      "reviewImage": "assets/pal/muscle-atlas/review/trunk-05-m3023.webp",
+      "reviewImage": "assets/questions/q-0577afae4996.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-05-m3023.webp",
       "sourceTitle": "Muscles of the trunk, lateral view",
       "terms": [
@@ -938,7 +938,7 @@
       "id": "practice-muscle-atlas-trunk-06-m3024-labeled",
       "label": "Muscles of the trunk, anterior view practice",
       "region": "Muscles: Trunk",
-      "reviewImage": "assets/pal/muscle-atlas/review/trunk-06-m3024.webp",
+      "reviewImage": "assets/questions/q-e333b1df78cf.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-06-m3024.webp",
       "sourceTitle": "Muscles of the trunk, anterior view",
       "terms": [
@@ -950,7 +950,7 @@
       "id": "practice-muscle-atlas-trunk-08-m3025b-labeled",
       "label": "Muscles of the trunk, right lateral view practice",
       "region": "Muscles: Trunk",
-      "reviewImage": "assets/pal/muscle-atlas/review/trunk-08-m3025b.webp",
+      "reviewImage": "assets/questions/q-db996a0e3c21.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-08-m3025b.webp",
       "sourceTitle": "Muscles of the trunk, right lateral view",
       "terms": [

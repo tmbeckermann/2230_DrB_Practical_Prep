@@ -16,7 +16,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/iliac-fossa/24567",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/iliac-fossa",
-      "image": "assets/pal/structures/bones/pelvic-02-a2099a-a2099a-07-iliac-fossa.jpg",
+      "image": "assets/questions/q-194ccda1bd52.jpg",
       "visualId": "bone-leader-pelvic-02-a2099a-a2099a-07-iliac-fossa"
     },
     {
@@ -39,7 +39,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/iliac-crest/17092",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/iliac-crest",
-      "image": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-10-iliac-crest.jpg",
+      "image": "assets/questions/q-8e1c7c82b06f.jpg",
       "visualId": "bone-leader-pelvic-01-a2097a-a2097a-10-iliac-crest"
     },
     {
@@ -58,7 +58,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/anterior-superior-iliac-spine/18887",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/anterior-superior-iliac-spine",
-      "image": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-11-anterior-superior-iliac-spine.jpg",
+      "image": "assets/questions/q-e6413f3e2d06.jpg",
       "visualId": "bone-leader-pelvic-01-a2097a-a2097a-11-anterior-superior-iliac-spine"
     },
     {
@@ -73,7 +73,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/anterior-inferior-iliac-spine/19434",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/anterior-inferior-iliac-spine",
-      "image": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-12-anterior-inferior-iliac-spine.jpg",
+      "image": "assets/questions/q-b7b97054a31c.jpg",
       "visualId": "bone-leader-pelvic-01-a2097a-a2097a-12-anterior-inferior-iliac-spine"
     },
     {
@@ -83,7 +83,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/posterior-superior-iliac-spine/22805",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/posterior-superior-iliac-spine",
-      "image": "assets/pal/structures/bones/pelvic-07-a2098-a2098-13-posterior-superior-iliac-spine.jpg",
+      "image": "assets/questions/q-1cd0fb06e358.jpg",
       "visualId": "bone-leader-pelvic-07-a2098-a2098-13-posterior-superior-iliac-spine"
     },
     {
@@ -93,7 +93,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/posterior-inferior-iliac-spine/21451",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/ilium",
-      "image": "assets/pal/structures/bones/pelvic-07-a2098-a2098-12-posterior-inferior-iliac-spine.jpg",
+      "image": "assets/questions/q-2eac15bd17a1.jpg",
       "visualId": "bone-leader-pelvic-07-a2098-a2098-12-posterior-inferior-iliac-spine"
     },
     {
@@ -103,7 +103,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/acetabulum-iliac-part/19773",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/hip-bone",
-      "image": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-01-acetabulum.jpg",
+      "image": "assets/questions/q-076aa1217398.jpg",
       "visualId": "bone-leader-pelvic-01-a2097a-a2097a-01-acetabulum"
     },
     {
@@ -113,7 +113,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/pubic-tubercle/18945",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/pubic-tubercle",
-      "image": "assets/pal/structures/bones/pelvic-05-a2097c-a2097c-19-pubic-tubercle.jpg",
+      "image": "assets/questions/q-116ecd2db2a0.jpg",
       "visualId": "bone-leader-pelvic-05-a2097c-a2097c-19-pubic-tubercle"
     },
     {
@@ -133,7 +133,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/greater-sciatic-notch-ischial-part/20975",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/hip-bone",
-      "image": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-06-greater-sciatic-notch.jpg",
+      "image": "assets/questions/q-12c78b5babac.jpg",
       "visualId": "bone-leader-pelvic-01-a2097a-a2097a-06-greater-sciatic-notch"
     },
     {
@@ -143,7 +143,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/lesser-sciatic-notch/18573",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/ischial-spine",
-      "image": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-14-lesser-sciatic-notch.jpg",
+      "image": "assets/questions/q-99dbdb036ea5.jpg",
       "visualId": "bone-leader-pelvic-03-a2097b-a2097b-14-lesser-sciatic-notch"
     },
     {
@@ -153,7 +153,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/ischial-spine/20304",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/ischial-spine",
-      "image": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-13-ischial-spine.jpg",
+      "image": "assets/questions/q-1f7f09f8ed08.jpg",
       "visualId": "bone-leader-pelvic-03-a2097b-a2097b-13-ischial-spine"
     },
     {
@@ -184,7 +184,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/ischial-tuberosity/18613",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/ischial-tuberosity",
-      "image": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-15-ischial-tuberosity.jpg",
+      "image": "assets/questions/q-3c79c6f02511.jpg",
       "visualId": "bone-leader-pelvic-03-a2097b-a2097b-15-ischial-tuberosity"
     },
     {
@@ -194,7 +194,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/ramus-of-ischium/17733",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/ischium",
-      "image": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-16-ischial-ramus.jpg",
+      "image": "assets/questions/q-e500474f3de1.jpg",
       "visualId": "bone-leader-pelvic-03-a2097b-a2097b-16-ischial-ramus"
     },
     {
@@ -204,7 +204,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/superior-pubic-ramus/19816",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/pubis",
-      "image": "assets/pal/structures/bones/pelvic-05-a2097c-a2097c-18-superior-ramus-of-pubis.jpg",
+      "image": "assets/questions/q-b949cf94383b.jpg",
       "visualId": "bone-leader-pelvic-05-a2097c-a2097c-18-superior-ramus-of-pubis"
     },
     {
@@ -227,7 +227,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/inferior-pubic-ramus/19438",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/pubis",
-      "image": "assets/pal/structures/bones/pelvic-05-a2097c-a2097c-17-inferior-ramus-of-pubis.jpg",
+      "image": "assets/questions/q-fa5a5f203aeb.jpg",
       "visualId": "bone-leader-pelvic-05-a2097c-a2097c-17-inferior-ramus-of-pubis"
     },
     {
@@ -237,7 +237,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/connective-tissue/connective-tissue-of-lower-limb/obturator-membrane/23041",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/hip-bone",
-      "image": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-02-obturator-foramen.jpg",
+      "image": "assets/questions/q-acb7d662cc43.jpg",
       "visualId": "bone-leader-pelvic-03-a2097b-a2097b-02-obturator-foramen"
     },
     {
@@ -247,7 +247,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/auricular-surface-of-ilium/21671",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/sacroiliac-joint",
-      "image": "assets/pal/structures/bones/pelvic-07-a2098-a2098-01-auricular-surface-of-ilium.jpg",
+      "image": "assets/questions/q-4ad52bbb329f.jpg",
       "visualId": "bone-leader-pelvic-07-a2098-a2098-01-auricular-surface-of-ilium"
     },
     {
@@ -257,7 +257,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/neck-of-femur/18987",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/femur#section2",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-09-a2105b-a2105b-03-neck.jpg",
+      "image": "assets/questions/q-a3737292f0ea.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-09-a2105b-a2105b-03-neck"
     },
     {
@@ -267,7 +267,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/head-of-femur/23111",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/head-of-femur",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-09-a2105b-a2105b-02-head.jpg",
+      "image": "assets/questions/q-433cd7e538ed.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-09-a2105b-a2105b-02-head"
     },
     {
@@ -286,7 +286,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/greater-trochanter/22701",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/greater-trochanter-of-femur",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-06-a2104b-a2104b-03-greater-trochanter.jpg",
+      "image": "assets/questions/q-9c219a2ed451.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-06-a2104b-a2104b-03-greater-trochanter"
     },
     {
@@ -305,7 +305,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/lesser-trochanter/19612",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/lesser-trochanter-of-femur",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-06-a2104b-a2104b-05-lesser-trochanter.jpg",
+      "image": "assets/questions/q-4b0408b9f3e5.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-06-a2104b-a2104b-05-lesser-trochanter"
     },
     {
@@ -320,7 +320,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/intertrochanteric-crest/21154",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/femur#section2",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-06-a2104b-a2104b-04-intertrochanteric-crest.jpg",
+      "image": "assets/questions/q-a4ace7e3dd43.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-06-a2104b-a2104b-04-intertrochanteric-crest"
     },
     {
@@ -330,7 +330,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/intertrochanteric-line/22309",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/femur#section2",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-02-a2102b-a2102b-04-intertrochanteric-line.jpg",
+      "image": "assets/questions/q-f4fdd27749b3.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-02-a2102b-a2102b-04-intertrochanteric-line"
     },
     {
@@ -345,7 +345,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/gluteal-tuberosity/23108",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/femur#section3",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-06-gluteal-tuberosity.jpg",
+      "image": "assets/questions/q-c61704587b5c.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-05-a2104a-a2104a-06-gluteal-tuberosity"
     },
     {
@@ -380,7 +380,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/linea-aspera/20604",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/femur#section3",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-04-a2103-a2103-05-linea-aspera.jpg",
+      "image": "assets/questions/q-77f0c214c9d0.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-04-a2103-a2103-05-linea-aspera"
     },
     {
@@ -390,7 +390,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/medial-supracondylar-line/24712",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/femur#section3",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-08-medial-supracondylar-line.jpg",
+      "image": "assets/questions/q-7b40454b9c0c.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-07-a2104c-a2104c-08-medial-supracondylar-line"
     },
     {
@@ -400,7 +400,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/lateral-supracondylar-line/16520",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/femur#section3",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-09-lateral-supracondylar-line.jpg",
+      "image": "assets/questions/q-533e10147488.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-07-a2104c-a2104c-09-lateral-supracondylar-line"
     },
     {
@@ -410,7 +410,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/intercondylar-fossa/17618",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/femur#section4",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-13-intercondylar-fossa.jpg",
+      "image": "assets/questions/q-1636b3edf56a.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-07-a2104c-a2104c-13-intercondylar-fossa"
     },
     {
@@ -420,7 +420,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/medial-condyle-of-femur/21357",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/femur#section4",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-12-medial-condyle.jpg",
+      "image": "assets/questions/q-7b75992ff762.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-07-a2104c-a2104c-12-medial-condyle"
     },
     {
@@ -430,7 +430,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/lateral-condyle-of-femur/18544",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/femur#section4",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-14-lateral-condyle.jpg",
+      "image": "assets/questions/q-a135c39de6dc.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-07-a2104c-a2104c-14-lateral-condyle"
     },
     {
@@ -440,7 +440,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/medial-condyle-of-femur/21357",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/femur#section4",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-11-medial-epicondyle.jpg",
+      "image": "assets/questions/q-c42e572fd278.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-07-a2104c-a2104c-11-medial-epicondyle"
     },
     {
@@ -450,7 +450,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/lateral-epicondyle-of-femur/22928",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/lateral-epicondyle-of-femur",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-15-lateral-epicondyle.jpg",
+      "image": "assets/questions/q-73293e6a75d8.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-07-a2104c-a2104c-15-lateral-epicondyle"
     },
     {
@@ -465,7 +465,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/adductor-tubercle/16437",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/femur#section4",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-10-adductor-tubercle.jpg",
+      "image": "assets/questions/q-1db0cd1f227e.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-07-a2104c-a2104c-10-adductor-tubercle"
     },
     {
@@ -485,7 +485,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/patellar-surface-of-femur/24236",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/femur#section4",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-03-a2102c-a2102c-07-patellar-surface.jpg",
+      "image": "assets/questions/q-2c7fb016785f.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-03-a2102c-a2102c-07-patellar-surface"
     },
     {
@@ -500,7 +500,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/medial-condyle-of-tibia/20671",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/tibia#section1",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-24-a2111-a2111-01-medial-condyle.jpg",
+      "image": "assets/questions/q-df0d569c3b8e.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-24-a2111-a2111-01-medial-condyle"
     },
     {
@@ -523,7 +523,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/lateral-condyle-of-tibia/18370",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/tibia#section1",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-21-a2109-a2109-01-lateral-condyle.jpg",
+      "image": "assets/questions/q-b48e1479c13b.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-21-a2109-a2109-01-lateral-condyle"
     },
     {
@@ -550,7 +550,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/tibial-tuberosity/24324",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/tibial-tuberosity",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-21-a2109-a2109-03-tibial-tuberosity.jpg",
+      "image": "assets/questions/q-a3a13ffd016d.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-21-a2109-a2109-03-tibial-tuberosity"
     },
     {
@@ -560,7 +560,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/anterior-border-of-tibia/17619",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/tibia#section2",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-21-a2109-a2109-05-anterior-crest.jpg",
+      "image": "assets/questions/q-052b08b516f2.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-21-a2109-a2109-05-anterior-crest"
     },
     {
@@ -570,7 +570,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/medial-malleolus/20111",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/tibia#section3",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-21-a2109-a2109-07-medial-malleolus.jpg",
+      "image": "assets/questions/q-d7c631e5497a.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-21-a2109-a2109-07-medial-malleolus"
     },
     {
@@ -580,7 +580,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/fibular-notch/16648",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/tibia#section3",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-21-a2109-a2109-06-fibular-notch.jpg",
+      "image": "assets/questions/q-42a7b4b39601.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-21-a2109-a2109-06-fibular-notch"
     },
     {
@@ -599,7 +599,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/head-of-fibula/24425",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/fibula#section2",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-26-a2113-a2113-01-head.jpg",
+      "image": "assets/questions/q-3abc468d9b50.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-26-a2113-a2113-01-head"
     },
     {
@@ -619,7 +619,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/connective-tissue/connective-tissue-of-lower-limb-left/superior-tibiofibular-joint-left/22610",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/tibiofibular-joints",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-15-a3337b-a3337b-09-proximal-tibiofibular-joint.jpg",
+      "image": "assets/questions/q-c0ba5262e44f.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-15-a3337b-a3337b-09-proximal-tibiofibular-joint"
     },
     {
@@ -629,7 +629,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/connective-tissue/connective-tissue-of-lower-limb-left/tibiofibular-syndesmosis-left/24993",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/tibiofibular-joints",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-15-a3337b-a3337b-10-distal-tibiofibular-joint.jpg",
+      "image": "assets/questions/q-16c146f6596f.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-15-a3337b-a3337b-10-distal-tibiofibular-joint"
     },
     {
@@ -639,7 +639,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/lateral-malleolus/21547",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/fibula#section4",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-26-a2113-a2113-03-lateral-malleolus.jpg",
+      "image": "assets/questions/q-3b6995161087.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-26-a2113-a2113-03-lateral-malleolus"
     },
     {
@@ -715,7 +715,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/cuboid-bone/18696",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/cuboid",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-02-cuboid.jpg",
+      "image": "assets/questions/q-e96c5573f9d1.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-30-a3340b-a3340b-02-cuboid"
     },
     {
@@ -725,7 +725,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/navicular-bone/17794",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/navicular-bone",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-06-navicular.jpg",
+      "image": "assets/questions/q-4faa79091361.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-30-a3340b-a3340b-06-navicular"
     },
     {
@@ -735,7 +735,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/lateral-cuneiform-bone/17895",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/cuneiform-bones",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-05-lateral-cuneiform.jpg",
+      "image": "assets/questions/q-63d279ca7fee.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-30-a3340b-a3340b-05-lateral-cuneiform"
     },
     {
@@ -754,7 +754,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/medial-cuneiform-bone/19397",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/cuneiform-bones",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-03-medial-cuneiform.jpg",
+      "image": "assets/questions/q-10a9af0a6a0e.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-30-a3340b-a3340b-03-medial-cuneiform"
     },
     {
@@ -764,7 +764,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/intermediate-cuneiform-bone/24987",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/cuneiform-bones",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-04-intermediate-cuneiform.jpg",
+      "image": "assets/questions/q-1405a635eaa8.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-30-a3340b-a3340b-04-intermediate-cuneiform"
     },
     {
@@ -791,7 +791,7 @@ window.STUDY_DATA = {
       ],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/metatarsal-bones-left/21163",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/metatarsal-bones",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-07-metatarsals.jpg",
+      "image": "assets/questions/q-4c3126dcbac0.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-30-a3340b-a3340b-07-metatarsals"
     },
     {
@@ -801,7 +801,7 @@ window.STUDY_DATA = {
       "references": [],
       "completeAnatomy": "https://www.elsevier.com/resources/anatomy/skeletal-system/appendicular-skeleton/phalanges-of-foot-left/22301",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/phalanges-of-the-foot",
-      "image": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-08-phalanges.jpg",
+      "image": "assets/questions/q-3e4156d44343.jpg",
       "visualId": "bone-leader-lower-limb-skeleton-30-a3340b-a3340b-08-phalanges"
     },
     {
@@ -824,7 +824,7 @@ window.STUDY_DATA = {
       "action": "Extension and lateral rotation at hip",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/gluteus-maximus-muscle",
       "practicalModel": false,
-      "image": "assets/pal/structures/muscles/07-m3040-pal4-m3040-03-gluteus-maximus.jpg",
+      "image": "assets/questions/q-349d99a05f6d.jpg",
       "visualId": "muscle-muscle-07-m3040-pal4-m3040-03-gluteus-maximus"
     },
     {
@@ -835,7 +835,7 @@ window.STUDY_DATA = {
       "action": "Abduction and medial rotation at hip",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/gluteus-medius-and-minimus-muscles",
       "practicalModel": true,
-      "image": "assets/pal/structures/muscles/07-m3040-pal4-m3040-02-gluteus-medius.jpg",
+      "image": "assets/questions/q-57dd6c207da2.jpg",
       "visualId": "muscle-muscle-07-m3040-pal4-m3040-02-gluteus-medius"
     },
     {
@@ -846,7 +846,7 @@ window.STUDY_DATA = {
       "action": "Extension of knee and medial rotation of hip",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/tensor-fasciae-latae-muscle",
       "practicalModel": true,
-      "image": "assets/pal/structures/muscles/05-m3038-pal4-m3038-09-tensor-fasciae-latae.jpg",
+      "image": "assets/questions/q-5a5f424a0059.jpg",
       "visualId": "muscle-muscle-05-m3038-pal4-m3038-09-tensor-fasciae-latae"
     },
     {
@@ -857,7 +857,7 @@ window.STUDY_DATA = {
       "action": "Lateral rotation at hip",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/quadratus-femoris-muscle",
       "practicalModel": false,
-      "image": "assets/pal/structures/muscles/08-m3041-pal4-m3041-03-quadratus-femoris.jpg",
+      "image": "assets/questions/q-79d271a246ca.jpg",
       "visualId": "muscle-muscle-08-m3041-pal4-m3041-03-quadratus-femoris"
     },
     {
@@ -868,7 +868,7 @@ window.STUDY_DATA = {
       "action": "Lateral rotation and abduction of hip",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/piriformis-muscle",
       "practicalModel": true,
-      "image": "assets/pal/structures/muscles/08-m3041-pal4-m3041-10-piriformis.jpg",
+      "image": "assets/questions/q-4cfaa2aa7442.jpg",
       "visualId": "muscle-muscle-08-m3041-pal4-m3041-10-piriformis"
     },
     {
@@ -879,7 +879,7 @@ window.STUDY_DATA = {
       "action": "Flexion at hip",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/psoas-major-muscle",
       "practicalModel": false,
-      "image": "assets/pal/structures/muscles/05-m3038-m3038-01-psoas-major.jpg",
+      "image": "assets/questions/q-30de77331375.jpg",
       "visualId": "muscle-muscle-05-m3038-m3038-01-psoas-major"
     },
     {
@@ -890,7 +890,7 @@ window.STUDY_DATA = {
       "action": "Flexion at hip",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/iliacus-muscle",
       "practicalModel": false,
-      "image": "assets/pal/structures/muscles/05-m3038-m3038-02-iliacus.jpg",
+      "image": "assets/questions/q-7a1d063fe819.jpg",
       "visualId": "muscle-muscle-05-m3038-m3038-02-iliacus"
     },
     {
@@ -901,7 +901,7 @@ window.STUDY_DATA = {
       "action": "Adduction, flexion, and medial rotation at hip",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/adductor-longus-muscle",
       "practicalModel": true,
-      "image": "assets/pal/structures/muscles/05-m3038-pal4-m3038-03-adductor-longus.jpg",
+      "image": "assets/questions/q-6a2f5e7cd342.jpg",
       "visualId": "muscle-muscle-05-m3038-pal4-m3038-03-adductor-longus"
     },
     {
@@ -912,7 +912,7 @@ window.STUDY_DATA = {
       "action": "Adduction and rotation of the hip",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/adductor-magnus",
       "practicalModel": false,
-      "image": "assets/pal/structures/muscles/06-m3039-pal4-m3039-06-adductor-magnus.jpg",
+      "image": "assets/questions/q-cee39f24063c.jpg",
       "visualId": "muscle-muscle-06-m3039-pal4-m3039-06-adductor-magnus"
     },
     {
@@ -923,7 +923,7 @@ window.STUDY_DATA = {
       "action": "Flexion at knee; adduction and medial rotation at hip",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/gracilis-muscle",
       "practicalModel": true,
-      "image": "assets/pal/structures/muscles/06-m3039-pal4-m3039-05-gracilis.jpg",
+      "image": "assets/questions/q-46d7f19ee89f.jpg",
       "visualId": "muscle-muscle-06-m3039-pal4-m3039-05-gracilis"
     },
     {
@@ -934,7 +934,7 @@ window.STUDY_DATA = {
       "action": "Flexion at knee; flexion at hip",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/the-sartorius-muscle",
       "practicalModel": true,
-      "image": "assets/pal/structures/muscles/05-m3038-pal4-m3038-04-sartorius.jpg",
+      "image": "assets/questions/q-dc144d3b5053.jpg",
       "visualId": "muscle-muscle-05-m3038-pal4-m3038-04-sartorius"
     },
     {
@@ -945,7 +945,7 @@ window.STUDY_DATA = {
       "action": "Flexion at knee; extension at hip",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/biceps-femoris-muscle",
       "practicalModel": true,
-      "image": "assets/pal/structures/muscles/07-m3040-pal4-m3040-01-biceps-femoris.jpg",
+      "image": "assets/questions/q-6d5602688400.jpg",
       "visualId": "muscle-muscle-07-m3040-pal4-m3040-01-biceps-femoris"
     },
     {
@@ -956,7 +956,7 @@ window.STUDY_DATA = {
       "action": "Flexion at knee; extension at hip",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/semimembranosus-muscle",
       "practicalModel": false,
-      "image": "assets/pal/structures/muscles/03-m0012-m0012-09-semimembranosus.jpg",
+      "image": "assets/questions/q-8ca2feb8ca19.jpg",
       "visualId": "muscle-muscle-03-m0012-m0012-09-semimembranosus"
     },
     {
@@ -967,7 +967,7 @@ window.STUDY_DATA = {
       "action": "Flexion at knee; extension at hip",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/semitendinosus-muscle",
       "practicalModel": true,
-      "image": "assets/pal/structures/muscles/07-m3040-pal4-m3040-05-semitendinosus.jpg",
+      "image": "assets/questions/q-f74ed2be9e0a.jpg",
       "visualId": "muscle-muscle-07-m3040-pal4-m3040-05-semitendinosus"
     },
     {
@@ -978,7 +978,7 @@ window.STUDY_DATA = {
       "action": "Extension at knee; flexion at hip",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/the-quadriceps-femoris-muscle",
       "practicalModel": true,
-      "image": "assets/pal/structures/muscles/05-m3038-pal4-m3038-08-rectus-femoris.jpg",
+      "image": "assets/questions/q-30eba563e396.jpg",
       "visualId": "muscle-muscle-05-m3038-pal4-m3038-08-rectus-femoris"
     },
     {
@@ -989,7 +989,7 @@ window.STUDY_DATA = {
       "action": "Extension at the knee",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/the-quadriceps-femoris-muscle",
       "practicalModel": false,
-      "image": "assets/pal/structures/muscles/06-m3039-pal4-m3039-10-vastus-intermedius.jpg",
+      "image": "assets/questions/q-966700a73a8d.jpg",
       "visualId": "muscle-muscle-06-m3039-pal4-m3039-10-vastus-intermedius"
     },
     {
@@ -1000,7 +1000,7 @@ window.STUDY_DATA = {
       "action": "Extension at the knee",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/the-quadriceps-femoris-muscle",
       "practicalModel": true,
-      "image": "assets/pal/structures/muscles/05-m3038-pal4-m3038-05-vastus-medialis.jpg",
+      "image": "assets/questions/q-a15a63ff29b2.jpg",
       "visualId": "muscle-muscle-05-m3038-pal4-m3038-05-vastus-medialis"
     },
     {
@@ -1011,7 +1011,7 @@ window.STUDY_DATA = {
       "action": "Extension at the knee",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/the-quadriceps-femoris-muscle",
       "practicalModel": true,
-      "image": "assets/pal/structures/muscles/05-m3038-pal4-m3038-06-vastus-lateralis.jpg",
+      "image": "assets/questions/q-8a92955fdd97.jpg",
       "visualId": "muscle-muscle-05-m3038-pal4-m3038-06-vastus-lateralis"
     },
     {
@@ -1022,7 +1022,7 @@ window.STUDY_DATA = {
       "action": "Dorsiflexion at ankle",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/tibialis-anterior-muscle",
       "practicalModel": true,
-      "image": "assets/pal/structures/muscles/14-m3042-pal4-m3042-01-tibialis-anterior.jpg",
+      "image": "assets/questions/q-1965ef834cc6.jpg",
       "visualId": "muscle-muscle-14-m3042-pal4-m3042-01-tibialis-anterior"
     },
     {
@@ -1033,7 +1033,7 @@ window.STUDY_DATA = {
       "action": "Plantar flexion at ankle",
       "kenhub": "https://www.kenhub.com/en/videos/gastrocnemius-muscle-functions-3d",
       "practicalModel": true,
-      "image": "assets/pal/structures/muscles/14-m3042-pal4-m3042-02-gastrocnemius.jpg",
+      "image": "assets/questions/q-4da9b8f6ca24.jpg",
       "visualId": "muscle-muscle-14-m3042-pal4-m3042-02-gastrocnemius"
     },
     {
@@ -1044,7 +1044,7 @@ window.STUDY_DATA = {
       "action": "Plantar flexion at ankle",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/soleus-muscle",
       "practicalModel": true,
-      "image": "assets/pal/structures/muscles/14-m3042-pal4-m3042-03-soleus.jpg",
+      "image": "assets/questions/q-00302cc9fb20.jpg",
       "visualId": "muscle-muscle-14-m3042-pal4-m3042-03-soleus"
     },
     {
@@ -1055,7 +1055,7 @@ window.STUDY_DATA = {
       "action": "Plantar flexion at ankle",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/fibularis-brevis-muscle",
       "practicalModel": false,
-      "image": "assets/pal/structures/muscles/14-m3042-pal4-m3042-07-fibularis-brevis.jpg",
+      "image": "assets/questions/q-e018fb3e04cc.jpg",
       "visualId": "muscle-muscle-14-m3042-pal4-m3042-07-fibularis-brevis"
     },
     {
@@ -1066,7 +1066,7 @@ window.STUDY_DATA = {
       "action": "Plantar flexion at ankle",
       "kenhub": "https://www.kenhub.com/en/videos/fibularis-longus-muscle-functions-3d",
       "practicalModel": true,
-      "image": "assets/pal/structures/muscles/14-m3042-pal4-m3042-08-fibularis-longus.jpg",
+      "image": "assets/questions/q-3a000b75b096.jpg",
       "visualId": "muscle-muscle-14-m3042-pal4-m3042-08-fibularis-longus"
     },
     {
@@ -1077,7 +1077,7 @@ window.STUDY_DATA = {
       "action": "Plantar flexion at ankle; adduction of foot",
       "kenhub": "https://www.kenhub.com/en/library/anatomy/tibialis-posterior-muscle",
       "practicalModel": false,
-      "image": "assets/pal/structures/muscles/17-m3046-pal4-m3046-05-tibialis-posterior.jpg",
+      "image": "assets/questions/q-fc66d05701d6.jpg",
       "visualId": "muscle-muscle-17-m3046-pal4-m3046-05-tibialis-posterior"
     }
   ],
@@ -2401,7 +2401,7 @@ window.STUDY_DATA = {
       "number": "15",
       "code": "A3337b",
       "title": "Articulated tibia and fibula, anterior view",
-      "reviewImage": "assets/left-right-crops/lower-limb/15-a3337b.jpg",
+      "reviewImage": "assets/questions/q-bfc9cdbeac8e.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/lower-limb-skeleton-a3337b.jpg"
     },
@@ -2412,7 +2412,7 @@ window.STUDY_DATA = {
       "number": "16",
       "code": "A3339b",
       "title": "Articulated tibia and fibula, posterior view",
-      "reviewImage": "assets/left-right-crops/lower-limb/16-a3339b.jpg",
+      "reviewImage": "assets/questions/q-62539fb64542.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/lower-limb-skeleton-a3339b.jpg"
     },
@@ -2423,7 +2423,7 @@ window.STUDY_DATA = {
       "number": "34",
       "code": "A2117",
       "title": "Bones of the foot, inferior view, right side",
-      "reviewImage": "assets/left-right-crops/lower-limb/34-a2117.jpg",
+      "reviewImage": "assets/questions/q-fb3ee936b685.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/lower-limb-skeleton-a2117.jpg"
     },
@@ -2434,7 +2434,7 @@ window.STUDY_DATA = {
       "number": "33",
       "code": "A2116",
       "title": "Bones of the foot, superior view, right side",
-      "reviewImage": "assets/left-right-crops/lower-limb/33-a2116.jpg",
+      "reviewImage": "assets/questions/q-8474501d61c7.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/lower-limb-skeleton-a2116.jpg"
     },
@@ -2445,7 +2445,7 @@ window.STUDY_DATA = {
       "number": "01",
       "code": "A2102a",
       "title": "Femur, anterior view, right side",
-      "reviewImage": "assets/left-right-crops/lower-limb/01-a2102a.jpg",
+      "reviewImage": "assets/questions/q-76c8df76cedf.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/lower-limb-skeleton-a2102a.jpg"
     },
@@ -2456,7 +2456,7 @@ window.STUDY_DATA = {
       "number": "05",
       "code": "A2104a",
       "title": "Femur, posterior view, right side",
-      "reviewImage": "assets/left-right-crops/lower-limb/05-a2104a.jpg",
+      "reviewImage": "assets/questions/q-a4767585efc2.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/lower-limb-skeleton-a2104a.jpg"
     },
@@ -2467,7 +2467,7 @@ window.STUDY_DATA = {
       "number": "25",
       "code": "A2112",
       "title": "Fibula, anterior view, right side",
-      "reviewImage": "assets/left-right-crops/lower-limb/25-a2112.jpg",
+      "reviewImage": "assets/questions/q-c4051f90321c.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/lower-limb-skeleton-a2112.jpg"
     },
@@ -2478,7 +2478,7 @@ window.STUDY_DATA = {
       "number": "27",
       "code": "A2114",
       "title": "Fibula, posterior view, right side",
-      "reviewImage": "assets/left-right-crops/lower-limb/27-a2114.jpg",
+      "reviewImage": "assets/questions/q-0c8efbc99df0.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/lower-limb-skeleton-a2114.jpg"
     },
@@ -2489,7 +2489,7 @@ window.STUDY_DATA = {
       "number": "19",
       "code": "A2108a",
       "title": "Tibia, anterior view, right side",
-      "reviewImage": "assets/left-right-crops/lower-limb/19-a2108a.jpg",
+      "reviewImage": "assets/questions/q-9617359da771.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/lower-limb-skeleton-a2108a.jpg"
     },
@@ -2500,7 +2500,7 @@ window.STUDY_DATA = {
       "number": "22",
       "code": "A2110a",
       "title": "Tibia, posterior view, right side",
-      "reviewImage": "assets/left-right-crops/lower-limb/22-a2110a.jpg",
+      "reviewImage": "assets/questions/q-45bf437b3543.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/lower-limb-skeleton-a2110a.jpg"
     }
@@ -2516,26 +2516,26 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, lateral view, right ilium",
       "sourceLabel": "Acetabulum",
       "answer": "Acetabulum",
-      "reviewImage": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-01-acetabulum.jpg",
+      "reviewImage": "assets/questions/q-076aa1217398.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/01-a2097a.jpg",
       "terms": [
         "Acetabulum"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-01-acetabulum.jpg",
+          "image": "assets/questions/q-076aa1217398.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/01-a2097a.jpg",
           "sourceTitle": "Hip bone, lateral view, right ilium",
           "sourceLabel": "Acetabulum"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-01-acetabulum.jpg",
+          "image": "assets/questions/q-e6f207792d67.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/03-a2097b.jpg",
           "sourceTitle": "Hip bone, lateral view, right ischium",
           "sourceLabel": "Acetabulum"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-05-a2097c-a2097c-01-acetabulum.jpg",
+          "image": "assets/questions/q-07178dcc2101.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/05-a2097c.jpg",
           "sourceTitle": "Hip bone, lateral view, right pubis",
           "sourceLabel": "Acetabulum"
@@ -2577,20 +2577,20 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, lateral view, right ilium",
       "sourceLabel": "Anterior inferior iliac spine",
       "answer": "Anterior inferior iliac spine",
-      "reviewImage": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-12-anterior-inferior-iliac-spine.jpg",
+      "reviewImage": "assets/questions/q-b7b97054a31c.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/01-a2097a.jpg",
       "terms": [
         "Anterior inferior iliac spine"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-12-anterior-inferior-iliac-spine.jpg",
+          "image": "assets/questions/q-b7b97054a31c.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/01-a2097a.jpg",
           "sourceTitle": "Hip bone, lateral view, right ilium",
           "sourceLabel": "Anterior inferior iliac spine"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-02-a2099a-a2099a-06-anterior-inferior-iliac-spine.jpg",
+          "image": "assets/questions/q-75afafb7d99b.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/02-a2099a.jpg",
           "sourceTitle": "Hip bone, medial view, right ilium",
           "sourceLabel": "Anterior inferior iliac spine"
@@ -2626,20 +2626,20 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, lateral view, right ilium",
       "sourceLabel": "Anterior superior iliac spine",
       "answer": "Anterior superior iliac spine",
-      "reviewImage": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-11-anterior-superior-iliac-spine.jpg",
+      "reviewImage": "assets/questions/q-e6413f3e2d06.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/01-a2097a.jpg",
       "terms": [
         "Anterior superior iliac spine"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-11-anterior-superior-iliac-spine.jpg",
+          "image": "assets/questions/q-e6413f3e2d06.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/01-a2097a.jpg",
           "sourceTitle": "Hip bone, lateral view, right ilium",
           "sourceLabel": "Anterior superior iliac spine"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-02-a2099a-a2099a-05-anterior-superior-iliac-spine.jpg",
+          "image": "assets/questions/q-b138b1a34a0d.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/02-a2099a.jpg",
           "sourceTitle": "Hip bone, medial view, right ilium",
           "sourceLabel": "Anterior superior iliac spine"
@@ -2675,20 +2675,20 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, posteromedial view, right side",
       "sourceLabel": "Auricular surface of ilium",
       "answer": "Auricular surface",
-      "reviewImage": "assets/pal/structures/bones/pelvic-07-a2098-a2098-01-auricular-surface-of-ilium.jpg",
+      "reviewImage": "assets/questions/q-4ad52bbb329f.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/07-a2098.jpg",
       "terms": [
         "Auricular surface"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-07-a2098-a2098-01-auricular-surface-of-ilium.jpg",
+          "image": "assets/questions/q-4ad52bbb329f.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/07-a2098.jpg",
           "sourceTitle": "Hip bone, posteromedial view, right side",
           "sourceLabel": "Auricular surface of ilium"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-02-a2099a-a2099a-01-auricular-surface-of-ilium.jpg",
+          "image": "assets/questions/q-7e2f7d6f996a.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/02-a2099a.jpg",
           "sourceTitle": "Hip bone, medial view, right ilium",
           "sourceLabel": "Auricular surface of ilium"
@@ -2724,26 +2724,26 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, lateral view, right ilium",
       "sourceLabel": "Greater sciatic notch",
       "answer": "Greater sciatic notch",
-      "reviewImage": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-06-greater-sciatic-notch.jpg",
+      "reviewImage": "assets/questions/q-12c78b5babac.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/01-a2097a.jpg",
       "terms": [
         "Greater sciatic notch"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-06-greater-sciatic-notch.jpg",
+          "image": "assets/questions/q-12c78b5babac.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/01-a2097a.jpg",
           "sourceTitle": "Hip bone, lateral view, right ilium",
           "sourceLabel": "Greater sciatic notch"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-02-a2099a-a2099a-10-greater-sciatic-notch.jpg",
+          "image": "assets/questions/q-9b8bf4f73c76.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/02-a2099a.jpg",
           "sourceTitle": "Hip bone, medial view, right ilium",
           "sourceLabel": "Greater sciatic notch"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-07-a2098-a2098-03-greater-sciatic-notch.jpg",
+          "image": "assets/questions/q-9d3e03c29752.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/07-a2098.jpg",
           "sourceTitle": "Hip bone, posteromedial view, right side",
           "sourceLabel": "Greater sciatic notch"
@@ -2785,20 +2785,20 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, lateral view, right ilium",
       "sourceLabel": "Iliac crest",
       "answer": "Iliac crest",
-      "reviewImage": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-10-iliac-crest.jpg",
+      "reviewImage": "assets/questions/q-8e1c7c82b06f.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/01-a2097a.jpg",
       "terms": [
         "Iliac crest"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-10-iliac-crest.jpg",
+          "image": "assets/questions/q-8e1c7c82b06f.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/01-a2097a.jpg",
           "sourceTitle": "Hip bone, lateral view, right ilium",
           "sourceLabel": "Iliac crest"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-02-a2099a-a2099a-04-iliac-crest.jpg",
+          "image": "assets/questions/q-af33ec4eda07.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/02-a2099a.jpg",
           "sourceTitle": "Hip bone, medial view, right ilium",
           "sourceLabel": "Iliac crest"
@@ -2834,14 +2834,14 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, medial view, right ilium",
       "sourceLabel": "Iliac fossa",
       "answer": "Iliac fossa",
-      "reviewImage": "assets/pal/structures/bones/pelvic-02-a2099a-a2099a-07-iliac-fossa.jpg",
+      "reviewImage": "assets/questions/q-194ccda1bd52.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/02-a2099a.jpg",
       "terms": [
         "Iliac fossa"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-02-a2099a-a2099a-07-iliac-fossa.jpg",
+          "image": "assets/questions/q-194ccda1bd52.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/02-a2099a.jpg",
           "sourceTitle": "Hip bone, medial view, right ilium",
           "sourceLabel": "Iliac fossa"
@@ -2871,26 +2871,26 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, lateral view, right pubis",
       "sourceLabel": "Inferior ramus of pubis",
       "answer": "Inferior ramus of pubis",
-      "reviewImage": "assets/pal/structures/bones/pelvic-05-a2097c-a2097c-17-inferior-ramus-of-pubis.jpg",
+      "reviewImage": "assets/questions/q-fa5a5f203aeb.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/05-a2097c.jpg",
       "terms": [
         "Inferior ramus of pubis"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-05-a2097c-a2097c-17-inferior-ramus-of-pubis.jpg",
+          "image": "assets/questions/q-fa5a5f203aeb.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/05-a2097c.jpg",
           "sourceTitle": "Hip bone, lateral view, right pubis",
           "sourceLabel": "Inferior ramus of pubis"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-06-a2099c-a2099c-17-inferior-ramus-of-pubis.jpg",
+          "image": "assets/questions/q-d17299d73021.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/06-a2099c.jpg",
           "sourceTitle": "Hip bone, medial view, right pubis",
           "sourceLabel": "Inferior ramus of pubis"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-07-a2098-a2098-07-inferior-ramus-of-pubis.jpg",
+          "image": "assets/questions/q-3f0a0035cf9f.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/07-a2098.jpg",
           "sourceTitle": "Hip bone, posteromedial view, right side",
           "sourceLabel": "Inferior ramus of pubis"
@@ -2932,26 +2932,26 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, lateral view, right ischium",
       "sourceLabel": "Ischial ramus",
       "answer": "Ischial ramus",
-      "reviewImage": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-16-ischial-ramus.jpg",
+      "reviewImage": "assets/questions/q-e500474f3de1.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/03-a2097b.jpg",
       "terms": [
         "Ischial ramus"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-16-ischial-ramus.jpg",
+          "image": "assets/questions/q-e500474f3de1.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/03-a2097b.jpg",
           "sourceTitle": "Hip bone, lateral view, right ischium",
           "sourceLabel": "Ischial ramus"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-04-a2099b-a2099b-18-ischial-ramus.jpg",
+          "image": "assets/questions/q-6cb805d38081.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/04-a2099b.jpg",
           "sourceTitle": "Hip bone, medial view, right ischium",
           "sourceLabel": "Ischial ramus"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-07-a2098-a2098-06-ischial-ramus.jpg",
+          "image": "assets/questions/q-1a273001fa8c.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/07-a2098.jpg",
           "sourceTitle": "Hip bone, posteromedial view, right side",
           "sourceLabel": "Ischial ramus"
@@ -2993,26 +2993,26 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, lateral view, right ischium",
       "sourceLabel": "Ischial spine",
       "answer": "Ischial spine",
-      "reviewImage": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-13-ischial-spine.jpg",
+      "reviewImage": "assets/questions/q-1f7f09f8ed08.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/03-a2097b.jpg",
       "terms": [
         "Ischial spine"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-13-ischial-spine.jpg",
+          "image": "assets/questions/q-1f7f09f8ed08.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/03-a2097b.jpg",
           "sourceTitle": "Hip bone, lateral view, right ischium",
           "sourceLabel": "Ischial spine"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-04-a2099b-a2099b-11-ischial-spine.jpg",
+          "image": "assets/questions/q-2feb9b9ad7b7.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/04-a2099b.jpg",
           "sourceTitle": "Hip bone, medial view, right ischium",
           "sourceLabel": "Ischial spine"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-07-a2098-a2098-02-ischial-spine.jpg",
+          "image": "assets/questions/q-f39034353558.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/07-a2098.jpg",
           "sourceTitle": "Hip bone, posteromedial view, right side",
           "sourceLabel": "Ischial spine"
@@ -3054,26 +3054,26 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, lateral view, right ischium",
       "sourceLabel": "Ischial tuberosity",
       "answer": "Ischial tuberosity",
-      "reviewImage": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-15-ischial-tuberosity.jpg",
+      "reviewImage": "assets/questions/q-3c79c6f02511.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/03-a2097b.jpg",
       "terms": [
         "Ischial tuberosity"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-15-ischial-tuberosity.jpg",
+          "image": "assets/questions/q-3c79c6f02511.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/03-a2097b.jpg",
           "sourceTitle": "Hip bone, lateral view, right ischium",
           "sourceLabel": "Ischial tuberosity"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-04-a2099b-a2099b-13-ischial-tuberosity.jpg",
+          "image": "assets/questions/q-3ea27b7823c7.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/04-a2099b.jpg",
           "sourceTitle": "Hip bone, medial view, right ischium",
           "sourceLabel": "Ischial tuberosity"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-07-a2098-a2098-04-ischial-tuberosity.jpg",
+          "image": "assets/questions/q-06da8696369c.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/07-a2098.jpg",
           "sourceTitle": "Hip bone, posteromedial view, right side",
           "sourceLabel": "Ischial tuberosity"
@@ -3115,20 +3115,20 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, lateral view, right ischium",
       "sourceLabel": "Lesser sciatic notch",
       "answer": "Lesser sciatic notch",
-      "reviewImage": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-14-lesser-sciatic-notch.jpg",
+      "reviewImage": "assets/questions/q-99dbdb036ea5.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/03-a2097b.jpg",
       "terms": [
         "Lesser sciatic notch"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-14-lesser-sciatic-notch.jpg",
+          "image": "assets/questions/q-99dbdb036ea5.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/03-a2097b.jpg",
           "sourceTitle": "Hip bone, lateral view, right ischium",
           "sourceLabel": "Lesser sciatic notch"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-04-a2099b-a2099b-12-lesser-sciatic-notch.jpg",
+          "image": "assets/questions/q-76abdc7caeee.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/04-a2099b.jpg",
           "sourceTitle": "Hip bone, medial view, right ischium",
           "sourceLabel": "Lesser sciatic notch"
@@ -3164,38 +3164,38 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, lateral view, right ischium",
       "sourceLabel": "Obturator foramen",
       "answer": "Obturator foramen",
-      "reviewImage": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-02-obturator-foramen.jpg",
+      "reviewImage": "assets/questions/q-acb7d662cc43.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/03-a2097b.jpg",
       "terms": [
         "Obturator foramen"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-03-a2097b-a2097b-02-obturator-foramen.jpg",
+          "image": "assets/questions/q-acb7d662cc43.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/03-a2097b.jpg",
           "sourceTitle": "Hip bone, lateral view, right ischium",
           "sourceLabel": "Obturator foramen"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-05-a2097c-a2097c-02-obturator-foramen.jpg",
+          "image": "assets/questions/q-f83ba39d85a1.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/05-a2097c.jpg",
           "sourceTitle": "Hip bone, lateral view, right pubis",
           "sourceLabel": "Obturator foramen"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-04-a2099b-a2099b-14-obturator-foramen.jpg",
+          "image": "assets/questions/q-3d6fcfc156e7.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/04-a2099b.jpg",
           "sourceTitle": "Hip bone, medial view, right ischium",
           "sourceLabel": "Obturator foramen"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-06-a2099c-a2099c-14-obturator-foramen.jpg",
+          "image": "assets/questions/q-d6142c8fb120.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/06-a2099c.jpg",
           "sourceTitle": "Hip bone, medial view, right pubis",
           "sourceLabel": "Obturator foramen"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-07-a2098-a2098-05-obturator-foramen.jpg",
+          "image": "assets/questions/q-f6a004de62b5.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/07-a2098.jpg",
           "sourceTitle": "Hip bone, posteromedial view, right side",
           "sourceLabel": "Obturator foramen"
@@ -3249,26 +3249,26 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, posteromedial view, right side",
       "sourceLabel": "Posterior inferior iliac spine",
       "answer": "Posterior inferior iliac spine",
-      "reviewImage": "assets/pal/structures/bones/pelvic-07-a2098-a2098-12-posterior-inferior-iliac-spine.jpg",
+      "reviewImage": "assets/questions/q-2eac15bd17a1.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/07-a2098.jpg",
       "terms": [
         "Posterior inferior iliac spine"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-07-a2098-a2098-12-posterior-inferior-iliac-spine.jpg",
+          "image": "assets/questions/q-2eac15bd17a1.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/07-a2098.jpg",
           "sourceTitle": "Hip bone, posteromedial view, right side",
           "sourceLabel": "Posterior inferior iliac spine"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-02-a2099a-a2099a-02-posterior-inferior-iliac-spine.jpg",
+          "image": "assets/questions/q-979934e64d7a.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/02-a2099a.jpg",
           "sourceTitle": "Hip bone, medial view, right ilium",
           "sourceLabel": "Posterior inferior iliac spine"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-07-posterior-inferior-iliac-spine.jpg",
+          "image": "assets/questions/q-3558e19835b2.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/01-a2097a.jpg",
           "sourceTitle": "Hip bone, lateral view, right ilium",
           "sourceLabel": "Posterior inferior iliac spine"
@@ -3310,26 +3310,26 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, posteromedial view, right side",
       "sourceLabel": "Posterior superior iliac spine",
       "answer": "Posterior superior iliac spine",
-      "reviewImage": "assets/pal/structures/bones/pelvic-07-a2098-a2098-13-posterior-superior-iliac-spine.jpg",
+      "reviewImage": "assets/questions/q-1cd0fb06e358.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/07-a2098.jpg",
       "terms": [
         "Posterior superior iliac spine"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-07-a2098-a2098-13-posterior-superior-iliac-spine.jpg",
+          "image": "assets/questions/q-1cd0fb06e358.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/07-a2098.jpg",
           "sourceTitle": "Hip bone, posteromedial view, right side",
           "sourceLabel": "Posterior superior iliac spine"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-02-a2099a-a2099a-03-posterior-superior-iliac-spine.jpg",
+          "image": "assets/questions/q-2ed90314f433.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/02-a2099a.jpg",
           "sourceTitle": "Hip bone, medial view, right ilium",
           "sourceLabel": "Posterior superior iliac spine"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-01-a2097a-a2097a-08-posterior-superior-iliac-spine.jpg",
+          "image": "assets/questions/q-7a5cdad87103.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/01-a2097a.jpg",
           "sourceTitle": "Hip bone, lateral view, right ilium",
           "sourceLabel": "Posterior superior iliac spine"
@@ -3420,14 +3420,14 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, lateral view, right pubis",
       "sourceLabel": "Pubic tubercle",
       "answer": "Pubic tubercle",
-      "reviewImage": "assets/pal/structures/bones/pelvic-05-a2097c-a2097c-19-pubic-tubercle.jpg",
+      "reviewImage": "assets/questions/q-116ecd2db2a0.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/05-a2097c.jpg",
       "terms": [
         "Pubic tubercle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-05-a2097c-a2097c-19-pubic-tubercle.jpg",
+          "image": "assets/questions/q-116ecd2db2a0.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/05-a2097c.jpg",
           "sourceTitle": "Hip bone, lateral view, right pubis",
           "sourceLabel": "Pubic tubercle"
@@ -3457,26 +3457,26 @@ window.STUDY_DATA = {
       "sourceTitle": "Hip bone, lateral view, right pubis",
       "sourceLabel": "Superior ramus of pubis",
       "answer": "Superior ramus of pubis",
-      "reviewImage": "assets/pal/structures/bones/pelvic-05-a2097c-a2097c-18-superior-ramus-of-pubis.jpg",
+      "reviewImage": "assets/questions/q-b949cf94383b.jpg",
       "labeledImage": "assets/pal/pelvic/labeled/05-a2097c.jpg",
       "terms": [
         "Superior ramus of pubis"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pelvic-05-a2097c-a2097c-18-superior-ramus-of-pubis.jpg",
+          "image": "assets/questions/q-b949cf94383b.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/05-a2097c.jpg",
           "sourceTitle": "Hip bone, lateral view, right pubis",
           "sourceLabel": "Superior ramus of pubis"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-06-a2099c-a2099c-15-superior-ramus-of-pubis.jpg",
+          "image": "assets/questions/q-929d3eaeec76.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/06-a2099c.jpg",
           "sourceTitle": "Hip bone, medial view, right pubis",
           "sourceLabel": "Superior ramus of pubis"
         },
         {
-          "image": "assets/pal/structures/bones/pelvic-07-a2098-a2098-09-superior-ramus-of-pubis.jpg",
+          "image": "assets/questions/q-720f64269f79.jpg",
           "labeledImage": "assets/pal/pelvic/labeled/07-a2098.jpg",
           "sourceTitle": "Hip bone, posteromedial view, right side",
           "sourceLabel": "Superior ramus of pubis"
@@ -3518,38 +3518,38 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, posterior view, right side, distal end",
       "sourceLabel": "Adductor tubercle",
       "answer": "Adductor tubercle",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-10-adductor-tubercle.jpg",
+      "reviewImage": "assets/questions/q-1db0cd1f227e.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
       "terms": [
         "Adductor tubercle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-10-adductor-tubercle.jpg",
+          "image": "assets/questions/q-1db0cd1f227e.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
           "sourceTitle": "Femur, posterior view, right side, distal end",
           "sourceLabel": "Adductor tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-03-a2102c-a2102c-08-adductor-tubercle.jpg",
+          "image": "assets/questions/q-c3dd5b4eb9c6.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/03-a2102c.jpg",
           "sourceTitle": "Femur, anterior view, right side, distal end",
           "sourceLabel": "Adductor tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-08-a2105a-a2105a-09-adductor-tubercle.jpg",
+          "image": "assets/questions/q-8066124eb5d9.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/08-a2105a.jpg",
           "sourceTitle": "Femur, medial view, right side",
           "sourceLabel": "Adductor tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-10-adductor-tubercle.jpg",
+          "image": "assets/questions/q-03c0abe5c1a4.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
           "sourceTitle": "Femur, posterior view, right side",
           "sourceLabel": "Adductor tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-01-a2102a-a2102a-08-adductor-tubercle.jpg",
+          "image": "assets/questions/q-1340bf141a33.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/01-a2102a.jpg",
           "sourceTitle": "Femur, anterior view, right side",
           "sourceLabel": "Adductor tubercle"
@@ -3603,20 +3603,20 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, posterior view, right side",
       "sourceLabel": "Gluteal tuberosity",
       "answer": "Gluteal tuberosity",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-06-gluteal-tuberosity.jpg",
+      "reviewImage": "assets/questions/q-c61704587b5c.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
       "terms": [
         "Gluteal tuberosity"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-06-gluteal-tuberosity.jpg",
+          "image": "assets/questions/q-c61704587b5c.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
           "sourceTitle": "Femur, posterior view, right side",
           "sourceLabel": "Gluteal tuberosity"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-06-a2104b-a2104b-06-gluteal-tuberosity.jpg",
+          "image": "assets/questions/q-9f998df8357d.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/06-a2104b.jpg",
           "sourceTitle": "Femur, posterior view, right side, proximal end",
           "sourceLabel": "Gluteal tuberosity"
@@ -3652,38 +3652,38 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, posterior view, right side, proximal end",
       "sourceLabel": "Greater trochanter",
       "answer": "Greater trochanter",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-06-a2104b-a2104b-03-greater-trochanter.jpg",
+      "reviewImage": "assets/questions/q-9c219a2ed451.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/06-a2104b.jpg",
       "terms": [
         "Greater trochanter"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-06-a2104b-a2104b-03-greater-trochanter.jpg",
+          "image": "assets/questions/q-9c219a2ed451.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/06-a2104b.jpg",
           "sourceTitle": "Femur, posterior view, right side, proximal end",
           "sourceLabel": "Greater trochanter"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-02-a2102b-a2102b-03-greater-trochanter.jpg",
+          "image": "assets/questions/q-9fb6367f9608.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/02-a2102b.jpg",
           "sourceTitle": "Femur, anterior view, right side, proximal end",
           "sourceLabel": "Greater trochanter"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-04-a2103-a2103-02-greater-trochanter.jpg",
+          "image": "assets/questions/q-ceff544d9f9a.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/04-a2103.jpg",
           "sourceTitle": "Femur, lateral view, right side",
           "sourceLabel": "Greater trochanter"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-03-greater-trochanter.jpg",
+          "image": "assets/questions/q-55d423e16f5b.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
           "sourceTitle": "Femur, posterior view, right side",
           "sourceLabel": "Greater trochanter"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-01-a2102a-a2102a-03-greater-trochanter.jpg",
+          "image": "assets/questions/q-3ca237b5f6fa.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/01-a2102a.jpg",
           "sourceTitle": "Femur, anterior view, right side",
           "sourceLabel": "Greater trochanter"
@@ -3737,50 +3737,50 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, medial view, right side, proximal end",
       "sourceLabel": "Head",
       "answer": "Head",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-09-a2105b-a2105b-02-head.jpg",
+      "reviewImage": "assets/questions/q-433cd7e538ed.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/09-a2105b.jpg",
       "terms": [
         "Head"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-09-a2105b-a2105b-02-head.jpg",
+          "image": "assets/questions/q-433cd7e538ed.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/09-a2105b.jpg",
           "sourceTitle": "Femur, medial view, right side, proximal end",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-06-a2104b-a2104b-01-head.jpg",
+          "image": "assets/questions/q-6715dd872417.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/06-a2104b.jpg",
           "sourceTitle": "Femur, posterior view, right side, proximal end",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-02-a2102b-a2102b-01-head.jpg",
+          "image": "assets/questions/q-388b8184cae5.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/02-a2102b.jpg",
           "sourceTitle": "Femur, anterior view, right side, proximal end",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-04-a2103-a2103-01-head.jpg",
+          "image": "assets/questions/q-2be5c3d2aa8a.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/04-a2103.jpg",
           "sourceTitle": "Femur, lateral view, right side",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-08-a2105a-a2105a-02-head.jpg",
+          "image": "assets/questions/q-b18e897fbf0f.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/08-a2105a.jpg",
           "sourceTitle": "Femur, medial view, right side",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-01-head.jpg",
+          "image": "assets/questions/q-6b014a5f4a18.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
           "sourceTitle": "Femur, posterior view, right side",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-01-a2102a-a2102a-01-head.jpg",
+          "image": "assets/questions/q-dc704dac5755.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/01-a2102a.jpg",
           "sourceTitle": "Femur, anterior view, right side",
           "sourceLabel": "Head"
@@ -3846,20 +3846,20 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, posterior view, right side, distal end",
       "sourceLabel": "Intercondylar fossa",
       "answer": "Intercondylar fossa",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-13-intercondylar-fossa.jpg",
+      "reviewImage": "assets/questions/q-1636b3edf56a.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
       "terms": [
         "Intercondylar fossa"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-13-intercondylar-fossa.jpg",
+          "image": "assets/questions/q-1636b3edf56a.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
           "sourceTitle": "Femur, posterior view, right side, distal end",
           "sourceLabel": "Intercondylar fossa"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-13-intercondylar-fossa.jpg",
+          "image": "assets/questions/q-b14a68988ad6.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
           "sourceTitle": "Femur, posterior view, right side",
           "sourceLabel": "Intercondylar fossa"
@@ -3895,26 +3895,26 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, posterior view, right side, proximal end",
       "sourceLabel": "Intertrochanteric crest",
       "answer": "Intertrochanteric crest",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-06-a2104b-a2104b-04-intertrochanteric-crest.jpg",
+      "reviewImage": "assets/questions/q-a4ace7e3dd43.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/06-a2104b.jpg",
       "terms": [
         "Intertrochanteric crest"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-06-a2104b-a2104b-04-intertrochanteric-crest.jpg",
+          "image": "assets/questions/q-a4ace7e3dd43.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/06-a2104b.jpg",
           "sourceTitle": "Femur, posterior view, right side, proximal end",
           "sourceLabel": "Intertrochanteric crest"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-04-a2103-a2103-03-intertrochanteric-crest.jpg",
+          "image": "assets/questions/q-c77b82f2fbce.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/04-a2103.jpg",
           "sourceTitle": "Femur, lateral view, right side",
           "sourceLabel": "Intertrochanteric crest"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-04-intertrochanteric-crest.jpg",
+          "image": "assets/questions/q-3047bbfc6512.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
           "sourceTitle": "Femur, posterior view, right side",
           "sourceLabel": "Intertrochanteric crest"
@@ -3956,20 +3956,20 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, anterior view, right side, proximal end",
       "sourceLabel": "Intertrochanteric line",
       "answer": "Intertrochanteric line",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-02-a2102b-a2102b-04-intertrochanteric-line.jpg",
+      "reviewImage": "assets/questions/q-f4fdd27749b3.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/02-a2102b.jpg",
       "terms": [
         "Intertrochanteric line"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-02-a2102b-a2102b-04-intertrochanteric-line.jpg",
+          "image": "assets/questions/q-f4fdd27749b3.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/02-a2102b.jpg",
           "sourceTitle": "Femur, anterior view, right side, proximal end",
           "sourceLabel": "Intertrochanteric line"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-01-a2102a-a2102a-04-intertrochanteric-line.jpg",
+          "image": "assets/questions/q-172d84c9dbbc.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/01-a2102a.jpg",
           "sourceTitle": "Femur, anterior view, right side",
           "sourceLabel": "Intertrochanteric line"
@@ -4005,32 +4005,32 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, posterior view, right side, distal end",
       "sourceLabel": "Lateral condyle",
       "answer": "Lateral condyle",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-14-lateral-condyle.jpg",
+      "reviewImage": "assets/questions/q-a135c39de6dc.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
       "terms": [
         "Lateral condyle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-14-lateral-condyle.jpg",
+          "image": "assets/questions/q-a135c39de6dc.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
           "sourceTitle": "Femur, posterior view, right side, distal end",
           "sourceLabel": "Lateral condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-04-a2103-a2103-08-lateral-condyle.jpg",
+          "image": "assets/questions/q-2be5754b2d69.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/04-a2103.jpg",
           "sourceTitle": "Femur, lateral view, right side",
           "sourceLabel": "Lateral condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-08-a2105a-a2105a-12-lateral-condyle.jpg",
+          "image": "assets/questions/q-b876a8d47dea.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/08-a2105a.jpg",
           "sourceTitle": "Femur, medial view, right side",
           "sourceLabel": "Lateral condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-14-lateral-condyle.jpg",
+          "image": "assets/questions/q-950a329d2555.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
           "sourceTitle": "Femur, posterior view, right side",
           "sourceLabel": "Lateral condyle"
@@ -4078,32 +4078,32 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, posterior view, right side, distal end",
       "sourceLabel": "Lateral epicondyle",
       "answer": "Lateral epicondyle",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-15-lateral-epicondyle.jpg",
+      "reviewImage": "assets/questions/q-73293e6a75d8.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
       "terms": [
         "Lateral epicondyle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-15-lateral-epicondyle.jpg",
+          "image": "assets/questions/q-73293e6a75d8.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
           "sourceTitle": "Femur, posterior view, right side, distal end",
           "sourceLabel": "Lateral epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-03-a2102c-a2102c-10-lateral-epicondyle.jpg",
+          "image": "assets/questions/q-3e673e755434.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/03-a2102c.jpg",
           "sourceTitle": "Femur, anterior view, right side, distal end",
           "sourceLabel": "Lateral epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-04-a2103-a2103-09-lateral-epicondyle.jpg",
+          "image": "assets/questions/q-cb2aa566e3d2.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/04-a2103.jpg",
           "sourceTitle": "Femur, lateral view, right side",
           "sourceLabel": "Lateral epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-15-lateral-epicondyle.jpg",
+          "image": "assets/questions/q-922b7ce28e1e.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
           "sourceTitle": "Femur, posterior view, right side",
           "sourceLabel": "Lateral epicondyle"
@@ -4151,20 +4151,20 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, posterior view, right side, distal end",
       "sourceLabel": "Lateral supracondylar line",
       "answer": "Lateral supracondylar line or ridge",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-09-lateral-supracondylar-line.jpg",
+      "reviewImage": "assets/questions/q-533e10147488.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
       "terms": [
         "Lateral supracondylar line or ridge"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-09-lateral-supracondylar-line.jpg",
+          "image": "assets/questions/q-533e10147488.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
           "sourceTitle": "Femur, posterior view, right side, distal end",
           "sourceLabel": "Lateral supracondylar line"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-09-lateral-supracondylar-line.jpg",
+          "image": "assets/questions/q-86163fa2c108.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
           "sourceTitle": "Femur, posterior view, right side",
           "sourceLabel": "Lateral supracondylar line"
@@ -4200,38 +4200,38 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, posterior view, right side, proximal end",
       "sourceLabel": "Lesser trochanter",
       "answer": "Lesser trochanter",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-06-a2104b-a2104b-05-lesser-trochanter.jpg",
+      "reviewImage": "assets/questions/q-4b0408b9f3e5.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/06-a2104b.jpg",
       "terms": [
         "Lesser trochanter"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-06-a2104b-a2104b-05-lesser-trochanter.jpg",
+          "image": "assets/questions/q-4b0408b9f3e5.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/06-a2104b.jpg",
           "sourceTitle": "Femur, posterior view, right side, proximal end",
           "sourceLabel": "Lesser trochanter"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-02-a2102b-a2102b-05-lesser-trochanter.jpg",
+          "image": "assets/questions/q-79d1e93dab7c.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/02-a2102b.jpg",
           "sourceTitle": "Femur, anterior view, right side, proximal end",
           "sourceLabel": "Lesser trochanter"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-04-a2103-a2103-04-lesser-trochanter.jpg",
+          "image": "assets/questions/q-fec895fecbf2.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/04-a2103.jpg",
           "sourceTitle": "Femur, lateral view, right side",
           "sourceLabel": "Lesser trochanter"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-05-lesser-trochanter.jpg",
+          "image": "assets/questions/q-879ea4a85844.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
           "sourceTitle": "Femur, posterior view, right side",
           "sourceLabel": "Lesser trochanter"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-01-a2102a-a2102a-05-lesser-trochanter.jpg",
+          "image": "assets/questions/q-b5c863d5ee57.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/01-a2102a.jpg",
           "sourceTitle": "Femur, anterior view, right side",
           "sourceLabel": "Lesser trochanter"
@@ -4285,26 +4285,26 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, lateral view, right side",
       "sourceLabel": "Linea aspera",
       "answer": "Linea aspera",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-04-a2103-a2103-05-linea-aspera.jpg",
+      "reviewImage": "assets/questions/q-77f0c214c9d0.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/04-a2103.jpg",
       "terms": [
         "Linea aspera"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-04-a2103-a2103-05-linea-aspera.jpg",
+          "image": "assets/questions/q-77f0c214c9d0.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/04-a2103.jpg",
           "sourceTitle": "Femur, lateral view, right side",
           "sourceLabel": "Linea aspera"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-08-a2105a-a2105a-07-linea-aspera.jpg",
+          "image": "assets/questions/q-062acbb6684d.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/08-a2105a.jpg",
           "sourceTitle": "Femur, medial view, right side",
           "sourceLabel": "Linea aspera"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-07-linea-aspera.jpg",
+          "image": "assets/questions/q-393bcbbc7cf1.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
           "sourceTitle": "Femur, posterior view, right side",
           "sourceLabel": "Linea aspera"
@@ -4346,44 +4346,44 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, posterior view, right side, distal end",
       "sourceLabel": "Medial condyle",
       "answer": "Medial condyle",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-12-medial-condyle.jpg",
+      "reviewImage": "assets/questions/q-7b75992ff762.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
       "terms": [
         "Medial condyle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-12-medial-condyle.jpg",
+          "image": "assets/questions/q-7b75992ff762.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
           "sourceTitle": "Femur, posterior view, right side, distal end",
           "sourceLabel": "Medial condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-03-a2102c-a2102c-12-medial-condyle.jpg",
+          "image": "assets/questions/q-377d8f53cdc4.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/03-a2102c.jpg",
           "sourceTitle": "Femur, anterior view, right side, distal end",
           "sourceLabel": "Medial condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-04-a2103-a2103-07-medial-condyle.jpg",
+          "image": "assets/questions/q-1ad85973426d.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/04-a2103.jpg",
           "sourceTitle": "Femur, lateral view, right side",
           "sourceLabel": "Medial condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-08-a2105a-a2105a-11-medial-condyle.jpg",
+          "image": "assets/questions/q-4c7ac0e09bf6.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/08-a2105a.jpg",
           "sourceTitle": "Femur, medial view, right side",
           "sourceLabel": "Medial condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-12-medial-condyle.jpg",
+          "image": "assets/questions/q-1fd6f71284ee.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
           "sourceTitle": "Femur, posterior view, right side",
           "sourceLabel": "Medial condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-01-a2102a-a2102a-12-medial-condyle.jpg",
+          "image": "assets/questions/q-79dd1adeed77.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/01-a2102a.jpg",
           "sourceTitle": "Femur, anterior view, right side",
           "sourceLabel": "Medial condyle"
@@ -4443,38 +4443,38 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, posterior view, right side, distal end",
       "sourceLabel": "Medial epicondyle",
       "answer": "Medial epicondyle",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-11-medial-epicondyle.jpg",
+      "reviewImage": "assets/questions/q-c42e572fd278.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
       "terms": [
         "Medial epicondyle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-11-medial-epicondyle.jpg",
+          "image": "assets/questions/q-c42e572fd278.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
           "sourceTitle": "Femur, posterior view, right side, distal end",
           "sourceLabel": "Medial epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-03-a2102c-a2102c-09-medial-epicondyle.jpg",
+          "image": "assets/questions/q-acd5cc4927e6.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/03-a2102c.jpg",
           "sourceTitle": "Femur, anterior view, right side, distal end",
           "sourceLabel": "Medial epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-08-a2105a-a2105a-10-medial-epicondyle.jpg",
+          "image": "assets/questions/q-c3886b06096c.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/08-a2105a.jpg",
           "sourceTitle": "Femur, medial view, right side",
           "sourceLabel": "Medial epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-11-medial-epicondyle.jpg",
+          "image": "assets/questions/q-7ec893067b95.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
           "sourceTitle": "Femur, posterior view, right side",
           "sourceLabel": "Medial epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-01-a2102a-a2102a-09-medial-epicondyle.jpg",
+          "image": "assets/questions/q-cded6f955934.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/01-a2102a.jpg",
           "sourceTitle": "Femur, anterior view, right side",
           "sourceLabel": "Medial epicondyle"
@@ -4528,20 +4528,20 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, posterior view, right side, distal end",
       "sourceLabel": "Medial supracondylar line",
       "answer": "Medial supracondylar line or ridge",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-08-medial-supracondylar-line.jpg",
+      "reviewImage": "assets/questions/q-7b40454b9c0c.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
       "terms": [
         "Medial supracondylar line or ridge"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-07-a2104c-a2104c-08-medial-supracondylar-line.jpg",
+          "image": "assets/questions/q-7b40454b9c0c.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/07-a2104c.jpg",
           "sourceTitle": "Femur, posterior view, right side, distal end",
           "sourceLabel": "Medial supracondylar line"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-08-medial-supracondylar-line.jpg",
+          "image": "assets/questions/q-904683dcc46d.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
           "sourceTitle": "Femur, posterior view, right side",
           "sourceLabel": "Medial supracondylar line"
@@ -4577,44 +4577,44 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, medial view, right side, proximal end",
       "sourceLabel": "Neck",
       "answer": "Neck",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-09-a2105b-a2105b-03-neck.jpg",
+      "reviewImage": "assets/questions/q-a3737292f0ea.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/09-a2105b.jpg",
       "terms": [
         "Neck"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-09-a2105b-a2105b-03-neck.jpg",
+          "image": "assets/questions/q-a3737292f0ea.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/09-a2105b.jpg",
           "sourceTitle": "Femur, medial view, right side, proximal end",
           "sourceLabel": "Neck"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-06-a2104b-a2104b-02-neck.jpg",
+          "image": "assets/questions/q-5586061dd57b.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/06-a2104b.jpg",
           "sourceTitle": "Femur, posterior view, right side, proximal end",
           "sourceLabel": "Neck"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-02-a2102b-a2102b-02-neck.jpg",
+          "image": "assets/questions/q-d0b3ca80d241.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/02-a2102b.jpg",
           "sourceTitle": "Femur, anterior view, right side, proximal end",
           "sourceLabel": "Neck"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-08-a2105a-a2105a-03-neck.jpg",
+          "image": "assets/questions/q-873657b6fe75.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/08-a2105a.jpg",
           "sourceTitle": "Femur, medial view, right side",
           "sourceLabel": "Neck"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-05-a2104a-a2104a-02-neck.jpg",
+          "image": "assets/questions/q-fa0f159d8578.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/05-a2104a.jpg",
           "sourceTitle": "Femur, posterior view, right side",
           "sourceLabel": "Neck"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-01-a2102a-a2102a-02-neck.jpg",
+          "image": "assets/questions/q-284946f2cf67.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/01-a2102a.jpg",
           "sourceTitle": "Femur, anterior view, right side",
           "sourceLabel": "Neck"
@@ -4674,14 +4674,14 @@ window.STUDY_DATA = {
       "sourceTitle": "Femur, anterior view, right side, distal end",
       "sourceLabel": "Patellar surface",
       "answer": "Patellar surface",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-03-a2102c-a2102c-07-patellar-surface.jpg",
+      "reviewImage": "assets/questions/q-2c7fb016785f.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/03-a2102c.jpg",
       "terms": [
         "Patellar surface"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-03-a2102c-a2102c-07-patellar-surface.jpg",
+          "image": "assets/questions/q-2c7fb016785f.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/03-a2102c.jpg",
           "sourceTitle": "Femur, anterior view, right side, distal end",
           "sourceLabel": "Patellar surface"
@@ -4711,14 +4711,14 @@ window.STUDY_DATA = {
       "sourceTitle": "Articulated tibia and fibula, anterior view",
       "sourceLabel": "Distal tibiofibular joint",
       "answer": "Distal tibiofibular joint location",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-15-a3337b-a3337b-10-distal-tibiofibular-joint.jpg",
+      "reviewImage": "assets/questions/q-16c146f6596f.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/15-a3337b.jpg",
       "terms": [
         "Distal tibiofibular joint location"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-15-a3337b-a3337b-10-distal-tibiofibular-joint.jpg",
+          "image": "assets/questions/q-16c146f6596f.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/15-a3337b.jpg",
           "sourceTitle": "Articulated tibia and fibula, anterior view",
           "sourceLabel": "Distal tibiofibular joint"
@@ -4748,50 +4748,50 @@ window.STUDY_DATA = {
       "sourceTitle": "Fibula, lateral view, right side",
       "sourceLabel": "Head",
       "answer": "Head",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-26-a2113-a2113-01-head.jpg",
+      "reviewImage": "assets/questions/q-3abc468d9b50.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/26-a2113.jpg",
       "terms": [
         "Head"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-26-a2113-a2113-01-head.jpg",
+          "image": "assets/questions/q-3abc468d9b50.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/26-a2113.jpg",
           "sourceTitle": "Fibula, lateral view, right side",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-28-a2115-a2115-01-head.jpg",
+          "image": "assets/questions/q-0b1106fdda88.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/28-a2115.jpg",
           "sourceTitle": "Fibula, medial view, right side",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-27-a2114-a2114-01-head.jpg",
+          "image": "assets/questions/q-bf84b5585196.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/27-a2114.jpg",
           "sourceTitle": "Fibula, posterior view, right side",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-25-a2112-a2112-01-head.jpg",
+          "image": "assets/questions/q-a35a1d8c5446.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/25-a2112.jpg",
           "sourceTitle": "Fibula, anterior view, right side",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-16-a3339b-a3339b-08-head-of-fibula.jpg",
+          "image": "assets/questions/q-76ad1ef6750a.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/16-a3339b.jpg",
           "sourceTitle": "Articulated tibia and fibula, posterior view",
           "sourceLabel": "Head of fibula"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-15-a3337b-a3337b-08-head-of-fibula.jpg",
+          "image": "assets/questions/q-a9d662ef9c02.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/15-a3337b.jpg",
           "sourceTitle": "Articulated tibia and fibula, anterior view",
           "sourceLabel": "Head of fibula"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-17-a3339c-a3339c-08-head-of-fibula.jpg",
+          "image": "assets/questions/q-7ab252f3cdaa.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/17-a3339c.jpg",
           "sourceTitle": "Articulated tibia and fibula, posterior view, proximal end",
           "sourceLabel": "Head of fibula"
@@ -4858,50 +4858,50 @@ window.STUDY_DATA = {
       "sourceTitle": "Fibula, lateral view, right side",
       "sourceLabel": "Lateral malleolus",
       "answer": "Lateral malleolus",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-26-a2113-a2113-03-lateral-malleolus.jpg",
+      "reviewImage": "assets/questions/q-3b6995161087.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/26-a2113.jpg",
       "terms": [
         "Lateral malleolus"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-26-a2113-a2113-03-lateral-malleolus.jpg",
+          "image": "assets/questions/q-3b6995161087.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/26-a2113.jpg",
           "sourceTitle": "Fibula, lateral view, right side",
           "sourceLabel": "Lateral malleolus"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-28-a2115-a2115-03-lateral-malleolus.jpg",
+          "image": "assets/questions/q-27ba0aa02d60.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/28-a2115.jpg",
           "sourceTitle": "Fibula, medial view, right side",
           "sourceLabel": "Lateral malleolus"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-27-a2114-a2114-03-lateral-malleolus.jpg",
+          "image": "assets/questions/q-bfd13938282e.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/27-a2114.jpg",
           "sourceTitle": "Fibula, posterior view, right side",
           "sourceLabel": "Lateral malleolus"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-25-a2112-a2112-03-lateral-malleolus.jpg",
+          "image": "assets/questions/q-7b7135b81e60.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/25-a2112.jpg",
           "sourceTitle": "Fibula, anterior view, right side",
           "sourceLabel": "Lateral malleolus"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-16-a3339b-a3339b-06-lateral-malleolus.jpg",
+          "image": "assets/questions/q-3c943714979a.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/16-a3339b.jpg",
           "sourceTitle": "Articulated tibia and fibula, posterior view",
           "sourceLabel": "Lateral malleolus"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-15-a3337b-a3337b-04-lateral-malleolus.jpg",
+          "image": "assets/questions/q-2fcf2f54db3a.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/15-a3337b.jpg",
           "sourceTitle": "Articulated tibia and fibula, anterior view",
           "sourceLabel": "Lateral malleolus"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-18-a3339d-a3339d-06-lateral-malleolus.jpg",
+          "image": "assets/questions/q-d802189b8375.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/18-a3339d.jpg",
           "sourceTitle": "Articulated tibia and fibula, posterior view, distal end",
           "sourceLabel": "Lateral malleolus"
@@ -4967,14 +4967,14 @@ window.STUDY_DATA = {
       "sourceTitle": "Articulated tibia and fibula, anterior view",
       "sourceLabel": "Proximal tibiofibular joint",
       "answer": "Proximal tibiofibular joint location",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-15-a3337b-a3337b-09-proximal-tibiofibular-joint.jpg",
+      "reviewImage": "assets/questions/q-c0ba5262e44f.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/15-a3337b.jpg",
       "terms": [
         "Proximal tibiofibular joint location"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-15-a3337b-a3337b-09-proximal-tibiofibular-joint.jpg",
+          "image": "assets/questions/q-c0ba5262e44f.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/15-a3337b.jpg",
           "sourceTitle": "Articulated tibia and fibula, anterior view",
           "sourceLabel": "Proximal tibiofibular joint"
@@ -5004,26 +5004,26 @@ window.STUDY_DATA = {
       "sourceTitle": "Bones of the foot, lateral view",
       "sourceLabel": "Cuboid",
       "answer": "Cuboid",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-02-cuboid.jpg",
+      "reviewImage": "assets/questions/q-e96c5573f9d1.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/30-a3340b.jpg",
       "terms": [
         "Cuboid"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-02-cuboid.jpg",
+          "image": "assets/questions/q-e96c5573f9d1.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/30-a3340b.jpg",
           "sourceTitle": "Bones of the foot, lateral view",
           "sourceLabel": "Cuboid"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-33-a2116-a2116-03-cuboid.jpg",
+          "image": "assets/questions/q-2ecd5d03b56f.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/33-a2116.jpg",
           "sourceTitle": "Bones of the foot, superior view, right side",
           "sourceLabel": "Cuboid"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-34-a2117-a2117-03-cuboid.jpg",
+          "image": "assets/questions/q-eecba92f6f36.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/34-a2117.jpg",
           "sourceTitle": "Bones of the foot, inferior view, right side",
           "sourceLabel": "Cuboid"
@@ -5065,32 +5065,32 @@ window.STUDY_DATA = {
       "sourceTitle": "Bones of the foot, lateral view",
       "sourceLabel": "Intermediate cuneiform",
       "answer": "Intermediate cuneiform",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-04-intermediate-cuneiform.jpg",
+      "reviewImage": "assets/questions/q-1405a635eaa8.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/30-a3340b.jpg",
       "terms": [
         "Intermediate cuneiform"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-04-intermediate-cuneiform.jpg",
+          "image": "assets/questions/q-1405a635eaa8.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/30-a3340b.jpg",
           "sourceTitle": "Bones of the foot, lateral view",
           "sourceLabel": "Intermediate cuneiform"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-32-a3338b-a3338b-05-intermediate-cuneiform.jpg",
+          "image": "assets/questions/q-9efc709298e8.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/32-a3338b.jpg",
           "sourceTitle": "Bones of the foot, medial view",
           "sourceLabel": "Intermediate cuneiform"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-33-a2116-a2116-06-intermediate-cuneiform.jpg",
+          "image": "assets/questions/q-0388ee1a2d43.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/33-a2116.jpg",
           "sourceTitle": "Bones of the foot, superior view, right side",
           "sourceLabel": "Intermediate cuneiform"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-34-a2117-a2117-06-intermediate-cuneiform.jpg",
+          "image": "assets/questions/q-cdd8bb406a14.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/34-a2117.jpg",
           "sourceTitle": "Bones of the foot, inferior view, right side",
           "sourceLabel": "Intermediate cuneiform"
@@ -5138,26 +5138,26 @@ window.STUDY_DATA = {
       "sourceTitle": "Bones of the foot, lateral view",
       "sourceLabel": "Lateral cuneiform",
       "answer": "Lateral cuneiform",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-05-lateral-cuneiform.jpg",
+      "reviewImage": "assets/questions/q-63d279ca7fee.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/30-a3340b.jpg",
       "terms": [
         "Lateral cuneiform"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-05-lateral-cuneiform.jpg",
+          "image": "assets/questions/q-63d279ca7fee.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/30-a3340b.jpg",
           "sourceTitle": "Bones of the foot, lateral view",
           "sourceLabel": "Lateral cuneiform"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-33-a2116-a2116-05-lateral-cuneiform.jpg",
+          "image": "assets/questions/q-e553eaa28ef4.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/33-a2116.jpg",
           "sourceTitle": "Bones of the foot, superior view, right side",
           "sourceLabel": "Lateral cuneiform"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-34-a2117-a2117-05-lateral-cuneiform.jpg",
+          "image": "assets/questions/q-b7e8ef8ef160.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/34-a2117.jpg",
           "sourceTitle": "Bones of the foot, inferior view, right side",
           "sourceLabel": "Lateral cuneiform"
@@ -5199,38 +5199,38 @@ window.STUDY_DATA = {
       "sourceTitle": "Bones of the foot, lateral view",
       "sourceLabel": "Medial cuneiform",
       "answer": "Medial cuneiform",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-03-medial-cuneiform.jpg",
+      "reviewImage": "assets/questions/q-10a9af0a6a0e.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/30-a3340b.jpg",
       "terms": [
         "Medial cuneiform"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-03-medial-cuneiform.jpg",
+          "image": "assets/questions/q-10a9af0a6a0e.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/30-a3340b.jpg",
           "sourceTitle": "Bones of the foot, lateral view",
           "sourceLabel": "Medial cuneiform"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-32-a3338b-a3338b-04-medial-cuneiform.jpg",
+          "image": "assets/questions/q-0c08407d2196.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/32-a3338b.jpg",
           "sourceTitle": "Bones of the foot, medial view",
           "sourceLabel": "Medial cuneiform"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-33-a2116-a2116-07-medial-cuneiform.jpg",
+          "image": "assets/questions/q-cdd49f1fe1f5.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/33-a2116.jpg",
           "sourceTitle": "Bones of the foot, superior view, right side",
           "sourceLabel": "Medial cuneiform"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-34-a2117-a2117-07-medial-cuneiform.jpg",
+          "image": "assets/questions/q-07123a8d5cae.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/34-a2117.jpg",
           "sourceTitle": "Bones of the foot, inferior view, right side",
           "sourceLabel": "Medial cuneiform"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-31-a3339a-a3339a-04-medial-cuneiform.jpg",
+          "image": "assets/questions/q-2797d8e22b38.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/31-a3339a.jpg",
           "sourceTitle": "Bones of the foot, posterior view",
           "sourceLabel": "Medial cuneiform"
@@ -5284,32 +5284,32 @@ window.STUDY_DATA = {
       "sourceTitle": "Bones of the foot, lateral view",
       "sourceLabel": "Metatarsals",
       "answer": "Metatarsals (5 total)",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-07-metatarsals.jpg",
+      "reviewImage": "assets/questions/q-4c3126dcbac0.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/30-a3340b.jpg",
       "terms": [
         "Metatarsals (5 total)"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-07-metatarsals.jpg",
+          "image": "assets/questions/q-4c3126dcbac0.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/30-a3340b.jpg",
           "sourceTitle": "Bones of the foot, lateral view",
           "sourceLabel": "Metatarsals"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-33-a2116-a2116-10-metatarsals.jpg",
+          "image": "assets/questions/q-5df468943af9.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/33-a2116.jpg",
           "sourceTitle": "Bones of the foot, superior view, right side",
           "sourceLabel": "Metatarsals"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-34-a2117-a2117-10-metatarsals.jpg",
+          "image": "assets/questions/q-f0f7450c5ebf.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/34-a2117.jpg",
           "sourceTitle": "Bones of the foot, inferior view, right side",
           "sourceLabel": "Metatarsals"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-29-a3337c-a3337c-02-metatarsals.jpg",
+          "image": "assets/questions/q-b6bcd5b5bd69.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/29-a3337c.jpg",
           "sourceTitle": "Bones of the foot, anterior view",
           "sourceLabel": "Metatarsals"
@@ -5357,38 +5357,38 @@ window.STUDY_DATA = {
       "sourceTitle": "Bones of the foot, lateral view",
       "sourceLabel": "Navicular",
       "answer": "Navicular",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-06-navicular.jpg",
+      "reviewImage": "assets/questions/q-4faa79091361.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/30-a3340b.jpg",
       "terms": [
         "Navicular"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-06-navicular.jpg",
+          "image": "assets/questions/q-4faa79091361.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/30-a3340b.jpg",
           "sourceTitle": "Bones of the foot, lateral view",
           "sourceLabel": "Navicular"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-32-a3338b-a3338b-03-navicular.jpg",
+          "image": "assets/questions/q-1110fa613911.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/32-a3338b.jpg",
           "sourceTitle": "Bones of the foot, medial view",
           "sourceLabel": "Navicular"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-33-a2116-a2116-04-navicular.jpg",
+          "image": "assets/questions/q-cf2806b5b80f.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/33-a2116.jpg",
           "sourceTitle": "Bones of the foot, superior view, right side",
           "sourceLabel": "Navicular"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-34-a2117-a2117-04-navicular.jpg",
+          "image": "assets/questions/q-23cd5074b827.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/34-a2117.jpg",
           "sourceTitle": "Bones of the foot, inferior view, right side",
           "sourceLabel": "Navicular"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-31-a3339a-a3339a-03-navicular.jpg",
+          "image": "assets/questions/q-629c33efb9b2.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/31-a3339a.jpg",
           "sourceTitle": "Bones of the foot, posterior view",
           "sourceLabel": "Navicular"
@@ -5442,20 +5442,20 @@ window.STUDY_DATA = {
       "sourceTitle": "Bones of the foot, lateral view",
       "sourceLabel": "Phalanges",
       "answer": "Phalanges (14 total)",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-08-phalanges.jpg",
+      "reviewImage": "assets/questions/q-3e4156d44343.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/30-a3340b.jpg",
       "terms": [
         "Phalanges (14 total)"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-30-a3340b-a3340b-08-phalanges.jpg",
+          "image": "assets/questions/q-3e4156d44343.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/30-a3340b.jpg",
           "sourceTitle": "Bones of the foot, lateral view",
           "sourceLabel": "Phalanges"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-29-a3337c-a3337c-01-phalanges.jpg",
+          "image": "assets/questions/q-fc5c9ca412e2.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/29-a3337c.jpg",
           "sourceTitle": "Bones of the foot, anterior view",
           "sourceLabel": "Phalanges"
@@ -5491,26 +5491,26 @@ window.STUDY_DATA = {
       "sourceTitle": "Tibia, lateral view, right side",
       "sourceLabel": "Anterior crest",
       "answer": "Anterior border",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-21-a2109-a2109-05-anterior-crest.jpg",
+      "reviewImage": "assets/questions/q-052b08b516f2.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/21-a2109.jpg",
       "terms": [
         "Anterior border"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-21-a2109-a2109-05-anterior-crest.jpg",
+          "image": "assets/questions/q-052b08b516f2.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/21-a2109.jpg",
           "sourceTitle": "Tibia, lateral view, right side",
           "sourceLabel": "Anterior crest"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-24-a2111-a2111-03-anterior-crest.jpg",
+          "image": "assets/questions/q-55660ec456ad.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/24-a2111.jpg",
           "sourceTitle": "Tibia, medial view, right side",
           "sourceLabel": "Anterior crest"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-19-a2108a-a2108a-04-anterior-crest.jpg",
+          "image": "assets/questions/q-6df9a892aa87.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/19-a2108a.jpg",
           "sourceTitle": "Tibia, anterior view, right side",
           "sourceLabel": "Anterior crest"
@@ -5552,20 +5552,20 @@ window.STUDY_DATA = {
       "sourceTitle": "Tibia, lateral view, right side",
       "sourceLabel": "Fibular notch",
       "answer": "Fibular notch",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-21-a2109-a2109-06-fibular-notch.jpg",
+      "reviewImage": "assets/questions/q-42a7b4b39601.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/21-a2109.jpg",
       "terms": [
         "Fibular notch"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-21-a2109-a2109-06-fibular-notch.jpg",
+          "image": "assets/questions/q-42a7b4b39601.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/21-a2109.jpg",
           "sourceTitle": "Tibia, lateral view, right side",
           "sourceLabel": "Fibular notch"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-22-a2110a-a2110a-04-fibular-notch.jpg",
+          "image": "assets/questions/q-cffa6b269bac.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/22-a2110a.jpg",
           "sourceTitle": "Tibia, posterior view, right side",
           "sourceLabel": "Fibular notch"
@@ -5601,38 +5601,38 @@ window.STUDY_DATA = {
       "sourceTitle": "Tibia, lateral view, right side",
       "sourceLabel": "Lateral condyle",
       "answer": "Lateral tibial condyle",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-21-a2109-a2109-01-lateral-condyle.jpg",
+      "reviewImage": "assets/questions/q-b48e1479c13b.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/21-a2109.jpg",
       "terms": [
         "Lateral tibial condyle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-21-a2109-a2109-01-lateral-condyle.jpg",
+          "image": "assets/questions/q-b48e1479c13b.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/21-a2109.jpg",
           "sourceTitle": "Tibia, lateral view, right side",
           "sourceLabel": "Lateral condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-22-a2110a-a2110a-03-lateral-condyle.jpg",
+          "image": "assets/questions/q-85a26b09764d.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/22-a2110a.jpg",
           "sourceTitle": "Tibia, posterior view, right side",
           "sourceLabel": "Lateral condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-19-a2108a-a2108a-02-lateral-condyle.jpg",
+          "image": "assets/questions/q-14905907da03.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/19-a2108a.jpg",
           "sourceTitle": "Tibia, anterior view, right side",
           "sourceLabel": "Lateral condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-23-a2110b-a2110b-03-lateral-condyle.jpg",
+          "image": "assets/questions/q-1f0feaaa048b.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/23-a2110b.jpg",
           "sourceTitle": "Tibia, posterior view, right side, proximal end",
           "sourceLabel": "Lateral condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-20-a2108b-a2108b-02-lateral-condyle.jpg",
+          "image": "assets/questions/q-f167cd5a7dfb.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/20-a2108b.jpg",
           "sourceTitle": "Tibia, anterior view, right side, proximal end",
           "sourceLabel": "Lateral condyle"
@@ -5686,50 +5686,50 @@ window.STUDY_DATA = {
       "sourceTitle": "Tibia, lateral view, right side",
       "sourceLabel": "Medial malleolus",
       "answer": "Medial malleolus",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-21-a2109-a2109-07-medial-malleolus.jpg",
+      "reviewImage": "assets/questions/q-d7c631e5497a.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/21-a2109.jpg",
       "terms": [
         "Medial malleolus"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-21-a2109-a2109-07-medial-malleolus.jpg",
+          "image": "assets/questions/q-d7c631e5497a.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/21-a2109.jpg",
           "sourceTitle": "Tibia, lateral view, right side",
           "sourceLabel": "Medial malleolus"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-24-a2111-a2111-04-medial-malleolus.jpg",
+          "image": "assets/questions/q-3c82b4ba6938.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/24-a2111.jpg",
           "sourceTitle": "Tibia, medial view, right side",
           "sourceLabel": "Medial malleolus"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-22-a2110a-a2110a-05-medial-malleolus.jpg",
+          "image": "assets/questions/q-41e9d2b47121.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/22-a2110a.jpg",
           "sourceTitle": "Tibia, posterior view, right side",
           "sourceLabel": "Medial malleolus"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-19-a2108a-a2108a-05-medial-malleolus.jpg",
+          "image": "assets/questions/q-cfa3cfa94c1e.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/19-a2108a.jpg",
           "sourceTitle": "Tibia, anterior view, right side",
           "sourceLabel": "Medial malleolus"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-16-a3339b-a3339b-07-medial-malleolus.jpg",
+          "image": "assets/questions/q-0ac03728d0c4.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/16-a3339b.jpg",
           "sourceTitle": "Articulated tibia and fibula, posterior view",
           "sourceLabel": "Medial malleolus"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-15-a3337b-a3337b-05-medial-malleolus.jpg",
+          "image": "assets/questions/q-c19822eb6464.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/15-a3337b.jpg",
           "sourceTitle": "Articulated tibia and fibula, anterior view",
           "sourceLabel": "Medial malleolus"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-18-a3339d-a3339d-07-medial-malleolus.jpg",
+          "image": "assets/questions/q-676647fdbaa1.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/18-a3339d.jpg",
           "sourceTitle": "Articulated tibia and fibula, posterior view, distal end",
           "sourceLabel": "Medial malleolus"
@@ -5795,38 +5795,38 @@ window.STUDY_DATA = {
       "sourceTitle": "Tibia, medial view, right side",
       "sourceLabel": "Medial condyle",
       "answer": "Medial tibial condyle",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-24-a2111-a2111-01-medial-condyle.jpg",
+      "reviewImage": "assets/questions/q-df0d569c3b8e.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/24-a2111.jpg",
       "terms": [
         "Medial tibial condyle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-24-a2111-a2111-01-medial-condyle.jpg",
+          "image": "assets/questions/q-df0d569c3b8e.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/24-a2111.jpg",
           "sourceTitle": "Tibia, medial view, right side",
           "sourceLabel": "Medial condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-22-a2110a-a2110a-02-medial-condyle.jpg",
+          "image": "assets/questions/q-31a50df333d0.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/22-a2110a.jpg",
           "sourceTitle": "Tibia, posterior view, right side",
           "sourceLabel": "Medial condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-19-a2108a-a2108a-01-medial-condyle.jpg",
+          "image": "assets/questions/q-5ee18590ce2a.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/19-a2108a.jpg",
           "sourceTitle": "Tibia, anterior view, right side",
           "sourceLabel": "Medial condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-23-a2110b-a2110b-02-medial-condyle.jpg",
+          "image": "assets/questions/q-1191020d40a3.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/23-a2110b.jpg",
           "sourceTitle": "Tibia, posterior view, right side, proximal end",
           "sourceLabel": "Medial condyle"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-20-a2108b-a2108b-01-medial-condyle.jpg",
+          "image": "assets/questions/q-6440ef7fc6ab.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/20-a2108b.jpg",
           "sourceTitle": "Tibia, anterior view, right side, proximal end",
           "sourceLabel": "Medial condyle"
@@ -5880,32 +5880,32 @@ window.STUDY_DATA = {
       "sourceTitle": "Tibia, lateral view, right side",
       "sourceLabel": "Tibial tuberosity",
       "answer": "Tibial tuberosity",
-      "reviewImage": "assets/pal/structures/bones/lower-limb-skeleton-21-a2109-a2109-03-tibial-tuberosity.jpg",
+      "reviewImage": "assets/questions/q-a3a13ffd016d.jpg",
       "labeledImage": "assets/pal/lower-limb-skeleton/labeled/21-a2109.jpg",
       "terms": [
         "Tibial tuberosity"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-21-a2109-a2109-03-tibial-tuberosity.jpg",
+          "image": "assets/questions/q-a3a13ffd016d.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/21-a2109.jpg",
           "sourceTitle": "Tibia, lateral view, right side",
           "sourceLabel": "Tibial tuberosity"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-24-a2111-a2111-02-tibial-tuberosity.jpg",
+          "image": "assets/questions/q-0f79db3432db.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/24-a2111.jpg",
           "sourceTitle": "Tibia, medial view, right side",
           "sourceLabel": "Tibial tuberosity"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-19-a2108a-a2108a-03-tibial-tuberosity.jpg",
+          "image": "assets/questions/q-d25a9f6a06f4.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/19-a2108a.jpg",
           "sourceTitle": "Tibia, anterior view, right side",
           "sourceLabel": "Tibial tuberosity"
         },
         {
-          "image": "assets/pal/structures/bones/lower-limb-skeleton-20-a2108b-a2108b-03-tibial-tuberosity.jpg",
+          "image": "assets/questions/q-b5b3e7003537.jpg",
           "labeledImage": "assets/pal/lower-limb-skeleton/labeled/20-a2108b.jpg",
           "sourceTitle": "Tibia, anterior view, right side, proximal end",
           "sourceLabel": "Tibial tuberosity"
@@ -6868,7 +6868,7 @@ window.STUDY_DATA = {
       "id": "practice-pelvic-01",
       "label": "Pelvic girdle practice 1",
       "region": "Pelvic Girdle",
-      "reviewImage": "assets/practical-labeling/pelvic/question/slide-01.jpg",
+      "reviewImage": "assets/questions/q-8c7f4b17863e.jpg",
       "labeledImage": "assets/practical-labeling/pelvic/answer/slide-02.jpg",
       "sourceTitle": "Pelvic girdle",
       "terms": [
@@ -6896,7 +6896,7 @@ window.STUDY_DATA = {
       "id": "practice-pelvic-03",
       "label": "Pelvic girdle practice 2",
       "region": "Pelvic Girdle",
-      "reviewImage": "assets/practical-labeling/pelvic/question/slide-03.jpg",
+      "reviewImage": "assets/questions/q-fba0085e0759.jpg",
       "labeledImage": "assets/practical-labeling/pelvic/answer/slide-04.jpg",
       "sourceTitle": "Pelvic girdle",
       "terms": [
@@ -6924,7 +6924,7 @@ window.STUDY_DATA = {
       "id": "practice-pelvic-06",
       "label": "Pelvic girdle practice 3",
       "region": "Pelvic Girdle",
-      "reviewImage": "assets/practical-labeling/pelvic/question/slide-06.jpg",
+      "reviewImage": "assets/questions/q-384dcffab7b3.jpg",
       "labeledImage": "assets/practical-labeling/pelvic/answer/slide-05.jpg",
       "sourceTitle": "Pelvic girdle",
       "terms": [
@@ -6952,7 +6952,7 @@ window.STUDY_DATA = {
       "id": "practice-pelvic-07",
       "label": "Pelvic girdle practice 4",
       "region": "Pelvic Girdle",
-      "reviewImage": "assets/practical-labeling/pelvic/question/slide-07.jpg",
+      "reviewImage": "assets/questions/q-f84cc16c87be.jpg",
       "labeledImage": "assets/practical-labeling/pelvic/answer/slide-08.jpg",
       "sourceTitle": "Pelvic girdle",
       "terms": [
@@ -6980,7 +6980,7 @@ window.STUDY_DATA = {
       "id": "practice-pelvic-09",
       "label": "Pelvic girdle practice 5",
       "region": "Pelvic Girdle",
-      "reviewImage": "assets/practical-labeling/pelvic/question/slide-09.jpg",
+      "reviewImage": "assets/questions/q-eebd7ecea98a.jpg",
       "labeledImage": "assets/practical-labeling/pelvic/answer/slide-10.jpg",
       "sourceTitle": "Pelvic girdle",
       "terms": [
@@ -7008,7 +7008,7 @@ window.STUDY_DATA = {
       "id": "practice-pelvic-11",
       "label": "Pelvic girdle practice 6",
       "region": "Pelvic Girdle",
-      "reviewImage": "assets/practical-labeling/pelvic/question/slide-11.jpg",
+      "reviewImage": "assets/questions/q-eab2f6347b64.jpg",
       "labeledImage": "assets/practical-labeling/pelvic/answer/slide-12.jpg",
       "sourceTitle": "Pelvic girdle",
       "terms": [
@@ -7036,7 +7036,7 @@ window.STUDY_DATA = {
       "id": "practice-pelvic-13",
       "label": "Pelvic girdle practice 7",
       "region": "Pelvic Girdle",
-      "reviewImage": "assets/practical-labeling/pelvic/question/slide-13.jpg",
+      "reviewImage": "assets/questions/q-d6991fde0b29.jpg",
       "labeledImage": "assets/practical-labeling/pelvic/answer/slide-14.jpg",
       "sourceTitle": "Pelvic girdle",
       "terms": [
@@ -7064,7 +7064,7 @@ window.STUDY_DATA = {
       "id": "practice-pelvic-15",
       "label": "Pelvic girdle practice 8",
       "region": "Pelvic Girdle",
-      "reviewImage": "assets/practical-labeling/pelvic/question/slide-15.jpg",
+      "reviewImage": "assets/questions/q-f1ba53723c40.jpg",
       "labeledImage": "assets/practical-labeling/pelvic/answer/slide-16.jpg",
       "sourceTitle": "Pelvic girdle",
       "terms": [
@@ -7092,7 +7092,7 @@ window.STUDY_DATA = {
       "id": "practice-pelvic-17",
       "label": "Pelvic girdle practice 9",
       "region": "Pelvic Girdle",
-      "reviewImage": "assets/practical-labeling/pelvic/question/slide-17.jpg",
+      "reviewImage": "assets/questions/q-08457bdae220.jpg",
       "labeledImage": "assets/practical-labeling/pelvic/answer/slide-18.jpg",
       "sourceTitle": "Pelvic girdle",
       "terms": [
@@ -7120,7 +7120,7 @@ window.STUDY_DATA = {
       "id": "practice-pelvic-19",
       "label": "Pelvic girdle practice 10",
       "region": "Pelvic Girdle",
-      "reviewImage": "assets/practical-labeling/pelvic/question/slide-19.jpg",
+      "reviewImage": "assets/questions/q-afc05e46153c.jpg",
       "labeledImage": "assets/practical-labeling/pelvic/answer/slide-20.jpg",
       "sourceTitle": "Pelvic girdle",
       "terms": [
@@ -7148,7 +7148,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-33",
       "label": "Lower limb practice 1",
       "region": "Femur",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-33.jpg",
+      "reviewImage": "assets/questions/q-5c70872655f8.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-01.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7176,7 +7176,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-34",
       "label": "Lower limb practice 2",
       "region": "Femur",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-34.jpg",
+      "reviewImage": "assets/questions/q-297a79563f42.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-02.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7204,7 +7204,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-35",
       "label": "Lower limb practice 3",
       "region": "Femur",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-35.jpg",
+      "reviewImage": "assets/questions/q-9d8ee41eafb5.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-03.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7232,7 +7232,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-36",
       "label": "Lower limb practice 4",
       "region": "Femur",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-36.jpg",
+      "reviewImage": "assets/questions/q-f84be3bd8370.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-04.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7260,7 +7260,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-37",
       "label": "Lower limb practice 5",
       "region": "Femur",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-37.jpg",
+      "reviewImage": "assets/questions/q-308a1ab47159.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-05.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7288,7 +7288,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-38",
       "label": "Lower limb practice 6",
       "region": "Femur",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-38.jpg",
+      "reviewImage": "assets/questions/q-f6c626b90144.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-06.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7316,7 +7316,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-39",
       "label": "Lower limb practice 7",
       "region": "Femur",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-39.jpg",
+      "reviewImage": "assets/questions/q-5fec6e32a4e5.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-07.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7344,7 +7344,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-40",
       "label": "Lower limb practice 8",
       "region": "Femur",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-40.jpg",
+      "reviewImage": "assets/questions/q-fbb01b0facc1.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-08.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7372,7 +7372,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-41",
       "label": "Lower limb practice 9",
       "region": "Femur",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-41.jpg",
+      "reviewImage": "assets/questions/q-656fb54acca9.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-09.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7400,7 +7400,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-42",
       "label": "Lower limb practice 10",
       "region": "Femur",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-42.jpg",
+      "reviewImage": "assets/questions/q-e3bce24e433a.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-11.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7428,7 +7428,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-43",
       "label": "Lower limb practice 11",
       "region": "Femur",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-43.jpg",
+      "reviewImage": "assets/questions/q-787c31c38ceb.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-12.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7456,7 +7456,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-44",
       "label": "Lower limb practice 12",
       "region": "Tibia/Fibula",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-44.jpg",
+      "reviewImage": "assets/questions/q-1e46412bbe91.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-13.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7478,7 +7478,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-45",
       "label": "Lower limb practice 13",
       "region": "Tibia/Fibula",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-45.jpg",
+      "reviewImage": "assets/questions/q-f4ca27c8e448.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-14.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7500,7 +7500,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-46",
       "label": "Lower limb practice 14",
       "region": "Tibia/Fibula",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-46.jpg",
+      "reviewImage": "assets/questions/q-dd79965d1242.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-15.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7522,7 +7522,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-47",
       "label": "Lower limb practice 15",
       "region": "Tibia/Fibula",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-47.jpg",
+      "reviewImage": "assets/questions/q-17e7f3c65f9f.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-16.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7544,7 +7544,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-48",
       "label": "Lower limb practice 16",
       "region": "Tibia",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-48.jpg",
+      "reviewImage": "assets/questions/q-1f0ef4917a30.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-17.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7560,7 +7560,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-49",
       "label": "Lower limb practice 17",
       "region": "Tibia",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-49.jpg",
+      "reviewImage": "assets/questions/q-c46d4846c35f.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-18.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7576,7 +7576,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-50",
       "label": "Lower limb practice 18",
       "region": "Tibia",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-50.jpg",
+      "reviewImage": "assets/questions/q-7fbbab51721c.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-19.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7592,7 +7592,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-51",
       "label": "Lower limb practice 19",
       "region": "Tibia",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-51.jpg",
+      "reviewImage": "assets/questions/q-cfce2191687c.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-20.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7608,7 +7608,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-52",
       "label": "Lower limb practice 20",
       "region": "Tibia",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-52.jpg",
+      "reviewImage": "assets/questions/q-04d31f077605.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-21.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7624,7 +7624,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-53",
       "label": "Lower limb practice 21",
       "region": "Tibia",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-53.jpg",
+      "reviewImage": "assets/questions/q-e952719f2a63.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-22.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7640,7 +7640,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-54",
       "label": "Lower limb practice 22",
       "region": "Fibula",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-54.jpg",
+      "reviewImage": "assets/questions/q-830b48727d38.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-23.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7656,7 +7656,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-55",
       "label": "Lower limb practice 23",
       "region": "Fibula",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-55.jpg",
+      "reviewImage": "assets/questions/q-ac0ff5e620f0.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-24.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7672,7 +7672,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-56",
       "label": "Lower limb practice 24",
       "region": "Fibula",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-56.jpg",
+      "reviewImage": "assets/questions/q-c570aec1bd21.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-25.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7688,7 +7688,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-57",
       "label": "Lower limb practice 25",
       "region": "Fibula",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-57.jpg",
+      "reviewImage": "assets/questions/q-d61b463cf943.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-26.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7704,7 +7704,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-58",
       "label": "Lower limb practice 26",
       "region": "Foot",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-58.jpg",
+      "reviewImage": "assets/questions/q-b46803a9a9ce.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-27.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7725,7 +7725,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-59",
       "label": "Lower limb practice 27",
       "region": "Foot",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-59.jpg",
+      "reviewImage": "assets/questions/q-5d2be603e36a.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-28.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7746,7 +7746,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-60",
       "label": "Lower limb practice 28",
       "region": "Foot",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-60.jpg",
+      "reviewImage": "assets/questions/q-49b3b19217cf.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-29.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7767,7 +7767,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-61",
       "label": "Lower limb practice 29",
       "region": "Foot",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-61.jpg",
+      "reviewImage": "assets/questions/q-754b58a0e805.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-30.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7788,7 +7788,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-62",
       "label": "Lower limb practice 30",
       "region": "Foot",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-62.jpg",
+      "reviewImage": "assets/questions/q-514b349f7679.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-31.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7809,7 +7809,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-63",
       "label": "Lower limb practice 31",
       "region": "Foot",
-      "reviewImage": "assets/practical-labeling/lower-limb/question/slide-63.jpg",
+      "reviewImage": "assets/questions/q-f51972212726.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb/answer/slide-32.jpg",
       "sourceTitle": "Lower limb",
       "terms": [
@@ -7830,7 +7830,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-18",
       "label": "Lower limb muscles practice 1",
       "region": "Muscle: Thigh Anterior",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-18.jpg",
+      "reviewImage": "assets/questions/q-1ad7d35008f0.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-01.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -7853,7 +7853,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-19",
       "label": "Lower limb muscles practice 2",
       "region": "Muscle: Thigh Anterior",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-19.jpg",
+      "reviewImage": "assets/questions/q-5be7e716aeac.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-02.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -7876,7 +7876,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-20",
       "label": "Lower limb muscles practice 3",
       "region": "Muscle: Thigh Posterior",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-20.jpg",
+      "reviewImage": "assets/questions/q-b09daae1d267.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-03.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -7899,7 +7899,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-21",
       "label": "Lower limb muscles practice 4",
       "region": "Muscle: Thigh Posterior",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-21.jpg",
+      "reviewImage": "assets/questions/q-b68b540c0a84.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-04.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -7922,7 +7922,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-22",
       "label": "Lower limb muscles practice 5",
       "region": "Muscle: Thigh Anterior",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-22.jpg",
+      "reviewImage": "assets/questions/q-940ee093cf36.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-05.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -7945,7 +7945,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-23",
       "label": "Lower limb muscles practice 6",
       "region": "Muscle: Thigh Anterior",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-23.jpg",
+      "reviewImage": "assets/questions/q-9dd73b5402f9.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-06.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -7968,7 +7968,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-24",
       "label": "Lower limb muscles practice 7",
       "region": "Muscle: Thigh Posterior",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-24.jpg",
+      "reviewImage": "assets/questions/q-e814046bbc24.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-07.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -7991,7 +7991,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-25",
       "label": "Lower limb muscles practice 8",
       "region": "Muscle: Thigh Posterior",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-25.jpg",
+      "reviewImage": "assets/questions/q-fc303a8cb621.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-08.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -8014,7 +8014,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-26",
       "label": "Lower limb muscles practice 9",
       "region": "Muscle: Leg/Foot",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-26.jpg",
+      "reviewImage": "assets/questions/q-c26a463b58e3.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-09.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -8032,7 +8032,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-27",
       "label": "Lower limb muscles practice 10",
       "region": "Muscle: Leg/Foot",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-27.jpg",
+      "reviewImage": "assets/questions/q-96263d423045.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-10.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -8050,7 +8050,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-28",
       "label": "Lower limb muscles practice 11",
       "region": "Muscle: Leg/Foot",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-28.jpg",
+      "reviewImage": "assets/questions/q-2c8a31650df8.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-11.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -8068,7 +8068,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-29",
       "label": "Lower limb muscles practice 12",
       "region": "Muscle: Leg/Foot",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-29.jpg",
+      "reviewImage": "assets/questions/q-0253b215bac4.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-12.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -8086,7 +8086,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-30",
       "label": "Lower limb muscles practice 13",
       "region": "Muscle: Leg/Foot",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-30.jpg",
+      "reviewImage": "assets/questions/q-3ea54f2305c5.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-13.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -8104,7 +8104,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-31",
       "label": "Lower limb muscles practice 14",
       "region": "Muscle: Leg/Foot",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-31.jpg",
+      "reviewImage": "assets/questions/q-8f82aeb2b17a.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-14.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -8122,7 +8122,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-32",
       "label": "Lower limb muscles practice 15",
       "region": "Muscle: Leg/Foot",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-32.jpg",
+      "reviewImage": "assets/questions/q-30c54f9581ee.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-15.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -8140,7 +8140,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-33",
       "label": "Lower limb muscles practice 16",
       "region": "Muscle: Leg/Foot",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-33.jpg",
+      "reviewImage": "assets/questions/q-3810b0c0b2ce.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-16.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -8158,7 +8158,7 @@ window.STUDY_DATA = {
       "id": "practice-lower-limb-muscles-34",
       "label": "Lower limb muscles practice 17",
       "region": "Muscle: Leg/Foot",
-      "reviewImage": "assets/practical-labeling/lower-limb-muscles/question/slide-34.jpg",
+      "reviewImage": "assets/questions/q-8004b6e46dfb.jpg",
       "labeledImage": "assets/practical-labeling/lower-limb-muscles/answer/slide-17.jpg",
       "sourceTitle": "Lower limb muscles",
       "terms": [
@@ -8180,18 +8180,18 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Adductor longus",
       "sourceTitle": "Superficial muscles of the left thigh, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/05-m3038-pal4-m3038-03-adductor-longus.jpg",
+      "reviewImage": "assets/questions/q-6a2f5e7cd342.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
       "sourceLabel": "Adductor longus",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/05-m3038-pal4-m3038-03-adductor-longus.jpg",
+          "image": "assets/questions/q-6a2f5e7cd342.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, anterior view",
           "sourceLabel": "Adductor longus"
         },
         {
-          "image": "assets/pal/structures/muscles/06-m3039-pal4-m3039-04-adductor-longus.jpg",
+          "image": "assets/questions/q-be13972f9e07.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/06-m3039-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, anterior view",
           "sourceLabel": "Adductor longus"
@@ -8224,24 +8224,24 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Adductor magnus",
       "sourceTitle": "Deep muscles of the left thigh, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/06-m3039-pal4-m3039-06-adductor-magnus.jpg",
+      "reviewImage": "assets/questions/q-cee39f24063c.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/06-m3039-pal4.jpg",
       "sourceLabel": "Adductor magnus",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/06-m3039-pal4-m3039-06-adductor-magnus.jpg",
+          "image": "assets/questions/q-cee39f24063c.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/06-m3039-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, anterior view",
           "sourceLabel": "Adductor magnus"
         },
         {
-          "image": "assets/pal/structures/muscles/07-m3040-pal4-m3040-04-adductor-magnus.jpg",
+          "image": "assets/questions/q-e6cea0c070e9.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/07-m3040-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, posterior view",
           "sourceLabel": "Adductor magnus"
         },
         {
-          "image": "assets/pal/structures/muscles/08-m3041-pal4-m3041-07-adductor-magnus.jpg",
+          "image": "assets/questions/q-561baff273f5.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/08-m3041-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, posterior view",
           "sourceLabel": "Adductor magnus"
@@ -8280,18 +8280,18 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Biceps femoris",
       "sourceTitle": "Superficial muscles of the left thigh, posterior view",
-      "reviewImage": "assets/pal/structures/muscles/07-m3040-pal4-m3040-01-biceps-femoris.jpg",
+      "reviewImage": "assets/questions/q-6d5602688400.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/07-m3040-pal4.jpg",
       "sourceLabel": "Biceps femoris",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/07-m3040-pal4-m3040-01-biceps-femoris.jpg",
+          "image": "assets/questions/q-6d5602688400.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/07-m3040-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, posterior view",
           "sourceLabel": "Biceps femoris"
         },
         {
-          "image": "assets/pal/structures/muscles/08-m3041-pal4-m3041-05-biceps-femoris-short-head.jpg",
+          "image": "assets/questions/q-df5a205eb1ac.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/08-m3041-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, posterior view",
           "sourceLabel": "Biceps femoris,short head"
@@ -8325,24 +8325,24 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Fibularis brevis",
       "sourceTitle": "Superficial muscles of the left leg and foot, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/14-m3042-pal4-m3042-07-fibularis-brevis.jpg",
+      "reviewImage": "assets/questions/q-e018fb3e04cc.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/14-m3042-pal4.jpg",
       "sourceLabel": "Fibularis brevis",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/14-m3042-pal4-m3042-07-fibularis-brevis.jpg",
+          "image": "assets/questions/q-e018fb3e04cc.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/14-m3042-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left leg and foot, anterior view",
           "sourceLabel": "Fibularis brevis"
         },
         {
-          "image": "assets/pal/structures/muscles/15-m3044-pal4-m3044-02-fibularis-brevis.jpg",
+          "image": "assets/questions/q-0f569fd35462.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/15-m3044-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left leg and foot, lateral view",
           "sourceLabel": "Fibularis brevis"
         },
         {
-          "image": "assets/pal/structures/muscles/17-m3046-pal4-m3046-01-fibularis-brevis.jpg",
+          "image": "assets/questions/q-d2f43fffb51e.jpg",
           "labeledImage": "",
           "sourceTitle": "Deep muscles of the left leg, posterior view",
           "sourceLabel": "Fibularis brevis"
@@ -8376,24 +8376,24 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Fibularis longus",
       "sourceTitle": "Superficial muscles of the left leg and foot, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/14-m3042-pal4-m3042-08-fibularis-longus.jpg",
+      "reviewImage": "assets/questions/q-3a000b75b096.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/14-m3042-pal4.jpg",
       "sourceLabel": "Fibularis longus",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/14-m3042-pal4-m3042-08-fibularis-longus.jpg",
+          "image": "assets/questions/q-3a000b75b096.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/14-m3042-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left leg and foot, anterior view",
           "sourceLabel": "Fibularis longus"
         },
         {
-          "image": "assets/pal/structures/muscles/15-m3044-pal4-m3044-01-fibularis-longus.jpg",
+          "image": "assets/questions/q-bd0403f1a084.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/15-m3044-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left leg and foot, lateral view",
           "sourceLabel": "Fibularis longus"
         },
         {
-          "image": "assets/pal/structures/muscles/17-m3046-pal4-m3046-02-fibularis-longus.jpg",
+          "image": "assets/questions/q-3cd0cede177a.jpg",
           "labeledImage": "",
           "sourceTitle": "Deep muscles of the left leg, posterior view",
           "sourceLabel": "Fibularis longus"
@@ -8427,18 +8427,18 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Gastrocnemius",
       "sourceTitle": "Superficial muscles of the left leg and foot, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/14-m3042-pal4-m3042-02-gastrocnemius.jpg",
+      "reviewImage": "assets/questions/q-4da9b8f6ca24.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/14-m3042-pal4.jpg",
       "sourceLabel": "Gastrocnemius",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/14-m3042-pal4-m3042-02-gastrocnemius.jpg",
+          "image": "assets/questions/q-4da9b8f6ca24.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/14-m3042-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left leg and foot, anterior view",
           "sourceLabel": "Gastrocnemius"
         },
         {
-          "image": "assets/pal/structures/muscles/16-m3045-pal4-m3045-03-gastrocnemius.jpg",
+          "image": "assets/questions/q-b401ed22c471.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/16-m3045-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left leg, posterior view",
           "sourceLabel": "Gastrocnemius"
@@ -8471,12 +8471,12 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Gluteus maximus",
       "sourceTitle": "Superficial muscles of the left thigh, posterior view",
-      "reviewImage": "assets/pal/structures/muscles/07-m3040-pal4-m3040-03-gluteus-maximus.jpg",
+      "reviewImage": "assets/questions/q-349d99a05f6d.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/07-m3040-pal4.jpg",
       "sourceLabel": "Gluteus maximus",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/07-m3040-pal4-m3040-03-gluteus-maximus.jpg",
+          "image": "assets/questions/q-349d99a05f6d.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/07-m3040-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, posterior view",
           "sourceLabel": "Gluteus maximus"
@@ -8503,18 +8503,18 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Gluteus medius",
       "sourceTitle": "Superficial muscles of the left thigh, posterior view",
-      "reviewImage": "assets/pal/structures/muscles/07-m3040-pal4-m3040-02-gluteus-medius.jpg",
+      "reviewImage": "assets/questions/q-57dd6c207da2.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/07-m3040-pal4.jpg",
       "sourceLabel": "Gluteus medius",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/07-m3040-pal4-m3040-02-gluteus-medius.jpg",
+          "image": "assets/questions/q-57dd6c207da2.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/07-m3040-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, posterior view",
           "sourceLabel": "Gluteus medius"
         },
         {
-          "image": "assets/pal/structures/muscles/08-m3041-pal4-m3041-01-gluteus-medius.jpg",
+          "image": "assets/questions/q-af90f4980f7f.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/08-m3041-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, posterior view",
           "sourceLabel": "Gluteus medius"
@@ -8547,24 +8547,24 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Gracilis",
       "sourceTitle": "Deep muscles of the left thigh, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/06-m3039-pal4-m3039-05-gracilis.jpg",
+      "reviewImage": "assets/questions/q-46d7f19ee89f.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/06-m3039-pal4.jpg",
       "sourceLabel": "Gracilis",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/06-m3039-pal4-m3039-05-gracilis.jpg",
+          "image": "assets/questions/q-46d7f19ee89f.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/06-m3039-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, anterior view",
           "sourceLabel": "Gracilis"
         },
         {
-          "image": "assets/pal/structures/muscles/07-m3040-pal4-m3040-07-gracilis.jpg",
+          "image": "assets/questions/q-bdbe9e1fd780.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/07-m3040-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, posterior view",
           "sourceLabel": "Gracilis"
         },
         {
-          "image": "assets/pal/structures/muscles/08-m3041-pal4-m3041-06-gracilis.jpg",
+          "image": "assets/questions/q-da01788b33a9.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/08-m3041-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, posterior view",
           "sourceLabel": "Gracilis"
@@ -8603,18 +8603,18 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Iliacus",
       "sourceTitle": "Superficial muscles of the left thigh, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/05-m3038-m3038-02-iliacus.jpg",
+      "reviewImage": "assets/questions/q-7a1d063fe819.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038.jpg",
       "sourceLabel": "Iliacus",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/05-m3038-m3038-02-iliacus.jpg",
+          "image": "assets/questions/q-7a1d063fe819.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, anterior view",
           "sourceLabel": "Iliacus"
         },
         {
-          "image": "assets/pal/structures/muscles/06-m3039-m3039-02-iliacus.jpg",
+          "image": "assets/questions/q-2fc6ff135339.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/06-m3039.jpg",
           "sourceTitle": "Deep muscles of the left thigh, anterior view",
           "sourceLabel": "Iliacus"
@@ -8647,18 +8647,18 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Iliopsoas",
       "sourceTitle": "Superficial muscles of the left thigh, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/05-m3038-pal4-m3038-01-iliopsoas.jpg",
+      "reviewImage": "assets/questions/q-bbada5bc5bbe.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
       "sourceLabel": "Iliopsoas",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/05-m3038-pal4-m3038-01-iliopsoas.jpg",
+          "image": "assets/questions/q-bbada5bc5bbe.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, anterior view",
           "sourceLabel": "Iliopsoas"
         },
         {
-          "image": "assets/pal/structures/muscles/06-m3039-pal4-m3039-02-iliopsoas.jpg",
+          "image": "assets/questions/q-db8f1d0e291c.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/06-m3039-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, anterior view",
           "sourceLabel": "Iliopsoas"
@@ -8691,18 +8691,18 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Iliotibial tract",
       "sourceTitle": "Superficial muscles of the left thigh, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/05-m3038-pal4-m3038-07-iliotibial-tract.jpg",
+      "reviewImage": "assets/questions/q-3985298dac57.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
       "sourceLabel": "Iliotibial tract",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/05-m3038-pal4-m3038-07-iliotibial-tract.jpg",
+          "image": "assets/questions/q-3985298dac57.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, anterior view",
           "sourceLabel": "Iliotibial tract"
         },
         {
-          "image": "assets/pal/structures/muscles/06-m3039-pal4-m3039-11-iliotibial-tract.jpg",
+          "image": "assets/questions/q-9d82a40de834.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/06-m3039-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, anterior view",
           "sourceLabel": "Iliotibial tract"
@@ -8735,12 +8735,12 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Lateral head of gastrocnemius",
       "sourceTitle": "Superficial muscles of the left leg and foot, lateral view",
-      "reviewImage": "assets/pal/structures/muscles/15-m3044-pal4-m3044-04-gastrocnemius.jpg",
+      "reviewImage": "assets/questions/q-0e0f9b397875.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/15-m3044-pal4.jpg",
       "sourceLabel": "Gastrocnemius",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/15-m3044-pal4-m3044-04-gastrocnemius.jpg",
+          "image": "assets/questions/q-0e0f9b397875.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/15-m3044-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left leg and foot, lateral view",
           "sourceLabel": "Gastrocnemius"
@@ -8767,12 +8767,12 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Medial head of gastrocnemius",
       "sourceTitle": "Superficial muscles of the left leg and foot, medial view",
-      "reviewImage": "assets/pal/structures/muscles/10-m0014-m0014-01-gastrocnemius.jpg",
+      "reviewImage": "assets/questions/q-27c99436a8b5.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/10-m0014.jpg",
       "sourceLabel": "Gastrocnemius",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/10-m0014-m0014-01-gastrocnemius.jpg",
+          "image": "assets/questions/q-27c99436a8b5.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/10-m0014.jpg",
           "sourceTitle": "Superficial muscles of the left leg and foot, medial view",
           "sourceLabel": "Gastrocnemius"
@@ -8799,12 +8799,12 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Piriformis",
       "sourceTitle": "Deep muscles of the left thigh, posterior view",
-      "reviewImage": "assets/pal/structures/muscles/08-m3041-pal4-m3041-10-piriformis.jpg",
+      "reviewImage": "assets/questions/q-4cfaa2aa7442.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/08-m3041-pal4.jpg",
       "sourceLabel": "Piriformis",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/08-m3041-pal4-m3041-10-piriformis.jpg",
+          "image": "assets/questions/q-4cfaa2aa7442.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/08-m3041-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, posterior view",
           "sourceLabel": "Piriformis"
@@ -8831,18 +8831,18 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Psoas major",
       "sourceTitle": "Superficial muscles of the left thigh, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/05-m3038-m3038-01-psoas-major.jpg",
+      "reviewImage": "assets/questions/q-30de77331375.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038.jpg",
       "sourceLabel": "Psoas major",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/05-m3038-m3038-01-psoas-major.jpg",
+          "image": "assets/questions/q-30de77331375.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, anterior view",
           "sourceLabel": "Psoas major"
         },
         {
-          "image": "assets/pal/structures/muscles/06-m3039-m3039-01-psoas-major.jpg",
+          "image": "assets/questions/q-acf50167dc55.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/06-m3039.jpg",
           "sourceTitle": "Deep muscles of the left thigh, anterior view",
           "sourceLabel": "Psoas major"
@@ -8875,12 +8875,12 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Quadratus femoris",
       "sourceTitle": "Deep muscles of the left thigh, posterior view",
-      "reviewImage": "assets/pal/structures/muscles/08-m3041-pal4-m3041-03-quadratus-femoris.jpg",
+      "reviewImage": "assets/questions/q-79d271a246ca.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/08-m3041-pal4.jpg",
       "sourceLabel": "Quadratus femoris",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/08-m3041-pal4-m3041-03-quadratus-femoris.jpg",
+          "image": "assets/questions/q-79d271a246ca.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/08-m3041-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, posterior view",
           "sourceLabel": "Quadratus femoris"
@@ -8907,12 +8907,12 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Rectus femoris",
       "sourceTitle": "Superficial muscles of the left thigh, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/05-m3038-pal4-m3038-08-rectus-femoris.jpg",
+      "reviewImage": "assets/questions/q-30eba563e396.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
       "sourceLabel": "Rectus femoris",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/05-m3038-pal4-m3038-08-rectus-femoris.jpg",
+          "image": "assets/questions/q-30eba563e396.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, anterior view",
           "sourceLabel": "Rectus femoris"
@@ -8939,12 +8939,12 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Sartorius",
       "sourceTitle": "Superficial muscles of the left thigh, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/05-m3038-pal4-m3038-04-sartorius.jpg",
+      "reviewImage": "assets/questions/q-dc144d3b5053.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
       "sourceLabel": "Sartorius",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/05-m3038-pal4-m3038-04-sartorius.jpg",
+          "image": "assets/questions/q-dc144d3b5053.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, anterior view",
           "sourceLabel": "Sartorius"
@@ -8971,24 +8971,24 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Semimembranosus",
       "sourceTitle": "Superficial muscles of the left thigh, posterior view",
-      "reviewImage": "assets/pal/structures/muscles/03-m0012-m0012-09-semimembranosus.jpg",
+      "reviewImage": "assets/questions/q-8ca2feb8ca19.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/03-m0012.jpg",
       "sourceLabel": "Semimembranosus",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/03-m0012-m0012-09-semimembranosus.jpg",
+          "image": "assets/questions/q-8ca2feb8ca19.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/03-m0012.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, posterior view",
           "sourceLabel": "Semimembranosus"
         },
         {
-          "image": "assets/pal/structures/muscles/07-m3040-m3040-05-semimembranosus.jpg",
+          "image": "assets/questions/q-a6d3d1c34416.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/07-m3040.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, posterior view",
           "sourceLabel": "Semimembranosus"
         },
         {
-          "image": "assets/pal/structures/muscles/04-m0013-m0013-07-semimembranosus.jpg",
+          "image": "assets/questions/q-9e3204e19745.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/04-m0013.jpg",
           "sourceTitle": "Deep muscles of the left thigh, posterior view",
           "sourceLabel": "Semimembranosus"
@@ -9026,12 +9026,12 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Semitendinosus",
       "sourceTitle": "Superficial muscles of the left thigh, posterior view",
-      "reviewImage": "assets/pal/structures/muscles/07-m3040-pal4-m3040-05-semitendinosus.jpg",
+      "reviewImage": "assets/questions/q-f74ed2be9e0a.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/07-m3040-pal4.jpg",
       "sourceLabel": "Semitendinosus",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/07-m3040-pal4-m3040-05-semitendinosus.jpg",
+          "image": "assets/questions/q-f74ed2be9e0a.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/07-m3040-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, posterior view",
           "sourceLabel": "Semitendinosus"
@@ -9058,24 +9058,24 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Soleus",
       "sourceTitle": "Superficial muscles of the left leg and foot, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/14-m3042-pal4-m3042-03-soleus.jpg",
+      "reviewImage": "assets/questions/q-00302cc9fb20.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/14-m3042-pal4.jpg",
       "sourceLabel": "Soleus",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/14-m3042-pal4-m3042-03-soleus.jpg",
+          "image": "assets/questions/q-00302cc9fb20.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/14-m3042-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left leg and foot, anterior view",
           "sourceLabel": "Soleus"
         },
         {
-          "image": "assets/pal/structures/muscles/15-m3044-pal4-m3044-05-soleus.jpg",
+          "image": "assets/questions/q-5c44ece018c2.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/15-m3044-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left leg and foot, lateral view",
           "sourceLabel": "Soleus"
         },
         {
-          "image": "assets/pal/structures/muscles/16-m3045-pal4-m3045-02-soleus.jpg",
+          "image": "assets/questions/q-2adb4ee71545.jpg",
           "labeledImage": "",
           "sourceTitle": "Superficial muscles of the left leg, posterior view",
           "sourceLabel": "Soleus"
@@ -9109,18 +9109,18 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Tensor fasciae latae",
       "sourceTitle": "Superficial muscles of the left thigh, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/05-m3038-pal4-m3038-09-tensor-fasciae-latae.jpg",
+      "reviewImage": "assets/questions/q-5a5f424a0059.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
       "sourceLabel": "Tensor fasciae latae",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/05-m3038-pal4-m3038-09-tensor-fasciae-latae.jpg",
+          "image": "assets/questions/q-5a5f424a0059.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, anterior view",
           "sourceLabel": "Tensor fasciae latae"
         },
         {
-          "image": "assets/pal/structures/muscles/06-m3039-pal4-m3039-12-tensor-fasciae-latae.jpg",
+          "image": "assets/questions/q-5f203c307d48.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/06-m3039-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, anterior view",
           "sourceLabel": "Tensor fasciae latae"
@@ -9153,12 +9153,12 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Tibialis anterior",
       "sourceTitle": "Superficial muscles of the left leg and foot, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/14-m3042-pal4-m3042-01-tibialis-anterior.jpg",
+      "reviewImage": "assets/questions/q-1965ef834cc6.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/14-m3042-pal4.jpg",
       "sourceLabel": "Tibialis anterior",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/14-m3042-pal4-m3042-01-tibialis-anterior.jpg",
+          "image": "assets/questions/q-1965ef834cc6.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/14-m3042-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left leg and foot, anterior view",
           "sourceLabel": "Tibialis anterior"
@@ -9185,12 +9185,12 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Tibialis posterior",
       "sourceTitle": "Deep muscles of the left leg, posterior view",
-      "reviewImage": "assets/pal/structures/muscles/17-m3046-pal4-m3046-05-tibialis-posterior.jpg",
+      "reviewImage": "assets/questions/q-fc66d05701d6.jpg",
       "labeledImage": "",
       "sourceLabel": "Tibialis posterior",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/17-m3046-pal4-m3046-05-tibialis-posterior.jpg",
+          "image": "assets/questions/q-fc66d05701d6.jpg",
           "labeledImage": "",
           "sourceTitle": "Deep muscles of the left leg, posterior view",
           "sourceLabel": "Tibialis posterior"
@@ -9211,12 +9211,12 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Vastus intermedius",
       "sourceTitle": "Deep muscles of the left thigh, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/06-m3039-pal4-m3039-10-vastus-intermedius.jpg",
+      "reviewImage": "assets/questions/q-966700a73a8d.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/06-m3039-pal4.jpg",
       "sourceLabel": "Vastus intermedius",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/06-m3039-pal4-m3039-10-vastus-intermedius.jpg",
+          "image": "assets/questions/q-966700a73a8d.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/06-m3039-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, anterior view",
           "sourceLabel": "Vastus intermedius"
@@ -9243,24 +9243,24 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Vastus lateralis",
       "sourceTitle": "Superficial muscles of the left thigh, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/05-m3038-pal4-m3038-06-vastus-lateralis.jpg",
+      "reviewImage": "assets/questions/q-8a92955fdd97.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
       "sourceLabel": "Vastus lateralis",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/05-m3038-pal4-m3038-06-vastus-lateralis.jpg",
+          "image": "assets/questions/q-8a92955fdd97.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, anterior view",
           "sourceLabel": "Vastus lateralis"
         },
         {
-          "image": "assets/pal/structures/muscles/06-m3039-pal4-m3039-09-vastus-lateralis.jpg",
+          "image": "assets/questions/q-b9170cad2cd4.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/06-m3039-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, anterior view",
           "sourceLabel": "Vastus lateralis"
         },
         {
-          "image": "assets/pal/structures/muscles/08-m3041-pal4-m3041-04-vastus-lateralis.jpg",
+          "image": "assets/questions/q-d9c936a4522f.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/08-m3041-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, posterior view",
           "sourceLabel": "Vastus lateralis"
@@ -9299,18 +9299,18 @@ window.STUDY_DATA = {
       "category": "Muscle ID",
       "answer": "Vastus medialis",
       "sourceTitle": "Superficial muscles of the left thigh, anterior view",
-      "reviewImage": "assets/pal/structures/muscles/05-m3038-pal4-m3038-05-vastus-medialis.jpg",
+      "reviewImage": "assets/questions/q-a15a63ff29b2.jpg",
       "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
       "sourceLabel": "Vastus medialis",
       "reviewImages": [
         {
-          "image": "assets/pal/structures/muscles/05-m3038-pal4-m3038-05-vastus-medialis.jpg",
+          "image": "assets/questions/q-a15a63ff29b2.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/05-m3038-pal4.jpg",
           "sourceTitle": "Superficial muscles of the left thigh, anterior view",
           "sourceLabel": "Vastus medialis"
         },
         {
-          "image": "assets/pal/structures/muscles/06-m3039-pal4-m3039-07-vastus-medialis.jpg",
+          "image": "assets/questions/q-bdf17b909132.jpg",
           "labeledImage": "assets/pal/lower-limb-muscles/labeled/06-m3039-pal4.jpg",
           "sourceTitle": "Deep muscles of the left thigh, anterior view",
           "sourceLabel": "Vastus medialis"
@@ -9339,36 +9339,36 @@ window.STUDY_DATA = {
     }
   ],
   "muscleImageLookup": {
-    "Adductor longus": "assets/pal/structures/muscles/05-m3038-pal4-m3038-03-adductor-longus.jpg",
-    "Adductor magnus": "assets/pal/structures/muscles/06-m3039-pal4-m3039-06-adductor-magnus.jpg",
-    "Biceps femoris": "assets/pal/structures/muscles/07-m3040-pal4-m3040-01-biceps-femoris.jpg",
-    "Fibularis brevis": "assets/pal/structures/muscles/14-m3042-pal4-m3042-07-fibularis-brevis.jpg",
-    "Fibularis longus": "assets/pal/structures/muscles/14-m3042-pal4-m3042-08-fibularis-longus.jpg",
-    "Gastrocnemius": "assets/pal/structures/muscles/14-m3042-pal4-m3042-02-gastrocnemius.jpg",
-    "Gluteus maximus": "assets/pal/structures/muscles/07-m3040-pal4-m3040-03-gluteus-maximus.jpg",
-    "Gluteus medius": "assets/pal/structures/muscles/07-m3040-pal4-m3040-02-gluteus-medius.jpg",
-    "Gracilis": "assets/pal/structures/muscles/06-m3039-pal4-m3039-05-gracilis.jpg",
-    "Iliopsoas": "assets/pal/structures/muscles/05-m3038-pal4-m3038-01-iliopsoas.jpg",
-    "Iliotibial tract": "assets/pal/structures/muscles/05-m3038-pal4-m3038-07-iliotibial-tract.jpg",
-    "Lateral head of gastrocnemius": "assets/pal/structures/muscles/15-m3044-pal4-m3044-04-gastrocnemius.jpg",
-    "Piriformis": "assets/pal/structures/muscles/08-m3041-pal4-m3041-10-piriformis.jpg",
-    "Quadratus femoris": "assets/pal/structures/muscles/08-m3041-pal4-m3041-03-quadratus-femoris.jpg",
-    "Rectus femoris": "assets/pal/structures/muscles/05-m3038-pal4-m3038-08-rectus-femoris.jpg",
-    "Sartorius": "assets/pal/structures/muscles/05-m3038-pal4-m3038-04-sartorius.jpg",
-    "Semitendinosus": "assets/pal/structures/muscles/07-m3040-pal4-m3040-05-semitendinosus.jpg",
-    "Soleus": "assets/pal/structures/muscles/14-m3042-pal4-m3042-03-soleus.jpg",
-    "Tensor fasciae latae": "assets/pal/structures/muscles/05-m3038-pal4-m3038-09-tensor-fasciae-latae.jpg",
-    "Tibialis anterior": "assets/pal/structures/muscles/14-m3042-pal4-m3042-01-tibialis-anterior.jpg",
-    "Tibialis posterior": "assets/pal/structures/muscles/17-m3046-pal4-m3046-05-tibialis-posterior.jpg",
-    "Vastus intermedius": "assets/pal/structures/muscles/06-m3039-pal4-m3039-10-vastus-intermedius.jpg",
-    "Vastus lateralis": "assets/pal/structures/muscles/05-m3038-pal4-m3038-06-vastus-lateralis.jpg",
-    "Vastus medialis": "assets/pal/structures/muscles/05-m3038-pal4-m3038-05-vastus-medialis.jpg",
-    "Iliacus": "assets/pal/structures/muscles/05-m3038-m3038-02-iliacus.jpg",
-    "Medial head of gastrocnemius": "assets/pal/structures/muscles/10-m0014-m0014-01-gastrocnemius.jpg",
-    "Psoas major": "assets/pal/structures/muscles/05-m3038-m3038-01-psoas-major.jpg",
-    "Semimembranosus": "assets/pal/structures/muscles/03-m0012-m0012-09-semimembranosus.jpg",
-    "Long head of biceps femoris": "assets/pal/structures/muscles/07-m3040-pal4-m3040-01-biceps-femoris.jpg",
-    "Short head of biceps femoris": "assets/pal/structures/muscles/07-m3040-pal4-m3040-01-biceps-femoris.jpg"
+    "Adductor longus": "assets/questions/q-6a2f5e7cd342.jpg",
+    "Adductor magnus": "assets/questions/q-cee39f24063c.jpg",
+    "Biceps femoris": "assets/questions/q-6d5602688400.jpg",
+    "Fibularis brevis": "assets/questions/q-e018fb3e04cc.jpg",
+    "Fibularis longus": "assets/questions/q-3a000b75b096.jpg",
+    "Gastrocnemius": "assets/questions/q-4da9b8f6ca24.jpg",
+    "Gluteus maximus": "assets/questions/q-349d99a05f6d.jpg",
+    "Gluteus medius": "assets/questions/q-57dd6c207da2.jpg",
+    "Gracilis": "assets/questions/q-46d7f19ee89f.jpg",
+    "Iliopsoas": "assets/questions/q-bbada5bc5bbe.jpg",
+    "Iliotibial tract": "assets/questions/q-3985298dac57.jpg",
+    "Lateral head of gastrocnemius": "assets/questions/q-0e0f9b397875.jpg",
+    "Piriformis": "assets/questions/q-4cfaa2aa7442.jpg",
+    "Quadratus femoris": "assets/questions/q-79d271a246ca.jpg",
+    "Rectus femoris": "assets/questions/q-30eba563e396.jpg",
+    "Sartorius": "assets/questions/q-dc144d3b5053.jpg",
+    "Semitendinosus": "assets/questions/q-f74ed2be9e0a.jpg",
+    "Soleus": "assets/questions/q-00302cc9fb20.jpg",
+    "Tensor fasciae latae": "assets/questions/q-5a5f424a0059.jpg",
+    "Tibialis anterior": "assets/questions/q-1965ef834cc6.jpg",
+    "Tibialis posterior": "assets/questions/q-fc66d05701d6.jpg",
+    "Vastus intermedius": "assets/questions/q-966700a73a8d.jpg",
+    "Vastus lateralis": "assets/questions/q-8a92955fdd97.jpg",
+    "Vastus medialis": "assets/questions/q-a15a63ff29b2.jpg",
+    "Iliacus": "assets/questions/q-7a1d063fe819.jpg",
+    "Medial head of gastrocnemius": "assets/questions/q-27c99436a8b5.jpg",
+    "Psoas major": "assets/questions/q-30de77331375.jpg",
+    "Semimembranosus": "assets/questions/q-8ca2feb8ca19.jpg",
+    "Long head of biceps femoris": "assets/questions/q-6d5602688400.jpg",
+    "Short head of biceps femoris": "assets/questions/q-6d5602688400.jpg"
   },
   "muscleVisualLookup": {
     "Adductor longus": "muscle-muscle-05-m3038-pal4-m3038-03-adductor-longus",
@@ -9409,6 +9409,18 @@ window.STUDY_DATA.modelAssessmentProfile = {
   label: 'Single-leg model',
   summary: 'Muscle identification is based on the single-leg teaching model. Existing course model views are reference-only, and highlighted PAL images remain clearly labeled substitutes.'
 };
+const unsupportedBonePromptIds = new Set([
+  'bone-leader-pelvic-06-a2099c-a2099c-16-pubic-symphyseal-fossa'
+]);
+window.STUDY_DATA.boneLeaderCards = window.STUDY_DATA.boneLeaderCards
+  .filter((card) => !unsupportedBonePromptIds.has(card.id));
+window.STUDY_DATA.bones = window.STUDY_DATA.bones.map((bone) => {
+  if (bone.term !== 'Pubic symphysis') return bone;
+  const copy = { ...bone };
+  delete copy.image;
+  delete copy.visualId;
+  return copy;
+});
 window.STUDY_DATA.modelKey = window.STUDY_DATA.modelKey.map((row) => ({
   ...row,
   assessmentContext: 'single-leg-model',
