@@ -3805,8 +3805,11 @@ function bindProgressTools() {
     }
     event.target.value = '';
   });
+  const resetDialog = byId('resetConfirmDialog');
   byId('resetProgress')?.addEventListener('click', () => {
-    if (!confirm('Clear coverage, readiness history, typed answers, drill scores, and quiz progress for this browser?')) return;
+    resetDialog?.showModal();
+  });
+  byId('confirmResetProgress')?.addEventListener('click', () => {
     state.checked = {};
     state.drill = {};
     state.drillAnswers = {};
@@ -3819,6 +3822,7 @@ function bindProgressTools() {
     saveJson('ll_drill_answers', state.drillAnswers);
     saveJson('ll_oia_selections', state.oiaSelections);
     status.textContent = 'All saved work has been cleared.';
+    resetDialog?.close('confirmed');
     renderCurrentView();
   });
 }

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Axial practical preparation for BIO 2230: skull, thorax, vertebrae, muscles, OIAs, and practical-style drills.">
   <title>Axial Practical Prep | BIO 2230</title>
-  <link rel="stylesheet" href="styles.css?v=20260811a">
+  <link rel="stylesheet" href="styles.css?v=20260813a">
 </head>
 <body>
   <div class="app-shell">
@@ -54,7 +54,7 @@
         </details>
       </nav>
       <a class="sidebar-contact" href="mailto:tom.beckermann@belmont.edu">For questions and comments, contact Dr. Beckermann</a>
-      <button id="resetProgress" class="sidebar-reset" type="button" title="Clear saved checkmarks, typed answers, drill scores, and quiz progress for this browser">Reset saved work</button>
+      <button id="resetProgress" class="sidebar-reset" type="button" aria-label="Reset saved work" aria-haspopup="dialog" aria-controls="resetConfirmDialog" title="Review options for erasing saved progress"><span class="sidebar-reset-icon" aria-hidden="true">&#8634;</span><span>Reset saved work</span></button>
       <div class="sidebar-progress">
         <div class="metric-label">Completed</div>
         <div class="progress-track"><div id="overallProgress" class="progress-fill"></div></div>
@@ -488,11 +488,27 @@
     </main>
   </div>
 
+  <dialog id="resetConfirmDialog" class="reset-confirm-dialog" aria-labelledby="resetConfirmTitle">
+    <form method="dialog" class="reset-confirm-card">
+      <div class="reset-confirm-icon" aria-hidden="true">!</div>
+      <div class="reset-confirm-copy">
+        <p class="reset-confirm-eyebrow">Reset saved work</p>
+        <h2 id="resetConfirmTitle">Erase all Axial progress?</h2>
+        <p>Are you sure? This permanently erases all saved progress for Axial on this browser, including checkmarks, typed answers, drill scores, and quiz results.</p>
+        <p class="reset-confirm-warning">This cannot be undone.</p>
+      </div>
+      <div class="reset-confirm-actions">
+        <button class="secondary-button" type="submit" value="cancel" autofocus>Keep my progress</button>
+        <button id="confirmResetProgress" class="reset-danger-button" type="button">Erase all progress</button>
+      </div>
+    </form>
+  </dialog>
+
   <script src="data.js?v=20260730m"></script>
   <script src="visual-data.js?v=20260730m"></script>
   <script src="muscle-visual-data.js?v=20260730m"></script>
   <script src="../model-image-banks.js?v=20260812c"></script>
-  <script src="app.js?v=20260812c"></script>
+  <script src="app.js?v=20260813a"></script>
   <!-- Cloudflare Web Analytics -->
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "7b2e81331ffd44c4bfcd564ad7e3afef"}'></script>
   <!-- End Cloudflare Web Analytics -->
