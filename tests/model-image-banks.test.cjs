@@ -20,21 +20,21 @@ function loadSection(section) {
 const expected = {
   'lower-limb': {
     structures: 26,
-    structuresWithQuestionImages: 26,
-    questionImages: 48,
+    structuresWithQuestionImages: 24,
+    questionImages: 44,
     courseImages: 0,
     courseModelReferences: 52,
     contexts: { 'single-leg-model': 26, 'arm-model': 0, 'face-image': 0, 'torso-fallback': 0 },
-    missingQuestionImages: []
+    missingQuestionImages: ['Long head of biceps femoris', 'Short head of biceps femoris']
   },
   'upper-limb': {
     structures: 29,
-    structuresWithQuestionImages: 28,
-    questionImages: 62,
+    structuresWithQuestionImages: 26,
+    questionImages: 56,
     courseImages: 0,
     courseModelReferences: 0,
     contexts: { 'single-leg-model': 0, 'arm-model': 24, 'face-image': 0, 'torso-fallback': 5 },
-    missingQuestionImages: ['Pronator quadratus']
+    missingQuestionImages: ['Biceps brachii - long head', 'Biceps brachii - short head', 'Pronator quadratus']
   },
   axial: {
     structures: 17,
@@ -94,7 +94,9 @@ assert.ok(lower.modelKey.every((row) => row.assessmentContext === 'single-leg-mo
 assert.ok(lower.modelKey.every((row) => row.images.some((item) => item.sourceKind === 'course-model-reference')), 'lower-limb: every model ID should include an existing course single-leg reference');
 assert.ok(lower.modelKey.every((row) => row.images[0]?.sourceKind === 'course-model-reference'), 'lower-limb: the course single-leg view should be the visible reference thumbnail');
 for (const name of ['Long head of biceps femoris', 'Short head of biceps femoris']) {
-  assert.ok(lower.modelKey.find((row) => row.item === name).images.length, `lower-limb: alias bank for ${name}`);
+  const row = lower.modelKey.find((item) => item.item === name);
+  assert.ok(row.images.length, `lower-limb: reference bank for ${name}`);
+  assert.ok(row.images.every((item) => item.questionReady === false), `lower-limb: ${name} must remain reference-only without a head-specific target`);
 }
 
 const axial = loadSection('axial');

@@ -14,7 +14,7 @@
       "code": "A3317",
       "title": "Thoracic cage, anterior view",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/01-a3317.jpg",
-      "reviewImage": "assets/pal/pectoral-girdle/review/01-a3317.jpg"
+      "reviewImage": "assets/questions/q-8802e2c34adf.jpg"
     },
     {
       "id": "pectoral-girdle-A3316",
@@ -34,7 +34,7 @@
       "code": "A3318",
       "title": "Articulated right clavicle and scapula, superior view",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/03-a3318.jpg",
-      "reviewImage": "assets/pal/pectoral-girdle/review/03-a3318.jpg"
+      "reviewImage": "assets/questions/q-943afaf0b57d.jpg"
     },
     {
       "id": "pectoral-girdle-A2079",
@@ -44,7 +44,7 @@
       "code": "A2079",
       "title": "Clavicle, anterior view, right side",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/04-a2079.jpg",
-      "reviewImage": "assets/pal/pectoral-girdle/review/04-a2079.jpg"
+      "reviewImage": "assets/questions/q-84d223bc19e0.jpg"
     },
     {
       "id": "pectoral-girdle-A2080",
@@ -54,7 +54,7 @@
       "code": "A2080",
       "title": "Clavicle, superior view, right side",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/05-a2080.jpg",
-      "reviewImage": "assets/pal/pectoral-girdle/review/05-a2080.jpg"
+      "reviewImage": "assets/questions/q-f10e9a9e9965.jpg"
     },
     {
       "id": "pectoral-girdle-A2081",
@@ -64,7 +64,7 @@
       "code": "A2081",
       "title": "Clavicle, posterior view, right side",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/06-a2081.jpg",
-      "reviewImage": "assets/pal/pectoral-girdle/review/06-a2081.jpg"
+      "reviewImage": "assets/questions/q-63042bcb59f3.jpg"
     },
     {
       "id": "pectoral-girdle-A2082",
@@ -74,7 +74,7 @@
       "code": "A2082",
       "title": "Clavicle, inferior view, right side",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/07-a2082.jpg",
-      "reviewImage": "assets/pal/pectoral-girdle/review/07-a2082.jpg"
+      "reviewImage": "assets/questions/q-b64b11255a04.jpg"
     },
     {
       "id": "pectoral-girdle-A2075",
@@ -84,7 +84,7 @@
       "code": "A2075",
       "title": "Scapula, anterior view, right side",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
-      "reviewImage": "assets/pal/pectoral-girdle/review/08-a2075.jpg"
+      "reviewImage": "assets/questions/q-4d6c371d462b.jpg"
     },
     {
       "id": "pectoral-girdle-A2076",
@@ -94,7 +94,7 @@
       "code": "A2076",
       "title": "Scapula, lateral view, right side",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/09-a2076.jpg",
-      "reviewImage": "assets/pal/pectoral-girdle/review/09-a2076.jpg"
+      "reviewImage": "assets/questions/q-761e097db778.jpg"
     },
     {
       "id": "pectoral-girdle-A2077",
@@ -104,7 +104,7 @@
       "code": "A2077",
       "title": "Scapula, posterior view, right side",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
-      "reviewImage": "assets/pal/pectoral-girdle/review/10-a2077.jpg"
+      "reviewImage": "assets/questions/q-8026248d020f.jpg"
     },
     {
       "id": "pectoral-girdle-A2078",
@@ -114,7 +114,7 @@
       "code": "A2078",
       "title": "Scapula, medial view, right side",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/11-a2078.jpg",
-      "reviewImage": "assets/pal/pectoral-girdle/review/11-a2078.jpg"
+      "reviewImage": "assets/questions/q-cad82f821d25.jpg"
     },
     {
       "id": "upper-limb-A2083a",
@@ -124,7 +124,7 @@
       "code": "A2083a",
       "title": "Humerus, anterior view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/01-a2083a.jpg"
+      "reviewImage": "assets/questions/q-45ec00e9402d.jpg"
     },
     {
       "id": "upper-limb-A2083b",
@@ -134,7 +134,7 @@
       "code": "A2083b",
       "title": "Humerus, anterior view, right side, proximal end",
       "labeledImage": "assets/pal/upper-limb/labeled/02-a2083b.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/02-a2083b.jpg"
+      "reviewImage": "assets/questions/q-93e99c9febf5.jpg"
     },
     {
       "id": "upper-limb-A2083c",
@@ -144,7 +144,7 @@
       "code": "A2083c",
       "title": "Humerus, anterior view, right side, distal end",
       "labeledImage": "assets/pal/upper-limb/labeled/03-a2083c.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/03-a2083c.jpg"
+      "reviewImage": "assets/questions/q-1bbad41d6817.jpg"
     },
     {
       "id": "upper-limb-A2084",
@@ -154,7 +154,7 @@
       "code": "A2084",
       "title": "Humerus, lateral view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/04-a2084.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/04-a2084.jpg"
+      "reviewImage": "assets/questions/q-af659d73afa2.jpg"
     },
     {
       "id": "upper-limb-A2085a",
@@ -164,7 +164,7 @@
       "code": "A2085a",
       "title": "Humerus, posterior view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/05-a2085a.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/05-a2085a.jpg"
+      "reviewImage": "assets/questions/q-d73e321228cc.jpg"
     },
     {
       "id": "upper-limb-A2085b",
@@ -174,7 +174,7 @@
       "code": "A2085b",
       "title": "Humerus, posterior view, right side, proximal end",
       "labeledImage": "assets/pal/upper-limb/labeled/06-a2085b.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/06-a2085b.jpg"
+      "reviewImage": "assets/questions/q-5e3877850c28.jpg"
     },
     {
       "id": "upper-limb-A2085c",
@@ -184,7 +184,7 @@
       "code": "A2085c",
       "title": "Humerus, posterior view, right side, distal end",
       "labeledImage": "assets/pal/upper-limb/labeled/07-a2085c.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/07-a2085c.jpg"
+      "reviewImage": "assets/questions/q-b8007297df11.jpg"
     },
     {
       "id": "upper-limb-A2086",
@@ -194,7 +194,7 @@
       "code": "A2086",
       "title": "Humerus, medial view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/08-a2086.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/08-a2086.jpg"
+      "reviewImage": "assets/questions/q-49fec4fa9e75.jpg"
     },
     {
       "id": "upper-limb-A3319",
@@ -204,7 +204,7 @@
       "code": "A3319",
       "title": "Articulated humerus, ulna, and radius, anterior view",
       "labeledImage": "assets/pal/upper-limb/labeled/09-a3319.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/09-a3319.jpg"
+      "reviewImage": "assets/questions/q-2fe443c677a4.jpg"
     },
     {
       "id": "upper-limb-A3320",
@@ -214,7 +214,7 @@
       "code": "A3320",
       "title": "Articulated humerus, ulna, and radius, posterior view",
       "labeledImage": "assets/pal/upper-limb/labeled/10-a3320.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/10-a3320.jpg"
+      "reviewImage": "assets/questions/q-ac2cf3c3fec7.jpg"
     },
     {
       "id": "upper-limb-A3321a",
@@ -224,7 +224,7 @@
       "code": "A3321a",
       "title": "Ulna and radius, anterior view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/11-a3321a.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/11-a3321a.jpg"
+      "reviewImage": "assets/questions/q-cade95d570fe.jpg"
     },
     {
       "id": "upper-limb-A3322a",
@@ -234,7 +234,7 @@
       "code": "A3322a",
       "title": "Ulna and radius, posterior view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/12-a3322a.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/12-a3322a.jpg"
+      "reviewImage": "assets/questions/q-0df1d860e909.jpg"
     },
     {
       "id": "upper-limb-A2087",
@@ -244,7 +244,7 @@
       "code": "A2087",
       "title": "Ulna, anterior view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/13-a2087.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/13-a2087.jpg"
+      "reviewImage": "assets/questions/q-77f193f2db5d.jpg"
     },
     {
       "id": "upper-limb-A2088a",
@@ -254,7 +254,7 @@
       "code": "A2088a",
       "title": "Ulna, lateral view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/14-a2088a.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/14-a2088a.jpg"
+      "reviewImage": "assets/questions/q-7778576bdd5c.jpg"
     },
     {
       "id": "upper-limb-A2088b",
@@ -264,7 +264,7 @@
       "code": "A2088b",
       "title": "Ulna, lateral view, right side, proximal end",
       "labeledImage": "assets/pal/upper-limb/labeled/15-a2088b.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/15-a2088b.jpg"
+      "reviewImage": "assets/questions/q-42883e07e6a2.jpg"
     },
     {
       "id": "upper-limb-A2089a",
@@ -274,7 +274,7 @@
       "code": "A2089a",
       "title": "Ulna, posterior view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/16-a2089a.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/16-a2089a.jpg"
+      "reviewImage": "assets/questions/q-9ed12468f187.jpg"
     },
     {
       "id": "upper-limb-A2089b",
@@ -284,7 +284,7 @@
       "code": "A2089b",
       "title": "Ulna, posterior view, right side, distal end",
       "labeledImage": "assets/pal/upper-limb/labeled/17-a2089b.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/17-a2089b.jpg"
+      "reviewImage": "assets/questions/q-f56da4e997fd.jpg"
     },
     {
       "id": "upper-limb-A2090",
@@ -294,7 +294,7 @@
       "code": "A2090",
       "title": "Ulna, medial view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/18-a2090.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/18-a2090.jpg"
+      "reviewImage": "assets/questions/q-faea4a783c10.jpg"
     },
     {
       "id": "upper-limb-A2091a",
@@ -304,7 +304,7 @@
       "code": "A2091a",
       "title": "Radius, anterior view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/19-a2091a.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/19-a2091a.jpg"
+      "reviewImage": "assets/questions/q-8169f867c5d6.jpg"
     },
     {
       "id": "upper-limb-A2091b",
@@ -314,7 +314,7 @@
       "code": "A2091b",
       "title": "Radius, anterior view, right side, proximal end",
       "labeledImage": "assets/pal/upper-limb/labeled/20-a2091b.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/20-a2091b.jpg"
+      "reviewImage": "assets/questions/q-c91676693f95.jpg"
     },
     {
       "id": "upper-limb-A2092",
@@ -324,7 +324,7 @@
       "code": "A2092",
       "title": "Radius, lateral view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/21-a2092.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/21-a2092.jpg"
+      "reviewImage": "assets/questions/q-3f798ca15a36.jpg"
     },
     {
       "id": "upper-limb-A2093a",
@@ -334,7 +334,7 @@
       "code": "A2093a",
       "title": "Radius, posterior view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/22-a2093a.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/22-a2093a.jpg"
+      "reviewImage": "assets/questions/q-0dac10d665c5.jpg"
     },
     {
       "id": "upper-limb-A2093b",
@@ -344,7 +344,7 @@
       "code": "A2093b",
       "title": "Radius, posterior view, right side, distal end",
       "labeledImage": "assets/pal/upper-limb/labeled/23-a2093b.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/23-a2093b.jpg"
+      "reviewImage": "assets/questions/q-9b50f65160ad.jpg"
     },
     {
       "id": "upper-limb-A2094",
@@ -354,7 +354,7 @@
       "code": "A2094",
       "title": "Radius, medial view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/24-a2094.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/24-a2094.jpg"
+      "reviewImage": "assets/questions/q-4a60df12d360.jpg"
     },
     {
       "id": "upper-limb-A2095",
@@ -364,7 +364,7 @@
       "code": "A2095",
       "title": "Bones of the hand, overview, anterior view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/25-a2095.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/25-a2095.jpg"
+      "reviewImage": "assets/questions/q-34659af283ea.jpg"
     },
     {
       "id": "upper-limb-A3321b",
@@ -374,7 +374,7 @@
       "code": "A3321b",
       "title": "Bones of the hand, anterior view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/26-a3321b.jpg"
+      "reviewImage": "assets/questions/q-f4e9aa749c16.jpg"
     },
     {
       "id": "upper-limb-A3322b",
@@ -384,7 +384,7 @@
       "code": "A3322b",
       "title": "Bones of the hand, posterior view, right side",
       "labeledImage": "assets/pal/upper-limb/labeled/27-a3322b.jpg",
-      "reviewImage": "assets/pal/upper-limb/review/27-a3322b.jpg"
+      "reviewImage": "assets/questions/q-dc6b9814755c.jpg"
     }
   ],
   "leftRightImages": [
@@ -395,7 +395,7 @@
       "number": "04",
       "code": "A2079",
       "title": "Clavicle, anterior view, right side",
-      "reviewImage": "assets/pal/pectoral-girdle/review/04-a2079.jpg",
+      "reviewImage": "assets/questions/q-84d223bc19e0.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/04-a2079.jpg",
       "hideSideCues": true
@@ -407,7 +407,7 @@
       "number": "08",
       "code": "A2075",
       "title": "Scapula, anterior view, right side",
-      "reviewImage": "assets/pal/pectoral-girdle/review/08-a2075.jpg",
+      "reviewImage": "assets/questions/q-4d6c371d462b.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
       "hideSideCues": true
@@ -419,7 +419,7 @@
       "number": "01",
       "code": "A2083a",
       "title": "Humerus, anterior view, right side",
-      "reviewImage": "assets/pal/upper-limb/review/01-a2083a.jpg",
+      "reviewImage": "assets/questions/q-45ec00e9402d.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
       "hideSideCues": true
@@ -431,7 +431,7 @@
       "number": "13",
       "code": "A2087",
       "title": "Ulna, anterior view, right side",
-      "reviewImage": "assets/pal/upper-limb/review/13-a2087.jpg",
+      "reviewImage": "assets/questions/q-77f193f2db5d.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/upper-limb/labeled/13-a2087.jpg",
       "hideSideCues": true
@@ -443,7 +443,7 @@
       "number": "19",
       "code": "A2091a",
       "title": "Radius, anterior view, right side",
-      "reviewImage": "assets/pal/upper-limb/review/19-a2091a.jpg",
+      "reviewImage": "assets/questions/q-8169f867c5d6.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/upper-limb/labeled/19-a2091a.jpg",
       "hideSideCues": true
@@ -455,7 +455,7 @@
       "number": "25",
       "code": "A2095",
       "title": "Bones of the hand, overview, anterior view, right side",
-      "reviewImage": "assets/pal/upper-limb/review/25-a2095.jpg",
+      "reviewImage": "assets/questions/q-34659af283ea.jpg",
       "sourceSide": "Right",
       "labeledImage": "assets/pal/upper-limb/labeled/25-a2095.jpg",
       "hideSideCues": true
@@ -471,20 +471,20 @@
       "sourceTitle": "Scapula, anterior view, right side",
       "sourceLabel": "Superior border",
       "answer": "Superior border",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-05-superior-border.jpg",
+      "reviewImage": "assets/questions/q-cd94f37dfa6b.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
       "terms": [
         "Superior border"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-05-superior-border.jpg",
+          "image": "assets/questions/q-cd94f37dfa6b.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
           "sourceTitle": "Scapula, anterior view, right side",
           "sourceLabel": "Superior border"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-10-a2077-a2077-12-superior-border.jpg",
+          "image": "assets/questions/q-54333085ca43.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
           "sourceTitle": "Scapula, posterior view, right side",
           "sourceLabel": "Superior border"
@@ -520,26 +520,26 @@
       "sourceTitle": "Scapula, anterior view, right side",
       "sourceLabel": "Medial (vertebral) border",
       "answer": "Medial border",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-06-medial-vertebral-border.jpg",
+      "reviewImage": "assets/questions/q-b50ad3173098.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
       "terms": [
         "Medial border"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-06-medial-vertebral-border.jpg",
+          "image": "assets/questions/q-b50ad3173098.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
           "sourceTitle": "Scapula, anterior view, right side",
           "sourceLabel": "Medial (vertebral) border"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-10-a2077-a2077-10-medial-vertebral-border.jpg",
+          "image": "assets/questions/q-90395ba2ff0e.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
           "sourceTitle": "Scapula, posterior view, right side",
           "sourceLabel": "Medial (vertebral) border"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-11-a2078-a2078-06-medial-vertebral-border.jpg",
+          "image": "assets/questions/q-2d6e6d79971c.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/11-a2078.jpg",
           "sourceTitle": "Scapula, medial view, right side",
           "sourceLabel": "Medial (vertebral) border"
@@ -581,26 +581,26 @@
       "sourceTitle": "Scapula, anterior view, right side",
       "sourceLabel": "Lateral (axillary) border",
       "answer": "Lateral border",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-07-lateral-axillary-border.jpg",
+      "reviewImage": "assets/questions/q-a3935be056dc.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
       "terms": [
         "Lateral border"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-07-lateral-axillary-border.jpg",
+          "image": "assets/questions/q-a3935be056dc.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
           "sourceTitle": "Scapula, anterior view, right side",
           "sourceLabel": "Lateral (axillary) border"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-09-a2076-a2076-06-lateral-axillary-border.jpg",
+          "image": "assets/questions/q-3f50be2879ac.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/09-a2076.jpg",
           "sourceTitle": "Scapula, lateral view, right side",
           "sourceLabel": "Lateral (axillary) border"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-10-a2077-a2077-08-lateral-axillary-border.jpg",
+          "image": "assets/questions/q-b5994aecbf85.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
           "sourceTitle": "Scapula, posterior view, right side",
           "sourceLabel": "Lateral (axillary) border"
@@ -642,20 +642,20 @@
       "sourceTitle": "Scapula, anterior view, right side",
       "sourceLabel": "Superior angle",
       "answer": "Superior angle",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-02-superior-angle.jpg",
+      "reviewImage": "assets/questions/q-d952c3fd64b8.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
       "terms": [
         "Superior angle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-02-superior-angle.jpg",
+          "image": "assets/questions/q-d952c3fd64b8.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
           "sourceTitle": "Scapula, anterior view, right side",
           "sourceLabel": "Superior angle"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-10-a2077-a2077-11-superior-angle.jpg",
+          "image": "assets/questions/q-a761aa6cdc21.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
           "sourceTitle": "Scapula, posterior view, right side",
           "sourceLabel": "Superior angle"
@@ -691,26 +691,26 @@
       "sourceTitle": "Scapula, anterior view, right side",
       "sourceLabel": "Inferior angle",
       "answer": "Inferior angle",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-03-inferior-angle.jpg",
+      "reviewImage": "assets/questions/q-2f7aa42567f2.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
       "terms": [
         "Inferior angle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-03-inferior-angle.jpg",
+          "image": "assets/questions/q-2f7aa42567f2.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
           "sourceTitle": "Scapula, anterior view, right side",
           "sourceLabel": "Inferior angle"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-10-a2077-a2077-09-inferior-angle.jpg",
+          "image": "assets/questions/q-b7dab15e25e6.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
           "sourceTitle": "Scapula, posterior view, right side",
           "sourceLabel": "Inferior angle"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-11-a2078-a2078-07-inferior-angle.jpg",
+          "image": "assets/questions/q-6656c9cbb410.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/11-a2078.jpg",
           "sourceTitle": "Scapula, medial view, right side",
           "sourceLabel": "Inferior angle"
@@ -752,44 +752,44 @@
       "sourceTitle": "Thoracic cage, anterior view",
       "sourceLabel": "Acromion",
       "answer": "Acromion",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-01-a3317-a3317-04-acromion.jpg",
+      "reviewImage": "assets/questions/q-8d74f8788e0c.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/01-a3317.jpg",
       "terms": [
         "Acromion"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-01-a3317-a3317-04-acromion.jpg",
+          "image": "assets/questions/q-8d74f8788e0c.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/01-a3317.jpg",
           "sourceTitle": "Thoracic cage, anterior view",
           "sourceLabel": "Acromion"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-03-a3318-a3318-05-acromion.jpg",
+          "image": "assets/questions/q-fba08286df24.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/03-a3318.jpg",
           "sourceTitle": "Articulated right clavicle and scapula, superior view",
           "sourceLabel": "Acromion"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-10-acromion.jpg",
+          "image": "assets/questions/q-9499cc4aada1.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
           "sourceTitle": "Scapula, anterior view, right side",
           "sourceLabel": "Acromion"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-09-a2076-a2076-02-acromion.jpg",
+          "image": "assets/questions/q-124efbcff2a3.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/09-a2076.jpg",
           "sourceTitle": "Scapula, lateral view, right side",
           "sourceLabel": "Acromion"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-10-a2077-a2077-04-acromion.jpg",
+          "image": "assets/questions/q-e1bf0a982938.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
           "sourceTitle": "Scapula, posterior view, right side",
           "sourceLabel": "Acromion"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-11-a2078-a2078-03-acromion.jpg",
+          "image": "assets/questions/q-d615e851425c.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/11-a2078.jpg",
           "sourceTitle": "Scapula, medial view, right side",
           "sourceLabel": "Acromion"
@@ -849,44 +849,44 @@
       "sourceTitle": "Thoracic cage, anterior view",
       "sourceLabel": "Coracoid process",
       "answer": "Coracoid process",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-01-a3317-a3317-03-coracoid-process.jpg",
+      "reviewImage": "assets/questions/q-3d20abc72d3d.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/01-a3317.jpg",
       "terms": [
         "Coracoid process"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-01-a3317-a3317-03-coracoid-process.jpg",
+          "image": "assets/questions/q-3d20abc72d3d.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/01-a3317.jpg",
           "sourceTitle": "Thoracic cage, anterior view",
           "sourceLabel": "Coracoid process"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-03-a3318-a3318-09-coracoid-process.jpg",
+          "image": "assets/questions/q-ba1060c3da3f.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/03-a3318.jpg",
           "sourceTitle": "Articulated right clavicle and scapula, superior view",
           "sourceLabel": "Coracoid process"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-11-coracoid-process.jpg",
+          "image": "assets/questions/q-d4c080f8b692.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
           "sourceTitle": "Scapula, anterior view, right side",
           "sourceLabel": "Coracoid process"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-09-a2076-a2076-03-coracoid-process.jpg",
+          "image": "assets/questions/q-f4f97f6107d4.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/09-a2076.jpg",
           "sourceTitle": "Scapula, lateral view, right side",
           "sourceLabel": "Coracoid process"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-10-a2077-a2077-06-coracoid-process.jpg",
+          "image": "assets/questions/q-220cd18e897d.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
           "sourceTitle": "Scapula, posterior view, right side",
           "sourceLabel": "Coracoid process"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-11-a2078-a2078-02-coracoid-process.jpg",
+          "image": "assets/questions/q-6a6767565eda.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/11-a2078.jpg",
           "sourceTitle": "Scapula, medial view, right side",
           "sourceLabel": "Coracoid process"
@@ -946,26 +946,26 @@
       "sourceTitle": "Articulated right clavicle and scapula, superior view",
       "sourceLabel": "Supraspinous fossa",
       "answer": "Supraspinous fossa",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-03-a3318-a3318-07-supraspinous-fossa.jpg",
+      "reviewImage": "assets/questions/q-b759203451e2.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/03-a3318.jpg",
       "terms": [
         "Supraspinous fossa"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-03-a3318-a3318-07-supraspinous-fossa.jpg",
+          "image": "assets/questions/q-b759203451e2.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/03-a3318.jpg",
           "sourceTitle": "Articulated right clavicle and scapula, superior view",
           "sourceLabel": "Supraspinous fossa"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-10-a2077-a2077-02-supraspinous-fossa.jpg",
+          "image": "assets/questions/q-29c662d6c22c.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
           "sourceTitle": "Scapula, posterior view, right side",
           "sourceLabel": "Supraspinous fossa"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-11-a2078-a2078-01-supraspinous-fossa.jpg",
+          "image": "assets/questions/q-f5942c024d46.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/11-a2078.jpg",
           "sourceTitle": "Scapula, medial view, right side",
           "sourceLabel": "Supraspinous fossa"
@@ -1007,14 +1007,14 @@
       "sourceTitle": "Scapula, posterior view, right side",
       "sourceLabel": "Infraspinous fossa",
       "answer": "Infraspinous fossa",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-10-a2077-a2077-01-infraspinous-fossa.jpg",
+      "reviewImage": "assets/questions/q-a8e70b897097.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
       "terms": [
         "Infraspinous fossa"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-10-a2077-a2077-01-infraspinous-fossa.jpg",
+          "image": "assets/questions/q-a8e70b897097.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
           "sourceTitle": "Scapula, posterior view, right side",
           "sourceLabel": "Infraspinous fossa"
@@ -1044,14 +1044,14 @@
       "sourceTitle": "Scapula, anterior view, right side",
       "sourceLabel": "Suprascapular notch",
       "answer": "Suprascapular notch",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-12-suprascapular-notch.jpg",
+      "reviewImage": "assets/questions/q-60756a199f0a.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
       "terms": [
         "Suprascapular notch"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-12-suprascapular-notch.jpg",
+          "image": "assets/questions/q-60756a199f0a.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
           "sourceTitle": "Scapula, anterior view, right side",
           "sourceLabel": "Suprascapular notch"
@@ -1081,26 +1081,26 @@
       "sourceTitle": "Articulated right clavicle and scapula, superior view",
       "sourceLabel": "Subscapular fossa",
       "answer": "Subscapular fossa",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-03-a3318-a3318-08-subscapular-fossa.jpg",
+      "reviewImage": "assets/questions/q-b757664745f2.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/03-a3318.jpg",
       "terms": [
         "Subscapular fossa"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-03-a3318-a3318-08-subscapular-fossa.jpg",
+          "image": "assets/questions/q-b757664745f2.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/03-a3318.jpg",
           "sourceTitle": "Articulated right clavicle and scapula, superior view",
           "sourceLabel": "Subscapular fossa"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-01-subscapular-fossa.jpg",
+          "image": "assets/questions/q-cd0df5bf1001.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
           "sourceTitle": "Scapula, anterior view, right side",
           "sourceLabel": "Subscapular fossa"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-11-a2078-a2078-05-subscapular-fossa.jpg",
+          "image": "assets/questions/q-3d3f906020e8.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/11-a2078.jpg",
           "sourceTitle": "Scapula, medial view, right side",
           "sourceLabel": "Subscapular fossa"
@@ -1142,26 +1142,26 @@
       "sourceTitle": "Scapula, anterior view, right side",
       "sourceLabel": "Infraglenoid tubercle",
       "answer": "Infraglenoid tubercle",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-08-infraglenoid-tubercle.jpg",
+      "reviewImage": "assets/questions/q-bcd5948d530d.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
       "terms": [
         "Infraglenoid tubercle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-08-infraglenoid-tubercle.jpg",
+          "image": "assets/questions/q-bcd5948d530d.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
           "sourceTitle": "Scapula, anterior view, right side",
           "sourceLabel": "Infraglenoid tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-09-a2076-a2076-04-infraglenoid-tubercle.jpg",
+          "image": "assets/questions/q-090474962e0c.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/09-a2076.jpg",
           "sourceTitle": "Scapula, lateral view, right side",
           "sourceLabel": "Infraglenoid tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-10-a2077-a2077-05-infraglenoid-tubercle.jpg",
+          "image": "assets/questions/q-36ce489174c8.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
           "sourceTitle": "Scapula, posterior view, right side",
           "sourceLabel": "Infraglenoid tubercle"
@@ -1203,32 +1203,32 @@
       "sourceTitle": "Articulated right clavicle and scapula, superior view",
       "sourceLabel": "Spine",
       "answer": "Scapular spine",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-03-a3318-a3318-06-spine.jpg",
+      "reviewImage": "assets/questions/q-bad48e95da62.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/03-a3318.jpg",
       "terms": [
         "Scapular spine"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-03-a3318-a3318-06-spine.jpg",
+          "image": "assets/questions/q-bad48e95da62.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/03-a3318.jpg",
           "sourceTitle": "Articulated right clavicle and scapula, superior view",
           "sourceLabel": "Spine"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-09-a2076-a2076-05-spine.jpg",
+          "image": "assets/questions/q-891eec9580c7.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/09-a2076.jpg",
           "sourceTitle": "Scapula, lateral view, right side",
           "sourceLabel": "Spine"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-10-a2077-a2077-03-spine.jpg",
+          "image": "assets/questions/q-44a519cbe8f5.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
           "sourceTitle": "Scapula, posterior view, right side",
           "sourceLabel": "Spine"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-11-a2078-a2078-04-spine.jpg",
+          "image": "assets/questions/q-be53633d9bbf.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/11-a2078.jpg",
           "sourceTitle": "Scapula, medial view, right side",
           "sourceLabel": "Spine"
@@ -1276,26 +1276,26 @@
       "sourceTitle": "Scapula, anterior view, right side",
       "sourceLabel": "Glenoid fossa (cavity)",
       "answer": "Glenoid cavity",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-04-glenoid-fossa-cavity.jpg",
+      "reviewImage": "assets/questions/q-44507fe256ab.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
       "terms": [
         "Glenoid cavity"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-08-a2075-a2075-04-glenoid-fossa-cavity.jpg",
+          "image": "assets/questions/q-44507fe256ab.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
           "sourceTitle": "Scapula, anterior view, right side",
           "sourceLabel": "Glenoid fossa (cavity)"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-09-a2076-a2076-01-glenoid-fossa-cavity.jpg",
+          "image": "assets/questions/q-2e5530ab4f55.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/09-a2076.jpg",
           "sourceTitle": "Scapula, lateral view, right side",
           "sourceLabel": "Glenoid fossa (cavity)"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-10-a2077-a2077-07-glenoid-fossa-cavity.jpg",
+          "image": "assets/questions/q-583f724fe5e1.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
           "sourceTitle": "Scapula, posterior view, right side",
           "sourceLabel": "Glenoid fossa (cavity)"
@@ -1337,38 +1337,38 @@
       "sourceTitle": "Articulated right clavicle and scapula, superior view",
       "sourceLabel": "Acromial end",
       "answer": "Acromial (lateral) end",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-03-a3318-a3318-02-acromial-end.jpg",
+      "reviewImage": "assets/questions/q-ad7d63be5a29.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/03-a3318.jpg",
       "terms": [
         "Acromial (lateral) end"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-03-a3318-a3318-02-acromial-end.jpg",
+          "image": "assets/questions/q-ad7d63be5a29.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/03-a3318.jpg",
           "sourceTitle": "Articulated right clavicle and scapula, superior view",
           "sourceLabel": "Acromial end"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-04-a2079-a2079-02-acromial-end.jpg",
+          "image": "assets/questions/q-b9dd81e8980c.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/04-a2079.jpg",
           "sourceTitle": "Clavicle, anterior view, right side",
           "sourceLabel": "Acromial end"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-05-a2080-a2080-02-acromial-end.jpg",
+          "image": "assets/questions/q-13b3a152d91d.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/05-a2080.jpg",
           "sourceTitle": "Clavicle, superior view, right side",
           "sourceLabel": "Acromial end"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-06-a2081-a2081-02-acromial-end.jpg",
+          "image": "assets/questions/q-9cbff86d188e.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/06-a2081.jpg",
           "sourceTitle": "Clavicle, posterior view, right side",
           "sourceLabel": "Acromial end"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-07-a2082-a2082-02-acromial-end.jpg",
+          "image": "assets/questions/q-208074fcaf81.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/07-a2082.jpg",
           "sourceTitle": "Clavicle, inferior view, right side",
           "sourceLabel": "Acromial end"
@@ -1422,38 +1422,38 @@
       "sourceTitle": "Articulated right clavicle and scapula, superior view",
       "sourceLabel": "Sternal end",
       "answer": "Sternal (medial) end",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-03-a3318-a3318-01-sternal-end.jpg",
+      "reviewImage": "assets/questions/q-1c022c920563.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/03-a3318.jpg",
       "terms": [
         "Sternal (medial) end"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-03-a3318-a3318-01-sternal-end.jpg",
+          "image": "assets/questions/q-1c022c920563.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/03-a3318.jpg",
           "sourceTitle": "Articulated right clavicle and scapula, superior view",
           "sourceLabel": "Sternal end"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-04-a2079-a2079-01-sternal-end.jpg",
+          "image": "assets/questions/q-ce953e5d79b2.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/04-a2079.jpg",
           "sourceTitle": "Clavicle, anterior view, right side",
           "sourceLabel": "Sternal end"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-05-a2080-a2080-01-sternal-end.jpg",
+          "image": "assets/questions/q-30643f8a41bf.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/05-a2080.jpg",
           "sourceTitle": "Clavicle, superior view, right side",
           "sourceLabel": "Sternal end"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-06-a2081-a2081-01-sternal-end.jpg",
+          "image": "assets/questions/q-d7fca128a685.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/06-a2081.jpg",
           "sourceTitle": "Clavicle, posterior view, right side",
           "sourceLabel": "Sternal end"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-07-a2082-a2082-01-sternal-end.jpg",
+          "image": "assets/questions/q-4a6c8da627ad.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/07-a2082.jpg",
           "sourceTitle": "Clavicle, inferior view, right side",
           "sourceLabel": "Sternal end"
@@ -1507,32 +1507,32 @@
       "sourceTitle": "Clavicle, anterior view, right side",
       "sourceLabel": "Conoid tubercle",
       "answer": "Conoid tubercle",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-04-a2079-a2079-03-conoid-tubercle.jpg",
+      "reviewImage": "assets/questions/q-46bd8a112536.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/04-a2079.jpg",
       "terms": [
         "Conoid tubercle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-04-a2079-a2079-03-conoid-tubercle.jpg",
+          "image": "assets/questions/q-46bd8a112536.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/04-a2079.jpg",
           "sourceTitle": "Clavicle, anterior view, right side",
           "sourceLabel": "Conoid tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-05-a2080-a2080-03-conoid-tubercle.jpg",
+          "image": "assets/questions/q-0b0947892d74.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/05-a2080.jpg",
           "sourceTitle": "Clavicle, superior view, right side",
           "sourceLabel": "Conoid tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-06-a2081-a2081-03-conoid-tubercle.jpg",
+          "image": "assets/questions/q-8f0e6a77028d.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/06-a2081.jpg",
           "sourceTitle": "Clavicle, posterior view, right side",
           "sourceLabel": "Conoid tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-07-a2082-a2082-03-conoid-tubercle.jpg",
+          "image": "assets/questions/q-1ed1bb04fb60.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/07-a2082.jpg",
           "sourceTitle": "Clavicle, inferior view, right side",
           "sourceLabel": "Conoid tubercle"
@@ -1580,14 +1580,14 @@
       "sourceTitle": "Clavicle, inferior view, right side",
       "sourceLabel": "Costal tuberosity",
       "answer": "Costal tuberosity",
-      "reviewImage": "assets/pal/structures/bones/pectoral-girdle-07-a2082-a2082-04-costal-tuberosity.jpg",
+      "reviewImage": "assets/questions/q-a4ffe84cf9e9.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/07-a2082.jpg",
       "terms": [
         "Costal tuberosity"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/pectoral-girdle-07-a2082-a2082-04-costal-tuberosity.jpg",
+          "image": "assets/questions/q-a4ffe84cf9e9.jpg",
           "labeledImage": "assets/pal/pectoral-girdle/labeled/07-a2082.jpg",
           "sourceTitle": "Clavicle, inferior view, right side",
           "sourceLabel": "Costal tuberosity"
@@ -1617,44 +1617,44 @@
       "sourceTitle": "Humerus, anterior view, right side",
       "sourceLabel": "Head",
       "answer": "Head of humerus",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-04-head.jpg",
+      "reviewImage": "assets/questions/q-b60c4a1d322c.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
       "terms": [
         "Head of humerus"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-04-head.jpg",
+          "image": "assets/questions/q-b60c4a1d322c.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
           "sourceTitle": "Humerus, anterior view, right side",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-02-a2083b-a2083b-01-head.jpg",
+          "image": "assets/questions/q-c827881ef01b.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/02-a2083b.jpg",
           "sourceTitle": "Humerus, anterior view, right side, proximal end",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-04-a2084-a2084-01-head.jpg",
+          "image": "assets/questions/q-2b1bef97f088.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/04-a2084.jpg",
           "sourceTitle": "Humerus, lateral view, right side",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-05-a2085a-a2085a-01-head.jpg",
+          "image": "assets/questions/q-b553e6b25b74.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/05-a2085a.jpg",
           "sourceTitle": "Humerus, posterior view, right side",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-06-a2085b-a2085b-01-head.jpg",
+          "image": "assets/questions/q-b005f0c52559.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/06-a2085b.jpg",
           "sourceTitle": "Humerus, posterior view, right side, proximal end",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-08-a2086-a2086-01-head.jpg",
+          "image": "assets/questions/q-f6fa8afa2f37.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/08-a2086.jpg",
           "sourceTitle": "Humerus, medial view, right side",
           "sourceLabel": "Head"
@@ -1714,38 +1714,38 @@
       "sourceTitle": "Humerus, anterior view, right side",
       "sourceLabel": "Greater tubercle",
       "answer": "Greater tubercle",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-01-greater-tubercle.jpg",
+      "reviewImage": "assets/questions/q-ecf6e72b560a.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
       "terms": [
         "Greater tubercle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-01-greater-tubercle.jpg",
+          "image": "assets/questions/q-ecf6e72b560a.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
           "sourceTitle": "Humerus, anterior view, right side",
           "sourceLabel": "Greater tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-02-a2083b-a2083b-04-greater-tubercle.jpg",
+          "image": "assets/questions/q-b2653e66961e.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/02-a2083b.jpg",
           "sourceTitle": "Humerus, anterior view, right side, proximal end",
           "sourceLabel": "Greater tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-04-a2084-a2084-04-greater-tubercle.jpg",
+          "image": "assets/questions/q-c116bf60d8ad.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/04-a2084.jpg",
           "sourceTitle": "Humerus, lateral view, right side",
           "sourceLabel": "Greater tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-05-a2085a-a2085a-04-greater-tubercle.jpg",
+          "image": "assets/questions/q-238edb7c6d29.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/05-a2085a.jpg",
           "sourceTitle": "Humerus, posterior view, right side",
           "sourceLabel": "Greater tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-06-a2085b-a2085b-04-greater-tubercle.jpg",
+          "image": "assets/questions/q-56f34468e9c2.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/06-a2085b.jpg",
           "sourceTitle": "Humerus, posterior view, right side, proximal end",
           "sourceLabel": "Greater tubercle"
@@ -1799,32 +1799,32 @@
       "sourceTitle": "Humerus, anterior view, right side",
       "sourceLabel": "Lesser tubercle",
       "answer": "Lesser tubercle",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-02-lesser-tubercle.jpg",
+      "reviewImage": "assets/questions/q-9d7c424363b5.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
       "terms": [
         "Lesser tubercle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-02-lesser-tubercle.jpg",
+          "image": "assets/questions/q-9d7c424363b5.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
           "sourceTitle": "Humerus, anterior view, right side",
           "sourceLabel": "Lesser tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-02-a2083b-a2083b-05-lesser-tubercle.jpg",
+          "image": "assets/questions/q-4558f01eb613.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/02-a2083b.jpg",
           "sourceTitle": "Humerus, anterior view, right side, proximal end",
           "sourceLabel": "Lesser tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-04-a2084-a2084-05-lesser-tubercle.jpg",
+          "image": "assets/questions/q-9c3ea643b39d.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/04-a2084.jpg",
           "sourceTitle": "Humerus, lateral view, right side",
           "sourceLabel": "Lesser tubercle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-08-a2086-a2086-04-lesser-tubercle.jpg",
+          "image": "assets/questions/q-c0436b1f7d29.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/08-a2086.jpg",
           "sourceTitle": "Humerus, medial view, right side",
           "sourceLabel": "Lesser tubercle"
@@ -1872,26 +1872,26 @@
       "sourceTitle": "Humerus, anterior view, right side",
       "sourceLabel": "Intertubercular sulcus (groove)",
       "answer": "Intertubercular sulcus",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-05-intertubercular-sulcus-groove.jpg",
+      "reviewImage": "assets/questions/q-0837d517b25e.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
       "terms": [
         "Intertubercular sulcus"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-05-intertubercular-sulcus-groove.jpg",
+          "image": "assets/questions/q-0837d517b25e.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
           "sourceTitle": "Humerus, anterior view, right side",
           "sourceLabel": "Intertubercular sulcus (groove)"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-02-a2083b-a2083b-06-intertubercular-sulcus-groove.jpg",
+          "image": "assets/questions/q-14028f51eebc.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/02-a2083b.jpg",
           "sourceTitle": "Humerus, anterior view, right side, proximal end",
           "sourceLabel": "Intertubercular sulcus (groove)"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-04-a2084-a2084-06-intertubercular-sulcus-groove.jpg",
+          "image": "assets/questions/q-56b79d649346.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/04-a2084.jpg",
           "sourceTitle": "Humerus, lateral view, right side",
           "sourceLabel": "Intertubercular sulcus (groove)"
@@ -1933,44 +1933,44 @@
       "sourceTitle": "Humerus, anterior view, right side",
       "sourceLabel": "Anatomical neck",
       "answer": "Anatomical neck",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-03-anatomical-neck.jpg",
+      "reviewImage": "assets/questions/q-f8b217aa1277.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
       "terms": [
         "Anatomical neck"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-03-anatomical-neck.jpg",
+          "image": "assets/questions/q-f8b217aa1277.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
           "sourceTitle": "Humerus, anterior view, right side",
           "sourceLabel": "Anatomical neck"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-02-a2083b-a2083b-02-anatomical-neck.jpg",
+          "image": "assets/questions/q-b4fa69a681c6.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/02-a2083b.jpg",
           "sourceTitle": "Humerus, anterior view, right side, proximal end",
           "sourceLabel": "Anatomical neck"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-04-a2084-a2084-02-anatomical-neck.jpg",
+          "image": "assets/questions/q-69b0ef5127dd.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/04-a2084.jpg",
           "sourceTitle": "Humerus, lateral view, right side",
           "sourceLabel": "Anatomical neck"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-05-a2085a-a2085a-02-anatomical-neck.jpg",
+          "image": "assets/questions/q-abbb8d0ae6e1.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/05-a2085a.jpg",
           "sourceTitle": "Humerus, posterior view, right side",
           "sourceLabel": "Anatomical neck"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-06-a2085b-a2085b-02-anatomical-neck.jpg",
+          "image": "assets/questions/q-8871f7ef522b.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/06-a2085b.jpg",
           "sourceTitle": "Humerus, posterior view, right side, proximal end",
           "sourceLabel": "Anatomical neck"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-08-a2086-a2086-02-anatomical-neck.jpg",
+          "image": "assets/questions/q-3d354bc7ea9b.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/08-a2086.jpg",
           "sourceTitle": "Humerus, medial view, right side",
           "sourceLabel": "Anatomical neck"
@@ -2030,44 +2030,44 @@
       "sourceTitle": "Humerus, anterior view, right side",
       "sourceLabel": "Surgical neck",
       "answer": "Surgical neck",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-06-surgical-neck.jpg",
+      "reviewImage": "assets/questions/q-8c09336bcd7b.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
       "terms": [
         "Surgical neck"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-06-surgical-neck.jpg",
+          "image": "assets/questions/q-8c09336bcd7b.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
           "sourceTitle": "Humerus, anterior view, right side",
           "sourceLabel": "Surgical neck"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-02-a2083b-a2083b-03-surgical-neck.jpg",
+          "image": "assets/questions/q-979303af23b0.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/02-a2083b.jpg",
           "sourceTitle": "Humerus, anterior view, right side, proximal end",
           "sourceLabel": "Surgical neck"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-04-a2084-a2084-03-surgical-neck.jpg",
+          "image": "assets/questions/q-327036dbcc38.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/04-a2084.jpg",
           "sourceTitle": "Humerus, lateral view, right side",
           "sourceLabel": "Surgical neck"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-05-a2085a-a2085a-03-surgical-neck.jpg",
+          "image": "assets/questions/q-127d1cbc30d6.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/05-a2085a.jpg",
           "sourceTitle": "Humerus, posterior view, right side",
           "sourceLabel": "Surgical neck"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-06-a2085b-a2085b-03-surgical-neck.jpg",
+          "image": "assets/questions/q-dea1730d67ec.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/06-a2085b.jpg",
           "sourceTitle": "Humerus, posterior view, right side, proximal end",
           "sourceLabel": "Surgical neck"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-08-a2086-a2086-03-surgical-neck.jpg",
+          "image": "assets/questions/q-9cbfb7f423e2.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/08-a2086.jpg",
           "sourceTitle": "Humerus, medial view, right side",
           "sourceLabel": "Surgical neck"
@@ -2127,26 +2127,26 @@
       "sourceTitle": "Humerus, anterior view, right side",
       "sourceLabel": "Deltoid tuberosity",
       "answer": "Deltoid tuberosity",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-07-deltoid-tuberosity.jpg",
+      "reviewImage": "assets/questions/q-6376e31bca80.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
       "terms": [
         "Deltoid tuberosity"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-07-deltoid-tuberosity.jpg",
+          "image": "assets/questions/q-6376e31bca80.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
           "sourceTitle": "Humerus, anterior view, right side",
           "sourceLabel": "Deltoid tuberosity"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-04-a2084-a2084-07-deltoid-tuberosity.jpg",
+          "image": "assets/questions/q-57cd361804e2.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/04-a2084.jpg",
           "sourceTitle": "Humerus, lateral view, right side",
           "sourceLabel": "Deltoid tuberosity"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-05-a2085a-a2085a-07-deltoid-tuberosity.jpg",
+          "image": "assets/questions/q-1c77e7e70996.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/05-a2085a.jpg",
           "sourceTitle": "Humerus, posterior view, right side",
           "sourceLabel": "Deltoid tuberosity"
@@ -2188,32 +2188,32 @@
       "sourceTitle": "Humerus, anterior view, right side",
       "sourceLabel": "Coronoid fossa",
       "answer": "Coronoid fossa",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-13-coronoid-fossa.jpg",
+      "reviewImage": "assets/questions/q-7e569e8fea1f.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
       "terms": [
         "Coronoid fossa"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-13-coronoid-fossa.jpg",
+          "image": "assets/questions/q-7e569e8fea1f.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
           "sourceTitle": "Humerus, anterior view, right side",
           "sourceLabel": "Coronoid fossa"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-03-a2083c-a2083c-13-coronoid-fossa.jpg",
+          "image": "assets/questions/q-de97a9d7ed95.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/03-a2083c.jpg",
           "sourceTitle": "Humerus, anterior view, right side, distal end",
           "sourceLabel": "Coronoid fossa"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-08-a2086-a2086-17-coronoid-fossa.jpg",
+          "image": "assets/questions/q-4e7977f129b6.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/08-a2086.jpg",
           "sourceTitle": "Humerus, medial view, right side",
           "sourceLabel": "Coronoid fossa"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-09-a3319-a3319-07-coronoid-fossa.jpg",
+          "image": "assets/questions/q-d803fe0c1f82.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/09-a3319.jpg",
           "sourceTitle": "Articulated humerus, ulna, and radius, anterior view",
           "sourceLabel": "Coronoid fossa"
@@ -2261,20 +2261,20 @@
       "sourceTitle": "Humerus, posterior view, right side",
       "sourceLabel": "Olecranon fossa",
       "answer": "Olecranon fossa",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-05-a2085a-a2085a-17-olecranon-fossa.jpg",
+      "reviewImage": "assets/questions/q-c09bd54d6c1f.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/05-a2085a.jpg",
       "terms": [
         "Olecranon fossa"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-05-a2085a-a2085a-17-olecranon-fossa.jpg",
+          "image": "assets/questions/q-c09bd54d6c1f.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/05-a2085a.jpg",
           "sourceTitle": "Humerus, posterior view, right side",
           "sourceLabel": "Olecranon fossa"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-07-a2085c-a2085c-17-olecranon-fossa.jpg",
+          "image": "assets/questions/q-ac0fa8c9a3cf.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/07-a2085c.jpg",
           "sourceTitle": "Humerus, posterior view, right side, distal end",
           "sourceLabel": "Olecranon fossa"
@@ -2310,50 +2310,50 @@
       "sourceTitle": "Humerus, anterior view, right side",
       "sourceLabel": "Medial epicondyle",
       "answer": "Medial epicondyle",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-15-medial-epicondyle.jpg",
+      "reviewImage": "assets/questions/q-3433ecd6cf4f.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
       "terms": [
         "Medial epicondyle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-15-medial-epicondyle.jpg",
+          "image": "assets/questions/q-3433ecd6cf4f.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
           "sourceTitle": "Humerus, anterior view, right side",
           "sourceLabel": "Medial epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-03-a2083c-a2083c-15-medial-epicondyle.jpg",
+          "image": "assets/questions/q-ac31d3b5112c.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/03-a2083c.jpg",
           "sourceTitle": "Humerus, anterior view, right side, distal end",
           "sourceLabel": "Medial epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-05-a2085a-a2085a-15-medial-epicondyle.jpg",
+          "image": "assets/questions/q-4540201b4899.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/05-a2085a.jpg",
           "sourceTitle": "Humerus, posterior view, right side",
           "sourceLabel": "Medial epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-07-a2085c-a2085c-15-medial-epicondyle.jpg",
+          "image": "assets/questions/q-d136c47837dc.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/07-a2085c.jpg",
           "sourceTitle": "Humerus, posterior view, right side, distal end",
           "sourceLabel": "Medial epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-08-a2086-a2086-12-medial-epicondyle.jpg",
+          "image": "assets/questions/q-d597fa6a4c50.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/08-a2086.jpg",
           "sourceTitle": "Humerus, medial view, right side",
           "sourceLabel": "Medial epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-09-a3319-a3319-02-medial-epicondyle-of-humerus.jpg",
+          "image": "assets/questions/q-2b5c773339bc.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/09-a3319.jpg",
           "sourceTitle": "Articulated humerus, ulna, and radius, anterior view",
           "sourceLabel": "Medial epicondyle of humerus"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-10-a3320-a3320-02-medial-epicondyle-of-humerus.jpg",
+          "image": "assets/questions/q-c0ce72361541.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/10-a3320.jpg",
           "sourceTitle": "Articulated humerus, ulna, and radius, posterior view",
           "sourceLabel": "Medial epicondyle of humerus"
@@ -2420,44 +2420,44 @@
       "sourceTitle": "Humerus, anterior view, right side",
       "sourceLabel": "Lateral epicondyle",
       "answer": "Lateral epicondyle",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-11-lateral-epicondyle.jpg",
+      "reviewImage": "assets/questions/q-f936473ade5b.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
       "terms": [
         "Lateral epicondyle"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-11-lateral-epicondyle.jpg",
+          "image": "assets/questions/q-f936473ade5b.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
           "sourceTitle": "Humerus, anterior view, right side",
           "sourceLabel": "Lateral epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-03-a2083c-a2083c-11-lateral-epicondyle.jpg",
+          "image": "assets/questions/q-f16c934b7970.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/03-a2083c.jpg",
           "sourceTitle": "Humerus, anterior view, right side, distal end",
           "sourceLabel": "Lateral epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-04-a2084-a2084-12-lateral-epicondyle.jpg",
+          "image": "assets/questions/q-aa76f09e1cf4.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/04-a2084.jpg",
           "sourceTitle": "Humerus, lateral view, right side",
           "sourceLabel": "Lateral epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-05-a2085a-a2085a-11-lateral-epicondyle.jpg",
+          "image": "assets/questions/q-4bec4219578e.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/05-a2085a.jpg",
           "sourceTitle": "Humerus, posterior view, right side",
           "sourceLabel": "Lateral epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-07-a2085c-a2085c-11-lateral-epicondyle.jpg",
+          "image": "assets/questions/q-2e0a795cbec3.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/07-a2085c.jpg",
           "sourceTitle": "Humerus, posterior view, right side, distal end",
           "sourceLabel": "Lateral epicondyle"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-10-a3320-a3320-04-lateral-epicondyle-of-humerus.jpg",
+          "image": "assets/questions/q-eb616de7ab77.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/10-a3320.jpg",
           "sourceTitle": "Articulated humerus, ulna, and radius, posterior view",
           "sourceLabel": "Lateral epicondyle of humerus"
@@ -2518,38 +2518,38 @@
       "sourceTitle": "Humerus, anterior view, right side",
       "sourceLabel": "Capitulum",
       "answer": "Capitulum",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-12-capitulum.jpg",
+      "reviewImage": "assets/questions/q-984ea2cff7d4.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
       "terms": [
         "Capitulum"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-12-capitulum.jpg",
+          "image": "assets/questions/q-984ea2cff7d4.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
           "sourceTitle": "Humerus, anterior view, right side",
           "sourceLabel": "Capitulum"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-03-a2083c-a2083c-12-capitulum.jpg",
+          "image": "assets/questions/q-f6a83832e286.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/03-a2083c.jpg",
           "sourceTitle": "Humerus, anterior view, right side, distal end",
           "sourceLabel": "Capitulum"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-04-a2084-a2084-11-capitulum.jpg",
+          "image": "assets/questions/q-cb729e168165.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/04-a2084.jpg",
           "sourceTitle": "Humerus, lateral view, right side",
           "sourceLabel": "Capitulum"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-08-a2086-a2086-15-capitulum.jpg",
+          "image": "assets/questions/q-52eef6e123ba.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/08-a2086.jpg",
           "sourceTitle": "Humerus, medial view, right side",
           "sourceLabel": "Capitulum"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-09-a3319-a3319-03-capitulum-of-humerus.jpg",
+          "image": "assets/questions/q-12567b28fee6.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/09-a3319.jpg",
           "sourceTitle": "Articulated humerus, ulna, and radius, anterior view",
           "sourceLabel": "Capitulum of humerus"
@@ -2604,44 +2604,44 @@
       "sourceTitle": "Humerus, anterior view, right side",
       "sourceLabel": "Trochlea",
       "answer": "Trochlea",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-14-trochlea.jpg",
+      "reviewImage": "assets/questions/q-ddcaacb4a7ad.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
       "terms": [
         "Trochlea"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-01-a2083a-a2083a-14-trochlea.jpg",
+          "image": "assets/questions/q-ddcaacb4a7ad.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
           "sourceTitle": "Humerus, anterior view, right side",
           "sourceLabel": "Trochlea"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-03-a2083c-a2083c-14-trochlea.jpg",
+          "image": "assets/questions/q-c460ecab5d0a.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/03-a2083c.jpg",
           "sourceTitle": "Humerus, anterior view, right side, distal end",
           "sourceLabel": "Trochlea"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-05-a2085a-a2085a-14-trochlea.jpg",
+          "image": "assets/questions/q-2dfc0b4868e6.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/05-a2085a.jpg",
           "sourceTitle": "Humerus, posterior view, right side",
           "sourceLabel": "Trochlea"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-07-a2085c-a2085c-14-trochlea.jpg",
+          "image": "assets/questions/q-b685e3ec3bba.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/07-a2085c.jpg",
           "sourceTitle": "Humerus, posterior view, right side, distal end",
           "sourceLabel": "Trochlea"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-08-a2086-a2086-14-trochlea.jpg",
+          "image": "assets/questions/q-828b24ca26d6.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/08-a2086.jpg",
           "sourceTitle": "Humerus, medial view, right side",
           "sourceLabel": "Trochlea"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-09-a3319-a3319-05-trochlea-of-humerus.jpg",
+          "image": "assets/questions/q-381dedc5e9c0.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/09-a3319.jpg",
           "sourceTitle": "Articulated humerus, ulna, and radius, anterior view",
           "sourceLabel": "Trochlea of humerus"
@@ -2702,50 +2702,50 @@
       "sourceTitle": "Articulated humerus, ulna, and radius, anterior view",
       "sourceLabel": "Head of radius",
       "answer": "Head",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-09-a3319-a3319-01-head-of-radius.jpg",
+      "reviewImage": "assets/questions/q-c0ca721a7e20.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/09-a3319.jpg",
       "terms": [
         "Head"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-09-a3319-a3319-01-head-of-radius.jpg",
+          "image": "assets/questions/q-c0ca721a7e20.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/09-a3319.jpg",
           "sourceTitle": "Articulated humerus, ulna, and radius, anterior view",
           "sourceLabel": "Head of radius"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-10-a3320-a3320-03-head-of-radius.jpg",
+          "image": "assets/questions/q-3259da1131b9.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/10-a3320.jpg",
           "sourceTitle": "Articulated humerus, ulna, and radius, posterior view",
           "sourceLabel": "Head of radius"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-19-a2091a-a2091a-01-head.jpg",
+          "image": "assets/questions/q-092f6839f47d.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/19-a2091a.jpg",
           "sourceTitle": "Radius, anterior view, right side",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-20-a2091b-a2091b-01-head.jpg",
+          "image": "assets/questions/q-d8490f95931a.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/20-a2091b.jpg",
           "sourceTitle": "Radius, anterior view, right side, proximal end",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-21-a2092-a2092-01-head.jpg",
+          "image": "assets/questions/q-bd113e4760d5.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/21-a2092.jpg",
           "sourceTitle": "Radius, lateral view, right side",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-22-a2093a-a2093a-01-head.jpg",
+          "image": "assets/questions/q-971e78d19f19.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/22-a2093a.jpg",
           "sourceTitle": "Radius, posterior view, right side",
           "sourceLabel": "Head"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-24-a2094-a2094-01-head.jpg",
+          "image": "assets/questions/q-16fd452a90eb.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/24-a2094.jpg",
           "sourceTitle": "Radius, medial view, right side",
           "sourceLabel": "Head"
@@ -2812,38 +2812,38 @@
       "sourceTitle": "Radius, anterior view, right side",
       "sourceLabel": "Neck",
       "answer": "Neck",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-19-a2091a-a2091a-02-neck.jpg",
+      "reviewImage": "assets/questions/q-5e534f379cd8.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/19-a2091a.jpg",
       "terms": [
         "Neck"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-19-a2091a-a2091a-02-neck.jpg",
+          "image": "assets/questions/q-5e534f379cd8.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/19-a2091a.jpg",
           "sourceTitle": "Radius, anterior view, right side",
           "sourceLabel": "Neck"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-20-a2091b-a2091b-02-neck.jpg",
+          "image": "assets/questions/q-a833feda8243.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/20-a2091b.jpg",
           "sourceTitle": "Radius, anterior view, right side, proximal end",
           "sourceLabel": "Neck"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-21-a2092-a2092-02-neck.jpg",
+          "image": "assets/questions/q-3c5198ecbfa1.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/21-a2092.jpg",
           "sourceTitle": "Radius, lateral view, right side",
           "sourceLabel": "Neck"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-22-a2093a-a2093a-02-neck.jpg",
+          "image": "assets/questions/q-b689d9a6088e.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/22-a2093a.jpg",
           "sourceTitle": "Radius, posterior view, right side",
           "sourceLabel": "Neck"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-24-a2094-a2094-02-neck.jpg",
+          "image": "assets/questions/q-fb37fede2cae.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/24-a2094.jpg",
           "sourceTitle": "Radius, medial view, right side",
           "sourceLabel": "Neck"
@@ -2897,44 +2897,44 @@
       "sourceTitle": "Articulated humerus, ulna, and radius, anterior view",
       "sourceLabel": "Radial tuberosity",
       "answer": "Radial tuberosity",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-09-a3319-a3319-08-radial-tuberosity.jpg",
+      "reviewImage": "assets/questions/q-50e3bf9b1095.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/09-a3319.jpg",
       "terms": [
         "Radial tuberosity"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-09-a3319-a3319-08-radial-tuberosity.jpg",
+          "image": "assets/questions/q-50e3bf9b1095.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/09-a3319.jpg",
           "sourceTitle": "Articulated humerus, ulna, and radius, anterior view",
           "sourceLabel": "Radial tuberosity"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-19-a2091a-a2091a-03-radial-tuberosity.jpg",
+          "image": "assets/questions/q-f039fe702eb6.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/19-a2091a.jpg",
           "sourceTitle": "Radius, anterior view, right side",
           "sourceLabel": "Radial tuberosity"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-20-a2091b-a2091b-03-radial-tuberosity.jpg",
+          "image": "assets/questions/q-249f5735150d.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/20-a2091b.jpg",
           "sourceTitle": "Radius, anterior view, right side, proximal end",
           "sourceLabel": "Radial tuberosity"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-21-a2092-a2092-03-radial-tuberosity.jpg",
+          "image": "assets/questions/q-ebcbc3ed99c3.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/21-a2092.jpg",
           "sourceTitle": "Radius, lateral view, right side",
           "sourceLabel": "Radial tuberosity"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-22-a2093a-a2093a-03-radial-tuberosity.jpg",
+          "image": "assets/questions/q-c052883fc8c9.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/22-a2093a.jpg",
           "sourceTitle": "Radius, posterior view, right side",
           "sourceLabel": "Radial tuberosity"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-24-a2094-a2094-03-radial-tuberosity.jpg",
+          "image": "assets/questions/q-b065e25038c8.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/24-a2094.jpg",
           "sourceTitle": "Radius, medial view, right side",
           "sourceLabel": "Radial tuberosity"
@@ -2994,26 +2994,26 @@
       "sourceTitle": "Radius, posterior view, right side",
       "sourceLabel": "Ulnar notch",
       "answer": "Ulnar notch (of radius)",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-22-a2093a-a2093a-06-ulnar-notch.jpg",
+      "reviewImage": "assets/questions/q-377f00a6d184.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/22-a2093a.jpg",
       "terms": [
         "Ulnar notch (of radius)"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-22-a2093a-a2093a-06-ulnar-notch.jpg",
+          "image": "assets/questions/q-377f00a6d184.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/22-a2093a.jpg",
           "sourceTitle": "Radius, posterior view, right side",
           "sourceLabel": "Ulnar notch"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-23-a2093b-a2093b-06-ulnar-notch.jpg",
+          "image": "assets/questions/q-eb055ec65919.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/23-a2093b.jpg",
           "sourceTitle": "Radius, posterior view, right side, distal end",
           "sourceLabel": "Ulnar notch"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-24-a2094-a2094-06-ulnar-notch.jpg",
+          "image": "assets/questions/q-7649c28ac292.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/24-a2094.jpg",
           "sourceTitle": "Radius, medial view, right side",
           "sourceLabel": "Ulnar notch"
@@ -3055,50 +3055,50 @@
       "sourceTitle": "Ulna and radius, anterior view, right side",
       "sourceLabel": "Styloid process of radius",
       "answer": "Styloid process",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-11-a3321a-a3321a-19-styloid-process-of-radius.jpg",
+      "reviewImage": "assets/questions/q-afe173881ad4.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/11-a3321a.jpg",
       "terms": [
         "Styloid process"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-11-a3321a-a3321a-19-styloid-process-of-radius.jpg",
+          "image": "assets/questions/q-afe173881ad4.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/11-a3321a.jpg",
           "sourceTitle": "Ulna and radius, anterior view, right side",
           "sourceLabel": "Styloid process of radius"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-12-a3322a-a3322a-10-styloid-process-of-radius.jpg",
+          "image": "assets/questions/q-29b2d61b5510.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/12-a3322a.jpg",
           "sourceTitle": "Ulna and radius, posterior view, right side",
           "sourceLabel": "Styloid process of radius"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-19-a2091a-a2091a-07-styloid-process.jpg",
+          "image": "assets/questions/q-dab53884496b.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/19-a2091a.jpg",
           "sourceTitle": "Radius, anterior view, right side",
           "sourceLabel": "Styloid process"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-21-a2092-a2092-07-styloid-process.jpg",
+          "image": "assets/questions/q-1b0d91a84976.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/21-a2092.jpg",
           "sourceTitle": "Radius, lateral view, right side",
           "sourceLabel": "Styloid process"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-22-a2093a-a2093a-07-styloid-process.jpg",
+          "image": "assets/questions/q-4212001654f5.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/22-a2093a.jpg",
           "sourceTitle": "Radius, posterior view, right side",
           "sourceLabel": "Styloid process"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-23-a2093b-a2093b-07-styloid-process.jpg",
+          "image": "assets/questions/q-5346cc79209b.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/23-a2093b.jpg",
           "sourceTitle": "Radius, posterior view, right side, distal end",
           "sourceLabel": "Styloid process"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-24-a2094-a2094-07-styloid-process.jpg",
+          "image": "assets/questions/q-f7e8733d20e2.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/24-a2094.jpg",
           "sourceTitle": "Radius, medial view, right side",
           "sourceLabel": "Styloid process"
@@ -3165,26 +3165,26 @@
       "sourceTitle": "Ulna, anterior view, right side",
       "sourceLabel": "Radial notch",
       "answer": "Radial notch (of ulna)",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-13-a2087-a2087-02-radial-notch.jpg",
+      "reviewImage": "assets/questions/q-e7806c3d83fd.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/13-a2087.jpg",
       "terms": [
         "Radial notch (of ulna)"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-13-a2087-a2087-02-radial-notch.jpg",
+          "image": "assets/questions/q-e7806c3d83fd.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/13-a2087.jpg",
           "sourceTitle": "Ulna, anterior view, right side",
           "sourceLabel": "Radial notch"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-14-a2088a-a2088a-04-radial-notch.jpg",
+          "image": "assets/questions/q-d25f12ac855a.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/14-a2088a.jpg",
           "sourceTitle": "Ulna, lateral view, right side",
           "sourceLabel": "Radial notch"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-15-a2088b-a2088b-04-radial-notch.jpg",
+          "image": "assets/questions/q-1df790cd224a.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/15-a2088b.jpg",
           "sourceTitle": "Ulna, lateral view, right side, proximal end",
           "sourceLabel": "Radial notch"
@@ -3226,44 +3226,44 @@
       "sourceTitle": "Articulated humerus, ulna, and radius, posterior view",
       "sourceLabel": "Olecranon of ulna",
       "answer": "Olecranon process",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-10-a3320-a3320-01-olecranon-of-ulna.jpg",
+      "reviewImage": "assets/questions/q-35ad7c1f912a.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/10-a3320.jpg",
       "terms": [
         "Olecranon process"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-10-a3320-a3320-01-olecranon-of-ulna.jpg",
+          "image": "assets/questions/q-35ad7c1f912a.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/10-a3320.jpg",
           "sourceTitle": "Articulated humerus, ulna, and radius, posterior view",
           "sourceLabel": "Olecranon of ulna"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-13-a2087-a2087-01-olecranon-process.jpg",
+          "image": "assets/questions/q-168c138479e6.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/13-a2087.jpg",
           "sourceTitle": "Ulna, anterior view, right side",
           "sourceLabel": "Olecranon process"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-14-a2088a-a2088a-01-olecranon-process.jpg",
+          "image": "assets/questions/q-4ee46d11a0cf.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/14-a2088a.jpg",
           "sourceTitle": "Ulna, lateral view, right side",
           "sourceLabel": "Olecranon process"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-15-a2088b-a2088b-01-olecranon-process.jpg",
+          "image": "assets/questions/q-bc0de367ae4b.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/15-a2088b.jpg",
           "sourceTitle": "Ulna, lateral view, right side, proximal end",
           "sourceLabel": "Olecranon process"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-16-a2089a-a2089a-01-olecranon-process.jpg",
+          "image": "assets/questions/q-fc93c3c152b5.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/16-a2089a.jpg",
           "sourceTitle": "Ulna, posterior view, right side",
           "sourceLabel": "Olecranon process"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-18-a2090-a2090-01-olecranon-process.jpg",
+          "image": "assets/questions/q-f1e094792b9d.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/18-a2090.jpg",
           "sourceTitle": "Ulna, medial view, right side",
           "sourceLabel": "Olecranon process"
@@ -3324,32 +3324,32 @@
       "sourceTitle": "Ulna, anterior view, right side",
       "sourceLabel": "Trochlear notch",
       "answer": "Trochlear notch",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-13-a2087-a2087-03-trochlear-notch.jpg",
+      "reviewImage": "assets/questions/q-3e2b5547f6d4.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/13-a2087.jpg",
       "terms": [
         "Trochlear notch"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-13-a2087-a2087-03-trochlear-notch.jpg",
+          "image": "assets/questions/q-3e2b5547f6d4.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/13-a2087.jpg",
           "sourceTitle": "Ulna, anterior view, right side",
           "sourceLabel": "Trochlear notch"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-14-a2088a-a2088a-03-trochlear-notch.jpg",
+          "image": "assets/questions/q-9f16724c16eb.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/14-a2088a.jpg",
           "sourceTitle": "Ulna, lateral view, right side",
           "sourceLabel": "Trochlear notch"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-15-a2088b-a2088b-03-trochlear-notch.jpg",
+          "image": "assets/questions/q-15cc87249fb8.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/15-a2088b.jpg",
           "sourceTitle": "Ulna, lateral view, right side, proximal end",
           "sourceLabel": "Trochlear notch"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-18-a2090-a2090-03-trochlear-notch.jpg",
+          "image": "assets/questions/q-d7353b6f5f1b.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/18-a2090.jpg",
           "sourceTitle": "Ulna, medial view, right side",
           "sourceLabel": "Trochlear notch"
@@ -3397,38 +3397,38 @@
       "sourceTitle": "Articulated humerus, ulna, and radius, anterior view",
       "sourceLabel": "Coronoid process of ulna",
       "answer": "Coronoid process",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-09-a3319-a3319-04-coronoid-process-of-ulna.jpg",
+      "reviewImage": "assets/questions/q-cba3eda34488.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/09-a3319.jpg",
       "terms": [
         "Coronoid process"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-09-a3319-a3319-04-coronoid-process-of-ulna.jpg",
+          "image": "assets/questions/q-cba3eda34488.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/09-a3319.jpg",
           "sourceTitle": "Articulated humerus, ulna, and radius, anterior view",
           "sourceLabel": "Coronoid process of ulna"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-13-a2087-a2087-04-coronoid-process.jpg",
+          "image": "assets/questions/q-bb3b4c30a712.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/13-a2087.jpg",
           "sourceTitle": "Ulna, anterior view, right side",
           "sourceLabel": "Coronoid process"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-14-a2088a-a2088a-02-coronoid-process.jpg",
+          "image": "assets/questions/q-04f537193e1f.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/14-a2088a.jpg",
           "sourceTitle": "Ulna, lateral view, right side",
           "sourceLabel": "Coronoid process"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-15-a2088b-a2088b-02-coronoid-process.jpg",
+          "image": "assets/questions/q-d1ade20ca451.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/15-a2088b.jpg",
           "sourceTitle": "Ulna, lateral view, right side, proximal end",
           "sourceLabel": "Coronoid process"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-18-a2090-a2090-02-coronoid-process.jpg",
+          "image": "assets/questions/q-51534fae09c9.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/18-a2090.jpg",
           "sourceTitle": "Ulna, medial view, right side",
           "sourceLabel": "Coronoid process"
@@ -3483,38 +3483,38 @@
       "sourceTitle": "Ulna and radius, posterior view, right side",
       "sourceLabel": "Styloid process of ulna",
       "answer": "Styloid process",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-12-a3322a-a3322a-12-styloid-process-of-ulna.jpg",
+      "reviewImage": "assets/questions/q-60e7b63d5a52.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/12-a3322a.jpg",
       "terms": [
         "Styloid process"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-12-a3322a-a3322a-12-styloid-process-of-ulna.jpg",
+          "image": "assets/questions/q-60e7b63d5a52.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/12-a3322a.jpg",
           "sourceTitle": "Ulna and radius, posterior view, right side",
           "sourceLabel": "Styloid process of ulna"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-14-a2088a-a2088a-08-styloid-process.jpg",
+          "image": "assets/questions/q-6b9995f68161.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/14-a2088a.jpg",
           "sourceTitle": "Ulna, lateral view, right side",
           "sourceLabel": "Styloid process"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-16-a2089a-a2089a-08-styloid-process.jpg",
+          "image": "assets/questions/q-fac45212a42a.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/16-a2089a.jpg",
           "sourceTitle": "Ulna, posterior view, right side",
           "sourceLabel": "Styloid process"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-17-a2089b-a2089b-08-styloid-process.jpg",
+          "image": "assets/questions/q-10fe675f4ba3.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/17-a2089b.jpg",
           "sourceTitle": "Ulna, posterior view, right side, distal end",
           "sourceLabel": "Styloid process"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-18-a2090-a2090-08-styloid-process.jpg",
+          "image": "assets/questions/q-7fad80cae770.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/18-a2090.jpg",
           "sourceTitle": "Ulna, medial view, right side",
           "sourceLabel": "Styloid process"
@@ -3569,14 +3569,14 @@
       "sourceTitle": "Bones of the hand, anterior view, right side",
       "sourceLabel": "Pisiform",
       "answer": "Pisiform",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-16-pisiform.jpg",
+      "reviewImage": "assets/questions/q-027b211ba17d.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
       "terms": [
         "Pisiform"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-16-pisiform.jpg",
+          "image": "assets/questions/q-027b211ba17d.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
           "sourceTitle": "Bones of the hand, anterior view, right side",
           "sourceLabel": "Pisiform"
@@ -3606,20 +3606,20 @@
       "sourceTitle": "Bones of the hand, anterior view, right side",
       "sourceLabel": "Triquetral",
       "answer": "Triquetrum",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-15-triquetral.jpg",
+      "reviewImage": "assets/questions/q-76ed23cfaa67.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
       "terms": [
         "Triquetrum"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-15-triquetral.jpg",
+          "image": "assets/questions/q-76ed23cfaa67.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
           "sourceTitle": "Bones of the hand, anterior view, right side",
           "sourceLabel": "Triquetral"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-27-a3322b-a3322b-07-triquetral.jpg",
+          "image": "assets/questions/q-9fbf9e15b811.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/27-a3322b.jpg",
           "sourceTitle": "Bones of the hand, posterior view, right side",
           "sourceLabel": "Triquetral"
@@ -3655,20 +3655,20 @@
       "sourceTitle": "Bones of the hand, anterior view, right side",
       "sourceLabel": "Lunate",
       "answer": "Lunate",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-14-lunate.jpg",
+      "reviewImage": "assets/questions/q-5f293ba8c7b5.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
       "terms": [
         "Lunate"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-14-lunate.jpg",
+          "image": "assets/questions/q-5f293ba8c7b5.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
           "sourceTitle": "Bones of the hand, anterior view, right side",
           "sourceLabel": "Lunate"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-27-a3322b-a3322b-08-lunate.jpg",
+          "image": "assets/questions/q-0387e6e54f6a.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/27-a3322b.jpg",
           "sourceTitle": "Bones of the hand, posterior view, right side",
           "sourceLabel": "Lunate"
@@ -3704,20 +3704,20 @@
       "sourceTitle": "Bones of the hand, anterior view, right side",
       "sourceLabel": "Scaphoid",
       "answer": "Scaphoid",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-13-scaphoid.jpg",
+      "reviewImage": "assets/questions/q-0eb9b478eb12.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
       "terms": [
         "Scaphoid"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-13-scaphoid.jpg",
+          "image": "assets/questions/q-0eb9b478eb12.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
           "sourceTitle": "Bones of the hand, anterior view, right side",
           "sourceLabel": "Scaphoid"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-27-a3322b-a3322b-09-scaphoid.jpg",
+          "image": "assets/questions/q-d8415e05ca37.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/27-a3322b.jpg",
           "sourceTitle": "Bones of the hand, posterior view, right side",
           "sourceLabel": "Scaphoid"
@@ -3753,20 +3753,20 @@
       "sourceTitle": "Bones of the hand, anterior view, right side",
       "sourceLabel": "Hamate",
       "answer": "Hamate",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-17-hamate.jpg",
+      "reviewImage": "assets/questions/q-d93892f9516d.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
       "terms": [
         "Hamate"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-17-hamate.jpg",
+          "image": "assets/questions/q-d93892f9516d.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
           "sourceTitle": "Bones of the hand, anterior view, right side",
           "sourceLabel": "Hamate"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-27-a3322b-a3322b-06-hamate.jpg",
+          "image": "assets/questions/q-29117a925bcb.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/27-a3322b.jpg",
           "sourceTitle": "Bones of the hand, posterior view, right side",
           "sourceLabel": "Hamate"
@@ -3802,20 +3802,20 @@
       "sourceTitle": "Bones of the hand, anterior view, right side",
       "sourceLabel": "Capitate",
       "answer": "Capitate",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-10-capitate.jpg",
+      "reviewImage": "assets/questions/q-fae51026e41c.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
       "terms": [
         "Capitate"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-10-capitate.jpg",
+          "image": "assets/questions/q-fae51026e41c.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
           "sourceTitle": "Bones of the hand, anterior view, right side",
           "sourceLabel": "Capitate"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-27-a3322b-a3322b-05-capitate.jpg",
+          "image": "assets/questions/q-f1438eeaa85e.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/27-a3322b.jpg",
           "sourceTitle": "Bones of the hand, posterior view, right side",
           "sourceLabel": "Capitate"
@@ -3851,20 +3851,20 @@
       "sourceTitle": "Bones of the hand, anterior view, right side",
       "sourceLabel": "Trapezoid",
       "answer": "Trapezoid",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-11-trapezoid.jpg",
+      "reviewImage": "assets/questions/q-7fcd19aaa48f.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
       "terms": [
         "Trapezoid"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-11-trapezoid.jpg",
+          "image": "assets/questions/q-7fcd19aaa48f.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
           "sourceTitle": "Bones of the hand, anterior view, right side",
           "sourceLabel": "Trapezoid"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-27-a3322b-a3322b-04-trapezoid.jpg",
+          "image": "assets/questions/q-2113c950728f.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/27-a3322b.jpg",
           "sourceTitle": "Bones of the hand, posterior view, right side",
           "sourceLabel": "Trapezoid"
@@ -3900,20 +3900,20 @@
       "sourceTitle": "Bones of the hand, anterior view, right side",
       "sourceLabel": "Trapezium",
       "answer": "Trapezium",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-12-trapezium.jpg",
+      "reviewImage": "assets/questions/q-df5b556d3f45.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
       "terms": [
         "Trapezium"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-12-trapezium.jpg",
+          "image": "assets/questions/q-df5b556d3f45.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
           "sourceTitle": "Bones of the hand, anterior view, right side",
           "sourceLabel": "Trapezium"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-27-a3322b-a3322b-03-trapezium.jpg",
+          "image": "assets/questions/q-155bff419f5b.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/27-a3322b.jpg",
           "sourceTitle": "Bones of the hand, posterior view, right side",
           "sourceLabel": "Trapezium"
@@ -3949,32 +3949,32 @@
       "sourceTitle": "Bones of the hand, overview, anterior view, right side",
       "sourceLabel": "Metacarpals",
       "answer": "Metacarpals",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-25-a2095-a2095-09-metacarpals.jpg",
+      "reviewImage": "assets/questions/q-f6fe39de6104.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/25-a2095.jpg",
       "terms": [
         "Metacarpals"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-25-a2095-a2095-09-metacarpals.jpg",
+          "image": "assets/questions/q-f6fe39de6104.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/25-a2095.jpg",
           "sourceTitle": "Bones of the hand, overview, anterior view, right side",
           "sourceLabel": "Metacarpals"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-07-metacarpal-1.jpg",
+          "image": "assets/questions/q-283e0f4af232.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
           "sourceTitle": "Bones of the hand, anterior view, right side",
           "sourceLabel": "Metacarpal 1"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-06-metacarpal-5.jpg",
+          "image": "assets/questions/q-3305959c8585.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
           "sourceTitle": "Bones of the hand, anterior view, right side",
           "sourceLabel": "Metacarpal 5"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-27-a3322b-a3322b-02-metacarpals.jpg",
+          "image": "assets/questions/q-40baaeb0d39b.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/27-a3322b.jpg",
           "sourceTitle": "Bones of the hand, posterior view, right side",
           "sourceLabel": "Metacarpals"
@@ -4018,56 +4018,56 @@
       "sourceTitle": "Bones of the hand, overview, anterior view, right side",
       "sourceLabel": "Distal phalanges",
       "answer": "Phalanges",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-25-a2095-a2095-15-distal-phalanges.jpg",
+      "reviewImage": "assets/questions/q-b77d42c16100.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/25-a2095.jpg",
       "terms": [
         "Phalanges"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-25-a2095-a2095-15-distal-phalanges.jpg",
+          "image": "assets/questions/q-b77d42c16100.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/25-a2095.jpg",
           "sourceTitle": "Bones of the hand, overview, anterior view, right side",
           "sourceLabel": "Distal phalanges"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-25-a2095-a2095-14-middle-phalanges.jpg",
+          "image": "assets/questions/q-a1e89aaecc7a.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/25-a2095.jpg",
           "sourceTitle": "Bones of the hand, overview, anterior view, right side",
           "sourceLabel": "Middle phalanges"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-25-a2095-a2095-13-proximal-phalanges.jpg",
+          "image": "assets/questions/q-bb0ddae7e528.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/25-a2095.jpg",
           "sourceTitle": "Bones of the hand, overview, anterior view, right side",
           "sourceLabel": "Proximal phalanges"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-03-distal-phalanx-of-digit-3.jpg",
+          "image": "assets/questions/q-deab15afddd2.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
           "sourceTitle": "Bones of the hand, anterior view, right side",
           "sourceLabel": "Distal phalanx of digit 3"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-04-middle-phalanx-of-digit-3.jpg",
+          "image": "assets/questions/q-02b7c1763d41.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
           "sourceTitle": "Bones of the hand, anterior view, right side",
           "sourceLabel": "Middle phalanx of digit 3"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-01-phalanges-of-digit-5.jpg",
+          "image": "assets/questions/q-6bf08049d6c7.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
           "sourceTitle": "Bones of the hand, anterior view, right side",
           "sourceLabel": "Phalanges of digit 5"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-05-proximal-phalanx-of-digit-3.jpg",
+          "image": "assets/questions/q-e7397a52cce1.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
           "sourceTitle": "Bones of the hand, anterior view, right side",
           "sourceLabel": "Proximal phalanx of digit 3"
         },
         {
-          "image": "assets/pal/structures/bones/upper-limb-27-a3322b-a3322b-01-phalanges.jpg",
+          "image": "assets/questions/q-7e1e88781f84.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/27-a3322b.jpg",
           "sourceTitle": "Bones of the hand, posterior view, right side",
           "sourceLabel": "Phalanges"
@@ -4116,14 +4116,14 @@
       "sourceTitle": "Bones of the hand, anterior view, right side",
       "sourceLabel": "Phalanges of digit 1",
       "answer": "Pollex",
-      "reviewImage": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-02-phalanges-of-digit-1.jpg",
+      "reviewImage": "assets/questions/q-d2878dfcf512.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
       "terms": [
         "Pollex"
       ],
       "reviewImages": [
         {
-          "image": "assets/pal/structures/bones/upper-limb-26-a3321b-a3321b-02-phalanges-of-digit-1.jpg",
+          "image": "assets/questions/q-d2878dfcf512.jpg",
           "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
           "sourceTitle": "Bones of the hand, anterior view, right side",
           "sourceLabel": "Phalanges of digit 1"
@@ -4152,7 +4152,7 @@
       "category": "Bone ID",
       "region": "Pectoral Girdle",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Acromion; Coracoid process",
-      "reviewImage": "assets/pal/pectoral-girdle/review/01-a3317.jpg",
+      "reviewImage": "assets/questions/q-8802e2c34adf.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/01-a3317.jpg",
       "terms": [
         "Acromion",
@@ -4165,7 +4165,7 @@
       "category": "Bone ID",
       "region": "Pectoral Girdle",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Acromion; Coracoid process; Supraspinous fossa; Subscapular fossa; Scapular spine; Acromial (lateral) end; Sternal (medial) end",
-      "reviewImage": "assets/pal/pectoral-girdle/review/03-a3318.jpg",
+      "reviewImage": "assets/questions/q-943afaf0b57d.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/03-a3318.jpg",
       "terms": [
         "Acromion",
@@ -4183,7 +4183,7 @@
       "category": "Bone ID",
       "region": "Clavicle",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Acromial (lateral) end; Sternal (medial) end; Conoid tubercle",
-      "reviewImage": "assets/pal/pectoral-girdle/review/04-a2079.jpg",
+      "reviewImage": "assets/questions/q-84d223bc19e0.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/04-a2079.jpg",
       "terms": [
         "Acromial (lateral) end",
@@ -4197,7 +4197,7 @@
       "category": "Bone ID",
       "region": "Clavicle",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Acromial (lateral) end; Sternal (medial) end; Conoid tubercle",
-      "reviewImage": "assets/pal/pectoral-girdle/review/05-a2080.jpg",
+      "reviewImage": "assets/questions/q-f10e9a9e9965.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/05-a2080.jpg",
       "terms": [
         "Acromial (lateral) end",
@@ -4211,7 +4211,7 @@
       "category": "Bone ID",
       "region": "Clavicle",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Acromial (lateral) end; Sternal (medial) end; Conoid tubercle",
-      "reviewImage": "assets/pal/pectoral-girdle/review/06-a2081.jpg",
+      "reviewImage": "assets/questions/q-63042bcb59f3.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/06-a2081.jpg",
       "terms": [
         "Acromial (lateral) end",
@@ -4225,7 +4225,7 @@
       "category": "Bone ID",
       "region": "Clavicle",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Acromial (lateral) end; Sternal (medial) end; Conoid tubercle; Costal tuberosity",
-      "reviewImage": "assets/pal/pectoral-girdle/review/07-a2082.jpg",
+      "reviewImage": "assets/questions/q-b64b11255a04.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/07-a2082.jpg",
       "terms": [
         "Acromial (lateral) end",
@@ -4240,7 +4240,7 @@
       "category": "Bone ID",
       "region": "Scapula",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Superior border; Medial border; Lateral border; Superior angle; Inferior angle; Acromion; Coracoid process; Suprascapular notch; Subscapular fossa; Infraglenoid tubercle; Glenoid cavity",
-      "reviewImage": "assets/pal/pectoral-girdle/review/08-a2075.jpg",
+      "reviewImage": "assets/questions/q-4d6c371d462b.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
       "terms": [
         "Superior border",
@@ -4262,7 +4262,7 @@
       "category": "Bone ID",
       "region": "Scapula",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Lateral border; Acromion; Coracoid process; Infraglenoid tubercle; Scapular spine; Glenoid cavity",
-      "reviewImage": "assets/pal/pectoral-girdle/review/09-a2076.jpg",
+      "reviewImage": "assets/questions/q-761e097db778.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/09-a2076.jpg",
       "terms": [
         "Lateral border",
@@ -4279,7 +4279,7 @@
       "category": "Bone ID",
       "region": "Scapula",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Superior border; Medial border; Lateral border; Superior angle; Inferior angle; Acromion; Coracoid process; Supraspinous fossa; Infraspinous fossa; Infraglenoid tubercle; Scapular spine; Glenoid cavity",
-      "reviewImage": "assets/pal/pectoral-girdle/review/10-a2077.jpg",
+      "reviewImage": "assets/questions/q-8026248d020f.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
       "terms": [
         "Superior border",
@@ -4302,7 +4302,7 @@
       "category": "Bone ID",
       "region": "Scapula",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Medial border; Inferior angle; Acromion; Coracoid process; Supraspinous fossa; Subscapular fossa; Scapular spine",
-      "reviewImage": "assets/pal/pectoral-girdle/review/11-a2078.jpg",
+      "reviewImage": "assets/questions/q-cad82f821d25.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/11-a2078.jpg",
       "terms": [
         "Medial border",
@@ -4320,7 +4320,7 @@
       "category": "Bone ID",
       "region": "Humerus",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Head of humerus; Greater tubercle; Lesser tubercle; Intertubercular sulcus; Anatomical neck; Surgical neck; Deltoid tuberosity; Coronoid fossa; Medial epicondyle; Lateral epicondyle; Capitulum; Trochlea",
-      "reviewImage": "assets/pal/upper-limb/review/01-a2083a.jpg",
+      "reviewImage": "assets/questions/q-45ec00e9402d.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
       "terms": [
         "Head of humerus",
@@ -4343,7 +4343,7 @@
       "category": "Bone ID",
       "region": "Humerus",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Head of humerus; Greater tubercle; Lesser tubercle; Intertubercular sulcus; Anatomical neck; Surgical neck",
-      "reviewImage": "assets/pal/upper-limb/review/02-a2083b.jpg",
+      "reviewImage": "assets/questions/q-93e99c9febf5.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/02-a2083b.jpg",
       "terms": [
         "Head of humerus",
@@ -4360,7 +4360,7 @@
       "category": "Bone ID",
       "region": "Humerus",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Coronoid fossa; Medial epicondyle; Lateral epicondyle; Capitulum; Trochlea",
-      "reviewImage": "assets/pal/upper-limb/review/03-a2083c.jpg",
+      "reviewImage": "assets/questions/q-1bbad41d6817.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/03-a2083c.jpg",
       "terms": [
         "Coronoid fossa",
@@ -4376,7 +4376,7 @@
       "category": "Bone ID",
       "region": "Humerus",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Head of humerus; Greater tubercle; Lesser tubercle; Intertubercular sulcus; Anatomical neck; Surgical neck; Deltoid tuberosity; Lateral epicondyle; Capitulum",
-      "reviewImage": "assets/pal/upper-limb/review/04-a2084.jpg",
+      "reviewImage": "assets/questions/q-af659d73afa2.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/04-a2084.jpg",
       "terms": [
         "Head of humerus",
@@ -4396,7 +4396,7 @@
       "category": "Bone ID",
       "region": "Humerus",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Head of humerus; Greater tubercle; Anatomical neck; Surgical neck; Deltoid tuberosity; Olecranon fossa; Medial epicondyle; Lateral epicondyle; Trochlea",
-      "reviewImage": "assets/pal/upper-limb/review/05-a2085a.jpg",
+      "reviewImage": "assets/questions/q-d73e321228cc.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/05-a2085a.jpg",
       "terms": [
         "Head of humerus",
@@ -4416,7 +4416,7 @@
       "category": "Bone ID",
       "region": "Humerus",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Head of humerus; Greater tubercle; Anatomical neck; Surgical neck",
-      "reviewImage": "assets/pal/upper-limb/review/06-a2085b.jpg",
+      "reviewImage": "assets/questions/q-5e3877850c28.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/06-a2085b.jpg",
       "terms": [
         "Head of humerus",
@@ -4431,7 +4431,7 @@
       "category": "Bone ID",
       "region": "Humerus",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Olecranon fossa; Medial epicondyle; Lateral epicondyle; Trochlea",
-      "reviewImage": "assets/pal/upper-limb/review/07-a2085c.jpg",
+      "reviewImage": "assets/questions/q-b8007297df11.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/07-a2085c.jpg",
       "terms": [
         "Olecranon fossa",
@@ -4446,7 +4446,7 @@
       "category": "Bone ID",
       "region": "Humerus",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Head of humerus; Lesser tubercle; Anatomical neck; Surgical neck; Coronoid fossa; Medial epicondyle; Capitulum; Trochlea",
-      "reviewImage": "assets/pal/upper-limb/review/08-a2086.jpg",
+      "reviewImage": "assets/questions/q-49fec4fa9e75.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/08-a2086.jpg",
       "terms": [
         "Head of humerus",
@@ -4465,7 +4465,7 @@
       "category": "Bone ID",
       "region": "Forearm",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Coronoid fossa; Medial epicondyle; Capitulum; Trochlea; Head; Radial tuberosity; Coronoid process",
-      "reviewImage": "assets/pal/upper-limb/review/09-a3319.jpg",
+      "reviewImage": "assets/questions/q-2fe443c677a4.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/09-a3319.jpg",
       "terms": [
         "Coronoid fossa",
@@ -4483,7 +4483,7 @@
       "category": "Bone ID",
       "region": "Forearm",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Medial epicondyle; Lateral epicondyle; Head; Olecranon process",
-      "reviewImage": "assets/pal/upper-limb/review/10-a3320.jpg",
+      "reviewImage": "assets/questions/q-ac2cf3c3fec7.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/10-a3320.jpg",
       "terms": [
         "Medial epicondyle",
@@ -4498,7 +4498,7 @@
       "category": "Bone ID",
       "region": "Forearm",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Styloid process",
-      "reviewImage": "assets/pal/upper-limb/review/11-a3321a.jpg",
+      "reviewImage": "assets/questions/q-cade95d570fe.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/11-a3321a.jpg",
       "terms": [
         "Styloid process"
@@ -4510,7 +4510,7 @@
       "category": "Bone ID",
       "region": "Forearm",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Styloid process",
-      "reviewImage": "assets/pal/upper-limb/review/12-a3322a.jpg",
+      "reviewImage": "assets/questions/q-0df1d860e909.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/12-a3322a.jpg",
       "terms": [
         "Styloid process"
@@ -4522,7 +4522,7 @@
       "category": "Bone ID",
       "region": "Ulna",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Radial notch (of ulna); Olecranon process; Trochlear notch; Coronoid process",
-      "reviewImage": "assets/pal/upper-limb/review/13-a2087.jpg",
+      "reviewImage": "assets/questions/q-77f193f2db5d.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/13-a2087.jpg",
       "terms": [
         "Radial notch (of ulna)",
@@ -4537,7 +4537,7 @@
       "category": "Bone ID",
       "region": "Ulna",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Styloid process; Radial notch (of ulna); Olecranon process; Trochlear notch; Coronoid process",
-      "reviewImage": "assets/pal/upper-limb/review/14-a2088a.jpg",
+      "reviewImage": "assets/questions/q-7778576bdd5c.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/14-a2088a.jpg",
       "terms": [
         "Styloid process",
@@ -4553,7 +4553,7 @@
       "category": "Bone ID",
       "region": "Ulna",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Radial notch (of ulna); Olecranon process; Trochlear notch; Coronoid process",
-      "reviewImage": "assets/pal/upper-limb/review/15-a2088b.jpg",
+      "reviewImage": "assets/questions/q-42883e07e6a2.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/15-a2088b.jpg",
       "terms": [
         "Radial notch (of ulna)",
@@ -4568,7 +4568,7 @@
       "category": "Bone ID",
       "region": "Ulna",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Styloid process; Olecranon process",
-      "reviewImage": "assets/pal/upper-limb/review/16-a2089a.jpg",
+      "reviewImage": "assets/questions/q-9ed12468f187.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/16-a2089a.jpg",
       "terms": [
         "Styloid process",
@@ -4581,7 +4581,7 @@
       "category": "Bone ID",
       "region": "Ulna",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Styloid process",
-      "reviewImage": "assets/pal/upper-limb/review/17-a2089b.jpg",
+      "reviewImage": "assets/questions/q-f56da4e997fd.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/17-a2089b.jpg",
       "terms": [
         "Styloid process"
@@ -4593,7 +4593,7 @@
       "category": "Bone ID",
       "region": "Ulna",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Styloid process; Olecranon process; Trochlear notch; Coronoid process",
-      "reviewImage": "assets/pal/upper-limb/review/18-a2090.jpg",
+      "reviewImage": "assets/questions/q-faea4a783c10.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/18-a2090.jpg",
       "terms": [
         "Styloid process",
@@ -4608,7 +4608,7 @@
       "category": "Bone ID",
       "region": "Radius",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Head; Neck; Radial tuberosity; Styloid process",
-      "reviewImage": "assets/pal/upper-limb/review/19-a2091a.jpg",
+      "reviewImage": "assets/questions/q-8169f867c5d6.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/19-a2091a.jpg",
       "terms": [
         "Head",
@@ -4623,7 +4623,7 @@
       "category": "Bone ID",
       "region": "Radius",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Head; Neck; Radial tuberosity",
-      "reviewImage": "assets/pal/upper-limb/review/20-a2091b.jpg",
+      "reviewImage": "assets/questions/q-c91676693f95.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/20-a2091b.jpg",
       "terms": [
         "Head",
@@ -4637,7 +4637,7 @@
       "category": "Bone ID",
       "region": "Radius",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Head; Neck; Radial tuberosity; Styloid process",
-      "reviewImage": "assets/pal/upper-limb/review/21-a2092.jpg",
+      "reviewImage": "assets/questions/q-3f798ca15a36.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/21-a2092.jpg",
       "terms": [
         "Head",
@@ -4652,7 +4652,7 @@
       "category": "Bone ID",
       "region": "Radius",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Head; Neck; Radial tuberosity; Ulnar notch (of radius); Styloid process",
-      "reviewImage": "assets/pal/upper-limb/review/22-a2093a.jpg",
+      "reviewImage": "assets/questions/q-0dac10d665c5.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/22-a2093a.jpg",
       "terms": [
         "Head",
@@ -4668,7 +4668,7 @@
       "category": "Bone ID",
       "region": "Radius",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Ulnar notch (of radius); Styloid process",
-      "reviewImage": "assets/pal/upper-limb/review/23-a2093b.jpg",
+      "reviewImage": "assets/questions/q-9b50f65160ad.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/23-a2093b.jpg",
       "terms": [
         "Ulnar notch (of radius)",
@@ -4681,7 +4681,7 @@
       "category": "Bone ID",
       "region": "Radius",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Head; Neck; Radial tuberosity; Ulnar notch (of radius); Styloid process",
-      "reviewImage": "assets/pal/upper-limb/review/24-a2094.jpg",
+      "reviewImage": "assets/questions/q-4a60df12d360.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/24-a2094.jpg",
       "terms": [
         "Head",
@@ -4697,7 +4697,7 @@
       "category": "Bone ID",
       "region": "Hand",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Metacarpals; Phalanges",
-      "reviewImage": "assets/pal/upper-limb/review/25-a2095.jpg",
+      "reviewImage": "assets/questions/q-34659af283ea.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/25-a2095.jpg",
       "terms": [
         "Metacarpals",
@@ -4710,7 +4710,7 @@
       "category": "Bone ID",
       "region": "Hand",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Pisiform; Triquetrum; Lunate; Scaphoid; Hamate; Capitate; Trapezoid; Trapezium; Metacarpals; Phalanges; Pollex",
-      "reviewImage": "assets/pal/upper-limb/review/26-a3321b.jpg",
+      "reviewImage": "assets/questions/q-f4e9aa749c16.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
       "terms": [
         "Pisiform",
@@ -4732,7 +4732,7 @@
       "category": "Bone ID",
       "region": "Hand",
       "answer": "Check the labeled image below. Course-listed structures visible in this view: Triquetrum; Lunate; Scaphoid; Hamate; Capitate; Trapezoid; Trapezium; Metacarpals; Phalanges",
-      "reviewImage": "assets/pal/upper-limb/review/27-a3322b.jpg",
+      "reviewImage": "assets/questions/q-dc6b9814755c.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/27-a3322b.jpg",
       "terms": [
         "Triquetrum",
@@ -4752,7 +4752,7 @@
       "id": "practice-pectoral-girdle-01-A3317",
       "label": "Thoracic cage, anterior view practice",
       "region": "Pectoral Girdle",
-      "reviewImage": "assets/pal/pectoral-girdle/review/01-a3317.jpg",
+      "reviewImage": "assets/questions/q-8802e2c34adf.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/01-a3317.jpg",
       "sourceTitle": "Thoracic cage, anterior view",
       "terms": [
@@ -4764,7 +4764,7 @@
       "id": "practice-pectoral-girdle-03-A3318",
       "label": "Articulated right clavicle and scapula, superior view practice",
       "region": "Pectoral Girdle",
-      "reviewImage": "assets/pal/pectoral-girdle/review/03-a3318.jpg",
+      "reviewImage": "assets/questions/q-943afaf0b57d.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/03-a3318.jpg",
       "sourceTitle": "Articulated right clavicle and scapula, superior view",
       "terms": [
@@ -4781,7 +4781,7 @@
       "id": "practice-pectoral-girdle-04-A2079",
       "label": "Clavicle, anterior view, right side practice",
       "region": "Clavicle",
-      "reviewImage": "assets/pal/pectoral-girdle/review/04-a2079.jpg",
+      "reviewImage": "assets/questions/q-84d223bc19e0.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/04-a2079.jpg",
       "sourceTitle": "Clavicle, anterior view, right side",
       "terms": [
@@ -4794,7 +4794,7 @@
       "id": "practice-pectoral-girdle-05-A2080",
       "label": "Clavicle, superior view, right side practice",
       "region": "Clavicle",
-      "reviewImage": "assets/pal/pectoral-girdle/review/05-a2080.jpg",
+      "reviewImage": "assets/questions/q-f10e9a9e9965.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/05-a2080.jpg",
       "sourceTitle": "Clavicle, superior view, right side",
       "terms": [
@@ -4807,7 +4807,7 @@
       "id": "practice-pectoral-girdle-06-A2081",
       "label": "Clavicle, posterior view, right side practice",
       "region": "Clavicle",
-      "reviewImage": "assets/pal/pectoral-girdle/review/06-a2081.jpg",
+      "reviewImage": "assets/questions/q-63042bcb59f3.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/06-a2081.jpg",
       "sourceTitle": "Clavicle, posterior view, right side",
       "terms": [
@@ -4820,7 +4820,7 @@
       "id": "practice-pectoral-girdle-07-A2082",
       "label": "Clavicle, inferior view, right side practice",
       "region": "Clavicle",
-      "reviewImage": "assets/pal/pectoral-girdle/review/07-a2082.jpg",
+      "reviewImage": "assets/questions/q-b64b11255a04.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/07-a2082.jpg",
       "sourceTitle": "Clavicle, inferior view, right side",
       "terms": [
@@ -4834,7 +4834,7 @@
       "id": "practice-pectoral-girdle-08-A2075",
       "label": "Scapula, anterior view, right side practice",
       "region": "Scapula",
-      "reviewImage": "assets/pal/pectoral-girdle/review/08-a2075.jpg",
+      "reviewImage": "assets/questions/q-4d6c371d462b.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/08-a2075.jpg",
       "sourceTitle": "Scapula, anterior view, right side",
       "terms": [
@@ -4855,7 +4855,7 @@
       "id": "practice-pectoral-girdle-09-A2076",
       "label": "Scapula, lateral view, right side practice",
       "region": "Scapula",
-      "reviewImage": "assets/pal/pectoral-girdle/review/09-a2076.jpg",
+      "reviewImage": "assets/questions/q-761e097db778.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/09-a2076.jpg",
       "sourceTitle": "Scapula, lateral view, right side",
       "terms": [
@@ -4871,7 +4871,7 @@
       "id": "practice-pectoral-girdle-10-A2077",
       "label": "Scapula, posterior view, right side practice",
       "region": "Scapula",
-      "reviewImage": "assets/pal/pectoral-girdle/review/10-a2077.jpg",
+      "reviewImage": "assets/questions/q-8026248d020f.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/10-a2077.jpg",
       "sourceTitle": "Scapula, posterior view, right side",
       "terms": [
@@ -4893,7 +4893,7 @@
       "id": "practice-pectoral-girdle-11-A2078",
       "label": "Scapula, medial view, right side practice",
       "region": "Scapula",
-      "reviewImage": "assets/pal/pectoral-girdle/review/11-a2078.jpg",
+      "reviewImage": "assets/questions/q-cad82f821d25.jpg",
       "labeledImage": "assets/pal/pectoral-girdle/labeled/11-a2078.jpg",
       "sourceTitle": "Scapula, medial view, right side",
       "terms": [
@@ -4910,7 +4910,7 @@
       "id": "practice-upper-limb-01-A2083a",
       "label": "Humerus, anterior view, right side practice",
       "region": "Humerus",
-      "reviewImage": "assets/pal/upper-limb/review/01-a2083a.jpg",
+      "reviewImage": "assets/questions/q-45ec00e9402d.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/01-a2083a.jpg",
       "sourceTitle": "Humerus, anterior view, right side",
       "terms": [
@@ -4932,7 +4932,7 @@
       "id": "practice-upper-limb-02-A2083b",
       "label": "Humerus, anterior view, right side, proximal end practice",
       "region": "Humerus",
-      "reviewImage": "assets/pal/upper-limb/review/02-a2083b.jpg",
+      "reviewImage": "assets/questions/q-93e99c9febf5.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/02-a2083b.jpg",
       "sourceTitle": "Humerus, anterior view, right side, proximal end",
       "terms": [
@@ -4948,7 +4948,7 @@
       "id": "practice-upper-limb-03-A2083c",
       "label": "Humerus, anterior view, right side, distal end practice",
       "region": "Humerus",
-      "reviewImage": "assets/pal/upper-limb/review/03-a2083c.jpg",
+      "reviewImage": "assets/questions/q-1bbad41d6817.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/03-a2083c.jpg",
       "sourceTitle": "Humerus, anterior view, right side, distal end",
       "terms": [
@@ -4963,7 +4963,7 @@
       "id": "practice-upper-limb-04-A2084",
       "label": "Humerus, lateral view, right side practice",
       "region": "Humerus",
-      "reviewImage": "assets/pal/upper-limb/review/04-a2084.jpg",
+      "reviewImage": "assets/questions/q-af659d73afa2.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/04-a2084.jpg",
       "sourceTitle": "Humerus, lateral view, right side",
       "terms": [
@@ -4982,7 +4982,7 @@
       "id": "practice-upper-limb-05-A2085a",
       "label": "Humerus, posterior view, right side practice",
       "region": "Humerus",
-      "reviewImage": "assets/pal/upper-limb/review/05-a2085a.jpg",
+      "reviewImage": "assets/questions/q-d73e321228cc.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/05-a2085a.jpg",
       "sourceTitle": "Humerus, posterior view, right side",
       "terms": [
@@ -5001,7 +5001,7 @@
       "id": "practice-upper-limb-06-A2085b",
       "label": "Humerus, posterior view, right side, proximal end practice",
       "region": "Humerus",
-      "reviewImage": "assets/pal/upper-limb/review/06-a2085b.jpg",
+      "reviewImage": "assets/questions/q-5e3877850c28.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/06-a2085b.jpg",
       "sourceTitle": "Humerus, posterior view, right side, proximal end",
       "terms": [
@@ -5015,7 +5015,7 @@
       "id": "practice-upper-limb-07-A2085c",
       "label": "Humerus, posterior view, right side, distal end practice",
       "region": "Humerus",
-      "reviewImage": "assets/pal/upper-limb/review/07-a2085c.jpg",
+      "reviewImage": "assets/questions/q-b8007297df11.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/07-a2085c.jpg",
       "sourceTitle": "Humerus, posterior view, right side, distal end",
       "terms": [
@@ -5029,7 +5029,7 @@
       "id": "practice-upper-limb-08-A2086",
       "label": "Humerus, medial view, right side practice",
       "region": "Humerus",
-      "reviewImage": "assets/pal/upper-limb/review/08-a2086.jpg",
+      "reviewImage": "assets/questions/q-49fec4fa9e75.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/08-a2086.jpg",
       "sourceTitle": "Humerus, medial view, right side",
       "terms": [
@@ -5047,7 +5047,7 @@
       "id": "practice-upper-limb-09-A3319",
       "label": "Articulated humerus, ulna, and radius, anterior view practice",
       "region": "Forearm",
-      "reviewImage": "assets/pal/upper-limb/review/09-a3319.jpg",
+      "reviewImage": "assets/questions/q-2fe443c677a4.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/09-a3319.jpg",
       "sourceTitle": "Articulated humerus, ulna, and radius, anterior view",
       "terms": [
@@ -5064,7 +5064,7 @@
       "id": "practice-upper-limb-10-A3320",
       "label": "Articulated humerus, ulna, and radius, posterior view practice",
       "region": "Forearm",
-      "reviewImage": "assets/pal/upper-limb/review/10-a3320.jpg",
+      "reviewImage": "assets/questions/q-ac2cf3c3fec7.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/10-a3320.jpg",
       "sourceTitle": "Articulated humerus, ulna, and radius, posterior view",
       "terms": [
@@ -5078,7 +5078,7 @@
       "id": "practice-upper-limb-11-A3321a",
       "label": "Ulna and radius, anterior view, right side practice",
       "region": "Forearm",
-      "reviewImage": "assets/pal/upper-limb/review/11-a3321a.jpg",
+      "reviewImage": "assets/questions/q-cade95d570fe.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/11-a3321a.jpg",
       "sourceTitle": "Ulna and radius, anterior view, right side",
       "terms": [
@@ -5089,7 +5089,7 @@
       "id": "practice-upper-limb-12-A3322a",
       "label": "Ulna and radius, posterior view, right side practice",
       "region": "Forearm",
-      "reviewImage": "assets/pal/upper-limb/review/12-a3322a.jpg",
+      "reviewImage": "assets/questions/q-0df1d860e909.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/12-a3322a.jpg",
       "sourceTitle": "Ulna and radius, posterior view, right side",
       "terms": [
@@ -5100,7 +5100,7 @@
       "id": "practice-upper-limb-13-A2087",
       "label": "Ulna, anterior view, right side practice",
       "region": "Ulna",
-      "reviewImage": "assets/pal/upper-limb/review/13-a2087.jpg",
+      "reviewImage": "assets/questions/q-77f193f2db5d.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/13-a2087.jpg",
       "sourceTitle": "Ulna, anterior view, right side",
       "terms": [
@@ -5114,7 +5114,7 @@
       "id": "practice-upper-limb-14-A2088a",
       "label": "Ulna, lateral view, right side practice",
       "region": "Ulna",
-      "reviewImage": "assets/pal/upper-limb/review/14-a2088a.jpg",
+      "reviewImage": "assets/questions/q-7778576bdd5c.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/14-a2088a.jpg",
       "sourceTitle": "Ulna, lateral view, right side",
       "terms": [
@@ -5129,7 +5129,7 @@
       "id": "practice-upper-limb-15-A2088b",
       "label": "Ulna, lateral view, right side, proximal end practice",
       "region": "Ulna",
-      "reviewImage": "assets/pal/upper-limb/review/15-a2088b.jpg",
+      "reviewImage": "assets/questions/q-42883e07e6a2.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/15-a2088b.jpg",
       "sourceTitle": "Ulna, lateral view, right side, proximal end",
       "terms": [
@@ -5143,7 +5143,7 @@
       "id": "practice-upper-limb-16-A2089a",
       "label": "Ulna, posterior view, right side practice",
       "region": "Ulna",
-      "reviewImage": "assets/pal/upper-limb/review/16-a2089a.jpg",
+      "reviewImage": "assets/questions/q-9ed12468f187.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/16-a2089a.jpg",
       "sourceTitle": "Ulna, posterior view, right side",
       "terms": [
@@ -5155,7 +5155,7 @@
       "id": "practice-upper-limb-17-A2089b",
       "label": "Ulna, posterior view, right side, distal end practice",
       "region": "Ulna",
-      "reviewImage": "assets/pal/upper-limb/review/17-a2089b.jpg",
+      "reviewImage": "assets/questions/q-f56da4e997fd.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/17-a2089b.jpg",
       "sourceTitle": "Ulna, posterior view, right side, distal end",
       "terms": [
@@ -5166,7 +5166,7 @@
       "id": "practice-upper-limb-18-A2090",
       "label": "Ulna, medial view, right side practice",
       "region": "Ulna",
-      "reviewImage": "assets/pal/upper-limb/review/18-a2090.jpg",
+      "reviewImage": "assets/questions/q-faea4a783c10.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/18-a2090.jpg",
       "sourceTitle": "Ulna, medial view, right side",
       "terms": [
@@ -5180,7 +5180,7 @@
       "id": "practice-upper-limb-19-A2091a",
       "label": "Radius, anterior view, right side practice",
       "region": "Radius",
-      "reviewImage": "assets/pal/upper-limb/review/19-a2091a.jpg",
+      "reviewImage": "assets/questions/q-8169f867c5d6.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/19-a2091a.jpg",
       "sourceTitle": "Radius, anterior view, right side",
       "terms": [
@@ -5194,7 +5194,7 @@
       "id": "practice-upper-limb-20-A2091b",
       "label": "Radius, anterior view, right side, proximal end practice",
       "region": "Radius",
-      "reviewImage": "assets/pal/upper-limb/review/20-a2091b.jpg",
+      "reviewImage": "assets/questions/q-c91676693f95.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/20-a2091b.jpg",
       "sourceTitle": "Radius, anterior view, right side, proximal end",
       "terms": [
@@ -5207,7 +5207,7 @@
       "id": "practice-upper-limb-21-A2092",
       "label": "Radius, lateral view, right side practice",
       "region": "Radius",
-      "reviewImage": "assets/pal/upper-limb/review/21-a2092.jpg",
+      "reviewImage": "assets/questions/q-3f798ca15a36.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/21-a2092.jpg",
       "sourceTitle": "Radius, lateral view, right side",
       "terms": [
@@ -5221,7 +5221,7 @@
       "id": "practice-upper-limb-22-A2093a",
       "label": "Radius, posterior view, right side practice",
       "region": "Radius",
-      "reviewImage": "assets/pal/upper-limb/review/22-a2093a.jpg",
+      "reviewImage": "assets/questions/q-0dac10d665c5.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/22-a2093a.jpg",
       "sourceTitle": "Radius, posterior view, right side",
       "terms": [
@@ -5236,7 +5236,7 @@
       "id": "practice-upper-limb-23-A2093b",
       "label": "Radius, posterior view, right side, distal end practice",
       "region": "Radius",
-      "reviewImage": "assets/pal/upper-limb/review/23-a2093b.jpg",
+      "reviewImage": "assets/questions/q-9b50f65160ad.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/23-a2093b.jpg",
       "sourceTitle": "Radius, posterior view, right side, distal end",
       "terms": [
@@ -5248,7 +5248,7 @@
       "id": "practice-upper-limb-24-A2094",
       "label": "Radius, medial view, right side practice",
       "region": "Radius",
-      "reviewImage": "assets/pal/upper-limb/review/24-a2094.jpg",
+      "reviewImage": "assets/questions/q-4a60df12d360.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/24-a2094.jpg",
       "sourceTitle": "Radius, medial view, right side",
       "terms": [
@@ -5263,7 +5263,7 @@
       "id": "practice-upper-limb-25-A2095",
       "label": "Bones of the hand, overview, anterior view, right side practice",
       "region": "Hand",
-      "reviewImage": "assets/pal/upper-limb/review/25-a2095.jpg",
+      "reviewImage": "assets/questions/q-34659af283ea.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/25-a2095.jpg",
       "sourceTitle": "Bones of the hand, overview, anterior view, right side",
       "terms": [
@@ -5275,7 +5275,7 @@
       "id": "practice-upper-limb-26-A3321b",
       "label": "Bones of the hand, anterior view, right side practice",
       "region": "Hand",
-      "reviewImage": "assets/pal/upper-limb/review/26-a3321b.jpg",
+      "reviewImage": "assets/questions/q-f4e9aa749c16.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/26-a3321b.jpg",
       "sourceTitle": "Bones of the hand, anterior view, right side",
       "terms": [
@@ -5296,7 +5296,7 @@
       "id": "practice-upper-limb-27-A3322b",
       "label": "Bones of the hand, posterior view, right side practice",
       "region": "Hand",
-      "reviewImage": "assets/pal/upper-limb/review/27-a3322b.jpg",
+      "reviewImage": "assets/questions/q-dc6b9814755c.jpg",
       "labeledImage": "assets/pal/upper-limb/labeled/27-a3322b.jpg",
       "sourceTitle": "Bones of the hand, posterior view, right side",
       "terms": [

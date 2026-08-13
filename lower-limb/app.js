@@ -908,12 +908,14 @@ function renderDrillImages(images, fallbackImage, label, options = {}) {
   const items = imageItems(images, fallbackImage);
   if (!items.length) return '';
   const showCaptions = options.showCaptions !== false;
+  const altText = options.hideAnswerMetadata ? '' : label;
+  const anchorLabel = options.hideAnswerMetadata ? 'Open full-size question image' : label;
   return `<div class="drill-image-grid">
     ${items.map((item) => `<figure>
       <span class="drill-image-frame">
         ${item.mirrored
-          ? `<img class="mirrored-drill-image" src="${escapeHtml(item.image)}" alt="${escapeHtml(label)}">`
-          : renderImageAnchor(item.image, `<img src="${escapeHtml(item.image)}" alt="${escapeHtml(label)}">`, label)}
+          ? `<img class="mirrored-drill-image" src="${escapeHtml(item.image)}" alt="${escapeHtml(altText)}">`
+          : renderImageAnchor(item.image, `<img src="${escapeHtml(item.image)}" alt="${escapeHtml(altText)}">`, anchorLabel)}
         ${item.stickerCode ? `<span class="sticker-badge" aria-label="Sticker code ${escapeHtml(item.stickerCode)}">${escapeHtml(item.stickerCode)}</span>` : ''}
         ${item.hideSideCues ? '<span class="side-cue-mask side-cue-mask-top" aria-hidden="true"></span><span class="side-cue-mask side-cue-mask-left" aria-hidden="true"></span>' : ''}
       </span>
@@ -1827,7 +1829,7 @@ function renderDrills() {
   const displayLength = quizActive ? state.leftRightQuiz.order.length : deck.length;
   const showCaptions = !['retrieval', 'leftRight', 'sticker'].includes(state.drillMode);
   byId('deckMeta').textContent = `${deckDisplayName(state.deckName)} | ${displayIndex + 1} of ${displayLength}`;
-  byId('drillVisual').innerHTML = `${renderImageSourceNotice(card)}${renderDrillImages(card.images, card.image, card.label || card.prompt, { showCaptions })}`;
+  byId('drillVisual').innerHTML = `${renderImageSourceNotice(card)}${renderDrillImages(card.images, card.image, card.label || card.prompt, { showCaptions, hideAnswerMetadata: true })}`;
   byId('drillPrompt').innerHTML = renderTextLinks(card.prompt);
   byId('drillBank').innerHTML = renderDrillBank(card);
   byId('drillResponse').innerHTML = quizActive ? '' : renderDrillResponse(card);
@@ -2024,16 +2026,21 @@ const BOOK_HOTSPOT_COORDINATES = {
   'bone-leader-lower-limb-skeleton-21-a2109-a2109-03-tibial-tuberosity': [53.7, 19.9]
 };
 
-function cleanBookImageForMarkedImage(markedImage) {
-  const filename = String(markedImage || '').split('/').pop() || '';
-  const match = filename.match(/^(pelvic|lower-limb-skeleton)-\d+-([^-]+)-/);
-  return match ? `assets/pal/${match[1]}/review/${match[1]}-${match[2]}.jpg` : '';
+function cleanBookImageForLabeledImage(labeledImage) {
+  const parts = String(labeledImage || '').split('/');
+  const labeledIndex = parts.lastIndexOf('labeled');
+  const family = labeledIndex > 0 ? parts[labeledIndex - 1] : '';
+  const filename = parts.at(-1) || '';
+  const match = filename.match(/^\d+-([^.]+)\.[a-z0-9]+$/i);
+  return match && ['pelvic', 'lower-limb-skeleton'].includes(family)
+    ? `assets/pal/${family}/review/${family}-${match[1]}.jpg`
+    : '';
 }
 
 function bookHotspotTargets() {
   return (data.boneLeaderCards || []).flatMap((card) => {
     const coordinates = BOOK_HOTSPOT_COORDINATES[card.id];
-    const image = cleanBookImageForMarkedImage(card.reviewImage);
+    const image = cleanBookImageForLabeledImage(card.labeledImage);
     if (!coordinates || !image) return [];
     return [{
       id: card.id,
@@ -2344,7 +2351,7 @@ function renderActivitySession() {
         <p class="eyebrow">Answer before revealing</p>
         <h3>${renderTextLinks(card.prompt)}</h3>
       </div>
-      <div class="activity-media">${renderDrillImages(card.images, card.image, card.label || card.prompt, { showCaptions: false })}</div>
+      <div class="activity-media">${renderDrillImages(card.images, card.image, card.label || card.prompt, { showCaptions: false, hideAnswerMetadata: true })}</div>
       ${state.activity.revealed ? `
         <div class="activity-answer">
           <span class="eyebrow">Answer</span>
@@ -3217,7 +3224,7 @@ function renderPracticalModeCard(root) {
       ${renderPracticalModeResponse(card)}
       ${renderPracticalModeChoices(card)}
       ${renderImageSourceNotice(card)}
-      <div class="drill-visual">${renderDrillImages(card.images, card.image, card.label || card.prompt, { showCaptions: false })}</div>
+      <div class="drill-visual">${renderDrillImages(card.images, card.image, card.label || card.prompt, { showCaptions: false, hideAnswerMetadata: true })}</div>
       <div class="drill-actions">
         <button id="submitPracticalAnswer" class="primary-button" type="button">${displayIndex === total ? 'Submit and show results' : 'Submit answer'}</button>
       </div>

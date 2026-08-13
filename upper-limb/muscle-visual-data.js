@@ -9,30 +9,30 @@
       "category": "Muscle ID",
       "answer": "Trapezius",
       "sourceTitle": "Muscles of the trunk, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0020-trapezius.webp",
+      "reviewImage": "assets/questions/q-04efee43c8f4.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
       "sourceLabel": "Trapezius",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0020-trapezius.webp",
+          "image": "assets/questions/q-04efee43c8f4.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Trapezius"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0037-trapezius.webp",
+          "image": "assets/questions/q-8aa2453e561d.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-04-m0004b.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Trapezius"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0003-trapezius.webp",
+          "image": "assets/questions/q-a8c553b70f1c.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-01-m0002.webp",
           "sourceTitle": "Superficial muscles of the head and neck, anterolateral view — focused crop",
           "sourceLabel": "Trapezius"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0081-trapezius.webp",
+          "image": "assets/questions/q-80d80a2ab07c.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-08-m3022.webp",
           "sourceTitle": "Superficial muscles of head and neck, posterior view — focused crop",
           "sourceLabel": "Trapezius"
@@ -77,24 +77,24 @@
       "category": "Muscle ID",
       "answer": "Levator scapulae",
       "sourceTitle": "Muscles of the trunk, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0027-levator-scapulae.webp",
+      "reviewImage": "assets/questions/q-a2a87259ac63.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
       "sourceLabel": "Levator scapulae",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0027-levator-scapulae.webp",
+          "image": "assets/questions/q-a2a87259ac63.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Levator scapulae"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0085-levator-scapulae.webp",
+          "image": "assets/questions/q-23f96e7e3e51.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-08-m3022.webp",
           "sourceTitle": "Superficial muscles of head and neck, posterior view — focused crop",
           "sourceLabel": "Levator scapulae"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0066-levator-scapulae.webp",
+          "image": "assets/questions/q-5d1410141f3d.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-06-m3021b.webp",
           "sourceTitle": "Deep muscles of the head and neck, left lateral view — focused crop",
           "sourceLabel": "Levator scapulae"
@@ -133,18 +133,18 @@
       "category": "Muscle ID",
       "answer": "Rhomboid minor",
       "sourceTitle": "Muscles of the trunk, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0025-rhomboid-minor.webp",
+      "reviewImage": "assets/questions/q-962f75113fcf.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
       "sourceLabel": "Rhomboid minor",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0025-rhomboid-minor.webp",
+          "image": "assets/questions/q-962f75113fcf.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Rhomboid minor"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/head-neck-0082-rhomboid-minor.webp",
+          "image": "assets/questions/q-684793f66272.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-08-m3022.webp",
           "sourceTitle": "Superficial muscles of head and neck, posterior view — focused crop",
           "sourceLabel": "Rhomboid minor"
@@ -177,12 +177,12 @@
       "category": "Muscle ID",
       "answer": "Rhomboid major",
       "sourceTitle": "Muscles of the trunk, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0024-rhomboid-major.webp",
+      "reviewImage": "assets/questions/q-b35955119f08.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
       "sourceLabel": "Rhomboid major",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0024-rhomboid-major.webp",
+          "image": "assets/questions/q-b35955119f08.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Rhomboid major"
@@ -209,24 +209,24 @@
       "category": "Muscle ID",
       "answer": "Subclavius",
       "sourceTitle": "Muscles of the trunk, lateral view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0043-subclavius.webp",
+      "reviewImage": "assets/questions/q-bb0872331965.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-05-m3023.webp",
       "sourceLabel": "Subclavius",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0043-subclavius.webp",
+          "image": "assets/questions/q-bb0872331965.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-05-m3023.webp",
           "sourceTitle": "Muscles of the trunk, lateral view — focused crop",
           "sourceLabel": "Subclavius"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0008-subclavius.webp",
+          "image": "assets/questions/q-f21873f61a9f.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Subclavius"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0004-subclavius-cut.webp",
+          "image": "assets/questions/q-e399b35ff426.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
           "sourceTitle": "Muscles of the scapula and arm, anterior view, left side — focused crop",
           "sourceLabel": "Subclavius (cut)"
@@ -266,30 +266,30 @@
       "category": "Muscle ID",
       "answer": "Pectoralis minor",
       "sourceTitle": "Muscles of the trunk, lateral view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0047-pectoralis-minor.webp",
+      "reviewImage": "assets/questions/q-1b4e7e2da1a0.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-05-m3023.webp",
       "sourceLabel": "Pectoralis minor",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0047-pectoralis-minor.webp",
+          "image": "assets/questions/q-1b4e7e2da1a0.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-05-m3023.webp",
           "sourceTitle": "Muscles of the trunk, lateral view — focused crop",
           "sourceLabel": "Pectoralis minor"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0006-pectoralis-minor.webp",
+          "image": "assets/questions/q-37697d7e96e9.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Pectoralis minor"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0053-pectoralis-minor.webp",
+          "image": "assets/questions/q-16adbe4e0205.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-06-m3024.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Pectoralis minor"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0005-pectoralis-minor-cut.webp",
+          "image": "assets/questions/q-e8bbd6a54959.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
           "sourceTitle": "Muscles of the scapula and arm, anterior view, left side — focused crop",
           "sourceLabel": "Pectoralis minor (cut)"
@@ -335,30 +335,30 @@
       "category": "Muscle ID",
       "answer": "Serratus anterior",
       "sourceTitle": "Muscles of the trunk, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0038-serratus-anterior.webp",
+      "reviewImage": "assets/questions/q-f1fb3e9f7e51.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-04-m0004b.webp",
       "sourceLabel": "Serratus anterior",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0038-serratus-anterior.webp",
+          "image": "assets/questions/q-f1fb3e9f7e51.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-04-m0004b.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Serratus anterior"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0042-serratus-anterior.webp",
+          "image": "assets/questions/q-de8e3efbb851.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-05-m3023.webp",
           "sourceTitle": "Muscles of the trunk, lateral view — focused crop",
           "sourceLabel": "Serratus anterior"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0007-serratus-anterior.webp",
+          "image": "assets/questions/q-8d5b3105e222.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Serratus anterior"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0056-serratus-anterior.webp",
+          "image": "assets/questions/q-ffdeb08edf83.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-06-m3024.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Serratus anterior"
@@ -403,18 +403,18 @@
       "category": "Muscle ID",
       "answer": "Supraspinatus",
       "sourceTitle": "Muscles of the trunk, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0026-supraspinatus.webp",
+      "reviewImage": "assets/questions/q-209d11f99233.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
       "sourceLabel": "Supraspinatus",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0026-supraspinatus.webp",
+          "image": "assets/questions/q-209d11f99233.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Supraspinatus"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0088-supraspinatus.webp",
+          "image": "assets/questions/q-ae088bd1ee11.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-09-m3026.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Supraspinatus"
@@ -447,30 +447,30 @@
       "category": "Muscle ID",
       "answer": "Teres minor",
       "sourceTitle": "Muscles of the trunk, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0022-teres-minor.webp",
+      "reviewImage": "assets/questions/q-4bb16c45acda.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
       "sourceLabel": "Teres minor",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0022-teres-minor.webp",
+          "image": "assets/questions/q-4bb16c45acda.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Teres minor"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0087-teres-minor.webp",
+          "image": "assets/questions/q-0ae066d67026.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-09-m3026.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Teres minor"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0075-teres-minor.webp",
+          "image": "assets/questions/q-e1790acfbd13.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-08-m3025b.webp",
           "sourceTitle": "Muscles of the trunk, right lateral view — focused crop",
           "sourceLabel": "Teres minor"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0016-teres-minor.webp",
+          "image": "assets/questions/q-2f7a5038bc59.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-02-m0006.webp",
           "sourceTitle": "Superficial muscles of the scapula and arm, posterior view, left side — focused crop",
           "sourceLabel": "Teres minor"
@@ -515,30 +515,30 @@
       "category": "Muscle ID",
       "answer": "Infraspinatus",
       "sourceTitle": "Muscles of the trunk, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0023-infraspinatus.webp",
+      "reviewImage": "assets/questions/q-8a79ad9395fc.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
       "sourceLabel": "Infraspinatus",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0023-infraspinatus.webp",
+          "image": "assets/questions/q-8a79ad9395fc.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Infraspinatus"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0090-infraspinatus.webp",
+          "image": "assets/questions/q-fe8768995f14.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-09-m3026.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Infraspinatus"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0074-infraspinatus.webp",
+          "image": "assets/questions/q-4ae7b696f557.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-08-m3025b.webp",
           "sourceTitle": "Muscles of the trunk, right lateral view — focused crop",
           "sourceLabel": "Infraspinatus"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0015-infraspinatus.webp",
+          "image": "assets/questions/q-fab53e49ec77.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-02-m0006.webp",
           "sourceTitle": "Superficial muscles of the scapula and arm, posterior view, left side — focused crop",
           "sourceLabel": "Infraspinatus"
@@ -583,12 +583,12 @@
       "category": "Muscle ID",
       "answer": "Subscapularis",
       "sourceTitle": "Muscles of the scapula and arm, anterior view, left side",
-      "reviewImage": "assets/pal/muscle-atlas/focus/upper-limb-0001-subscapularis.webp",
+      "reviewImage": "assets/questions/q-49ce12950723.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
       "sourceLabel": "Subscapularis",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0001-subscapularis.webp",
+          "image": "assets/questions/q-49ce12950723.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
           "sourceTitle": "Muscles of the scapula and arm, anterior view, left side — focused crop",
           "sourceLabel": "Subscapularis"
@@ -615,30 +615,30 @@
       "category": "Muscle ID",
       "answer": "Deltoid",
       "sourceTitle": "Muscles of the trunk, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0031-deltoid.webp",
+      "reviewImage": "assets/questions/q-06e041915d6a.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
       "sourceLabel": "Deltoid",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0031-deltoid.webp",
+          "image": "assets/questions/q-06e041915d6a.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Deltoid"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0086-deltoid.webp",
+          "image": "assets/questions/q-fa2373dafffb.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-09-m3026.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Deltoid"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0001-deltoid.webp",
+          "image": "assets/questions/q-7c4f1ee2808f.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Deltoid"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0051-deltoid.webp",
+          "image": "assets/questions/q-fbcbe9afaace.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-06-m3024.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Deltoid"
@@ -683,30 +683,30 @@
       "category": "Muscle ID",
       "answer": "Pectoralis major",
       "sourceTitle": "Muscles of the trunk, anterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0002-pectoralis-major.webp",
+      "reviewImage": "assets/questions/q-2dbab7aacc70.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
       "sourceLabel": "Pectoralis major",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0002-pectoralis-major.webp",
+          "image": "assets/questions/q-2dbab7aacc70.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Pectoralis major"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0052-pectoralis-major.webp",
+          "image": "assets/questions/q-276badab3679.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-06-m3024.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Pectoralis major"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0066-pectoralis-major.webp",
+          "image": "assets/questions/q-915b2fa8304b.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-07-m3025a.webp",
           "sourceTitle": "Muscles of the trunk, left lateral view — focused crop",
           "sourceLabel": "Pectoralis major"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0006-pectoralis-major-cut.webp",
+          "image": "assets/questions/q-678964d30840.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
           "sourceTitle": "Muscles of the scapula and arm, anterior view, left side — focused crop",
           "sourceLabel": "Pectoralis major (cut)"
@@ -752,30 +752,30 @@
       "category": "Muscle ID",
       "answer": "Triceps brachii",
       "sourceTitle": "Muscles of the trunk, anterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0009-triceps-brachii.webp",
+      "reviewImage": "assets/questions/q-dc609ffd8028.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
       "sourceLabel": "Triceps brachii",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0009-triceps-brachii.webp",
+          "image": "assets/questions/q-dc609ffd8028.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Triceps brachii"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0029-triceps-brachii-long-head.webp",
+          "image": "assets/questions/q-5bd7a15b8271.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Triceps brachii (long head)"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0011-triceps-brachii-medial-head.webp",
+          "image": "assets/questions/q-5bb8de64de9c.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
           "sourceTitle": "Muscles of the scapula and arm, anterior view, left side — focused crop",
           "sourceLabel": "Triceps brachii (medial head)"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0018-triceps-brachii-long-head.webp",
+          "image": "assets/questions/q-18872d270e0f.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-02-m0006.webp",
           "sourceTitle": "Superficial muscles of the scapula and arm, posterior view, left side — focused crop",
           "sourceLabel": "Triceps brachii (long head)"
@@ -822,30 +822,30 @@
       "category": "Muscle ID",
       "answer": "Teres major",
       "sourceTitle": "Muscles of the trunk, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0021-teres-major.webp",
+      "reviewImage": "assets/questions/q-83c63ac76ef8.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
       "sourceLabel": "Teres major",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0021-teres-major.webp",
+          "image": "assets/questions/q-83c63ac76ef8.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Teres major"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0045-teres-major.webp",
+          "image": "assets/questions/q-b01ae2de814a.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-05-m3023.webp",
           "sourceTitle": "Muscles of the trunk, lateral view — focused crop",
           "sourceLabel": "Teres major"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0091-teres-major.webp",
+          "image": "assets/questions/q-4f9d2a1124db.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-09-m3026.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Teres major"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0076-teres-major.webp",
+          "image": "assets/questions/q-ca1f9511e4b0.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-08-m3025b.webp",
           "sourceTitle": "Muscles of the trunk, right lateral view — focused crop",
           "sourceLabel": "Teres major"
@@ -890,30 +890,30 @@
       "category": "Muscle ID",
       "answer": "Latissimus dorsi",
       "sourceTitle": "Muscles of the trunk, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0035-latissimus-dorsi.webp",
+      "reviewImage": "assets/questions/q-303187f56e97.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-04-m0004b.webp",
       "sourceLabel": "Latissimus dorsi",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0035-latissimus-dorsi.webp",
+          "image": "assets/questions/q-303187f56e97.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-04-m0004b.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Latissimus dorsi"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0092-latissimus-dorsi.webp",
+          "image": "assets/questions/q-a431dc1cf2ae.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-09-m3026.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Latissimus dorsi"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0068-latissimus-dorsi.webp",
+          "image": "assets/questions/q-a025aaacc786.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-07-m3025a.webp",
           "sourceTitle": "Muscles of the trunk, left lateral view — focused crop",
           "sourceLabel": "Latissimus dorsi"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0003-latissimus-dorsi-cut.webp",
+          "image": "assets/questions/q-943b8c179cec.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
           "sourceTitle": "Muscles of the scapula and arm, anterior view, left side — focused crop",
           "sourceLabel": "Latissimus dorsi (cut)"
@@ -959,30 +959,30 @@
       "category": "Muscle ID",
       "answer": "Biceps brachii",
       "sourceTitle": "Muscles of the trunk, anterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0003-biceps-brachii.webp",
+      "reviewImage": "assets/questions/q-f395976c04d1.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
       "sourceLabel": "Biceps brachii",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0003-biceps-brachii.webp",
+          "image": "assets/questions/q-f395976c04d1.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Biceps brachii"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0058-biceps-brachii.webp",
+          "image": "assets/questions/q-14335ebc2c9d.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-06-m3024.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Biceps brachii"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0009-biceps-brachii.webp",
+          "image": "assets/questions/q-c436f3633f09.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
           "sourceTitle": "Muscles of the scapula and arm, anterior view, left side — focused crop",
           "sourceLabel": "Biceps brachii"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0021-biceps-brachii.webp",
+          "image": "assets/questions/q-f0eef15f4a5d.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-02-m0006.webp",
           "sourceTitle": "Superficial muscles of the scapula and arm, posterior view, left side — focused crop",
           "sourceLabel": "Biceps brachii"
@@ -1027,18 +1027,18 @@
       "category": "Muscle ID",
       "answer": "Brachialis",
       "sourceTitle": "Muscles of the scapula and arm, anterior view, left side",
-      "reviewImage": "assets/pal/muscle-atlas/focus/upper-limb-0010-brachialis.webp",
+      "reviewImage": "assets/questions/q-0062c6a48cff.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
       "sourceLabel": "Brachialis",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0010-brachialis.webp",
+          "image": "assets/questions/q-0062c6a48cff.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
           "sourceTitle": "Muscles of the scapula and arm, anterior view, left side — focused crop",
           "sourceLabel": "Brachialis"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0020-brachialis.webp",
+          "image": "assets/questions/q-e921022d856c.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-02-m0006.webp",
           "sourceTitle": "Superficial muscles of the scapula and arm, posterior view, left side — focused crop",
           "sourceLabel": "Brachialis"
@@ -1071,18 +1071,18 @@
       "category": "Muscle ID",
       "answer": "Brachioradialis",
       "sourceTitle": "Superficial muscles of the forearm and hand, posterior view, left side",
-      "reviewImage": "assets/pal/muscle-atlas/focus/upper-limb-0042-brachioradialis.webp",
+      "reviewImage": "assets/questions/q-b783e6672d21.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-05-m0009.webp",
       "sourceLabel": "Brachioradialis",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0042-brachioradialis.webp",
+          "image": "assets/questions/q-b783e6672d21.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-05-m0009.webp",
           "sourceTitle": "Superficial muscles of the forearm and hand, posterior view, left side — focused crop",
           "sourceLabel": "Brachioradialis"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0028-brachioradialis.webp",
+          "image": "assets/questions/q-1d37b5823da8.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-03-m0007.webp",
           "sourceTitle": "Superficial muscles of the forearm, anterior view, left side — focused crop",
           "sourceLabel": "Brachioradialis"
@@ -1115,18 +1115,18 @@
       "category": "Muscle ID",
       "answer": "Pronator teres",
       "sourceTitle": "Superficial muscles of the forearm, anterior view, left side",
-      "reviewImage": "assets/pal/muscle-atlas/focus/upper-limb-0024-pronator-teres.webp",
+      "reviewImage": "assets/questions/q-765738d17eab.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-03-m0007.webp",
       "sourceLabel": "Pronator teres",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0024-pronator-teres.webp",
+          "image": "assets/questions/q-765738d17eab.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-03-m0007.webp",
           "sourceTitle": "Superficial muscles of the forearm, anterior view, left side — focused crop",
           "sourceLabel": "Pronator teres"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0035-pronator-teres.webp",
+          "image": "assets/questions/q-6b9a36ea7274.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-04-m0008.webp",
           "sourceTitle": "Deep muscles of the forearm, anterior view, left side — focused crop",
           "sourceLabel": "Pronator teres"
@@ -1159,18 +1159,18 @@
       "category": "Muscle ID",
       "answer": "Extensor carpi radialis longus",
       "sourceTitle": "Superficial muscles of the forearm and hand, posterior view, left side",
-      "reviewImage": "assets/pal/muscle-atlas/focus/upper-limb-0043-extensor-carpi-radialis-longus.webp",
+      "reviewImage": "assets/questions/q-d3e302765264.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-05-m0009.webp",
       "sourceLabel": "Extensor carpi radialis longus",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0043-extensor-carpi-radialis-longus.webp",
+          "image": "assets/questions/q-d3e302765264.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-05-m0009.webp",
           "sourceTitle": "Superficial muscles of the forearm and hand, posterior view, left side — focused crop",
           "sourceLabel": "Extensor carpi radialis longus"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0029-extensor-carpi-radialis-longus.webp",
+          "image": "assets/questions/q-017aa66e59de.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-03-m0007.webp",
           "sourceTitle": "Superficial muscles of the forearm, anterior view, left side — focused crop",
           "sourceLabel": "Extensor carpi radialis longus"
@@ -1203,18 +1203,18 @@
       "category": "Muscle ID",
       "answer": "Extensor carpi radialis brevis",
       "sourceTitle": "Superficial muscles of the forearm and hand, posterior view, left side",
-      "reviewImage": "assets/pal/muscle-atlas/focus/upper-limb-0044-extensor-carpi-radialis-brevis.webp",
+      "reviewImage": "assets/questions/q-c5cdc8f1e537.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-05-m0009.webp",
       "sourceLabel": "Extensor carpi radialis brevis",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0044-extensor-carpi-radialis-brevis.webp",
+          "image": "assets/questions/q-c5cdc8f1e537.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-05-m0009.webp",
           "sourceTitle": "Superficial muscles of the forearm and hand, posterior view, left side — focused crop",
           "sourceLabel": "Extensor carpi radialis brevis"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0030-extensor-carpi-radialis-brevis.webp",
+          "image": "assets/questions/q-e9979d366457.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-03-m0007.webp",
           "sourceTitle": "Superficial muscles of the forearm, anterior view, left side — focused crop",
           "sourceLabel": "Extensor carpi radialis brevis"
@@ -1247,18 +1247,18 @@
       "category": "Muscle ID",
       "answer": "Extensor digitorum",
       "sourceTitle": "Superficial muscles of the forearm and hand, posterior view, left side",
-      "reviewImage": "assets/pal/muscle-atlas/focus/upper-limb-0045-extensor-digitorum.webp",
+      "reviewImage": "assets/questions/q-c868037a49a5.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-05-m0009.webp",
       "sourceLabel": "Extensor digitorum",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0045-extensor-digitorum.webp",
+          "image": "assets/questions/q-c868037a49a5.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-05-m0009.webp",
           "sourceTitle": "Superficial muscles of the forearm and hand, posterior view, left side — focused crop",
           "sourceLabel": "Extensor digitorum"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0033-extensor-digitorum.webp",
+          "image": "assets/questions/q-aaf5b212fbdc.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-04-m0008.webp",
           "sourceTitle": "Deep muscles of the forearm, anterior view, left side — focused crop",
           "sourceLabel": "Extensor digitorum"
@@ -1291,18 +1291,18 @@
       "category": "Muscle ID",
       "answer": "Flexor digitorum superficialis",
       "sourceTitle": "Deep muscles of the forearm, anterior view, left side",
-      "reviewImage": "assets/pal/muscle-atlas/focus/upper-limb-0038-flexor-digitorum-superficialis.webp",
+      "reviewImage": "assets/questions/q-5e3c442a810c.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-04-m0008.webp",
       "sourceLabel": "Flexor digitorum superficialis",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0038-flexor-digitorum-superficialis.webp",
+          "image": "assets/questions/q-5e3c442a810c.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-04-m0008.webp",
           "sourceTitle": "Deep muscles of the forearm, anterior view, left side — focused crop",
           "sourceLabel": "Flexor digitorum superficialis"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0032-flexor-digitorum-superficialis.webp",
+          "image": "assets/questions/q-c0a9fd3518e1.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-03-m0007.webp",
           "sourceTitle": "Superficial muscles of the forearm, anterior view, left side — focused crop",
           "sourceLabel": "Flexor digitorum superficialis"
@@ -1335,12 +1335,12 @@
       "category": "Muscle ID",
       "answer": "Extensor carpi ulnaris",
       "sourceTitle": "Superficial muscles of the forearm and hand, posterior view, left side",
-      "reviewImage": "assets/pal/muscle-atlas/focus/upper-limb-0047-extensor-carpi-ulnaris.webp",
+      "reviewImage": "assets/questions/q-f55c19249940.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-05-m0009.webp",
       "sourceLabel": "Extensor carpi ulnaris",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0047-extensor-carpi-ulnaris.webp",
+          "image": "assets/questions/q-f55c19249940.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-05-m0009.webp",
           "sourceTitle": "Superficial muscles of the forearm and hand, posterior view, left side — focused crop",
           "sourceLabel": "Extensor carpi ulnaris"
@@ -1367,18 +1367,18 @@
       "category": "Muscle ID",
       "answer": "Flexor carpi ulnaris",
       "sourceTitle": "Superficial muscles of the forearm and hand, posterior view, left side",
-      "reviewImage": "assets/pal/muscle-atlas/focus/upper-limb-0048-flexor-carpi-ulnaris.webp",
+      "reviewImage": "assets/questions/q-f7c61406980b.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-05-m0009.webp",
       "sourceLabel": "Flexor carpi ulnaris",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0048-flexor-carpi-ulnaris.webp",
+          "image": "assets/questions/q-f7c61406980b.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-05-m0009.webp",
           "sourceTitle": "Superficial muscles of the forearm and hand, posterior view, left side — focused crop",
           "sourceLabel": "Flexor carpi ulnaris"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0027-flexor-carpi-ulnaris.webp",
+          "image": "assets/questions/q-3809e8d5f19f.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-03-m0007.webp",
           "sourceTitle": "Superficial muscles of the forearm, anterior view, left side — focused crop",
           "sourceLabel": "Flexor carpi ulnaris"
@@ -1411,18 +1411,18 @@
       "category": "Muscle ID",
       "answer": "Flexor carpi radialis",
       "sourceTitle": "Deep muscles of the forearm, anterior view, left side",
-      "reviewImage": "assets/pal/muscle-atlas/focus/upper-limb-0040-flexor-carpi-radialis.webp",
+      "reviewImage": "assets/questions/q-304a23dc862e.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-04-m0008.webp",
       "sourceLabel": "Flexor carpi radialis",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0040-flexor-carpi-radialis.webp",
+          "image": "assets/questions/q-304a23dc862e.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-04-m0008.webp",
           "sourceTitle": "Deep muscles of the forearm, anterior view, left side — focused crop",
           "sourceLabel": "Flexor carpi radialis"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0025-flexor-carpi-radialis.webp",
+          "image": "assets/questions/q-847d3ce37b29.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-03-m0007.webp",
           "sourceTitle": "Superficial muscles of the forearm, anterior view, left side — focused crop",
           "sourceLabel": "Flexor carpi radialis"
@@ -1455,18 +1455,18 @@
       "category": "Muscle ID",
       "answer": "Palmaris longus",
       "sourceTitle": "Superficial muscles of the forearm, anterior view, left side",
-      "reviewImage": "assets/pal/muscle-atlas/focus/upper-limb-0026-palmaris-longus.webp",
+      "reviewImage": "assets/questions/q-c9c95707368f.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-03-m0007.webp",
       "sourceLabel": "Palmaris longus",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0026-palmaris-longus.webp",
+          "image": "assets/questions/q-c9c95707368f.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-03-m0007.webp",
           "sourceTitle": "Superficial muscles of the forearm, anterior view, left side — focused crop",
           "sourceLabel": "Palmaris longus"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0039-palmaris-longus.webp",
+          "image": "assets/questions/q-cbcf53ff80d5.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-04-m0008.webp",
           "sourceTitle": "Deep muscles of the forearm, anterior view, left side — focused crop",
           "sourceLabel": "Palmaris longus"
@@ -1499,12 +1499,12 @@
       "category": "Muscle ID",
       "answer": "Flexor digitorum profundus",
       "sourceTitle": "Deep muscles of the forearm, anterior view, left side",
-      "reviewImage": "assets/pal/muscle-atlas/focus/upper-limb-0036-flexor-digitorum-profundus.webp",
+      "reviewImage": "assets/questions/q-3d7d81b1919c.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-04-m0008.webp",
       "sourceLabel": "Flexor digitorum profundus",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0036-flexor-digitorum-profundus.webp",
+          "image": "assets/questions/q-3d7d81b1919c.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-04-m0008.webp",
           "sourceTitle": "Deep muscles of the forearm, anterior view, left side — focused crop",
           "sourceLabel": "Flexor digitorum profundus"
@@ -1531,30 +1531,30 @@
       "category": "Muscle ID",
       "answer": "Biceps brachii - long head",
       "sourceTitle": "Muscles of the trunk, anterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0003-biceps-brachii.webp",
+      "reviewImage": "assets/questions/q-f395976c04d1.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
       "sourceLabel": "Biceps brachii",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0003-biceps-brachii.webp",
+          "image": "assets/questions/q-f395976c04d1.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Biceps brachii"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0058-biceps-brachii.webp",
+          "image": "assets/questions/q-14335ebc2c9d.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-06-m3024.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Biceps brachii"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0009-biceps-brachii.webp",
+          "image": "assets/questions/q-c436f3633f09.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
           "sourceTitle": "Muscles of the scapula and arm, anterior view, left side — focused crop",
           "sourceLabel": "Biceps brachii"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0021-biceps-brachii.webp",
+          "image": "assets/questions/q-f0eef15f4a5d.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-02-m0006.webp",
           "sourceTitle": "Superficial muscles of the scapula and arm, posterior view, left side — focused crop",
           "sourceLabel": "Biceps brachii"
@@ -1599,30 +1599,30 @@
       "category": "Muscle ID",
       "answer": "Biceps brachii - short head",
       "sourceTitle": "Muscles of the trunk, anterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0003-biceps-brachii.webp",
+      "reviewImage": "assets/questions/q-f395976c04d1.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
       "sourceLabel": "Biceps brachii",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0003-biceps-brachii.webp",
+          "image": "assets/questions/q-f395976c04d1.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Biceps brachii"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0058-biceps-brachii.webp",
+          "image": "assets/questions/q-14335ebc2c9d.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-06-m3024.webp",
           "sourceTitle": "Muscles of the trunk, anterior view — focused crop",
           "sourceLabel": "Biceps brachii"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0009-biceps-brachii.webp",
+          "image": "assets/questions/q-c436f3633f09.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
           "sourceTitle": "Muscles of the scapula and arm, anterior view, left side — focused crop",
           "sourceLabel": "Biceps brachii"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0021-biceps-brachii.webp",
+          "image": "assets/questions/q-f0eef15f4a5d.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-02-m0006.webp",
           "sourceTitle": "Superficial muscles of the scapula and arm, posterior view, left side — focused crop",
           "sourceLabel": "Biceps brachii"
@@ -1667,12 +1667,12 @@
       "category": "Muscle ID",
       "answer": "Triceps brachii - medial head",
       "sourceTitle": "Muscles of the scapula and arm, anterior view, left side",
-      "reviewImage": "assets/pal/muscle-atlas/focus/upper-limb-0011-triceps-brachii-medial-head.webp",
+      "reviewImage": "assets/questions/q-5bb8de64de9c.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
       "sourceLabel": "Triceps brachii (medial head)",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0011-triceps-brachii-medial-head.webp",
+          "image": "assets/questions/q-5bb8de64de9c.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
           "sourceTitle": "Muscles of the scapula and arm, anterior view, left side — focused crop",
           "sourceLabel": "Triceps brachii (medial head)"
@@ -1699,24 +1699,24 @@
       "category": "Muscle ID",
       "answer": "Triceps brachii - long head",
       "sourceTitle": "Muscles of the trunk, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0029-triceps-brachii-long-head.webp",
+      "reviewImage": "assets/questions/q-5bd7a15b8271.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
       "sourceLabel": "Triceps brachii (long head)",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0029-triceps-brachii-long-head.webp",
+          "image": "assets/questions/q-5bd7a15b8271.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Triceps brachii (long head)"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0012-triceps-brachii-long-head.webp",
+          "image": "assets/questions/q-5f8d57798203.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
           "sourceTitle": "Muscles of the scapula and arm, anterior view, left side — focused crop",
           "sourceLabel": "Triceps brachii (long head)"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0018-triceps-brachii-long-head.webp",
+          "image": "assets/questions/q-18872d270e0f.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-02-m0006.webp",
           "sourceTitle": "Superficial muscles of the scapula and arm, posterior view, left side — focused crop",
           "sourceLabel": "Triceps brachii (long head)"
@@ -1755,18 +1755,18 @@
       "category": "Muscle ID",
       "answer": "Triceps brachii - lateral head",
       "sourceTitle": "Muscles of the trunk, posterior view",
-      "reviewImage": "assets/pal/muscle-atlas/focus/trunk-0030-triceps-brachii-lateral-head.webp",
+      "reviewImage": "assets/questions/q-9b83d9d60a4f.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
       "sourceLabel": "Triceps brachii (lateral head)",
       "reviewImages": [
         {
-          "image": "assets/pal/muscle-atlas/focus/trunk-0030-triceps-brachii-lateral-head.webp",
+          "image": "assets/questions/q-9b83d9d60a4f.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
           "sourceTitle": "Muscles of the trunk, posterior view — focused crop",
           "sourceLabel": "Triceps brachii (lateral head)"
         },
         {
-          "image": "assets/pal/muscle-atlas/focus/upper-limb-0019-triceps-brachii-lateral-head.webp",
+          "image": "assets/questions/q-a0b159220748.webp",
           "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-02-m0006.webp",
           "sourceTitle": "Superficial muscles of the scapula and arm, posterior view, left side — focused crop",
           "sourceLabel": "Triceps brachii (lateral head)"
@@ -1795,40 +1795,40 @@
     }
   ],
   "muscleImageLookup": {
-    "Trapezius": "assets/pal/muscle-atlas/focus/trunk-0020-trapezius.webp",
-    "Levator scapulae": "assets/pal/muscle-atlas/focus/trunk-0027-levator-scapulae.webp",
-    "Rhomboid minor": "assets/pal/muscle-atlas/focus/trunk-0025-rhomboid-minor.webp",
-    "Rhomboid major": "assets/pal/muscle-atlas/focus/trunk-0024-rhomboid-major.webp",
-    "Subclavius": "assets/pal/muscle-atlas/focus/trunk-0043-subclavius.webp",
-    "Pectoralis minor": "assets/pal/muscle-atlas/focus/trunk-0047-pectoralis-minor.webp",
-    "Serratus anterior": "assets/pal/muscle-atlas/focus/trunk-0038-serratus-anterior.webp",
-    "Supraspinatus": "assets/pal/muscle-atlas/focus/trunk-0026-supraspinatus.webp",
-    "Teres minor": "assets/pal/muscle-atlas/focus/trunk-0022-teres-minor.webp",
-    "Infraspinatus": "assets/pal/muscle-atlas/focus/trunk-0023-infraspinatus.webp",
-    "Subscapularis": "assets/pal/muscle-atlas/focus/upper-limb-0001-subscapularis.webp",
-    "Deltoid": "assets/pal/muscle-atlas/focus/trunk-0031-deltoid.webp",
-    "Pectoralis major": "assets/pal/muscle-atlas/focus/trunk-0002-pectoralis-major.webp",
-    "Triceps brachii": "assets/pal/muscle-atlas/focus/trunk-0009-triceps-brachii.webp",
-    "Teres major": "assets/pal/muscle-atlas/focus/trunk-0021-teres-major.webp",
-    "Latissimus dorsi": "assets/pal/muscle-atlas/focus/trunk-0035-latissimus-dorsi.webp",
-    "Biceps brachii": "assets/pal/muscle-atlas/focus/trunk-0003-biceps-brachii.webp",
-    "Brachialis": "assets/pal/muscle-atlas/focus/upper-limb-0010-brachialis.webp",
-    "Brachioradialis": "assets/pal/muscle-atlas/focus/upper-limb-0042-brachioradialis.webp",
-    "Pronator teres": "assets/pal/muscle-atlas/focus/upper-limb-0024-pronator-teres.webp",
-    "Extensor carpi radialis longus": "assets/pal/muscle-atlas/focus/upper-limb-0043-extensor-carpi-radialis-longus.webp",
-    "Extensor carpi radialis brevis": "assets/pal/muscle-atlas/focus/upper-limb-0044-extensor-carpi-radialis-brevis.webp",
-    "Extensor digitorum": "assets/pal/muscle-atlas/focus/upper-limb-0045-extensor-digitorum.webp",
-    "Flexor digitorum superficialis": "assets/pal/muscle-atlas/focus/upper-limb-0038-flexor-digitorum-superficialis.webp",
-    "Extensor carpi ulnaris": "assets/pal/muscle-atlas/focus/upper-limb-0047-extensor-carpi-ulnaris.webp",
-    "Flexor carpi ulnaris": "assets/pal/muscle-atlas/focus/upper-limb-0048-flexor-carpi-ulnaris.webp",
-    "Flexor carpi radialis": "assets/pal/muscle-atlas/focus/upper-limb-0040-flexor-carpi-radialis.webp",
-    "Palmaris longus": "assets/pal/muscle-atlas/focus/upper-limb-0026-palmaris-longus.webp",
-    "Flexor digitorum profundus": "assets/pal/muscle-atlas/focus/upper-limb-0036-flexor-digitorum-profundus.webp",
-    "Biceps brachii - long head": "assets/pal/muscle-atlas/focus/trunk-0003-biceps-brachii.webp",
-    "Biceps brachii - short head": "assets/pal/muscle-atlas/focus/trunk-0003-biceps-brachii.webp",
-    "Triceps brachii - medial head": "assets/pal/muscle-atlas/focus/upper-limb-0011-triceps-brachii-medial-head.webp",
-    "Triceps brachii - long head": "assets/pal/muscle-atlas/focus/trunk-0029-triceps-brachii-long-head.webp",
-    "Triceps brachii - lateral head": "assets/pal/muscle-atlas/focus/trunk-0030-triceps-brachii-lateral-head.webp"
+    "Trapezius": "assets/questions/q-04efee43c8f4.webp",
+    "Levator scapulae": "assets/questions/q-a2a87259ac63.webp",
+    "Rhomboid minor": "assets/questions/q-962f75113fcf.webp",
+    "Rhomboid major": "assets/questions/q-b35955119f08.webp",
+    "Subclavius": "assets/questions/q-bb0872331965.webp",
+    "Pectoralis minor": "assets/questions/q-1b4e7e2da1a0.webp",
+    "Serratus anterior": "assets/questions/q-f1fb3e9f7e51.webp",
+    "Supraspinatus": "assets/questions/q-209d11f99233.webp",
+    "Teres minor": "assets/questions/q-4bb16c45acda.webp",
+    "Infraspinatus": "assets/questions/q-8a79ad9395fc.webp",
+    "Subscapularis": "assets/questions/q-49ce12950723.webp",
+    "Deltoid": "assets/questions/q-06e041915d6a.webp",
+    "Pectoralis major": "assets/questions/q-2dbab7aacc70.webp",
+    "Triceps brachii": "assets/questions/q-dc609ffd8028.webp",
+    "Teres major": "assets/questions/q-83c63ac76ef8.webp",
+    "Latissimus dorsi": "assets/questions/q-303187f56e97.webp",
+    "Biceps brachii": "assets/questions/q-f395976c04d1.webp",
+    "Brachialis": "assets/questions/q-0062c6a48cff.webp",
+    "Brachioradialis": "assets/questions/q-b783e6672d21.webp",
+    "Pronator teres": "assets/questions/q-765738d17eab.webp",
+    "Extensor carpi radialis longus": "assets/questions/q-d3e302765264.webp",
+    "Extensor carpi radialis brevis": "assets/questions/q-c5cdc8f1e537.webp",
+    "Extensor digitorum": "assets/questions/q-c868037a49a5.webp",
+    "Flexor digitorum superficialis": "assets/questions/q-5e3c442a810c.webp",
+    "Extensor carpi ulnaris": "assets/questions/q-f55c19249940.webp",
+    "Flexor carpi ulnaris": "assets/questions/q-f7c61406980b.webp",
+    "Flexor carpi radialis": "assets/questions/q-304a23dc862e.webp",
+    "Palmaris longus": "assets/questions/q-c9c95707368f.webp",
+    "Flexor digitorum profundus": "assets/questions/q-3d7d81b1919c.webp",
+    "Biceps brachii - long head": "assets/questions/q-f395976c04d1.webp",
+    "Biceps brachii - short head": "assets/questions/q-f395976c04d1.webp",
+    "Triceps brachii - medial head": "assets/questions/q-5bb8de64de9c.webp",
+    "Triceps brachii - long head": "assets/questions/q-5bd7a15b8271.webp",
+    "Triceps brachii - lateral head": "assets/questions/q-9b83d9d60a4f.webp"
   },
   "muscleVisualLookup": {
     "Trapezius": "muscle-atlas-trapezius",
@@ -1871,7 +1871,7 @@
       "id": "practice-muscle-atlas-head-neck-08-m3022-labeled",
       "label": "Superficial muscles of head and neck, posterior view practice",
       "region": "Muscles: Head Neck",
-      "reviewImage": "assets/pal/muscle-atlas/review/head-neck-08-m3022.webp",
+      "reviewImage": "assets/questions/q-b03442b67219.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/head-neck-08-m3022.webp",
       "sourceTitle": "Superficial muscles of head and neck, posterior view",
       "terms": [
@@ -1884,7 +1884,7 @@
       "id": "practice-muscle-atlas-trunk-01-m0003a-labeled",
       "label": "Muscles of the trunk, anterior view practice",
       "region": "Muscles: Trunk",
-      "reviewImage": "assets/pal/muscle-atlas/review/trunk-01-m0003a.webp",
+      "reviewImage": "assets/questions/q-04b68a00d4ec.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-01-m0003a.webp",
       "sourceTitle": "Muscles of the trunk, anterior view",
       "terms": [
@@ -1901,7 +1901,7 @@
       "id": "practice-muscle-atlas-trunk-03-m0004a-labeled",
       "label": "Muscles of the trunk, posterior view practice",
       "region": "Muscles: Trunk",
-      "reviewImage": "assets/pal/muscle-atlas/review/trunk-03-m0004a.webp",
+      "reviewImage": "assets/questions/q-117fc6bdb5f4.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-03-m0004a.webp",
       "sourceTitle": "Muscles of the trunk, posterior view",
       "terms": [
@@ -1923,7 +1923,7 @@
       "id": "practice-muscle-atlas-trunk-04-m0004b-labeled",
       "label": "Muscles of the trunk, posterior view practice",
       "region": "Muscles: Trunk",
-      "reviewImage": "assets/pal/muscle-atlas/review/trunk-04-m0004b.webp",
+      "reviewImage": "assets/questions/q-79216457e1fd.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-04-m0004b.webp",
       "sourceTitle": "Muscles of the trunk, posterior view",
       "terms": [
@@ -1936,7 +1936,7 @@
       "id": "practice-muscle-atlas-trunk-05-m3023-labeled",
       "label": "Muscles of the trunk, lateral view practice",
       "region": "Muscles: Trunk",
-      "reviewImage": "assets/pal/muscle-atlas/review/trunk-05-m3023.webp",
+      "reviewImage": "assets/questions/q-2d04efa5c2e1.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-05-m3023.webp",
       "sourceTitle": "Muscles of the trunk, lateral view",
       "terms": [
@@ -1950,7 +1950,7 @@
       "id": "practice-muscle-atlas-trunk-06-m3024-labeled",
       "label": "Muscles of the trunk, anterior view practice",
       "region": "Muscles: Trunk",
-      "reviewImage": "assets/pal/muscle-atlas/review/trunk-06-m3024.webp",
+      "reviewImage": "assets/questions/q-c5fd86d1346f.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-06-m3024.webp",
       "sourceTitle": "Muscles of the trunk, anterior view",
       "terms": [
@@ -1966,7 +1966,7 @@
       "id": "practice-muscle-atlas-trunk-07-m3025a-labeled",
       "label": "Muscles of the trunk, left lateral view practice",
       "region": "Muscles: Trunk",
-      "reviewImage": "assets/pal/muscle-atlas/review/trunk-07-m3025a.webp",
+      "reviewImage": "assets/questions/q-0edce1e642f4.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-07-m3025a.webp",
       "sourceTitle": "Muscles of the trunk, left lateral view",
       "terms": [
@@ -1981,7 +1981,7 @@
       "id": "practice-muscle-atlas-trunk-08-m3025b-labeled",
       "label": "Muscles of the trunk, right lateral view practice",
       "region": "Muscles: Trunk",
-      "reviewImage": "assets/pal/muscle-atlas/review/trunk-08-m3025b.webp",
+      "reviewImage": "assets/questions/q-81aab9ba5a5d.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-08-m3025b.webp",
       "sourceTitle": "Muscles of the trunk, right lateral view",
       "terms": [
@@ -1996,7 +1996,7 @@
       "id": "practice-muscle-atlas-trunk-09-m3026-labeled",
       "label": "Muscles of the trunk, posterior view practice",
       "region": "Muscles: Trunk",
-      "reviewImage": "assets/pal/muscle-atlas/review/trunk-09-m3026.webp",
+      "reviewImage": "assets/questions/q-78b3ed1c1d6f.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/trunk-09-m3026.webp",
       "sourceTitle": "Muscles of the trunk, posterior view",
       "terms": [
@@ -2013,7 +2013,7 @@
       "id": "practice-muscle-atlas-upper-limb-01-m0005-labeled",
       "label": "Muscles of the scapula and arm, anterior view, left side practice",
       "region": "Muscles: Upper Limb",
-      "reviewImage": "assets/pal/muscle-atlas/review/upper-limb-01-m0005.webp",
+      "reviewImage": "assets/questions/q-21902b25cfb4.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-01-m0005.webp",
       "sourceTitle": "Muscles of the scapula and arm, anterior view, left side",
       "terms": [
@@ -2036,7 +2036,7 @@
       "id": "practice-muscle-atlas-upper-limb-02-m0006-labeled",
       "label": "Superficial muscles of the scapula and arm, posterior view, left side practice",
       "region": "Muscles: Upper Limb",
-      "reviewImage": "assets/pal/muscle-atlas/review/upper-limb-02-m0006.webp",
+      "reviewImage": "assets/questions/q-f862dc072e27.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-02-m0006.webp",
       "sourceTitle": "Superficial muscles of the scapula and arm, posterior view, left side",
       "terms": [
@@ -2057,7 +2057,7 @@
       "id": "practice-muscle-atlas-upper-limb-03-m0007-labeled",
       "label": "Superficial muscles of the forearm, anterior view, left side practice",
       "region": "Muscles: Upper Limb",
-      "reviewImage": "assets/pal/muscle-atlas/review/upper-limb-03-m0007.webp",
+      "reviewImage": "assets/questions/q-939f34ce8f3f.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-03-m0007.webp",
       "sourceTitle": "Superficial muscles of the forearm, anterior view, left side",
       "terms": [
@@ -2075,7 +2075,7 @@
       "id": "practice-muscle-atlas-upper-limb-04-m0008-labeled",
       "label": "Deep muscles of the forearm, anterior view, left side practice",
       "region": "Muscles: Upper Limb",
-      "reviewImage": "assets/pal/muscle-atlas/review/upper-limb-04-m0008.webp",
+      "reviewImage": "assets/questions/q-aa98184cda3a.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-04-m0008.webp",
       "sourceTitle": "Deep muscles of the forearm, anterior view, left side",
       "terms": [
@@ -2091,7 +2091,7 @@
       "id": "practice-muscle-atlas-upper-limb-05-m0009-labeled",
       "label": "Superficial muscles of the forearm and hand, posterior view, left side practice",
       "region": "Muscles: Upper Limb",
-      "reviewImage": "assets/pal/muscle-atlas/review/upper-limb-05-m0009.webp",
+      "reviewImage": "assets/questions/q-75de916d0dbe.webp",
       "labeledImage": "assets/pal/muscle-atlas/labeled/upper-limb-05-m0009.webp",
       "sourceTitle": "Superficial muscles of the forearm and hand, posterior view, left side",
       "terms": [
@@ -2119,9 +2119,18 @@
   }
 };
 
-  data.muscleImageCards = bundle.muscleImageCards;
+  const unsupportedHeadSpecificPrompts = new Set([
+    'Biceps brachii - long head',
+    'Biceps brachii - short head'
+  ]);
+  data.muscleImageCards = bundle.muscleImageCards
+    .filter((card) => !unsupportedHeadSpecificPrompts.has(card.answer || card.label));
   data.muscleImageLookup = { ...(data.muscleImageLookup || {}), ...bundle.muscleImageLookup };
   data.muscleVisualLookup = { ...(data.muscleVisualLookup || {}), ...bundle.muscleVisualLookup };
+  unsupportedHeadSpecificPrompts.forEach((name) => {
+    delete data.muscleImageLookup[name];
+    delete data.muscleVisualLookup[name];
+  });
   data.muscleVisualBuildStats = bundle.stats;
   const oldPractice = (data.practicalLabelingCards || [])
     .filter((card) => !String(card.id || '').startsWith('practice-muscle-atlas-'));
