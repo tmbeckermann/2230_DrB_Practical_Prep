@@ -34,4 +34,26 @@ assert.equal(new URL(assetRequests.at(-1).url).pathname, '/upper-limb/index.html
 response = await worker.fetch(new Request('https://beckermann.net/unrelated'), env);
 assert.equal(response.status, 404);
 
+const protectedEnv = { ...env, SITE_PASSWORD: 'DRBROX' };
+
+response = await worker.fetch(new Request('https://beckermann.net/DrB-practicals/'), protectedEnv);
+assert.equal(response.status, 401);
+assert.match(response.headers.get('WWW-Authenticate'), /^Basic /);
+
+response = await worker.fetch(
+  new Request('https://beckermann.net/DrB-practicals/', {
+    headers: { Authorization: `Basic ${Buffer.from('user:wrong-password').toString('base64')}` },
+  }),
+  protectedEnv,
+);
+assert.equal(response.status, 401);
+
+response = await worker.fetch(
+  new Request('https://beckermann.net/DrB-practicals/', {
+    headers: { Authorization: `Basic ${Buffer.from('user:DRBROX').toString('base64')}` },
+  }),
+  protectedEnv,
+);
+assert.equal(response.status, 200);
+
 console.log('Cloudflare Worker routing tests passed.');
