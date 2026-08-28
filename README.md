@@ -46,6 +46,16 @@ Cloudflare Workers Builds should use:
 Wrangler publishes only `dist/client`; the Worker maps that output to
 `/DrB-practicals/` and redirects the domain root there.
 
+The Worker gates the whole site behind HTTP Basic Auth when a `SITE_PASSWORD`
+secret is configured (any username works; only the password is checked). Set
+it once per environment with `npx wrangler secret put SITE_PASSWORD` — never
+commit the password itself to the repo. Leaving the secret unset disables the
+prompt entirely, which is also what the local `npm test` suite does; it
+separately exercises the auth logic by passing `SITE_PASSWORD` directly to
+the Worker in-memory. This only protects the Cloudflare deployment — the
+GitHub Pages mirror at
+<https://tmbeckermann.github.io/2230_DrB_Practical_Prep/> stays public.
+
 The public GitHub repository intentionally omits `.openai/hosting.json`, which
 belongs to the separate ChatGPT Sites project. The static build includes that
 metadata only when it is present locally.

@@ -3938,3 +3938,28 @@ body.library-nav-open {
     grid-template-columns: 1fr;
   }
 }
+
+/* Keep the study menu permanently visible above phone widths, matching the
+   lower-limb site, instead of hiding it behind the Study library toggle. */
+@media (min-width: 681px) {
+  .app-shell {
+    display: grid;
+    grid-template-columns: 240px minmax(0, 1fr);
+  }
+
+  .sidebar {
+    position: sticky;
+    inset: auto;
+    top: 0;
+    z-index: auto;
+    width: auto;
+    transform: none;
+    box-shadow: none;
+  }
+
+  .mobile-nav-toggle,
+  .library-nav-toggle,
+  .nav-scrim {
+    display: none;
+  }
+}
