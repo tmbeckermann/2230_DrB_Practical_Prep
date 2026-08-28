@@ -524,9 +524,6 @@ const server = http.createServer((request, response) => {
         !resetControl.makerImageLoaded) {
       errors.push(`${section}: Built by Beckermann footer email mark is missing or broken`);
     }
-    if (section === 'upper-limb' || section === 'axial') {
-      await landingPage.locator('#libraryNavToggle').click();
-    }
     await landingPage.locator('#resetProgress').hover();
     await landingPage.waitForTimeout(250);
     const resetHoverContrast = await landingPage.evaluate(() => {
