@@ -7,6 +7,12 @@ const client = path.join(dist, 'client');
 const server = path.join(dist, 'server');
 const entries = ['index.html', 'activity-links.html', '.nojekyll', 'model-image-banks.js', 'assets', 'lower-limb', 'upper-limb', 'axial'];
 
+const buildTimestamp = `${new Date().toLocaleString('en-US', {
+  dateStyle: 'medium',
+  timeStyle: 'short',
+  timeZone: 'UTC',
+})} UTC`;
+
 function copyEntry(source, destination) {
   const stat = fs.statSync(source);
   if (stat.isDirectory()) {
@@ -18,6 +24,11 @@ function copyEntry(source, destination) {
   }
 
   fs.mkdirSync(path.dirname(destination), { recursive: true });
+  if (source === path.join(root, 'index.html')) {
+    const html = fs.readFileSync(source, 'utf8').replace('Updated on each deploy', `Updated ${buildTimestamp}`);
+    fs.writeFileSync(destination, html);
+    return;
+  }
   fs.copyFileSync(source, destination);
 }
 
