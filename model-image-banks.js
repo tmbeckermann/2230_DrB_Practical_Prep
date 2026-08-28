@@ -9,19 +9,19 @@
     },
     'course-practical-image': {
       label: 'Course practical image',
-      description: 'Image used in course practical materials. It is not automatically a lab-model photograph.'
+      description: 'An existing image from the course practical materials — not necessarily the exact model you will be tested on.'
     },
     'course-model-reference': {
       label: 'Course model reference',
-      description: 'Existing course material showing a physical teaching model. It is reference-only, not a fabricated or newly claimed lab-model photograph.'
+      description: 'An existing course image of the teaching model, shown for reference only, not for graded practice.'
     },
     'pal-atlas-substitute': {
       label: 'PAL atlas substitute',
-      description: 'Highlighted PAL atlas art used as a substitute for model-ID practice. This is not a course lab-model photo.'
+      description: 'Highlighted atlas art used as a stand-in for model-ID practice. It is not a course lab-model photo.'
     },
     'repository-reference-image': {
-      label: 'Repository reference image',
-      description: 'Existing reference image with no claim that it is a lab-model photograph.'
+      label: 'Reference image',
+      description: 'A reference image only, not a photo of the lab model.'
     }
   };
 
@@ -182,7 +182,7 @@
       }, {
         sourceKind: 'course-model-reference',
         sourceTypeLabel: 'Course single-leg model view',
-        sourceDescription: 'Existing course material showing the single-leg teaching model. This multi-label view is reference-only and is not a fabricated or newly claimed lab-model photograph.',
+        sourceDescription: 'An existing course image of the single-leg teaching model. This multi-label view is for reference only, not for graded practice.',
         questionReady: false,
         ...rowContextDefaults(row)
       }))

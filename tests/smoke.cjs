@@ -594,7 +594,7 @@ const server = http.createServer((request, response) => {
       stringBankEntries: window.STUDY_DATA.modelKey.flatMap((row) => row.images).filter((item) => typeof item === 'string').length
     }));
     if (!modelPage.header.includes('Practice image bank')) errors.push(`${section}: model table still labels repository images as lab images`);
-    if (!modelPage.summary.includes('PAL atlas substitute') || !modelPage.summary.includes('No course lab-model photos are currently claimed')) {
+    if (!modelPage.summary.includes('PAL atlas substitute') || !modelPage.summary.includes('No photos of the actual lab model are available yet')) {
       errors.push(`${section}: model image provenance summary is incomplete`);
     }
     if (modelPage.stats.sourceCounts['lab-model-photo'] !== 0) errors.push(`${section}: fabricated lab-model source count`);

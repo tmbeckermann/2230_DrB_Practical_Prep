@@ -623,7 +623,7 @@ function renderModels() {
 
 function renderModelImage(row) {
   const items = modelImageItems(row);
-  if (!items.length) return '<span class="muted">No repository image yet</span>';
+  if (!items.length) return '<span class="muted">No practice image yet</span>';
   const primary = items[0];
   const practiceCount = items.filter((item) => item.questionReady !== false).length;
   const referenceCount = items.length - practiceCount;
@@ -633,7 +633,7 @@ function renderModelImage(row) {
   ].filter(Boolean).join(' | ');
   return `<div class="model-image-stack">
     ${renderImageAnchor(primary.image, `<img class="model-thumb" src="${escapeHtml(primary.image)}" alt="${escapeHtml(primary.sourceTypeLabel || 'Practice image')} for ${escapeHtml(row.item)}">`, row.item)}
-    <span class="image-source-badge" data-source-kind="${escapeHtml(primary.sourceKind || '')}">${escapeHtml(primary.sourceTypeLabel || 'Repository image')}</span>
+    <span class="image-source-badge" data-source-kind="${escapeHtml(primary.sourceKind || '')}">${escapeHtml(primary.sourceTypeLabel || 'Reference image')}</span>
     ${primary.assessmentContextLabel ? `<span class="assessment-context-badge" data-assessment-context="${escapeHtml(primary.assessmentContext || '')}">${escapeHtml(primary.assessmentContextLabel)}</span>` : ''}
     <span class="muted">${escapeHtml(counts)}</span>
   </div>`;
@@ -668,7 +668,7 @@ function renderModelSourceSummary() {
       <span class="image-source-badge" data-source-kind="course-practical-image">Course practical image</span><span>Existing course material, labeled separately (${counts['course-practical-image'] || 0}).</span>
       <span class="image-source-badge" data-source-kind="lab-model-photo">Lab model photo</span><span>Actual physical-model photographs only (${modelPhotos}).</span>
     </div>
-    ${modelPhotos ? '' : '<p>No course lab-model photos are currently claimed in this image bank.</p>'}`;
+    ${modelPhotos ? '' : '<p>No photos of the actual lab model are available yet for this region — practice uses substitute images instead.</p>'}`;
 }
 
 function isMuscleLabelingCard(card) {
