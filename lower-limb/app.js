@@ -2293,6 +2293,7 @@ function confusableActivityCards() {
 
 function labelingLearningCard(card, mode = 'word-bank-labeling') {
   const variantId = `${mode}-${card.id}`;
+  const termBank = (card.terms || []).join('; ');
   return {
     id: variantId,
     variantId,
@@ -2300,7 +2301,12 @@ function labelingLearningCard(card, mode = 'word-bank-labeling') {
     mode,
     label: card.label,
     prompt: `Label the structures in ${card.label}.`,
-    answer: (card.terms || []).join('; '),
+    answer: termBank,
+    // card.terms is the shared word-bank pool for this card's region, not a
+    // per-image key, so it is not guaranteed to match only what this specific
+    // image's leader lines point to. Frame it as reference, not as the
+    // literal answer, and let the labeled image carry the specific answer.
+    answerHtml: `<p class="muted labeling-answer-intro">Check the labeled image below to confirm each line. Word bank for this card, for reference:</p><p>${renderTextLinks(termBank)}</p>`,
     image: card.reviewImage,
     answerImage: card.labeledImage,
     statusLabel: card.label
